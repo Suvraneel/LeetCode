@@ -18,8 +18,9 @@ public:
                 else if(facing<0)
                     facing += 4;
             }
+            if(directn[0]==directn[2] && directn[1]==directn[3])    //premature stopping, no need to check further
+                return true;    // optimisation, otherwise not reqd
         }
-        cout << directn[0]<<directn[2]<<directn[1]<<directn[3];
         return (directn[0]==directn[2] && directn[1]==directn[3]);
     }
 };
