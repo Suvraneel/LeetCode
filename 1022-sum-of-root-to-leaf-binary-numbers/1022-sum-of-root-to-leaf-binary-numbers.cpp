@@ -12,7 +12,6 @@
 class Solution {
 public:
     int res = 0;
-    int bits=0;
     int sumRootToLeaf(TreeNode* root) {
         recur(root, 0);
         return (res);
