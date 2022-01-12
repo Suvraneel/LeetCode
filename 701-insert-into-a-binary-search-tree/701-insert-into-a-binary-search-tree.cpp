@@ -12,10 +12,12 @@
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
-        //Exception Handling
+        //Exception Handling in case of Empty BST
         if (!(root))
             return new TreeNode(val);
-        bool childDir = false;
+        
+        bool childDir; //Direction of Child - Left(false) or Right(true)
+        // Traverse given BST
         auto ptr = root;
         auto prev = ptr;
         while(ptr){
@@ -29,6 +31,7 @@ public:
                 childDir = false;
             }
         }
+        // Insert `val` in correct child position
         if(childDir)
             prev->right = new TreeNode(val);
         else prev->left = new TreeNode(val);
