@@ -12,7 +12,6 @@ public:
                 active = e[1];
                 count++;
             }
-            cout << active << "\t";
         }
         return count;
     }
