@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
-        if(!(n) || (!(flowerbed.size())))
+        if(!(n))
             return true;
                     
         flowerbed.push_back(0);
