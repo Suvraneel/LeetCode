@@ -9,16 +9,22 @@
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-        map <ListNode*, int> m;
-        int i=0;
-        while(head){
-            if(m.find(head)!=m.end())
-                break;
-            m.insert({head, i});
-            head = head->next;
-            i++;
+        if (!(head))
+            return NULL;
+        ListNode* slo = head;
+        ListNode* fast = head;
+        ListNode* entry = head;
+        while(fast->next && fast->next->next){
+            slo = slo->next;
+            fast = fast->next->next;
+            if (slo==fast){//meet
+                while(slo!=entry){
+                entry = entry->next;
+                slo = slo->next;
+                }
+                return entry;
+            }
         }
-        cout << i;
-        return head;
+        return NULL;
     }
 };
