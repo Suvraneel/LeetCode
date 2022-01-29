@@ -1,34 +1,37 @@
 class Solution {
 public:
- int largestRectangleArea(vector<int>& heights) {
-        stack<pair<int, int>> st;
-        st.push(make_pair(-1, 0));
-        int maxArea = -1;
-        for(int i=0; i<heights.size(); i++){
-            if(heights[i]>=st.top().second) {
-                st.push(make_pair(i, heights[i]));
-            }else{
-                while(st.top().second>heights[i]){
-                    pair<int, int> bar = st.top();
-                    st.pop();
-                    maxArea = max(maxArea, (int)(bar.second*(i-st.top().first-1)));
-                }
-                st.push(make_pair(i,heights[i]));
-            }
+ int largestRectangleArea(vector<int>& height) {
+    if (height.empty() || height.size() == 0) {
+        return 0;
+    }
+    int lessFromLeft[height.size()]; // idx of the first bar the left that is lower than current
+    int lessFromRight[height.size()]; // idx of the first bar the right that is lower than current
+    lessFromRight[height.size()-1] = height.size();
+    lessFromLeft[0] = -1;
+
+    for (int i = 1; i < height.size(); i++) {
+        int p = i - 1;
+
+        while (p >= 0 && height[p] >= height[i]) {
+            p = lessFromLeft[p];
         }
-        
-        /*  
-            At this point in the traversal all the elements remaining in the stack are in a non decreasing order (i.e. 
-            st.top() will always be greater than or equal to any element in the stack) and it's assured that the last element
-            of heights is greater or equal to the top of the stack i.e. heights[heights.size()-1]>=st.top()
-        */
-        
-        while(st.top().first!=-1){
-            pair<int, int> bar = st.top();
-            st.pop();
-            maxArea = max(maxArea, (int)(bar.second*(heights.size()-st.top().first-1)));
+        lessFromLeft[i] = p;
+    }
+
+    for (int i = height.size() - 2; i >= 0; i--) {
+        int p = i + 1;
+
+        while (p < height.size() && height[p] >= height[i]) {
+            p = lessFromRight[p];
         }
-        
-        return maxArea;
+        lessFromRight[i] = p;
+    }
+
+    int maxArea = 0;
+    for (int i = 0; i < height.size(); i++) {
+        maxArea = max(maxArea, height[i] * (lessFromRight[i] - lessFromLeft[i] - 1));
+    }
+
+    return maxArea;
     }
 };
