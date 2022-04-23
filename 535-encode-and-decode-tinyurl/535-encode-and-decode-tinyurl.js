@@ -13,6 +13,7 @@
         shortUrl += alphaNumeric[random];
     }
      encrypt[shortUrl] = longUrl;
+     console.log(shortUrl);
      return ("http://tinyurl.com/" + shortUrl);
  };
  
