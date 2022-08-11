@@ -16,7 +16,8 @@ public:
     bool valid = true;
     
     bool isValidBST(TreeNode* root) {
-        if(!(root)) return true;
+        if(!valid) return valid;
+        if(!root) return true;
         auto lt = root->left;
         auto rt = root->right;
         if(lt)
