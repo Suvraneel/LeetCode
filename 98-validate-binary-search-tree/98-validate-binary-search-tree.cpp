@@ -22,10 +22,8 @@ public:
         auto rt = root->right;
         if(lt)
             isValidBST(lt);
-        cout << root->val << ", ";
-        valid = valid && (maxm<root->val);
-        cout << maxm;
-        maxm = maxm>root->val?maxm:root->val;
+        valid &= (maxm<root->val);
+        maxm = max(maxm, (long int)root->val);
         if(rt)
             isValidBST(rt);
         return valid;
