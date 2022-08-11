@@ -18,12 +18,13 @@ public:
     bool isValidBST(TreeNode* root) {
         if(!valid) return valid;
         if(!root) return true;
+        auto rootVal = root->val;
         auto lt = root->left;
         auto rt = root->right;
         if(lt)
             isValidBST(lt);
-        valid &= (maxm<root->val);
-        maxm = max(maxm, (long int)root->val);
+        valid &= (maxm<rootVal);
+        maxm = max(maxm, (long int)rootVal);
         if(rt)
             isValidBST(rt);
         return valid;
