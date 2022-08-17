@@ -5,8 +5,8 @@ public:
         string a[] = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
         for(auto w:words){
             string token = "";
-            for(int i=0; i<w.length(); i++)
-                token+=a[w[i]-'a'];
+            for(auto l:w)
+                token+=a[l-'a'];
             s.insert(token);
         }
         return s.size();
