@@ -1,6 +1,6 @@
 class Solution {
 public:
-    set <string> s;
+    unordered_set <string> s;
     int uniqueMorseRepresentations(vector<string>& words) {
         string a[] = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
         for(auto w:words){
