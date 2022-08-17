@@ -2,11 +2,11 @@ class Solution {
 public:
     unordered_set <string> s;
     int uniqueMorseRepresentations(vector<string>& words) {
-        vector <string> v = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
+        string map[] = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
         for(auto w:words){
             string token = "";
-            for(auto l:w)
-                token+=v[l -'a'];
+            for(auto letter:w)
+                token+=map[letter -'a'];
             s.insert(token);
         }
         return s.size();
