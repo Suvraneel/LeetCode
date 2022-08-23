@@ -25,7 +25,6 @@ public:
             if(s[i]!='.'){
                 prev = s[i];
                 prev_i = i;
-                cout << i << " $ ";
             }
         }
         // cout << prev_i << "->" << prev << endl;
