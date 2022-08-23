@@ -12,15 +12,34 @@ class Solution {
 public:
     bool isPalindrome(ListNode* head) {
         vector <int> v;
-        auto curr = head;
-        while (curr){
-            v.push_back(curr->val);
-            curr = curr->next;
+        auto slow = head, fast = head;
+        bool odd = false;
+        while (fast){
+            fast = fast->next;
+            if (fast){
+                fast=fast->next;
+                slow = slow->next;
+            } else odd = true;
         }
-        int stt = 0, end = v.size()-1;
-        for(;stt<end; stt++, end--){
-            if (v[stt]!=v[end])
+        // slow is at middle... rotate the 1st part of LL
+        auto curr = head, succ = head, prev = head;
+        prev = NULL;
+        for (;curr!=slow;){
+            succ = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = succ;
+        }
+        // if odd, then leave the index slow was at... else start from there
+        if (odd)
+            slow = slow->next;
+        // prev is at the head of 1st part, slow is at head of second
+        while(slow && prev){
+            cout << prev->val << "============" << slow->val << endl;
+            if (prev->val!=slow->val)
                 return false;
+            prev = prev->next;
+            slow= slow->next;
         }
         return true;
     }
