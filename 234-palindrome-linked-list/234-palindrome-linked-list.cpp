@@ -35,7 +35,7 @@ public:
             slow = slow->next;
         // prev is at the head of 1st part, slow is at head of second
         while(slow && prev){
-            cout << prev->val << "============" << slow->val << endl;
+            // cout << prev->val << "============" << slow->val << endl;
             if (prev->val!=slow->val)
                 return false;
             prev = prev->next;
