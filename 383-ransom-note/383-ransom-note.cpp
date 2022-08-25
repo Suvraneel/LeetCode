@@ -4,11 +4,11 @@ public:
         map <char, int> m;
         for(char c: magazine)
             m[c]++;
-        for(char c: ransomNote)
+        for(char c: ransomNote){
             m[c]--;
-        for(auto e: m)
-            if(e.second<0)
+            if(m[c]<0)
                 return false;
+        }
         return true;
     }
 };
