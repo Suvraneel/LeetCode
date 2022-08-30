@@ -1,15 +1,8 @@
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
-        vector<vector<int>>v;
-        vector<int> row;
-        for(int i=0; i<matrix.size(); i++){
-            row.clear();
-            for (int j=0; j<matrix[0].size(); j++){
-                row.push_back(matrix[i][j]);
-            }
-            v.push_back(row);
-        }
+        vector<int> x(matrix[0].size(), 0);
+        vector<vector<int>>v(matrix.size(), x);
         for(int i=0; i<v.size(); i++){
             for (int j=0; j<v[0].size(); j++){
                 v[i][j] = matrix[j][i];
