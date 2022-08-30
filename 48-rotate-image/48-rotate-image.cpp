@@ -7,11 +7,8 @@ public:
             for (int j=0; j<v[0].size(); j++){
                 v[i][j] = matrix[j][i];
             }
+            reverse(v[i].begin(), v[i].end());
         }
-        for(int i=0; i<v.size(); i++){
-            for (int j=0; j<v[0].size(); j++){
-                matrix[i][j] = v[i][v[0].size()-1-j];
-            }
-        }
+        matrix = v;
     }
 };
