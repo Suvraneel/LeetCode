@@ -13,10 +13,8 @@ class Solution {
 public:
     int ct = 0;
     int goodNodes(TreeNode* root, int maxm = INT_MIN) {
-        if(root && root->val>=maxm){
+        if(root && root->val>=maxm)
             ct++;
-            // cout << root->val << "\t";
-        }
         if(root->left)
             goodNodes(root->left, max(maxm, root->val));
         if(root->right)
