@@ -21,7 +21,7 @@ public:
         int visitedHt = -1; // current level being calculated
         while(!(q.empty())){    // FIFO yields level order
             auto f = q.front();
-            cout << f.first->val << "\t";
+            // cout << f.first->val << "\t";
             if(visitedHt<f.second)  // init level
                 sum_ct.push_back({0, 0});
             sum_ct[f.second].first += f.first->val;
