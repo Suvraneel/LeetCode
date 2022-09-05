@@ -35,7 +35,6 @@ public:
                 for(auto n: f->children)
                     q.push(n);
                 v.push_back(f->val);
-                cout<< f->val <<"\t";
             }
             res.push_back(v);
         }
