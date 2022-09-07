@@ -11,22 +11,14 @@
  */
 class Solution {
 public:
-    string solve(TreeNode* root){
-        string s = "";
-        if(!root)
-            return "";
-        if(root->left && root->right)
-            s += "(" + solve(root->left) + ")(" + solve(root->right) + ")";
-        else if(!(root->left) && root->right)
-            s += "()(" + solve(root->right) + ")";
-        else if(!(root->left) && !(root->right));
-        else s += "(" + solve(root->left) + ")";
-        
-        
-        return to_string(root->val) + s ;
-    }
     
     string tree2str(TreeNode* root) {
-        return solve(root);
+        if(!root)
+            return "";
+        if(root->right)
+            return to_string(root->val) + "(" + tree2str(root->left) + ")(" + tree2str(root->right) + ")";
+        else if (!(root->right) && root->left)
+            return to_string(root->val) + "(" + tree2str(root->left) + ")";
+        return to_string(root->val);
     }
 };
