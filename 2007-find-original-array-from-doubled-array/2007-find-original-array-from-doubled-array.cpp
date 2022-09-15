@@ -1,9 +1,11 @@
 class Solution {
 public:
     vector<int> findOriginalArray(vector<int>& changed) {
-        sort(changed.begin(), changed.end());
         unordered_map<int, int> m;
         vector<int> v;
+        if (!changed.size()%2)
+            return v;
+        sort(changed.begin(), changed.end());
         for(auto e:changed){
             if(e%2 || !m[e/2])
                 m[e]++;
