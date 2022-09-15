@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> findOriginalArray(vector<int>& changed) {
         sort(changed.begin(), changed.end());
-        map<int, int> m;
+        unordered_map<int, int> m;
         vector<int> v;
         for(auto e:changed){
             if(e%2 || !m[e/2])
