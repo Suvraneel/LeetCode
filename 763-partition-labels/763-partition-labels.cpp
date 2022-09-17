@@ -3,8 +3,9 @@ public:
     vector<int> partitionLabels(string s) {
         map <char, int> m;
         vector <int> v;
-        for(int i=0; i<s.size(); i++)
-            m[s[i]]=i;
+        int i=0;
+        for(auto c:s)
+            m[c]=i++;
         int streak=m[s[0]], prev=-1;
         for(int i=0; i<s.size(); i++)
             if(i==streak){
