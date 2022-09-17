@@ -2,8 +2,7 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         map <int, int>  m;
-        vector<int> v;
-        v.resize(2, 0);
+        vector<int> v = {0, 0};
         for (int i=0; i<nums.size(); i++){
             if(m[target-nums[i]]){
                 v[0]=m[target-nums[i]]-1;   // since we stored as index+1
