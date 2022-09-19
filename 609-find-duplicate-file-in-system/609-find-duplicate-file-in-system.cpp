@@ -2,8 +2,7 @@ class Solution {
 public:
     vector<vector<string>> findDuplicate(vector<string>& paths) {
         vector<vector<string>> v;
-        map <string, int> m;
-        int k=1;
+        map <string, vector<string>> m;
         for(auto p: paths){
             stringstream ss(p);
             string t;
@@ -13,24 +12,15 @@ public:
                 dir.push_back(t);
             }
             for(int i=1; i<dir.size(); i++){
-                stringstream ss(dir[i]);
-                string x;
-                vector <string> tok = {};
-                while(!ss.eof()){
-                    getline(ss, x, '(');
-                    tok.push_back(x);
-                }
-                if(!m[tok[1]])
-                    m[tok[1]]=k++;
-                if(m[tok[1]]>v.size())
-                    v.push_back({});
-                v[m[tok[1]]-1].push_back(dir[0]+'/'+tok[0]);
+                int idx=dir[i].find('(');
+                string fname = dir[i].substr(0, idx);
+                string fcontents = dir[i].substr(idx+1);
+                m[fcontents].push_back(dir[0]+'/'+fname);
             }
         }
-        vector<vector<string>>res;
-        for(auto vec: v)
-            if(vec.size()>1)
-                res.push_back(vec);
-        return res;
+        for(auto vec: m)
+            if(vec.second.size()>1)
+                v.push_back(vec.second);
+        return v;
     }
 };
