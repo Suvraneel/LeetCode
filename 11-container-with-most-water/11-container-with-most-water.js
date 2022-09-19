@@ -1,7 +1,3 @@
-/**
- * @param {number[]} height
- * @return {number}
- */
 var maxArea = function(ht) {
     var maxm=0, lt=0, rt=ht.length-1;
     while(lt<rt){
