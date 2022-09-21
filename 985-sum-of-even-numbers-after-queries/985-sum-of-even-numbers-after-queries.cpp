@@ -8,11 +8,9 @@ public:
                 eSum+=n;
         cout<<eSum;
         for(auto q: queries){
-            if(!(nums[q[1]]%2))
-                eSum -= nums[q[1]];
+            eSum -= nums[q[1]]%2?0:nums[q[1]];
             nums[q[1]]+=q[0];
-            if(!(nums[q[1]]%2))
-                eSum+=nums[q[1]];
+            eSum += nums[q[1]]%2?0:nums[q[1]];
             ans.push_back(eSum);
         }
         return ans;
