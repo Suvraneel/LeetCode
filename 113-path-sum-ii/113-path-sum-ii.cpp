@@ -11,11 +11,11 @@
  */
 class Solution {
 public:
-    vector<vector<int>> res;
+    vector<vector<int>> res, z;
     vector <int> v;
     vector<vector<int>> pathSum(TreeNode* root, int targetSum, int currSum=0) {
         if(!root)
-            return res;
+            return z;
         v.push_back(root->val);
         currSum += root->val;
         if(!root->left && !root->right){
