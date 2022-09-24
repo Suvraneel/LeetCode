@@ -12,7 +12,8 @@
 class Solution {
 public:
     vector<vector<int>> res;
-    vector<vector<int>> pathSum(TreeNode* root, int targetSum, vector<int>v={}, int currSum=0) {
+    vector <int> v;
+    vector<vector<int>> pathSum(TreeNode* root, int targetSum, int currSum=0) {
         if(!root)
             return res;
         v.push_back(root->val);
@@ -20,10 +21,10 @@ public:
         if(!root->left && !root->right){
             if(targetSum==currSum)
                 res.push_back(v);
-            return res;
         }
-        pathSum(root->left, targetSum, v, currSum);
-        pathSum(root->right, targetSum, v, currSum);
+        pathSum(root->left, targetSum, currSum);
+        pathSum(root->right, targetSum, currSum);
+        v.pop_back();
         return res;
     }
 };
