@@ -23,7 +23,7 @@ public:
                 rt=rt->next;
             }
         else
-            if(lt==head && !rt)
+            if(lt==head)
                 return head->next;
         // cout<<lt->val;
         lt->next=lt->next->next;
