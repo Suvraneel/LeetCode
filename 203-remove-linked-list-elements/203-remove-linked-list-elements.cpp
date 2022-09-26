@@ -12,7 +12,8 @@ class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
         ListNode* dummy=new ListNode(0, head);   //dummy
-        auto curr=head, prev=dummy;
+        ListNode* curr=head;
+        ListNode* prev=dummy;
         while(curr){
             if(curr->val==val)
                 prev->next=curr->next;
