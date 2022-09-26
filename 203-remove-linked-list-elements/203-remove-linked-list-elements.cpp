@@ -8,18 +8,35 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+// class Solution {
+// public:
+//     ListNode* removeElements(ListNode* head, int val) {
+//         ListNode* dummy=new ListNode(0, head);   //dummy
+//         ListNode* curr=head;
+//         ListNode* prev=dummy;
+//         while(curr){
+//             if(curr->val==val)
+//                 prev->next=curr->next;
+//             else prev=curr;
+//             curr=curr->next;
+//         }
+//         return dummy->next;
+//     }
+// };
+
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
-        ListNode* dummy=new ListNode(0, head);   //dummy
+        if(!head)
+            return nullptr;
         ListNode* curr=head;
-        ListNode* prev=dummy;
+        ListNode* prev=head;
         while(curr){
             if(curr->val==val)
                 prev->next=curr->next;
             else prev=curr;
             curr=curr->next;
         }
-        return dummy->next;
+        return head->val==val?head->next:head;
     }
 };
