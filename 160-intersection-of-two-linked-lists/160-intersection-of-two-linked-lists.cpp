@@ -17,8 +17,8 @@ public:
             b=b->next, cB++;
         a=headA, b=headB;
         if(cA>cB)
-            swap(a,b), swap(cA, cB);
-        int diff=cB-cA;
+            swap(a,b);
+        int diff=abs(cB-cA);
         while(diff--)
             b=b->next;
         while(a&&b){
