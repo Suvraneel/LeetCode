@@ -25,9 +25,6 @@ public:
         for(auto eqn: notEqns)
             if(eqn[0]==eqn[3] || (dp[eqn[0]-'a']==dp[eqn[3]-'a'] && dp[eqn[0]-'a']!=0))
                 return false;
-        
-        for(int i=0; i<26;i++)
-            cout << dp[i] << '\t';
         return true;
     }
 };
