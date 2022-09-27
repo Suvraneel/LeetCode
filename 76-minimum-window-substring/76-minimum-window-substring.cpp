@@ -1,6 +1,8 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
+        if(s.length()<t.length())
+            return "";
         map<char, int> m;
         int minSum=INT_MAX;
         for(char c: t)
