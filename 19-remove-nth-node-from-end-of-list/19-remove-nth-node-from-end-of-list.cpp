@@ -12,18 +12,18 @@ class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         auto lt=head, rt=head;
-        while(n-- && rt){
+        while(rt && n--){
             rt=rt->next;
         }
-        if(rt)
-            while(rt->next){
-                lt=lt->next;
-                rt=rt->next;
-            }
-        else
-            if(lt==head)
+        if(!rt){
+            if(!n)
                 return head->next;
-        // cout<<lt->val;
+            else return head;
+        }
+        while(rt->next){
+            lt=lt->next;
+            rt=rt->next;
+        }
         lt->next=lt->next->next;
         return head;
     }
