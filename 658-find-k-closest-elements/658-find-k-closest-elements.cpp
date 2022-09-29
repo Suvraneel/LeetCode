@@ -13,8 +13,8 @@ public:
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
         if(arr.size()==1) return arr;
         stable_sort(arr.begin(), arr.end(), comparator(x));
-        // arr=vector<int>(arr.begin(),arr.begin()+k);
-        arr.erase(arr.begin()+k, arr.end());
+        arr=vector<int>(arr.begin(),arr.begin()+k);
+        // arr.erase(arr.begin()+k, arr.end());
         sort(arr.begin(), arr.end());
         return arr;
     }
