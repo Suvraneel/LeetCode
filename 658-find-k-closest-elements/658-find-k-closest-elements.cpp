@@ -23,10 +23,9 @@
 class Solution {
 public:
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
-        if(arr.size()==1 || arr.size()==k) return arr;
         int lt=0, rt=arr.size()-1;
         while(rt-lt>=k)
-            abs(arr[lt]-x)>abs(arr[rt]-x)?lt++:rt--;
+            x-arr[lt]>arr[rt]-x?lt++:rt--;
         return vector<int>(arr.begin()+lt, arr.begin()+rt+1);
     }
 };
