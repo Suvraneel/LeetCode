@@ -24,7 +24,6 @@ public:
             for(int j=0; j<target; j++)
                 if(n==1)
                     dp[i][j]= target>k ? 0:1;
-        cout << "Calling solve" << endl;
         return solve(n, k, target);
     }
 };
