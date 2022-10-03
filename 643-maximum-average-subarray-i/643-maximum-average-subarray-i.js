@@ -1,14 +1,16 @@
-class Solution {
-public:
-    double findMaxAverage(vector<int>& nums, int k) {
-        double sum=0;
-        for(int i=0; i<k; i++)
-            sum+=nums[i];
-        double maxSum=sum;
-        for(int i=0; i<nums.size()-k; i++){
-            sum+=nums[i+k]-nums[i];
-            maxSum=max(maxSum, sum);
-        }
-        return maxSum/k;
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number}
+ */
+var findMaxAverage = function(nums, k) {
+    var sum=0;
+    for(var i=0; i<k; i++)
+        sum+=nums[i];
+    var maxSum=sum;
+    for(var i=0; i<nums.length-k; i++){
+        sum+=nums[i+k]-nums[i];
+        maxSum=Math.max(maxSum, sum);
     }
+    return maxSum/k;
 };
