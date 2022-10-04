@@ -9,7 +9,7 @@ public:
                     rt++;
                 q.push(rt++);
             }
-            cout << "(" << lt << ", " << rt << ")\t" << rt-1-lt << endl;
+            // cout << "(" << lt << ", " << rt << ")\t" << rt-1-lt << endl;
             len=max(len, rt-1-lt);
             lt=q.front()+1;
             q.pop();
