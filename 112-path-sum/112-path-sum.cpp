@@ -13,12 +13,9 @@ class Solution {
 public:
     bool valid=false;
     bool hasPathSum(TreeNode* root, int targetSum) {
-        if(!root || valid)
-            return valid;
-        if(!root->left && !root->right && targetSum==root->val)
-            return valid=true;
-        valid |= hasPathSum(root->left, targetSum-root->val);
-        valid |= hasPathSum(root->right, targetSum-root->val);
-        return valid;
+        if(valid)   return true;    // skip if already found path
+        if(!root)   return false;
+        if(!root->left && !root->right && targetSum==root->val)     return valid=true;
+        return hasPathSum(root->left, targetSum-root->val)||hasPathSum(root->right, targetSum-root->val);
     }
 };
