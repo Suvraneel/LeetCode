@@ -13,8 +13,8 @@ class Solution {
 public:
     bool valid=false;
     bool hasPathSum(TreeNode* root, int targetSum) {
-        if(!root)
-            return false;
+        if(!root || valid)
+            return valid;
         if(!root->left && !root->right && targetSum==root->val)
             return valid=true;
         valid |= hasPathSum(root->left, targetSum-root->val);
