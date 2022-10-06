@@ -7,7 +7,7 @@ public:
     // }
     
     void set(string key, string value, int timestamp) {
-        m[key].push_back(make_pair(timestamp, value));
+        m[key].push_back({timestamp, value});
         // All the timestamps `timestamp` of `set` are strictly increasing.  
         // So no need to worry about resetting the value of a already fed timestamp
     }
