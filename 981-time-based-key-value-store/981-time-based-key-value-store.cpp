@@ -1,13 +1,13 @@
 class TimeMap {
 public:
-    unordered_map <string, map<int, string>> m;
+    unordered_map <string, vector<pair<int, string>>> m;
     
     TimeMap() {
         m.clear();
     }
     
     void set(string key, string value, int timestamp) {
-        m[key][timestamp]=value;
+        m[key].push_back(make_pair(timestamp, value));
         // All the timestamps `timestamp` of `set` are strictly increasing.  
         // So no need to worry about resetting the value of a already fed timestamp
     }
@@ -15,8 +15,12 @@ public:
     string get(string key, int timestamp) {
         // Given Constraint: All the timestamps `timestamp` of `set` are strictly increasing.
         // Hence, the vector is already sorted
-        auto it = m[key].upper_bound(timestamp);
-        return it==m[key].begin() ? "" : prev(it)->second;
+        auto& v = m[key];
+        // Given Constraint: All the timestamps `timestamp` of `set` are strictly increasing.
+        // Hence, the vector is already sorted
+        auto it = upper_bound(v.begin(), v.end(), pair<int, string>(timestamp, ""), 
+                              [](auto& a, auto& b){ return a.first<b.first;});
+        return it==v.begin() ? "" : prev(it)->second;
     }
 };
 
