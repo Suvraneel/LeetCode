@@ -2,9 +2,9 @@ class TimeMap {
 public:
     unordered_map <string, vector<pair<int, string>>> m;
     
-    TimeMap() {
-        m.clear();
-    }
+    // TimeMap() {      // default constructor unnecessary
+    //     m.clear();
+    // }
     
     void set(string key, string value, int timestamp) {
         m[key].push_back(make_pair(timestamp, value));
@@ -20,6 +20,7 @@ public:
         // Hence, the vector is already sorted
         auto it = upper_bound(v.begin(), v.end(), pair<int, string>(timestamp, ""), 
                               [](auto& a, auto& b){ return a.first<b.first;});
+        // upper_bound => binary search with a special comparator as lambda fx 
         return it==v.begin() ? "" : prev(it)->second;
     }
 };
