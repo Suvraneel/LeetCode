@@ -8,8 +8,12 @@ public:
             int newTarget = target-nums[i];
             while(j<k){
                 int newDiff = newTarget - nums[j] - nums[k];
-                if(abs(newDiff)<diff)
-                    diff=abs(newDiff), res=target-newDiff;
+                if(abs(newDiff)<diff){
+                    res=target-newDiff;
+                    if(diff==abs(newDiff))
+                        return res;
+                    diff=abs(newDiff);
+                }
                 newDiff<0?k--:j++;
             }
         }
