@@ -11,7 +11,7 @@
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
-        if(!head || !head->next)    // base case
+        if(!head->next)    // base case
             return nullptr;
         auto slow=head, fast=head, prev=head;   // turtle-hare
         while(fast && fast->next){
