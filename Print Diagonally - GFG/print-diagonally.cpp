@@ -13,7 +13,7 @@ class Solution{
 		for(int sum=0; sum<=(A.size()-1)* 2; sum++){
 		    int row=sum>=A.size()?sum-A.size()+1:0;
 		  //  cout << "sum" << sum << "row:" << row<< endl;
-		    while(row<=sum && row<A.size()){
+		    while(row<=min(sum,(int)(A.size()-1))){
 		        int col=sum-row;
 		      //  cout << row << "\t" << col << endl;
 		        V.push_back(A[row++][col]);
