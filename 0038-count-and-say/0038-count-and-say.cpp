@@ -1,7 +1,9 @@
 class Solution {
 public:
-    string convert(string s){
-        string res="";
+    string countAndSay(int n) {
+        if(n==1)
+            return "1";
+        string s = countAndSay(n-1), res="";
         char prev=s[0];
         int ct=0;
         for(char c: s){
@@ -14,11 +16,5 @@ public:
             }
         }
         return res+to_string(ct)+to_string(prev-'0');
-    }
-    string countAndSay(int n) {
-        string ans="1";
-        for(int i=2; i<=n; i++)
-            ans=convert(ans);
-        return ans;
     }
 };
