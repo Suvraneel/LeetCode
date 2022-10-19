@@ -12,9 +12,10 @@ public:
         priority_queue <pair<string, int>, vector<pair<string, int>>, comparator> pq;
         for(auto [k, v]: m)
             pq.push(make_pair(k, v));
-        vector <string> v;
-        while(!pq.empty() && k--)
-            v.push_back(pq.top().first), pq.pop();
+        vector <string> v(k);
+        int i;
+        while(!pq.empty() && i<k)
+            v[i++]=pq.top().first, pq.pop();
         return v;
     }
 };
