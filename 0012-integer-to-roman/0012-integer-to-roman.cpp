@@ -14,7 +14,7 @@ public:
         string vUnits[10]     = {"","I","II","III","IV","V","VI","VII","VIII","IX"};
         string vTens[10]      = {"","X","XX","XXX","XL","L","LX","LXX","LXXX","XC"};
         string vHundreds[10]  = {"","C","CC","CCC","CD","D","DC","DCC","DCCC","CM"};
-        string vThousands[10] = {"","M","MM","MMM"};
+        string vThousands[4] = {"","M","MM","MMM"};
         return vThousands[num/1000] + vHundreds[num%1000/100] + vTens[num%100/10] + vUnits[num%10];
     }
 };
