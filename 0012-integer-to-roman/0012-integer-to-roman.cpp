@@ -11,11 +11,10 @@ public:
     // }
     
     string intToRoman(int num) {
-        vector <string> vUnits(10), vTens(10), vHundreds(10), vThousands(3);
-        vUnits     = {"","I","II","III","IV","V","VI","VII","VIII","IX"};
-        vTens      = {"","X","XX","XXX","XL","L","LX","LXX","LXXX","XC"};
-        vHundreds  = {"","C","CC","CCC","CD","D","DC","DCC","DCCC","CM"};
-        vThousands = {"","M","MM","MMM"};
+        vector <string> vUnits     = {"","I","II","III","IV","V","VI","VII","VIII","IX"};
+        vector <string> vTens      = {"","X","XX","XXX","XL","L","LX","LXX","LXXX","XC"};
+        vector <string> vHundreds  = {"","C","CC","CCC","CD","D","DC","DCC","DCCC","CM"};
+        vector <string> vThousands = {"","M","MM","MMM"};
         return vThousands[num/1000] + vHundreds[num%1000/100] + vTens[num%100/10] + vUnits[num%10];
     }
 };
