@@ -7,7 +7,7 @@ public:
             m[n]=1;
         for(auto n:nums2)
             if(m[n])
-                v.push_back(n), m[n]--;
+                v.push_back(n), m[n]=0;
         return v;
     }
 };
