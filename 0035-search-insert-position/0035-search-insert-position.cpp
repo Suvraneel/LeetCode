@@ -5,6 +5,8 @@ public:
         int lt=0, rt=nums.size()-1, mid;
         while(lt<=rt){
             mid = lt+(rt-lt)/2;
+            if(nums[mid]==target)
+                return mid;
             nums[mid]<target?lt=mid+1:rt=mid-1;
         }
         return lt;
