@@ -6,6 +6,8 @@ public:
             a+=e;
         for(auto e: word2)
             b+=e;
+        if(a.length()!=b.length())
+            return false;
         return a==b;
     }
 };
