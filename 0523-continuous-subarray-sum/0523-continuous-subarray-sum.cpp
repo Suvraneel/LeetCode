@@ -8,7 +8,7 @@ public:
         // Based on the result that if SUM_JmodK==SUM_ImodK  => (SUM_J-SUM_I)modK==0
         for(int i=0; i<nums.size(); i++){
             int rem = nums[i]%k;
-            if(i>=1 && !rem)      // base case: contiguous subarray of all array elems upto index i
+            if(i && !rem)      // base case: contiguous subarray of all array elems upto index i
                 return true;
             if(seen[rem]){
                 if(i+1-seen[rem]>=2)  // result found
