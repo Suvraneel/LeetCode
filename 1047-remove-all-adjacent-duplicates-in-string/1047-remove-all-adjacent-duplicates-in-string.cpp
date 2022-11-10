@@ -8,17 +8,29 @@
 //     }
 // };
 
+// class Solution {
+// public:
+//     string removeDuplicates(string s) {
+//         stack <char> stk;
+//         for(int i=0; i<s.size(); i++)
+//             if(!stk.empty() && s[i]==stk.top())
+//                 stk.pop();
+//             else stk.push(s[i]);
+//         s="";
+//         while(!stk.empty())
+//             s=stk.top()+s, stk.pop();
+//         return s;
+//     }
+// };
+
 class Solution {
 public:
     string removeDuplicates(string s) {
-        stack <char> stk;
+        string res="";
         for(int i=0; i<s.size(); i++)
-            if(!stk.empty() && s[i]==stk.top())
-                stk.pop();
-            else stk.push(s[i]);
-        s="";
-        while(!stk.empty())
-            s=stk.top()+s, stk.pop();
-        return s;
+            if(!res.empty() && s[i]==res.back())
+                res.pop_back();
+            else res.push_back(s[i]);
+        return res;
     }
 };
