@@ -5,7 +5,7 @@ public:
         unordered_set<int> s;
         for(int lt=0, rt=0; lt<=nums.size()-k; rt++){
             if (s.find(nums[rt])!=s.end())  // found
-                lt=rt, rt--, s.clear(), currSum=0;
+                s.erase(nums[lt]), currSum-=nums[lt], lt++, rt--;
             else s.insert(nums[rt]), currSum+=nums[rt];
             if(s.size()==k)
                 res=max(res, currSum), currSum-=nums[lt], s.erase(nums[lt]), lt++;
