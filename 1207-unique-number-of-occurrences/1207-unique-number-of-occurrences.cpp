@@ -2,7 +2,6 @@ class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
         unordered_map <int, int> m1, m2;
-        unordered_set <int> s;
         for(auto e: arr)
             m1[e]++;
         for(auto [K, V]: m1)
