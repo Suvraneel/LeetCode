@@ -5,7 +5,7 @@ public:
         for(auto e: arr)
             m1[e]++;
         for(auto [K, V]: m1)
-            if(m2[V]==0)
+            if(!m2[V])
                 m2[V]=K;
             else return false;
         return true;
