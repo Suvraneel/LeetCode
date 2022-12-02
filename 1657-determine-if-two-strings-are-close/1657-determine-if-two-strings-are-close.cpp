@@ -28,10 +28,8 @@ public:
         if(word1.size()!=word2.size())
             return false;
         vector <int> v1(26, 0), v2(26, 0);
-        for(char c: word1)
-            v1[c-'a']++;
-        for(char c: word2)
-            v2[c-'a']++;
+        for(int i=0; i<word1.size(); i++)
+            v1[word1[i]-'a']++, v2[word2[i]-'a']++;
         for(int i=0; i<26; i++)
             if((bool)v1[i] ^ (bool)v2[i])
                 return false;
