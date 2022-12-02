@@ -33,7 +33,7 @@ public:
         for(char c: word2)
             v2[c-'a']++;
         for(int i=0; i<26; i++)
-            if((!v1[i] && v2[i]) || (v1[i] && !v2[i]))
+            if((bool)v1[i] ^ (bool)v2[i])
                 return false;
         sort(v1.begin(), v1.end());
         sort(v2.begin(), v2.end());
