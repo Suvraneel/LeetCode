@@ -1,18 +1,21 @@
 class Solution {
 public:
-     int numTilings(int N) {
-        int md=1e9;
-        md+=7;
-        vector<long long> v(1001,0);
-        v[1]=1;
-        v[2]=2;
-        v[3]=5;
-        if(N<=3)
-            return v[N];
-        for(int i=4;i<=N;++i){
-            v[i]=2*v[i-1]+v[i-3]; 
-            v[i]%=md;
+    int numTilings(int n) {
+        int mod=1e9+7;
+        long long dp1 = 1, dp2 = 2, dp3 = 5, dp4;
+        if(n<=3){
+            switch(n){
+                case 1: return dp1;
+                case 2: return dp2;
+                case 3: return dp3; 
+            }
         }
-        return v[N];
+        for (int i=4; i<=n; i++) {
+            dp4 = (2* dp3 + dp1) % mod;
+            dp1 = dp2;
+            dp2 = dp3;
+            dp3 = dp4;
+        }
+        return dp4;
     }
 };
