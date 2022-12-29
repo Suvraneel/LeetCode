@@ -5,13 +5,13 @@ public:
             tasks[i].push_back(i);  // emplace idx to keep PIDs intact
         sort(tasks.begin(), tasks.end());
         // auto comp = [](vector<int> a, vector<int> b) -> bool {
-        //     if(a[1]==b[1])
-        //         return a[0]<b[0];
-        //     return a[1]>b[1];
+        //     if(a[0]==b[0])
+        //         return a[1]<b[1];
+        //     return a[0]>b[0];
         // };
         // priority_queue <vector<int>, vector<vector<int>>, decltype(comp) > pq(comp);    // burst times
         
-        priority_queue <vector<int>, vector<vector<int>>, greater<> > pq;    // burst times
+        priority_queue <vector<int>, vector<vector<int>>, greater<vector<int>> > pq;    // burst times
         vector<int> res;
         long i=0, t=0, next_at=tasks[0][0];   // t = time elapsed
         while(i<tasks.size()){
