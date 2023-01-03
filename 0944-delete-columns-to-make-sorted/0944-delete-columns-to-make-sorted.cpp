@@ -1,24 +1,20 @@
 class Solution {
 public:
     int minDeletionSize(vector<string>& strs) {
-        // String length.
-        int K = strs[0].size();
-        
-        // Variable to store the count of columns to be deleted.
-        int answer = 0;
-        // Iterate over each index in the string.
-        for (int col = 0; col < K; col++) {
-            // Iterate over the strings.
-            for (int row = 1; row < strs.size(); row++) {
-                // Characters should be in increasing order, 
-                // If not, increment the counter.
-                if (strs[row][col] < strs[row - 1][col]) {
-                    answer++;
-                    break;
+        int res = 0;
+        vector<char> cols(strs[0].size(),'a');
+        vector<bool> del(strs[0].size(), false);
+        for(auto s:strs){
+            for(int i=0; i<cols.size();i++){
+                if(del[i])
+                    continue;
+                if(cols[i]>s[i]){
+                    res++;
+                    del[i]=true;
                 }
+                cols[i]=s[i];
             }
         }
-        
-        return answer;
+        return res;
     }
 };
