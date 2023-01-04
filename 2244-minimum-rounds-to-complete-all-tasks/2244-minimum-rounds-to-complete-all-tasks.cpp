@@ -5,15 +5,10 @@ public:
         int res = 0;
         for(auto t: tasks)  m[t]++;
         for(auto [_, e]:m){
-            int triplets = floor(e/3);
-            res += triplets;
-            if(e%3==2)
-                res++;
-            else if(e%3){
-                if(triplets)
-                    res++;  // break down a previously counted triplet to make 2 duplets instead.
-                else return -1;
-            }
+            if(e==1)
+                return -1;
+            res += e/3;
+            if(e%3) res++;
         }
         return res;
     }
