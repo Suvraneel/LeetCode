@@ -20,7 +20,6 @@ public:
             int canBuy = min(map[i], coins/i);
             coins-=canBuy*i;
             res+=canBuy;
-            // cout<<i<<"\t"<<canBuy<<"\n";
         }
         return res;
     }
