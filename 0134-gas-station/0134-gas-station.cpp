@@ -4,11 +4,9 @@ public:
         int res = 0;
 
         // impossible case
-        for(int i=0; i<gas.size(); i++){
+        for(int i=0; i<gas.size(); i++)
             res += gas[i] - cost[i];
-        }
-        if (res < 0)
-            return -1;
+        if (res < 0)  return -1;
 
         // normal case
         res = gas[0];
@@ -16,11 +14,8 @@ public:
         for(int i=0; ct<gas.size(); i=(i+1)%gas.size()){
             res -= cost[i];
             ct++;
-            if(res < 0){
-                ct = 0;
-                res = 0;
-                idx = (i+1)%gas.size();
-            }
+            if(res < 0)
+                ct = 0, res = 0, idx = (i+1)%gas.size();
             res += gas[(i+1)%gas.size()];
         }
         return idx;
