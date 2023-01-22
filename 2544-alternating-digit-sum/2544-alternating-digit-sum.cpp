@@ -1,12 +1,12 @@
 class Solution {
 public:
     int alternateDigitSum(int n) {
-        int res=0, odd=0, even=0;
-        string num = to_string(n);
-        for(int i=0; i<num.size(); i+=2)
-            odd+=num[i]-'0';
-        for(int i=1; i<num.size(); i+=2)
-            even+=num[i]-'0';
-        return odd-even;
+        int ans = 0, sign = 1; 
+        while (n) {
+            sign *= -1; 
+            ans += n % 10 * sign; 
+            n /= 10; 
+        }
+        return ans * sign; 
     }
 };
