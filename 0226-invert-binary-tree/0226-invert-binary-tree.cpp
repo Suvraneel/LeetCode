@@ -16,9 +16,7 @@ public:
             return nullptr;
         invertTree(root->left);
         invertTree(root->right);
-        TreeNode* temp = root->left;
-        root->left=root->right;
-        root->right=temp;
+        swap(root->left, root->right);
         return root;
     }
 };
