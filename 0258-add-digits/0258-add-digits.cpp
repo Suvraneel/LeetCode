@@ -5,7 +5,6 @@ public:
         while(num>9){
             while(num){
                 n+=num%10;
-                cout << n;
                 num/=10;
             }
             num=n;
