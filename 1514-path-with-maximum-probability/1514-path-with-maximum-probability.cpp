@@ -2,11 +2,10 @@ class Solution {
 public:
     double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start, int end) {
         vector<vector<pair<int, double>>> adjList(n);
-        int i = 0;
-        for(auto e: edges){
-            int u = e[0], v = e[1];
+        for(int i=0; i<edges.size(); i++){
+            int u = edges[i][0], v = edges[i][1];
             adjList[u].push_back({v, succProb[i]});
-            adjList[v].push_back({u, succProb[i++]});
+            adjList[v].push_back({u, succProb[i]});
         }
         
         vector<double> prob(n, 0.0);    // cost to reach a node (here: probability)
