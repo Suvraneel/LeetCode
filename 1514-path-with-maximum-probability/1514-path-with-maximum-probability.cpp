@@ -20,7 +20,7 @@ public:
                 double prob_new = prob[cur] * nbr.second;
                 if(prob_new > prob[nbr.first]){
                     prob[nbr.first] = prob_new;
-                    cout << cur << "---" << nbr.first << "<-" << prob_new << "\n";
+                    // cout << cur << "---" << nbr.first << "<-" << prob_new << "\n";
                     q.push(nbr.first);
                 }
             }
