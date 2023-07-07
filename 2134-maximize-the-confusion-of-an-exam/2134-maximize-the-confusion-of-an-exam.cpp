@@ -5,10 +5,10 @@ public:
         for(int rt=0; rt<answerKey.size(); rt++){
             if(answerKey[rt]==c)
                 ct++;   // ie, converting F -> T
-            while(ct>k){  // over-converted
+            while(ct>k){  // over-converted (ie, win should be smaller)
                 if(answerKey[lt]==c)
-                    ct--;   // get out of slidin' win
-                lt++;   // win shift
+                    ct--;   // if leaving char was c, decrement ct
+                lt++;   // get out of slidin' win
             }
             res = max(res, rt-lt+1);
         }
