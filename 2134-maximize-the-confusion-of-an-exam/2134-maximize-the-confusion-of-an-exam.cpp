@@ -4,7 +4,7 @@ public:
         int lt=0, rt=0, ct=0, res=0;
         for(int rt=0; rt<answerKey.size(); rt++){
             if(answerKey[rt]==c)
-                ct++;   // ie, converting F -> T
+                ct++;
             while(ct>k){  // over-converted (ie, win should be smaller)
                 if(answerKey[lt]==c)
                     ct--;   // if leaving char was c, decrement ct
