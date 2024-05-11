@@ -28,3 +28,13 @@ jobs:
       - name: Run table-of-contents.js
         run: npm run generate-table-of-contents
         working-directory: scripts
+
+      - name: Replace README.md in root
+        run: |
+          if cp scripts/README.md README.md; then
+            echo "README.md replaced successfully"
+          else
+            echo "Failed to replace README.md"
+            exit 1
+          fi
+        working-directory: ${{ github.workspace }}
