@@ -1,14 +1,14 @@
-# [![LeetCode](https://img.shields.io/badge/-LeetCode-da8200?style=for-the-badge&logo=LeetCode&logoColor=ffa116&labelColor=black)](https://leetcode.com/Suvraneel/)  
 
-<p><b>Documenting my LeetCode journey</b> one problem at a time<p/>
+# [![LeetCode](https://img.shields.io/badge/-LeetCode-da8200?style=for-the-badge&logo=LeetCode&logoColor=ffa116&labelColor=black)](https://leetcode.com/Suvraneel/)
 
+<p><b>Documenting my LeetCode journey</b> one problem at a time</p>
 
 ### [leetcode.com/Suvraneel](https://leetcode.com/Suvraneel/)
 
---- 
+---
 
-| Leetcode Problem | Problem Statement | C++ Solution |  
-|---:|:-----|:----:|  
+| Leetcode Problem | Problem Statement | C++ Solution |
+|---:|:-----|:----:|
 | [1](https://leetcode.com/problems/two-sum/) | [Two Sum](./1-two-sum) | **[Solution](./1-two-sum/1-two-sum.cpp)**  
 | [2](https://leetcode.com/problems/add-two-numbers/) | [Add Two Numbers](./2-add-two-numbers) | **[Solution](./2-add-two-numbers/2-add-two-numbers.cpp)**  
 | [7](https://leetcode.com/problems/reverse-integer/) | [Reverse Integer](./0007-reverse-integer) | **[Solution](./0007-reverse-integer/0007-reverse-integer.cpp)**  
