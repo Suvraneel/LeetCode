@@ -23,6 +23,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: scripts
 
       - name: Run table-of-contents.js
-        run: node scripts/table-of-contents.js
+        run: npm run generate-table-of-contents
+        working-directory: scripts
