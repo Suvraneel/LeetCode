@@ -12,14 +12,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x, 18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
         with:
-          node-version: "20"
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
 
       - name: Install dependencies
         run: npm install
@@ -33,6 +38,11 @@ jobs:
         run: |
           if cp scripts/README.md README.md; then
             echo "README.md replaced successfully"
+            git config --global user.email "actions@github.com"
+            git config --global user.name "GitHub Actions"
+            git add README.md
+            git commit -m "Update README with table of contents"
+            git push
           else
             echo "Failed to replace README.md"
             exit 1
