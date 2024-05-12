@@ -48,6 +48,7 @@
 | [79](https://leetcode.com/problems/word-search/) | [Word Search](./0079-word-search) | **[Solution](./0079-word-search/0079-word-search.cpp)**  
 | [80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Remove Duplicates from Sorted Array II](./80-remove-duplicates-from-sorted-array-ii) | **[Solution](./80-remove-duplicates-from-sorted-array-ii/80-remove-duplicates-from-sorted-array-ii.cpp)**  
 | [84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Largest Rectangle in Histogram](./84-largest-rectangle-in-histogram) | **[Solution](./84-largest-rectangle-in-histogram/84-largest-rectangle-in-histogram.cpp)**  
+| [88](https://leetcode.com/problems/merge-sorted-array/) | [Merge Sorted Array](./0088-merge-sorted-array) | **[Solution](./0088-merge-sorted-array/0088-merge-sorted-array.cpp)**  
 | [91](https://leetcode.com/problems/decode-ways/) | [Decode Ways](./91-decode-ways) | **[Solution](./91-decode-ways/91-decode-ways.cpp)**  
 | [94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Binary Tree Inorder Traversal](./94-binary-tree-inorder-traversal) | **[Solution](./94-binary-tree-inorder-traversal/94-binary-tree-inorder-traversal.cpp)**  
 | [95](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Unique Binary Search Trees II](./0095-unique-binary-search-trees-ii) | **[Solution](./0095-unique-binary-search-trees-ii/0095-unique-binary-search-trees-ii.cpp)**  
