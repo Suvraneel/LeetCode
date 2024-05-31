@@ -106,6 +106,7 @@
 | [239](https://leetcode.com/problems/sliding-window-maximum/) | [Sliding Window Maximum](./239-sliding-window-maximum) | **[Solution](./239-sliding-window-maximum/239-sliding-window-maximum.cpp)**  
 | [242](https://leetcode.com/problems/valid-anagram/) | [Valid Anagram](./242-valid-anagram) | **[Solution](./242-valid-anagram/242-valid-anagram.cpp)**  
 | [258](https://leetcode.com/problems/add-digits/) | [Add Digits](./258-add-digits) | **[Solution](./258-add-digits/258-add-digits.cpp)**  
+| [260](https://leetcode.com/problems/single-number-iii/) | [Single Number III](./0260-single-number-iii) | **[Solution](./0260-single-number-iii/0260-single-number-iii.cpp)**  
 | [263](https://leetcode.com/problems/ugly-number/) | [Ugly Number](./0263-ugly-number) | **[Solution](./0263-ugly-number/0263-ugly-number.cpp)**  
 | [278](https://leetcode.com/problems/first-bad-version/) | [First Bad Version](./278-first-bad-version) | **[Solution](./278-first-bad-version/278-first-bad-version.cpp)**  
 | [279](https://leetcode.com/problems/perfect-squares/) | [Perfect Squares](./0279-perfect-squares) | **[Solution](./0279-perfect-squares/0279-perfect-squares.cpp)**  
