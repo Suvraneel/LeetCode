@@ -30,9 +30,12 @@ jobs:
       - name: Update README.md files
         run: |
           find . -type f -name "README.md" | while read -r file; do
-            if ! grep -q "{% raw %}{% include list_files.html %}{% endraw %}" "$file"; then
-              echo -e "\n\n{% include list_files.html %}" >> "$file"
+            current_dir=$(dirname "$file")
+            cd "$current_dir"
+            if ! grep -q "{% include list_files.html %}" README.md; then
+              echo -e "\n\n{% include list_files.html %}" >> README.md
             fi
+            cd -
           done
       - name: Setup Pages
         uses: actions/configure-pages@v2
