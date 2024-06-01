@@ -27,6 +27,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Update README.md files
+        run: |
+          find . -type f -name "README.md" | while read -r file; do
+            if ! grep -q "{% include list_files.html %}" "$file"; then
+              echo -e "\n\n{% include list_files.html %}" >> "$file"
+            fi
+          done
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Build with Jekyll
