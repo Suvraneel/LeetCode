@@ -1,0 +1,12 @@
+
+  
+<ul>
+  <h2>Solutions</h2>
+  {% assign current_directory = page.path | split: '/' | slice: 0, -1 | join: '/' %}
+  {% for file in site.static_files %}
+    {% assign file_directory = file.path | split: '/' | slice: 0, -1 | join: '/' %}
+    {% if file_directory == current_directory and file.name != 'README.md' %}
+      <li><a href="{{ file.path | relative_url }}">{{ file.name }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
