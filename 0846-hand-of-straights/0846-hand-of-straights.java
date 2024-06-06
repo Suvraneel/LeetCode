@@ -9,12 +9,15 @@ class Solution {
             int start = i;
             while (freq.getOrDefault(start - 1, 0) != 0) // find safe streak start
                 start--;
-            while (freq.getOrDefault(start, 0) != 0) {
-                for (int curr = start; curr < start + groupSize; curr++) {
-                    if (freq.getOrDefault(curr, 0) == 0) // incomplete streak
-                        return false;
-                    freq.put(curr, freq.get(curr) - 1);
+            while (start <= i) {
+                while (freq.getOrDefault(start, 0) != 0) {
+                    for (int curr = start; curr < start + groupSize; curr++) {
+                        if (freq.getOrDefault(curr, 0) == 0) // incomplete streak
+                            return false;
+                        freq.put(curr, freq.get(curr) - 1);
+                    }
                 }
+                start++;
             }
         }
         return true;
