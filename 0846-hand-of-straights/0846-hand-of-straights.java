@@ -9,8 +9,9 @@ class Solution {
         for(int i=0; i<nGrps; i++){
             int grpSizeCt = 0, prev = -1;
             for(Map.Entry<Integer, Integer> e: freq.entrySet()){
-                if(e.getValue()==0)
+                if(e.getValue()==0){
                     continue;
+                }
                 if(prev==-1)
                     prev = e.getKey();
                 else if(e.getKey()!=prev+1)
