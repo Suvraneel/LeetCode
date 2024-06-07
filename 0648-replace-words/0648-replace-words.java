@@ -51,17 +51,16 @@ class Solution {
 
         public String findRoot(String word) {
             TrieNode node = root;
-            String root = "";
-            for (char c : word.toCharArray()) {
-                int idx = c - 'a';
+            char[] chars = word.toCharArray();
+            for (int i = 0; i < chars.length; i++) {
+                int idx = chars[i] - 'a';
                 if (node.children[idx] == null)
-                    return null;
-                root += c;
+                    return word;
                 node = node.children[idx];
                 if (node.isEndOfWord)
-                    return root;
+                    return word.substring(0, i + 1);
             }
-            return root;
+            return word;
         }
 
     }
@@ -77,13 +76,10 @@ class Solution {
     public String replaceWords(List<String> dictionary, String sentence) {
         String[] words = sentence.split(" ");
         Trie dict = new Trie();
-        for(String word: dictionary)
+        for (String word : dictionary)
             dict.insert(word);
-        for(int i=0; i<words.length; i++){
-            String root = dict.findRoot(words[i]);
-            if(root!=null)
-                words[i] = root;
-        }
+        for (int i = 0; i < words.length; i++)
+            words[i] = dict.findRoot(words[i]);
         return String.join(" ", words);
     }
 }
