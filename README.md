@@ -171,6 +171,7 @@
 | [609](https://leetcode.com/problems/find-duplicate-file-in-system/) | [Find Duplicate File in System](./609-find-duplicate-file-in-system) | **[Solution](./609-find-duplicate-file-in-system/609-find-duplicate-file-in-system.cpp)**  
 | [622](https://leetcode.com/problems/design-circular-queue/) | [Design Circular Queue](./622-design-circular-queue) | **[Solution](./622-design-circular-queue/622-design-circular-queue.cpp)**  
 | [623](https://leetcode.com/problems/add-one-row-to-tree/) | [Add One Row to Tree](./623-add-one-row-to-tree) | **[Solution](./623-add-one-row-to-tree/623-add-one-row-to-tree.cpp)**  
+| [633](https://leetcode.com/problems/sum-of-square-numbers/) | [Sum of Square Numbers](./0633-sum-of-square-numbers) | **[Solution](./0633-sum-of-square-numbers/0633-sum-of-square-numbers.cpp)**  
 | [637](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](./637-average-of-levels-in-binary-tree) | **[Solution](./637-average-of-levels-in-binary-tree/637-average-of-levels-in-binary-tree.cpp)**  
 | [643](https://leetcode.com/problems/maximum-average-subarray-i/) | [Maximum Average Subarray I](./643-maximum-average-subarray-i) | **[Solution](./643-maximum-average-subarray-i/643-maximum-average-subarray-i.cpp)**  
 | [645](https://leetcode.com/problems/set-mismatch/) | [Set Mismatch](./0645-set-mismatch) | **[Solution](./0645-set-mismatch/0645-set-mismatch.cpp)**  
