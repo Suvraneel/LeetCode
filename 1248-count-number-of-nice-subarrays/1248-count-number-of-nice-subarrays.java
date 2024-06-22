@@ -18,7 +18,6 @@ class Solution {
                 rtFlank++;
                 rt++;
             }
-            System.out.println(ltFlank + " " + rtFlank);
             ans += (ltFlank + 1) * (rtFlank + 1);
             lt++;
             ct--;
