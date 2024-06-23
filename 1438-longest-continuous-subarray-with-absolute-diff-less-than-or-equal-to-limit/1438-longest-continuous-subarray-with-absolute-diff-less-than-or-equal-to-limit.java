@@ -1,9 +1,8 @@
 class Solution {
     private class DblPriorityQ {
-        TreeMap<Integer, Integer> pq;
+        TreeMap<Integer, Integer> pq = new TreeMap<>();
 
         public DblPriorityQ() {
-            pq = new TreeMap<>();
         }
 
         public void insert(int key) {
@@ -30,15 +29,15 @@ class Solution {
             return (getMax() - getMin());
         }
 
-        // public String toString() {
-        //     StringBuilder buffer = new StringBuilder();
-        //     for (Map.Entry<Integer, Integer> e : this.pq.entrySet())
-        //         for (int i = 0; i < e.getValue(); i++)
-        //             buffer.append(e.getKey()).append(", ");
-        //     if (buffer.length() > 0)
-        //         buffer.setLength(buffer.length() - 2);
-        //     return buffer.toString();
-        // }
+        public String toString() {
+            StringBuilder buffer = new StringBuilder();
+            for (Map.Entry<Integer, Integer> e : this.pq.entrySet())
+                for (int i = 0; i < e.getValue(); i++)
+                    buffer.append(e.getKey()).append(", ");
+            if (buffer.length() > 0)
+                buffer.setLength(buffer.length() - 2);
+            return buffer.toString();
+        }
     }
 
     public int longestSubarray(int[] nums, int limit) {
