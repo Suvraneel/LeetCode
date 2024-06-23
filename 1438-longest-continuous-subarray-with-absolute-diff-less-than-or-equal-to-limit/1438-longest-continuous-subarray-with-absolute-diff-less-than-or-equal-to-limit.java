@@ -48,15 +48,12 @@ class Solution {
         int n = nums.length, lt = 0, rt = 0, maxLen = 0;
         DblPriorityQ pq = new DblPriorityQ();
         while (rt < n) {
+            pq.insert(nums[rt++]);
             while (pq.findAbsDiff() > limit)
                 pq.remove(nums[lt++]);
             maxLen = Math.max(maxLen, rt - lt);
             // System.out.println(pq.toString());
-            pq.insert(nums[rt++]);
         }
-        while (pq.findAbsDiff() > limit)
-            pq.remove(nums[lt++]);
-        maxLen = Math.max(maxLen, rt - lt);
         return maxLen;
     }
 }
