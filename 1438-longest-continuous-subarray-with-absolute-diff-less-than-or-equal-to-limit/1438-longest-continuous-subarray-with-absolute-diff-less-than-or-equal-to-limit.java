@@ -19,29 +19,26 @@ class Solution {
         }
 
         public void remove(int key) {
-            if (!this.pq.containsKey(key))
-                return;
-            if (this.pq.get(key) > 1)
-                this.pq.put(key, this.pq.get(key) - 1);
+            int freq = this.pq.get(key);
+            if (freq > 1)
+                this.pq.put(key, freq - 1);
             else
                 this.pq.remove(key);
         }
 
         public int findAbsDiff() {
-            if (pq.isEmpty())
-                return 0;
             return (getMax() - getMin());
         }
 
-        public String toString() {
-            StringBuilder buffer = new StringBuilder();
-            for (Map.Entry<Integer, Integer> e : this.pq.entrySet())
-                for (int i = 0; i < e.getValue(); i++)
-                    buffer.append(e.getKey()).append(", ");
-            if (buffer.length() > 0)
-                buffer.setLength(buffer.length() - 2);
-            return buffer.toString();
-        }
+        // public String toString() {
+        //     StringBuilder buffer = new StringBuilder();
+        //     for (Map.Entry<Integer, Integer> e : this.pq.entrySet())
+        //         for (int i = 0; i < e.getValue(); i++)
+        //             buffer.append(e.getKey()).append(", ");
+        //     if (buffer.length() > 0)
+        //         buffer.setLength(buffer.length() - 2);
+        //     return buffer.toString();
+        // }
     }
 
     public int longestSubarray(int[] nums, int limit) {
