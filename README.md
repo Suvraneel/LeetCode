@@ -162,6 +162,7 @@
 | [532](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [K Diff Pairs in an Array](./532-k-diff-pairs-in-an-array) | **[Solution](./532-k-diff-pairs-in-an-array/532-k-diff-pairs-in-an-array.cpp)**  
 | [535](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [Encode and Decode Tinyurl](./535-encode-and-decode-tinyurl) | **[Solution](./535-encode-and-decode-tinyurl/535-encode-and-decode-tinyurl.cpp)**  
 | [540](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Single Element in a Sorted Array](./0540-single-element-in-a-sorted-array) | **[Solution](./0540-single-element-in-a-sorted-array/0540-single-element-in-a-sorted-array.cpp)**  
+| [547](https://leetcode.com/problems/number-of-provinces/) | [Number of Provinces](./0547-number-of-provinces) | **[Solution](./0547-number-of-provinces/0547-number-of-provinces.cpp)**  
 | [557](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Reverse Words in a String III](./557-reverse-words-in-a-string-iii) | **[Solution](./557-reverse-words-in-a-string-iii/557-reverse-words-in-a-string-iii.cpp)**  
 | [560](https://leetcode.com/problems/subarray-sum-equals-k/) | [Subarray Sum Equals K](./560-subarray-sum-equals-k) | **[Solution](./560-subarray-sum-equals-k/560-subarray-sum-equals-k.cpp)**  
 | [567](https://leetcode.com/problems/permutation-in-string/) | [Permutation in String](./0567-permutation-in-string) | **[Solution](./0567-permutation-in-string/0567-permutation-in-string.cpp)**  
