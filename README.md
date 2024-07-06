@@ -376,5 +376,6 @@
 | [2546](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/) | [Apply Bitwise Operations to Make Strings Equal](./2546-apply-bitwise-operations-to-make-strings-equal) | **[Solution](./2546-apply-bitwise-operations-to-make-strings-equal/2546-apply-bitwise-operations-to-make-strings-equal.cpp)**  
 | [2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile/) | [Take Gifts from the Richest Pile](./2558-take-gifts-from-the-richest-pile) | **[Solution](./2558-take-gifts-from-the-richest-pile/2558-take-gifts-from-the-richest-pile.cpp)**  
 | [2559](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | [Count Vowel Strings in Ranges](./2559-count-vowel-strings-in-ranges) | **[Solution](./2559-count-vowel-strings-in-ranges/2559-count-vowel-strings-in-ranges.cpp)**  
+| [2582](https://leetcode.com/problems/pass-the-pillow/) | [Pass the Pillow](./2582-pass-the-pillow) | **[Solution](./2582-pass-the-pillow/2582-pass-the-pillow.cpp)**  
 | [2681](https://leetcode.com/problems/put-marbles-in-bags/) | [Put Marbles in Bags](./2681-put-marbles-in-bags) | **[Solution](./2681-put-marbles-in-bags/2681-put-marbles-in-bags.cpp)**  
 | [3110](https://leetcode.com/problems/score-of-a-string/) | [Score of a String](./3110-score-of-a-string) | **[Solution](./3110-score-of-a-string/3110-score-of-a-string.cpp)**  
