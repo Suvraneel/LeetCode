@@ -1,12 +1,11 @@
 class Solution {
     public int findTheWinner(int n, int k) {
-        int start = 0;
-        List<Integer> table = IntStream.range(1, n+1).boxed().collect(Collectors.toList());
-        while (table.size() > 1) {
-            start = (start + k - 1) % table.size();
-            table.remove(start);
-            // System.out.println(table.toString());
-        }
-        return table.get(0);
+        return solve(n, k) + 1;
+    }
+
+    private int solve(int n, int k) {
+        if (n == 1)
+            return 0;
+        return (solve(n - 1, k) + k) % n;
     }
 }
