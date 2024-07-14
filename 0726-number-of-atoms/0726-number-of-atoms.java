@@ -56,12 +56,14 @@ class Solution {
         Map<String, Integer> freq = new TreeMap<>();
         while(!stk.isEmpty()){
             Element top = stk.pop();
+            if (top.valency == 0)
+                top.valency = 1;
             freq.put(top.atom, freq.getOrDefault(top.atom, 0)+top.valency);
         }
         StringBuilder sb = new StringBuilder();
         for(Map.Entry<String, Integer> e: freq.entrySet()){
             sb.append(e.getKey()); 
-            if(e.getValue()!=0)
+            if(e.getValue()!=1)
                 sb.append(e.getValue());
         }
         return sb.toString();
