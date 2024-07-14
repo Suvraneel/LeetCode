@@ -189,6 +189,7 @@
 | [705](https://leetcode.com/problems/design-hashset/) | [Design Hashset](./705-design-hashset) | **[Solution](./705-design-hashset/705-design-hashset.cpp)**  
 | [712](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | [Minimum Ascii Delete Sum for Two Strings](./0712-minimum-ascii-delete-sum-for-two-strings) | **[Solution](./0712-minimum-ascii-delete-sum-for-two-strings/0712-minimum-ascii-delete-sum-for-two-strings.cpp)**  
 | [718](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Maximum Length of Repeated Subarray](./718-maximum-length-of-repeated-subarray) | **[Solution](./718-maximum-length-of-repeated-subarray/718-maximum-length-of-repeated-subarray.cpp)**  
+| [726](https://leetcode.com/problems/number-of-atoms/) | [Number of Atoms](./0726-number-of-atoms) | **[Solution](./0726-number-of-atoms/0726-number-of-atoms.cpp)**  
 | [732](https://leetcode.com/problems/my-calendar-iii/) | [My Calendar III](./732-my-calendar-iii) | **[Solution](./732-my-calendar-iii/732-my-calendar-iii.cpp)**  
 | [739](https://leetcode.com/problems/daily-temperatures/) | [Daily Temperatures](./0739-daily-temperatures) | **[Solution](./0739-daily-temperatures/0739-daily-temperatures.cpp)**  
 | [763](https://leetcode.com/problems/partition-labels/) | [Partition Labels](./763-partition-labels) | **[Solution](./763-partition-labels/763-partition-labels.cpp)**  
