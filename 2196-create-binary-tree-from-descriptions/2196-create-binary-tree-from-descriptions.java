@@ -16,9 +16,10 @@
 class Solution {
     public TreeNode createBinaryTree(int[][] descriptions) {
         Map<Integer, TreeNode> m = new HashMap<>();
-        Set<Integer> allNode = new HashSet<>();
+        Set<Integer> parents = new HashSet<>(), children = new HashSet<>();
         for(int[] desc: descriptions){
-            allNode.add(desc[0]);
+            parents.add(desc[0]);
+            children.add(desc[1]);
             TreeNode curr = m.getOrDefault(desc[0], new TreeNode(desc[0]));
             if(desc[2] == 1){
                 curr.left = m.getOrDefault(desc[1], new TreeNode(desc[1]));
@@ -29,9 +30,8 @@ class Solution {
             }
             m.put(desc[0], curr);
         }
-        for(int[] desc: descriptions)
-            allNode.remove(desc[1]);
+        parents.removeAll(children);
         // System.out.println(m);
-        return m.get(allNode.iterator().next());
+        return m.get(parents.iterator().next());
     }
 }
