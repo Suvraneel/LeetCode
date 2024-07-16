@@ -14,10 +14,11 @@
  * }
  */
 class Solution {
-    StringBuilder rootToNode;
+    StringBuilder rootToNode = new StringBuilder();
     public String getDirections(TreeNode root, int startValue, int destValue) {
         dfs(root, startValue, new StringBuilder());
         StringBuilder rootToStart = new StringBuilder(rootToNode);
+        rootToNode.setLength(0);
         dfs(root, destValue, new StringBuilder());
         StringBuilder rootToDest = new StringBuilder(rootToNode);
         // System.out.println(rootToStart +"\t"+ rootToDest);
@@ -30,7 +31,7 @@ class Solution {
         return "U".repeat(rootToStart.substring(i).length()) + rootToDest.substring(i);
     }
     private void dfs(TreeNode root, int destValue, StringBuilder path){
-        if(root==null)
+        if(root==null || rootToNode.length()!=0)
             return;
         if(root.val==destValue){
             rootToNode = new StringBuilder(path);
