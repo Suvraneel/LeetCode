@@ -14,14 +14,10 @@
  * }
  */
 class Solution {
-    StringBuilder rootToNode;
+    StringBuilder rootToStart, rootToDest;
 
     public String getDirections(TreeNode root, int startValue, int destValue) {
-        dfs(root, startValue, new StringBuilder());
-        StringBuilder rootToStart = new StringBuilder(rootToNode);
-        rootToNode = null;
-        dfs(root, destValue, new StringBuilder());
-        StringBuilder rootToDest = new StringBuilder(rootToNode);
+        dfs(root, startValue, destValue, new StringBuilder());
         // remove common path (ie, from root to last mutual ancestor
         int minPathLen = Math.min(rootToStart.length(), rootToDest.length()), i;
         for (i = 0; i < minPathLen; i++)
@@ -30,16 +26,18 @@ class Solution {
         return "U".repeat(rootToStart.substring(i).length()) + rootToDest.substring(i);
     }
 
-    private void dfs(TreeNode root, int destValue, StringBuilder path) {
-        if (root == null || rootToNode != null)
+    private void dfs(TreeNode root, int startValue, int destValue, StringBuilder path) {
+        if (root == null)
             return;
-        if (root.val == destValue) {
-            rootToNode = new StringBuilder(path);
-            return;
+        if (root.val == startValue) {
+            rootToStart = new StringBuilder(path);
         }
-        dfs(root.left, destValue, path.append("L"));
+        if (root.val == destValue) {
+            rootToDest = new StringBuilder(path);
+        }
+        dfs(root.left, startValue, destValue, path.append("L"));
         path.setLength(path.length() - 1);
-        dfs(root.right, destValue, path.append("R"));
+        dfs(root.right, startValue, destValue, path.append("R"));
         path.setLength(path.length() - 1);
     }
 }
