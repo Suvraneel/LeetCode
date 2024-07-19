@@ -1,20 +1,29 @@
 class Solution {
-    public List<Integer> luckyNumbers (int[][] matrix) {
-        Set<Integer> s = new HashSet<>();
-        List<Integer> lucky = new ArrayList<>();
-        for(int[] r: matrix){
-            int rowMin = Integer.MAX_VALUE;
-            for(int c: r)
-                rowMin = Math.min(c, rowMin);
-            s.add(rowMin);
+    public List<Integer> luckyNumbers(int[][] matrix) {
+        int N = matrix.length, M = matrix[0].length;
+
+        int rMinMax = Integer.MIN_VALUE;
+        for (int i = 0; i < N; i++) {
+            int rMin = Integer.MAX_VALUE;
+            for (int j = 0; j < M; j++) {
+                rMin = Math.min(rMin, matrix[i][j]);
+            }
+            rMinMax = Math.max(rMinMax, rMin);
         }
-        for(int j=0; j<matrix[0].length; j++){
-            int colMax = Integer.MIN_VALUE;
-            for(int i=0; i<matrix.length; i++)
-                colMax = Math.max(matrix[i][j], colMax);
-            if(s.contains(colMax))
-                lucky.add(colMax);
+
+        int cMaxMin = Integer.MAX_VALUE;
+        for (int i = 0; i < M; i++) {
+            int cMax = Integer.MIN_VALUE;
+            for (int j = 0; j < N; j++) {
+                cMax = Math.max(cMax, matrix[j][i]);
+            }
+            cMaxMin = Math.min(cMaxMin, cMax);
         }
-        return lucky;
+
+        if (rMinMax == cMaxMin) {
+            return List.of(rMinMax);
+        }
+
+        return new ArrayList<>();
     }
 }
