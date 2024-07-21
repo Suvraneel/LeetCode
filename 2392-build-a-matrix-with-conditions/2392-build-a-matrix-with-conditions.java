@@ -6,12 +6,12 @@ class Solution {
                 dfs(adj, vis, nbr, order, hasCycle);
                 if (hasCycle[0])
                     return;
-            } else if (vis[nbr] == 1) {
+            } else if (vis[nbr] == 1) { // same node appeared twice in same dfs route
                 hasCycle[0] = true;
                 return;
             }
         }
-        vis[V] = 2;
+        vis[V] = 2; // Route complete w/o cycles
         order.add(V);
     }
 
@@ -21,10 +21,10 @@ class Solution {
             adj.add(new ArrayList<>());
         for (int[] e : edges)
             adj.get(e[0]).add(e[1]);
-        int[] vis = new int[n + 1];
-        boolean[] hasCycle = { false };
+        int[] vis = new int[n + 1]; // 0: not visited, 1: visiting in current dfs, 2: visited
+        boolean[] hasCycle = { false }; // 1 boolean value pass by reference 
         List<Integer> order = new ArrayList<>();
-        for (int i = 0; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
             if (vis[i] == 0) {
                 dfs(adj, vis, i, order, hasCycle);
                 if (hasCycle[0])
@@ -43,7 +43,7 @@ class Solution {
             return new int[0][0]; // matrix generation infeasible
         for (int i = 0; i < k; i++)
             for (int j = 0; j < k; j++)
-                if (rowOrder.get(i) == colOrder.get(j))
+                if (rowOrder.get(i).equals(colOrder.get(j)))
                     matrix[i][j] = rowOrder.get(i);
         return matrix;
     }
