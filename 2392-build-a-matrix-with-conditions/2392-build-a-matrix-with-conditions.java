@@ -1,50 +1,42 @@
 class Solution {
-    private void dfs(List<List<Integer>> adj, int[] vis, int V, List<Integer> order, boolean[] hasCycle) {
-        vis[V] = 1;
-        for (int nbr : adj.get(V)) {
-            if (vis[nbr] == 0) {
-                dfs(adj, vis, nbr, order, hasCycle);
-                if (hasCycle[0])
-                    return;
-            } else if (vis[nbr] == 1) { // same node appeared twice in same dfs route
-                hasCycle[0] = true;
-                return;
-            }
-        }
-        vis[V] = 2; // Route complete w/o cycles
-        order.add(V);
-    }
-
-    private List<Integer> topoSort(int[][] edges, int n) {
-        List<List<Integer>> adj = new ArrayList<>();
+    private int[] topoSort(int[][] edges, int n) {  // Kahn's algo
+        List<Integer>[] adj = new ArrayList[n+1];
+        int[] indegree = new int[n+1], order = new int[n];
         for (int i = 0; i <= n; i++)
-            adj.add(new ArrayList<>());
-        for (int[] e : edges)
-            adj.get(e[0]).add(e[1]);
-        int[] vis = new int[n + 1]; // 0: not visited, 1: visiting in current dfs, 2: visited
-        boolean[] hasCycle = { false }; // 1 boolean value pass by reference 
-        List<Integer> order = new ArrayList<>();
-        for (int i = 1; i <= n; i++) {
-            if (vis[i] == 0) {
-                dfs(adj, vis, i, order, hasCycle);
-                if (hasCycle[0])
-                    return new ArrayList<>(); // Not a DAG
+            adj[i] = new ArrayList<>();
+        for (int[] e : edges){
+            adj[e[0]].add(e[1]);
+            indegree[e[1]]++;    
+        }
+        Queue<Integer> q = new LinkedList<>();
+        for(int i=1; i<=n; i++)
+            if(indegree[i]==0)
+                q.offer(i);
+        int idx = 0;
+        while(!q.isEmpty()){
+            int V = q.poll();
+            order[idx++] = V;
+            n--;
+            for(int nbr: adj[V]){
+                if(--indegree[nbr]==0)
+                    q.offer(nbr);
             }
         }
-        Collections.reverse(order);
+        if(n>0) // ain't a DAG
+            return new int[0];
         return order;
     }
 
     public int[][] buildMatrix(int k, int[][] rowConditions, int[][] colConditions) {
         int[][] matrix = new int[k][k];
-        List<Integer> rowOrder = topoSort(rowConditions, k);
-        List<Integer> colOrder = topoSort(colConditions, k);
-        if (rowOrder.isEmpty() || colOrder.isEmpty()) // Either !DAG
+        int[] rowOrder = topoSort(rowConditions, k);
+        int[] colOrder = topoSort(colConditions, k);
+        if (rowOrder.length == 0 || colOrder.length == 0) // Either is !DAG
             return new int[0][0]; // matrix generation infeasible
         for (int i = 0; i < k; i++)
             for (int j = 0; j < k; j++)
-                if (rowOrder.get(i).equals(colOrder.get(j)))
-                    matrix[i][j] = rowOrder.get(i);
+                if (rowOrder[i]==colOrder[j])
+                    matrix[i][j] = rowOrder[i];
         return matrix;
     }
 }
