@@ -398,4 +398,5 @@
 | [2582](https://leetcode.com/problems/pass-the-pillow/) | [Pass the Pillow](./2582-pass-the-pillow) | **[Solution](./2582-pass-the-pillow/2582-pass-the-pillow.cpp)**  
 | [2681](https://leetcode.com/problems/put-marbles-in-bags/) | [Put Marbles in Bags](./2681-put-marbles-in-bags) | **[Solution](./2681-put-marbles-in-bags/2681-put-marbles-in-bags.cpp)**  
 | [2751](https://leetcode.com/problems/robot-collisions/) | [Robot Collisions](./2751-robot-collisions) | **[Solution](./2751-robot-collisions/2751-robot-collisions.cpp)**  
+| [2976](https://leetcode.com/problems/minimum-cost-to-convert-string-i/) | [Minimum Cost to Convert String I](./2976-minimum-cost-to-convert-string-i) | **[Solution](./2976-minimum-cost-to-convert-string-i/2976-minimum-cost-to-convert-string-i.cpp)**  
 | [3110](https://leetcode.com/problems/score-of-a-string/) | [Score of a String](./3110-score-of-a-string) | **[Solution](./3110-score-of-a-string/3110-score-of-a-string.cpp)**  
