@@ -1,18 +1,17 @@
 class Solution {
     public int minimumDeletions(String s) {
-        int n = s.length();
         char[] S = s.toCharArray();
-        int suffixA = 0, prefixB = 0, deletionCt = Integer.MAX_VALUE;
-        for(int i=0; i<n; i++)
-            if(S[i]=='a')
-                suffixA++;
-        for(int i=0; i<n; i++){
-            if(S[i]=='a')
-                --suffixA;
-            deletionCt = Math.min(deletionCt, prefixB+suffixA);
-            if(S[i]=='b')
+        int n = S.length, prefixB = 0;
+        int[] dp = new int[n + 1];
+        for (int i = 0; i < n; i++) {
+            if (S[i] == 'a')
+                dp[i + 1] = Math.min(dp[i] + 1, prefixB);
+            // delete 'a', delete all prefix 'b'(s)
+            else {
+                dp[i + 1] = dp[i];
                 prefixB++;
+            }
         }
-        return deletionCt;
+        return dp[n];
     }
 }
