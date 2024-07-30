@@ -8,10 +8,10 @@ class Solution {
                 suffixA++;
         for(int i=0; i<n; i++){
             if(S[i]=='a')
-                suffixA--;
+                --suffixA;
             deletionCt = Math.min(deletionCt, prefixB+suffixA);
             if(S[i]=='b')
-                ++prefixB;
+                prefixB++;
         }
         return deletionCt;
     }
