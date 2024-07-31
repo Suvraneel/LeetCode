@@ -264,6 +264,7 @@
 | [1052](https://leetcode.com/problems/grumpy-bookstore-owner/) | [Grumpy Bookstore Owner](./1052-grumpy-bookstore-owner) | **[Solution](./1052-grumpy-bookstore-owner/1052-grumpy-bookstore-owner.cpp)**  
 | [1071](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [Greatest Common Divisor of Strings](./1071-greatest-common-divisor-of-strings) | **[Solution](./1071-greatest-common-divisor-of-strings/1071-greatest-common-divisor-of-strings.cpp)**  
 | [1094](https://leetcode.com/problems/car-pooling/) | [Car Pooling](./1094-car-pooling) | **[Solution](./1094-car-pooling/1094-car-pooling.cpp)**  
+| [1105](https://leetcode.com/problems/filling-bookcase-shelves/) | [Filling Bookcase Shelves](./1105-filling-bookcase-shelves) | **[Solution](./1105-filling-bookcase-shelves/1105-filling-bookcase-shelves.cpp)**  
 | [1110](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [Delete Nodes and Return Forest](./1110-delete-nodes-and-return-forest) | **[Solution](./1110-delete-nodes-and-return-forest/1110-delete-nodes-and-return-forest.cpp)**  
 | [1129](https://leetcode.com/problems/shortest-path-with-alternating-colors/) | [Shortest Path With Alternating Colors](./1129-shortest-path-with-alternating-colors) | **[Solution](./1129-shortest-path-with-alternating-colors/1129-shortest-path-with-alternating-colors.cpp)**  
 | [1137](https://leetcode.com/problems/n-th-tribonacci-number/) | [N Th Tribonacci Number](./1137-n-th-tribonacci-number) | **[Solution](./1137-n-th-tribonacci-number/1137-n-th-tribonacci-number.cpp)**  
