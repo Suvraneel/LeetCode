@@ -400,6 +400,7 @@
 | [2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile/) | [Take Gifts from the Richest Pile](./2558-take-gifts-from-the-richest-pile) | **[Solution](./2558-take-gifts-from-the-richest-pile/2558-take-gifts-from-the-richest-pile.cpp)**  
 | [2559](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | [Count Vowel Strings in Ranges](./2559-count-vowel-strings-in-ranges) | **[Solution](./2559-count-vowel-strings-in-ranges/2559-count-vowel-strings-in-ranges.cpp)**  
 | [2582](https://leetcode.com/problems/pass-the-pillow/) | [Pass the Pillow](./2582-pass-the-pillow) | **[Solution](./2582-pass-the-pillow/2582-pass-the-pillow.cpp)**  
+| [2678](https://leetcode.com/problems/number-of-senior-citizens/) | [Number of Senior Citizens](./2678-number-of-senior-citizens) | **[Solution](./2678-number-of-senior-citizens/2678-number-of-senior-citizens.cpp)**  
 | [2681](https://leetcode.com/problems/put-marbles-in-bags/) | [Put Marbles in Bags](./2681-put-marbles-in-bags) | **[Solution](./2681-put-marbles-in-bags/2681-put-marbles-in-bags.cpp)**  
 | [2751](https://leetcode.com/problems/robot-collisions/) | [Robot Collisions](./2751-robot-collisions) | **[Solution](./2751-robot-collisions/2751-robot-collisions.cpp)**  
 | [2976](https://leetcode.com/problems/minimum-cost-to-convert-string-i/) | [Minimum Cost to Convert String I](./2976-minimum-cost-to-convert-string-i) | **[Solution](./2976-minimum-cost-to-convert-string-i/2976-minimum-cost-to-convert-string-i.cpp)**  
