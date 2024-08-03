@@ -1,15 +1,13 @@
 class Solution {
     public boolean canBeEqual(int[] target, int[] arr) {
-        Map<Integer, Integer> freq = new HashMap<>();
-        for (int i : target)
-            freq.put(i, freq.getOrDefault(i, 0) + 1);
-        for (int i : arr) {
-            if (!freq.containsKey(i))
-                return false;
-            freq.put(i, freq.get(i) - 1);
-            if (freq.get(i) == 0)
-                freq.remove(i);
+        int[] freq = new int[1001];
+        for (int i = 0; i < target.length; i++) {
+            freq[target[i]]++;
+            freq[arr[i]]--;
         }
-        return freq.size() == 0;
+        for (int i : freq)
+            if (i != 0)
+                return false;
+        return true;
     }
 }
