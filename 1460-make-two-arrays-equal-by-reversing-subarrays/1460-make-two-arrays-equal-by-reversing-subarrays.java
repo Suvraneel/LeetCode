@@ -5,8 +5,8 @@ class Solution {
             freq[target[i]]++;
             freq[arr[i]]--;
         }
-        for (int i : freq)
-            if (i != 0)
+        for (int i = 0; i < target.length; i++)
+            if (freq[target[i]] != 0 || freq[arr[i]] != 0)
                 return false;
         return true;
     }
