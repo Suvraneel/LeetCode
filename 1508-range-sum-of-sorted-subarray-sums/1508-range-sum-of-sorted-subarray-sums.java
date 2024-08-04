@@ -8,9 +8,9 @@ class Solution {
         for (int i = 0; i < n; i++)
             for (int j = i + 1; j < n; j++)
                 arr[++idx] = nums[j] - nums[i]; // subarray sum
-        System.out.println(Arrays.toString(arr));
+        // System.out.println(Arrays.toString(arr));
         Arrays.sort(arr);
-        System.out.println(Arrays.toString(arr));
+        // System.out.println(Arrays.toString(arr));
         int mod = (int) 1e9 + 7, sum = 0;
         for (int i = left - 1; i < right; i++) {
             sum += arr[i];
