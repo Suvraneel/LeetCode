@@ -12,10 +12,8 @@ class Solution {
         Arrays.sort(arr);
         // System.out.println(Arrays.toString(arr));
         int mod = (int) 1e9 + 7, sum = 0;
-        for (int i = left - 1; i < right; i++) {
-            sum += arr[i];
-            sum %= mod;
-        }
+        for (int i = left - 1; i < right; i++)
+            sum = (sum + arr[i]) % mod;
         return sum;
     }
 }
