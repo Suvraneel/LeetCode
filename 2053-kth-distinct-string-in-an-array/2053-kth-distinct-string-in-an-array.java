@@ -6,9 +6,8 @@ class Solution {
                 distinct.put(s, true);
             else distinct.put(s, false);
         for(String s: arr){
-            if(distinct.get(s))
-                if(--k==0)
-                    return s;
+            if(distinct.get(s) && --k==0)
+                return s;
         }
         return "";
     }
