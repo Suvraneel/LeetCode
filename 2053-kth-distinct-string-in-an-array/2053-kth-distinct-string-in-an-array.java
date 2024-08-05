@@ -1,15 +1,15 @@
 class Solution {
     public String kthDistinct(String[] arr, int k) {
-        Map<String, Boolean> distinct = new LinkedHashMap<>();
+        Map<String, Boolean> distinct = new HashMap<>();
         for(String s: arr)
             if(!distinct.containsKey(s))
                 distinct.put(s, true);
             else distinct.put(s, false);
-        for(Map.Entry<String, Boolean> e: distinct.entrySet()){
-            if(e.getValue())
+        for(String s: arr){
+            if(distinct.get(s))
                 k--;
             if(k==0)
-                return e.getKey();
+                return s;
         }
         return "";
     }
