@@ -7,9 +7,8 @@ class Solution {
             else distinct.put(s, false);
         for(String s: arr){
             if(distinct.get(s))
-                k--;
-            if(k==0)
-                return s;
+                if(--k==0)
+                    return s;
         }
         return "";
     }
