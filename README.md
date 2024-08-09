@@ -211,6 +211,7 @@
 | [834](https://leetcode.com/problems/sum-of-distances-in-tree/) | [Sum of Distances in Tree](./0834-sum-of-distances-in-tree) | **[Solution](./0834-sum-of-distances-in-tree/0834-sum-of-distances-in-tree.cpp)**  
 | [835](https://leetcode.com/problems/image-overlap/) | [Image Overlap](./0835-image-overlap) | **[Solution](./0835-image-overlap/0835-image-overlap.cpp)**  
 | [838](https://leetcode.com/problems/push-dominoes/) | [Push Dominoes](./838-push-dominoes) | **[Solution](./838-push-dominoes/838-push-dominoes.cpp)**  
+| [840](https://leetcode.com/problems/magic-squares-in-grid/) | [Magic Squares in Grid](./0840-magic-squares-in-grid) | **[Solution](./0840-magic-squares-in-grid/0840-magic-squares-in-grid.cpp)**  
 | [841](https://leetcode.com/problems/keys-and-rooms/) | [Keys and Rooms](./841-keys-and-rooms) | **[Solution](./841-keys-and-rooms/841-keys-and-rooms.cpp)**  
 | [846](https://leetcode.com/problems/hand-of-straights/) | [Hand of Straights](./0846-hand-of-straights) | **[Solution](./0846-hand-of-straights/0846-hand-of-straights.cpp)**  
 | [858](https://leetcode.com/problems/mirror-reflection/) | [Mirror Reflection](./858-mirror-reflection) | **[Solution](./858-mirror-reflection/858-mirror-reflection.cpp)**  
