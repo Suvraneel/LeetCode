@@ -244,6 +244,7 @@
 | [948](https://leetcode.com/problems/bag-of-tokens/) | [Bag of Tokens](./948-bag-of-tokens) | **[Solution](./948-bag-of-tokens/948-bag-of-tokens.cpp)**  
 | [956](https://leetcode.com/problems/number-of-music-playlists/) | [Number of Music Playlists](./0956-number-of-music-playlists) | **[Solution](./0956-number-of-music-playlists/0956-number-of-music-playlists.cpp)**  
 | [958](https://leetcode.com/problems/sort-array-by-parity-ii/) | [Sort Array by Parity II](./0958-sort-array-by-parity-ii) | **[Solution](./0958-sort-array-by-parity-ii/0958-sort-array-by-parity-ii.cpp)**  
+| [959](https://leetcode.com/problems/regions-cut-by-slashes/) | [Regions Cut by Slashes](./0959-regions-cut-by-slashes) | **[Solution](./0959-regions-cut-by-slashes/0959-regions-cut-by-slashes.cpp)**  
 | [967](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | [Numbers With same Consecutive Differences](./967-numbers-with-same-consecutive-differences) | **[Solution](./967-numbers-with-same-consecutive-differences/967-numbers-with-same-consecutive-differences.cpp)**  
 | [973](https://leetcode.com/problems/k-closest-points-to-origin/) | [K Closest Points to Origin](./973-k-closest-points-to-origin) | **[Solution](./973-k-closest-points-to-origin/973-k-closest-points-to-origin.cpp)**  
 | [974](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | [Subarray Sums Divisible by K](./0974-subarray-sums-divisible-by-k) | **[Solution](./0974-subarray-sums-divisible-by-k/0974-subarray-sums-divisible-by-k.cpp)**  
