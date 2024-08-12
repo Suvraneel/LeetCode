@@ -1,29 +1,23 @@
 class KthLargest {
     int k;
-    List<Integer> nums;
+    Queue<Integer> stream; // minHeap Impl
 
     public KthLargest(int k, int[] nums) {
         this.k = k;
-        this.nums = Arrays.stream(nums).boxed().sorted().collect(Collectors.toList());
+        stream = new PriorityQueue<>();
+        for (int i : nums)
+            stream.offer(i);
+        while (stream.size() > k)
+            stream.poll();
     }
 
     public int add(int val) {
-        int idx = 0;
-        nums.add(binarySearch(val), val);
-        // System.out.println(nums);
-        return nums.get(nums.size() - k);
-    }
-
-    private int binarySearch(int val) {
-        int lt = 0, rt = nums.size() - 1;
-        while (lt <= rt) {
-            int mid = lt + (rt - lt / 2);
-            if (nums.get(mid) < val)
-                lt = mid + 1;
-            else
-                rt = mid - 1;
+        if (stream.size() < k || stream.peek() < val) {
+            stream.offer(val);
+            while (stream.size() > k)
+                stream.poll();
         }
-        return lt;
+        return stream.peek();
     }
 }
 
