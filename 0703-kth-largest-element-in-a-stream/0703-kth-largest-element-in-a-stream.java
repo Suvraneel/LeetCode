@@ -9,21 +9,21 @@ class KthLargest {
 
     public int add(int val) {
         int idx = 0;
-        nums.add(binarySearch(val) + 1, val);
+        nums.add(binarySearch(val), val);
         // System.out.println(nums);
         return nums.get(nums.size() - k);
     }
 
     private int binarySearch(int val) {
         int lt = 0, rt = nums.size() - 1;
-        while (lt < rt) {
+        while (lt <= rt) {
             int mid = lt + (rt - lt / 2);
             if (nums.get(mid) < val)
                 lt = mid + 1;
             else
                 rt = mid - 1;
         }
-        return rt;
+        return lt;
     }
 }
 
