@@ -25,7 +25,7 @@ class Solution {
                 i < n && candidates[i]<=target;
                 i++
             ) {
-                if (i > ltIdx && candidates[i] == candidates[i - 1]) continue;
+                if (i > ltIdx && candidates[i] == candidates[i - 1]) continue;  // skip duplicate valid sets insertion if candidates array contain same element multiple times.
                 tempList.add(candidates[i]);
                 backtrack(
                     answer,
