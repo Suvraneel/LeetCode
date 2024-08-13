@@ -1,7 +1,9 @@
 class Solution {
+    int n;
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> list = new LinkedList<List<Integer>>();
+        n = candidates.length;
         Arrays.sort(candidates);
         backtrack(list, new ArrayList<Integer>(), candidates, target, 0);
         return list;
@@ -20,7 +22,7 @@ class Solution {
         } else {
             for (
                 int i = ltIdx;
-                i < candidates.length && target >= candidates[i];
+                i < n && candidates[i]<=target;
                 i++
             ) {
                 if (i > ltIdx && candidates[i] == candidates[i - 1]) continue;
