@@ -218,6 +218,7 @@
 | [841](https://leetcode.com/problems/keys-and-rooms/) | [Keys and Rooms](./841-keys-and-rooms) | **[Solution](./841-keys-and-rooms/841-keys-and-rooms.cpp)**  
 | [846](https://leetcode.com/problems/hand-of-straights/) | [Hand of Straights](./0846-hand-of-straights) | **[Solution](./0846-hand-of-straights/0846-hand-of-straights.cpp)**  
 | [858](https://leetcode.com/problems/mirror-reflection/) | [Mirror Reflection](./858-mirror-reflection) | **[Solution](./858-mirror-reflection/858-mirror-reflection.cpp)**  
+| [860](https://leetcode.com/problems/lemonade-change/) | [Lemonade Change](./0860-lemonade-change) | **[Solution](./0860-lemonade-change/0860-lemonade-change.cpp)**  
 | [869](https://leetcode.com/problems/reordered-power-of-2/) | [Reordered Power of 2](./869-reordered-power-of-2) | **[Solution](./869-reordered-power-of-2/869-reordered-power-of-2.cpp)**  
 | [871](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Minimum Number of Refueling Stops](./871-minimum-number-of-refueling-stops) | **[Solution](./871-minimum-number-of-refueling-stops/871-minimum-number-of-refueling-stops.cpp)**  
 | [875](https://leetcode.com/problems/koko-eating-bananas/) | [Koko Eating Bananas](./875-koko-eating-bananas) | **[Solution](./875-koko-eating-bananas/875-koko-eating-bananas.cpp)**  
