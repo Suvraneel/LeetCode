@@ -173,6 +173,7 @@
 | [547](https://leetcode.com/problems/number-of-provinces/) | [Number of Provinces](./0547-number-of-provinces) | **[Solution](./0547-number-of-provinces/0547-number-of-provinces.cpp)**  
 | [557](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Reverse Words in a String III](./557-reverse-words-in-a-string-iii) | **[Solution](./557-reverse-words-in-a-string-iii/557-reverse-words-in-a-string-iii.cpp)**  
 | [560](https://leetcode.com/problems/subarray-sum-equals-k/) | [Subarray Sum Equals K](./560-subarray-sum-equals-k) | **[Solution](./560-subarray-sum-equals-k/560-subarray-sum-equals-k.cpp)**  
+| [564](https://leetcode.com/problems/find-the-closest-palindrome/) | [Find the Closest Palindrome](./0564-find-the-closest-palindrome) | **[Solution](./0564-find-the-closest-palindrome/0564-find-the-closest-palindrome.cpp)**  
 | [567](https://leetcode.com/problems/permutation-in-string/) | [Permutation in String](./0567-permutation-in-string) | **[Solution](./0567-permutation-in-string/0567-permutation-in-string.cpp)**  
 | [587](https://leetcode.com/problems/erect-the-fence/) | [Erect the Fence](./0587-erect-the-fence) | **[Solution](./0587-erect-the-fence/0587-erect-the-fence.cpp)**  
 | [592](https://leetcode.com/problems/fraction-addition-and-subtraction/) | [Fraction Addition and Subtraction](./0592-fraction-addition-and-subtraction) | **[Solution](./0592-fraction-addition-and-subtraction/0592-fraction-addition-and-subtraction.cpp)**  
