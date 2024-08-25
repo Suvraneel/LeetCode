@@ -206,6 +206,7 @@
 | [726](https://leetcode.com/problems/number-of-atoms/) | [Number of Atoms](./0726-number-of-atoms) | **[Solution](./0726-number-of-atoms/0726-number-of-atoms.cpp)**  
 | [732](https://leetcode.com/problems/my-calendar-iii/) | [My Calendar III](./732-my-calendar-iii) | **[Solution](./732-my-calendar-iii/732-my-calendar-iii.cpp)**  
 | [739](https://leetcode.com/problems/daily-temperatures/) | [Daily Temperatures](./0739-daily-temperatures) | **[Solution](./0739-daily-temperatures/0739-daily-temperatures.cpp)**  
+| [743](https://leetcode.com/problems/network-delay-time/) | [Network Delay Time](./0743-network-delay-time) | **[Solution](./0743-network-delay-time/0743-network-delay-time.cpp)**  
 | [763](https://leetcode.com/problems/partition-labels/) | [Partition Labels](./763-partition-labels) | **[Solution](./763-partition-labels/763-partition-labels.cpp)**  
 | [766](https://leetcode.com/problems/toeplitz-matrix/) | [Toeplitz Matrix](./0766-toeplitz-matrix) | **[Solution](./0766-toeplitz-matrix/0766-toeplitz-matrix.cpp)**  
 | [771](https://leetcode.com/problems/jewels-and-stones/) | [Jewels and Stones](./771-jewels-and-stones) | **[Solution](./771-jewels-and-stones/771-jewels-and-stones.cpp)**  
