@@ -177,6 +177,7 @@
 | [564](https://leetcode.com/problems/find-the-closest-palindrome/) | [Find the Closest Palindrome](./0564-find-the-closest-palindrome) | **[Solution](./0564-find-the-closest-palindrome/0564-find-the-closest-palindrome.cpp)**  
 | [567](https://leetcode.com/problems/permutation-in-string/) | [Permutation in String](./0567-permutation-in-string) | **[Solution](./0567-permutation-in-string/0567-permutation-in-string.cpp)**  
 | [587](https://leetcode.com/problems/erect-the-fence/) | [Erect the Fence](./0587-erect-the-fence) | **[Solution](./0587-erect-the-fence/0587-erect-the-fence.cpp)**  
+| [590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [N Ary Tree Postorder Traversal](./0590-n-ary-tree-postorder-traversal) | **[Solution](./0590-n-ary-tree-postorder-traversal/0590-n-ary-tree-postorder-traversal.cpp)**  
 | [592](https://leetcode.com/problems/fraction-addition-and-subtraction/) | [Fraction Addition and Subtraction](./0592-fraction-addition-and-subtraction) | **[Solution](./0592-fraction-addition-and-subtraction/0592-fraction-addition-and-subtraction.cpp)**  
 | [605](https://leetcode.com/problems/can-place-flowers/) | [Can Place Flowers](./605-can-place-flowers) | **[Solution](./605-can-place-flowers/605-can-place-flowers.cpp)**  
 | [606](https://leetcode.com/problems/construct-string-from-binary-tree/) | [Construct String from Binary Tree](./606-construct-string-from-binary-tree) | **[Solution](./606-construct-string-from-binary-tree/606-construct-string-from-binary-tree.cpp)**  
