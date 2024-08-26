@@ -127,6 +127,7 @@
 | [312](https://leetcode.com/problems/burst-balloons/) | [Burst Balloons](./312-burst-balloons) | **[Solution](./312-burst-balloons/312-burst-balloons.cpp)**  
 | [319](https://leetcode.com/problems/bulb-switcher/) | [Bulb Switcher](./0319-bulb-switcher) | **[Solution](./0319-bulb-switcher/0319-bulb-switcher.cpp)**  
 | [326](https://leetcode.com/problems/power-of-three/) | [Power of Three](./326-power-of-three) | **[Solution](./326-power-of-three/326-power-of-three.cpp)**  
+| [329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Longest Increasing Path in a Matrix](./0329-longest-increasing-path-in-a-matrix) | **[Solution](./0329-longest-increasing-path-in-a-matrix/0329-longest-increasing-path-in-a-matrix.cpp)**  
 | [330](https://leetcode.com/problems/patching-array/) | [Patching Array](./0330-patching-array) | **[Solution](./0330-patching-array/0330-patching-array.cpp)**  
 | [334](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Increasing Triplet Subsequence](./0334-increasing-triplet-subsequence) | **[Solution](./0334-increasing-triplet-subsequence/0334-increasing-triplet-subsequence.cpp)**  
 | [336](https://leetcode.com/problems/palindrome-pairs/) | [Palindrome Pairs](./336-palindrome-pairs) | **[Solution](./336-palindrome-pairs/336-palindrome-pairs.cpp)**  
