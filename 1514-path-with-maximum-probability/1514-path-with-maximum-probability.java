@@ -1,15 +1,7 @@
 class Solution {
-    int end_node;
+    private int end_node;
 
-    private class Node {
-        public int idx;
-        public double prob;
-
-        public Node(int idx, double prob) {
-            this.idx = idx;
-            this.prob = prob;
-        }
-    }
+    record Node(int idx, double prob) { }
 
     public double maxProbability(int n, int[][] edges, double[] succProb, int start_node, int end_node) {
         this.end_node = end_node;
@@ -28,7 +20,7 @@ class Solution {
     }
 
     private void djikstra(List<Node>[] adj, double[] maxProb, int start_node) {
-        Queue<Node> pq = new PriorityQueue<Node>((a, b) -> Double.compare(b.prob,a.prob));
+        Queue<Node> pq = new PriorityQueue<Node>((a, b) -> Double.compare(b.prob, a.prob));
         pq.offer(new Node(start_node, 1));
         while (!pq.isEmpty()) {
             Node curr = pq.poll();
