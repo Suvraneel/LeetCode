@@ -150,6 +150,7 @@
 | [392](https://leetcode.com/problems/is-subsequence/) | [IS Subsequence](./0392-is-subsequence) | **[Solution](./0392-is-subsequence/0392-is-subsequence.cpp)**  
 | [393](https://leetcode.com/problems/utf-8-validation/) | [Utf 8 Validation](./393-utf-8-validation) | **[Solution](./393-utf-8-validation/393-utf-8-validation.cpp)**  
 | [394](https://leetcode.com/problems/decode-string/) | [Decode String](./394-decode-string) | **[Solution](./394-decode-string/394-decode-string.cpp)**  
+| [399](https://leetcode.com/problems/evaluate-division/) | [Evaluate Division](./0399-evaluate-division) | **[Solution](./0399-evaluate-division/0399-evaluate-division.cpp)**  
 | [402](https://leetcode.com/problems/remove-k-digits/) | [Remove K Digits](./402-remove-k-digits) | **[Solution](./402-remove-k-digits/402-remove-k-digits.cpp)**  
 | [409](https://leetcode.com/problems/longest-palindrome/) | [Longest Palindrome](./0409-longest-palindrome) | **[Solution](./0409-longest-palindrome/0409-longest-palindrome.cpp)**  
 | [427](https://leetcode.com/problems/construct-quad-tree/) | [Construct Quad Tree](./0427-construct-quad-tree) | **[Solution](./0427-construct-quad-tree/0427-construct-quad-tree.cpp)**  
