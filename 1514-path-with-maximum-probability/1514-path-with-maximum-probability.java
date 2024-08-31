@@ -1,37 +1,32 @@
 class Solution {
-    private int end_node;
-
-    record Node(int idx, double prob) { }
+    private record Node(int idx, double prob) {
+    }
 
     public double maxProbability(int n, int[][] edges, double[] succProb, int start_node, int end_node) {
-        this.end_node = end_node;
         List<Node>[] adj = new List[n];
-        double[] maxProb = new double[n];
-        maxProb[start_node] = 1;
+        boolean[] vis = new boolean[n];
         for (int i = 0; i < n; i++)
             adj[i] = new ArrayList<>();
         for (int i = 0; i < edges.length; i++) {
-            int[] e = edges[i];
-            adj[e[0]].add(new Node(e[1], succProb[i]));
-            adj[e[1]].add(new Node(e[0], succProb[i]));
+            adj[edges[i][0]].add(new Node(edges[i][1], succProb[i]));
+            adj[edges[i][1]].add(new Node(edges[i][0], succProb[i]));
         }
-        djikstra(adj, maxProb, start_node);
-        return maxProb[end_node];
+        return dijkstra(adj, vis, start_node, end_node);
     }
 
-    private void djikstra(List<Node>[] adj, double[] maxProb, int start_node) {
-        Queue<Node> pq = new PriorityQueue<Node>((a, b) -> Double.compare(b.prob, a.prob));
-        pq.offer(new Node(start_node, 1));
+    private double dijkstra(List<Node>[] adj, boolean[] vis, int src, int dest) {
+        Queue<Node> pq = new PriorityQueue<>((a, b) -> Double.compare(b.prob, a.prob));
+        pq.offer(new Node(src, 1d));
         while (!pq.isEmpty()) {
-            Node curr = pq.poll();
-            // System.out.println(curr.idx + "\t" + curr.prob);
-            for (Node nbr : adj[curr.idx]) {
-                double newProb = curr.prob * nbr.prob;
-                if (maxProb[nbr.idx] >= newProb)
-                    continue;
-                maxProb[nbr.idx] = newProb;
-                pq.add(new Node(nbr.idx, newProb));
-            }
+            Node best = pq.poll();
+            // System.out.println(best);
+            vis[best.idx] = true;
+            if (best.idx == dest)
+                return best.prob;
+            for (Node nbr : adj[best.idx])
+                if(!vis[nbr.idx])
+                    pq.offer(new Node(nbr.idx, best.prob * nbr.prob));
         }
+        return 0d;
     }
 }
