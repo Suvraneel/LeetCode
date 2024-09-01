@@ -227,6 +227,7 @@
 | [840](https://leetcode.com/problems/magic-squares-in-grid/) | [Magic Squares in Grid](./0840-magic-squares-in-grid) | **[Solution](./0840-magic-squares-in-grid/0840-magic-squares-in-grid.cpp)**  
 | [841](https://leetcode.com/problems/keys-and-rooms/) | [Keys and Rooms](./841-keys-and-rooms) | **[Solution](./841-keys-and-rooms/841-keys-and-rooms.cpp)**  
 | [846](https://leetcode.com/problems/hand-of-straights/) | [Hand of Straights](./0846-hand-of-straights) | **[Solution](./0846-hand-of-straights/0846-hand-of-straights.cpp)**  
+| [851](https://leetcode.com/problems/loud-and-rich/) | [Loud and Rich](./0851-loud-and-rich) | **[Solution](./0851-loud-and-rich/0851-loud-and-rich.cpp)**  
 | [858](https://leetcode.com/problems/mirror-reflection/) | [Mirror Reflection](./858-mirror-reflection) | **[Solution](./858-mirror-reflection/858-mirror-reflection.cpp)**  
 | [860](https://leetcode.com/problems/lemonade-change/) | [Lemonade Change](./0860-lemonade-change) | **[Solution](./0860-lemonade-change/0860-lemonade-change.cpp)**  
 | [869](https://leetcode.com/problems/reordered-power-of-2/) | [Reordered Power of 2](./869-reordered-power-of-2) | **[Solution](./869-reordered-power-of-2/869-reordered-power-of-2.cpp)**  
