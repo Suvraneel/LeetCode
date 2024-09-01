@@ -9,19 +9,16 @@ class Solution {
         for (int[] edge : richer)
             adj[edge[1]].add(edge[0]);
         for (int i = 0; i < n; i++)
-            ans[i] = dfs(adj, quiet, memo, new boolean[n], i);
+            ans[i] = dfs(adj, quiet, memo, i);
         return ans;
     }
 
-    private int dfs(List<Integer>[] adj, int[] quiet, int[] memo, boolean[] vis, int node) {
+    private int dfs(List<Integer>[] adj, int[] quiet, int[] memo, int node) {
         if(memo[node]!=-1)
             return memo[node];
-        if (vis[node])
-            return node;
-        vis[node] = true;
         int quietest = node;
         for (int nbr : adj[node]) {
-            int quietestNbr = dfs(adj, quiet, memo, vis, nbr);
+            int quietestNbr = dfs(adj, quiet, memo, nbr);
             if (quiet[quietestNbr] < quiet[quietest])
                 quietest = quietestNbr;
         }
