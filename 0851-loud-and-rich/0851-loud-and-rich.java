@@ -16,12 +16,12 @@ class Solution {
     private int dfs(List<Integer>[] adj, int[] quiet, int[] memo, int node) {
         if(memo[node]!=-1)
             return memo[node];
-        memo[node] = node;
+        int quietest = node;
         for (int nbr : adj[node]) {
             int quietestNbr = dfs(adj, quiet, memo, nbr);
-            if (quiet[quietestNbr] < quiet[memo[node]])
-                memo[node] = quietestNbr;
+            if (quiet[quietestNbr] < quiet[quietest])
+                quietest = quietestNbr;
         }
-        return memo[node];
+        return memo[node] = quietest;
     }
 }
