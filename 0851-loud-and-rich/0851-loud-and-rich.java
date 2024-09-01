@@ -1,18 +1,15 @@
 class Solution {
     public int[] loudAndRich(int[][] richer, int[] quiet) {
         int n = quiet.length;
-        int[] memo = new int[n], indegree = new int[n];
+        int[] memo = new int[n];
         Arrays.fill(memo, -1);
         List<Integer>[] adj = new List[n];
         for (int i = 0; i < n; i++)
             adj[i] = new ArrayList<>();
-        for (int[] edge : richer){
+        for (int[] edge : richer)
             adj[edge[1]].add(edge[0]);
-            indegree[edge[0]]++;
-        }
         for (int i = 0; i < n; i++)
-            if(indegree[i]==0)
-                dfs(adj, quiet, memo, i);
+            dfs(adj, quiet, memo, i);
         return memo;
     }
 
