@@ -1,16 +1,11 @@
 class Solution {
-    int[] memo;
 
     public int climbStairs(int n) {
-        memo = new int[n + 1];
-        return solve(n);
-    }
-
-    private int solve(int n) {
-        if (n < 3)
-            return n;
-        if (memo[n] != 0)
-            return memo[n];
-        return memo[n] = solve(n - 1) + solve(n - 2);
+        int[] memo = new int[n + 1];
+        for (int i = 0; i < Math.min(n + 1, 3); i++)
+            memo[i] = i;
+        for (int i = 3; i <= n; i++)
+            memo[i] = memo[i - 1] + memo[i - 2];
+        return memo[n];
     }
 }
