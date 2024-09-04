@@ -4,7 +4,7 @@ class Solution {
     };
 
     private static int getId(int i, int j) {
-        return 30000 * j + i;
+        return 30000 * i + j;
     }
 
     public int robotSim(int[] commands, int[][] obstacles) {
