@@ -15,7 +15,7 @@ class Solution {
         for (int cmd : commands) {
             switch (cmd) {
                 case -1 -> dir = (dir + 1) % 4;
-                case -2 -> dir = (4 + dir - 1) % 4;
+                case -2 -> dir = (dir + 3) % 4;
                 default -> {
                     int[] move = directions[dir];
                     for (int i = 0; i < cmd; i++) {
