@@ -35,6 +35,7 @@
 | [42](https://leetcode.com/problems/trapping-rain-water/) | [Trapping Rain Water](./42-trapping-rain-water) | **[Solution](./42-trapping-rain-water/42-trapping-rain-water.cpp)**  
 | [48](https://leetcode.com/problems/rotate-image/) | [Rotate Image](./48-rotate-image) | **[Solution](./48-rotate-image/48-rotate-image.cpp)**  
 | [49](https://leetcode.com/problems/group-anagrams/) | [Group Anagrams](./0049-group-anagrams) | **[Solution](./0049-group-anagrams/0049-group-anagrams.cpp)**  
+| [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](./0053-maximum-subarray) | **[Solution](./0053-maximum-subarray/0053-maximum-subarray.cpp)**  
 | [56](https://leetcode.com/problems/merge-intervals/) | [Merge Intervals](./56-merge-intervals) | **[Solution](./56-merge-intervals/56-merge-intervals.cpp)**  
 | [62](https://leetcode.com/problems/unique-paths/) | [Unique Paths](./62-unique-paths) | **[Solution](./62-unique-paths/62-unique-paths.cpp)**  
 | [67](https://leetcode.com/problems/add-binary/) | [Add Binary](./67-add-binary) | **[Solution](./67-add-binary/67-add-binary.cpp)**  
