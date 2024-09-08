@@ -209,6 +209,7 @@
 | [712](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | [Minimum Ascii Delete Sum for Two Strings](./0712-minimum-ascii-delete-sum-for-two-strings) | **[Solution](./0712-minimum-ascii-delete-sum-for-two-strings/0712-minimum-ascii-delete-sum-for-two-strings.cpp)**  
 | [718](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Maximum Length of Repeated Subarray](./718-maximum-length-of-repeated-subarray) | **[Solution](./718-maximum-length-of-repeated-subarray/718-maximum-length-of-repeated-subarray.cpp)**  
 | [719](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) | [Find K Th Smallest Pair Distance](./0719-find-k-th-smallest-pair-distance) | **[Solution](./0719-find-k-th-smallest-pair-distance/0719-find-k-th-smallest-pair-distance.cpp)**  
+| [725](https://leetcode.com/problems/split-linked-list-in-parts/) | [Split Linked List in Parts](./0725-split-linked-list-in-parts) | **[Solution](./0725-split-linked-list-in-parts/0725-split-linked-list-in-parts.cpp)**  
 | [726](https://leetcode.com/problems/number-of-atoms/) | [Number of Atoms](./0726-number-of-atoms) | **[Solution](./0726-number-of-atoms/0726-number-of-atoms.cpp)**  
 | [732](https://leetcode.com/problems/my-calendar-iii/) | [My Calendar III](./732-my-calendar-iii) | **[Solution](./732-my-calendar-iii/732-my-calendar-iii.cpp)**  
 | [739](https://leetcode.com/problems/daily-temperatures/) | [Daily Temperatures](./0739-daily-temperatures) | **[Solution](./0739-daily-temperatures/0739-daily-temperatures.cpp)**  
