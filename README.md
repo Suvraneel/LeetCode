@@ -175,6 +175,7 @@
 | [525](https://leetcode.com/problems/contiguous-array/) | [Contiguous Array](./525-contiguous-array) | **[Solution](./525-contiguous-array/525-contiguous-array.cpp)**  
 | [532](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [K Diff Pairs in an Array](./532-k-diff-pairs-in-an-array) | **[Solution](./532-k-diff-pairs-in-an-array/532-k-diff-pairs-in-an-array.cpp)**  
 | [535](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [Encode and Decode Tinyurl](./535-encode-and-decode-tinyurl) | **[Solution](./535-encode-and-decode-tinyurl/535-encode-and-decode-tinyurl.cpp)**  
+| [539](https://leetcode.com/problems/minimum-time-difference/) | [Minimum Time Difference](./0539-minimum-time-difference) | **[Solution](./0539-minimum-time-difference/0539-minimum-time-difference.cpp)**  
 | [540](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Single Element in a Sorted Array](./0540-single-element-in-a-sorted-array) | **[Solution](./0540-single-element-in-a-sorted-array/0540-single-element-in-a-sorted-array.cpp)**  
 | [547](https://leetcode.com/problems/number-of-provinces/) | [Number of Provinces](./0547-number-of-provinces) | **[Solution](./0547-number-of-provinces/0547-number-of-provinces.cpp)**  
 | [557](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Reverse Words in a String III](./557-reverse-words-in-a-string-iii) | **[Solution](./557-reverse-words-in-a-string-iii/557-reverse-words-in-a-string-iii.cpp)**  
