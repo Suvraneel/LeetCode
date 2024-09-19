@@ -113,6 +113,7 @@
 | [237](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Delete Node in a Linked List](./237-delete-node-in-a-linked-list) | **[Solution](./237-delete-node-in-a-linked-list/237-delete-node-in-a-linked-list.cpp)**  
 | [238](https://leetcode.com/problems/product-of-array-except-self/) | [Product of Array Except Self](./0238-product-of-array-except-self) | **[Solution](./0238-product-of-array-except-self/0238-product-of-array-except-self.cpp)**  
 | [239](https://leetcode.com/problems/sliding-window-maximum/) | [Sliding Window Maximum](./239-sliding-window-maximum) | **[Solution](./239-sliding-window-maximum/239-sliding-window-maximum.cpp)**  
+| [241](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [Different Ways to Add Parentheses](./0241-different-ways-to-add-parentheses) | **[Solution](./0241-different-ways-to-add-parentheses/0241-different-ways-to-add-parentheses.cpp)**  
 | [242](https://leetcode.com/problems/valid-anagram/) | [Valid Anagram](./242-valid-anagram) | **[Solution](./242-valid-anagram/242-valid-anagram.cpp)**  
 | [258](https://leetcode.com/problems/add-digits/) | [Add Digits](./258-add-digits) | **[Solution](./258-add-digits/258-add-digits.cpp)**  
 | [260](https://leetcode.com/problems/single-number-iii/) | [Single Number III](./0260-single-number-iii) | **[Solution](./0260-single-number-iii/0260-single-number-iii.cpp)**  
