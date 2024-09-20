@@ -98,6 +98,7 @@
 | [209](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Minimum Size Subarray Sum](./0209-minimum-size-subarray-sum) | **[Solution](./0209-minimum-size-subarray-sum/0209-minimum-size-subarray-sum.cpp)**  
 | [210](https://leetcode.com/problems/course-schedule-ii/) | [Course Schedule II](./210-course-schedule-ii) | **[Solution](./210-course-schedule-ii/210-course-schedule-ii.cpp)**  
 | [212](https://leetcode.com/problems/word-search-ii/) | [Word Search II](./0212-word-search-ii) | **[Solution](./0212-word-search-ii/0212-word-search-ii.cpp)**  
+| [214](https://leetcode.com/problems/shortest-palindrome/) | [Shortest Palindrome](./0214-shortest-palindrome) | **[Solution](./0214-shortest-palindrome/0214-shortest-palindrome.cpp)**  
 | [218](https://leetcode.com/problems/the-skyline-problem/) | [The Skyline Problem](./218-the-skyline-problem) | **[Solution](./218-the-skyline-problem/218-the-skyline-problem.cpp)**  
 | [219](https://leetcode.com/problems/contains-duplicate-ii/) | [Contains Duplicate II](./219-contains-duplicate-ii) | **[Solution](./219-contains-duplicate-ii/219-contains-duplicate-ii.cpp)**  
 | [221](https://leetcode.com/problems/maximal-square/) | [Maximal Square](./221-maximal-square) | **[Solution](./221-maximal-square/221-maximal-square.cpp)**  
