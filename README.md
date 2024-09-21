@@ -151,6 +151,7 @@
 | [380](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Insert Delete Getrandom O1](./0380-insert-delete-getrandom-o1) | **[Solution](./0380-insert-delete-getrandom-o1/0380-insert-delete-getrandom-o1.cpp)**  
 | [382](https://leetcode.com/problems/linked-list-random-node/) | [Linked List Random Node](./382-linked-list-random-node) | **[Solution](./382-linked-list-random-node/382-linked-list-random-node.cpp)**  
 | [383](https://leetcode.com/problems/ransom-note/) | [Ransom Note](./383-ransom-note) | **[Solution](./383-ransom-note/383-ransom-note.cpp)**  
+| [386](https://leetcode.com/problems/lexicographical-numbers/) | [Lexicographical Numbers](./0386-lexicographical-numbers) | **[Solution](./0386-lexicographical-numbers/0386-lexicographical-numbers.cpp)**  
 | [387](https://leetcode.com/problems/first-unique-character-in-a-string/) | [First Unique Character in a String](./387-first-unique-character-in-a-string) | **[Solution](./387-first-unique-character-in-a-string/387-first-unique-character-in-a-string.cpp)**  
 | [389](https://leetcode.com/problems/find-the-difference/) | [Find the Difference](./389-find-the-difference) | **[Solution](./389-find-the-difference/389-find-the-difference.cpp)**  
 | [392](https://leetcode.com/problems/is-subsequence/) | [IS Subsequence](./0392-is-subsequence) | **[Solution](./0392-is-subsequence/0392-is-subsequence.cpp)**  
