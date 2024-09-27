@@ -21,8 +21,6 @@ class MyCalendarTwo {
                 // Clean up
                 if (bookings.get(start) == 0)
                     bookings.remove(start);
-                if (bookings.get(end) == 0)
-                    bookings.remove(end);
                 return false;
             }
         }
