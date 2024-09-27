@@ -10,14 +10,16 @@ class MyCalendarTwo {
     public boolean book(int start, int end) {
         bookings.put(start, bookings.getOrDefault(start, 0) + 1);
         bookings.put(end, bookings.getOrDefault(end, 0) - 1);
+        if (bookings.get(end) == 0)
+            bookings.remove(end);
         // Calc prefix sum
         int concurrentOverlaps = 0;
         for (Map.Entry<Integer, Integer> e : bookings.entrySet()) {
             concurrentOverlaps += e.getValue();
             if (concurrentOverlaps > maxPermissibleOverlaps) {
                 // Rollback
-                bookings.put(start, bookings.get(start) - 1);
-                bookings.put(end, bookings.get(end) + 1);
+                bookings.put(start, bookings.getOrDefault(start, 0) - 1);
+                bookings.put(end, bookings.getOrDefault(end, 0) + 1);
                 // Clean up
                 if (bookings.get(start) == 0)
                     bookings.remove(start);
