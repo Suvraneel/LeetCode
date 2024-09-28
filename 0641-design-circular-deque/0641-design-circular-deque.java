@@ -59,11 +59,11 @@ class MyCircularDeque {
     }
 
     public boolean isEmpty() {
-        return (size + lastIdx - frontIdx) % size == size - 1 && q[frontIdx] == -1 && q[lastIdx] == -1;
+        return (size + lastIdx - frontIdx) % size == size - 1 && q[frontIdx] == -1;
     }
 
     public boolean isFull() {
-        return (size + lastIdx - frontIdx) % size == size - 1 && q[frontIdx] != -1 && q[lastIdx] != -1;
+        return (size + lastIdx - frontIdx) % size == size - 1 && q[frontIdx] != -1;
     }
 
     // private void print() {
