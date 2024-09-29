@@ -162,6 +162,7 @@
 | [409](https://leetcode.com/problems/longest-palindrome/) | [Longest Palindrome](./0409-longest-palindrome) | **[Solution](./0409-longest-palindrome/0409-longest-palindrome.cpp)**  
 | [427](https://leetcode.com/problems/construct-quad-tree/) | [Construct Quad Tree](./0427-construct-quad-tree) | **[Solution](./0427-construct-quad-tree/0427-construct-quad-tree.cpp)**  
 | [429](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [N Ary Tree Level Order Traversal](./429-n-ary-tree-level-order-traversal) | **[Solution](./429-n-ary-tree-level-order-traversal/429-n-ary-tree-level-order-traversal.cpp)**  
+| [432](https://leetcode.com/problems/all-oone-data-structure/) | [All Oone Data Structure](./0432-all-oone-data-structure) | **[Solution](./0432-all-oone-data-structure/0432-all-oone-data-structure.cpp)**  
 | [433](https://leetcode.com/problems/minimum-genetic-mutation/) | [Minimum Genetic Mutation](./0433-minimum-genetic-mutation) | **[Solution](./0433-minimum-genetic-mutation/0433-minimum-genetic-mutation.cpp)**  
 | [438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Find all Anagrams in a String](./438-find-all-anagrams-in-a-string) | **[Solution](./438-find-all-anagrams-in-a-string/438-find-all-anagrams-in-a-string.cpp)**  
 | [440](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/) | [K Th Smallest in Lexicographical Order](./0440-k-th-smallest-in-lexicographical-order) | **[Solution](./0440-k-th-smallest-in-lexicographical-order/0440-k-th-smallest-in-lexicographical-order.cpp)**  
