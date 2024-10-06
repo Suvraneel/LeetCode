@@ -11,7 +11,7 @@ class Solution {
             lt++;
         while (rt < n2 && words1[n1 - 1 - rt].equals(words2[n2 - 1 - rt]))
             rt++;
-        System.out.println(lt + "\t" + rt + "\t" + n1 + "\t" + n2);
+        // System.out.println(lt + "\t" + rt + "\t" + n1 + "\t" + n2);
         if (lt + rt < n2)
             return false;
         return true;
