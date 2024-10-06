@@ -9,7 +9,7 @@ class Solution {
         int n1 = words1.length, n2 = words2.length, lt = 0, rt = 0;
         if(n1==n2){
             for(int i=0; i<n1; i++)
-                if(words1[i]!=words2[i])
+                if(!words1[i].equals(words2[i]))
                     return false;
             return true;
         }
