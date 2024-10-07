@@ -467,6 +467,7 @@
 | [2582](https://leetcode.com/problems/pass-the-pillow/) | [Pass the Pillow](./2582-pass-the-pillow) | **[Solution](./2582-pass-the-pillow/2582-pass-the-pillow.cpp)**  
 | [2678](https://leetcode.com/problems/number-of-senior-citizens/) | [Number of Senior Citizens](./2678-number-of-senior-citizens) | **[Solution](./2678-number-of-senior-citizens/2678-number-of-senior-citizens.cpp)**  
 | [2681](https://leetcode.com/problems/put-marbles-in-bags/) | [Put Marbles in Bags](./2681-put-marbles-in-bags) | **[Solution](./2681-put-marbles-in-bags/2681-put-marbles-in-bags.cpp)**  
+| [2696](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) | [Minimum String Length After Removing Substrings](./2696-minimum-string-length-after-removing-substrings) | **[Solution](./2696-minimum-string-length-after-removing-substrings/2696-minimum-string-length-after-removing-substrings.cpp)**  
 | [2699](https://leetcode.com/problems/modify-graph-edge-weights/) | [Modify Graph Edge Weights](./2699-modify-graph-edge-weights) | **[Solution](./2699-modify-graph-edge-weights/2699-modify-graph-edge-weights.cpp)**  
 | [2707](https://leetcode.com/problems/extra-characters-in-a-string/) | [Extra Characters in a String](./2707-extra-characters-in-a-string) | **[Solution](./2707-extra-characters-in-a-string/2707-extra-characters-in-a-string.cpp)**  
 | [2751](https://leetcode.com/problems/robot-collisions/) | [Robot Collisions](./2751-robot-collisions) | **[Solution](./2751-robot-collisions/2751-robot-collisions.cpp)**  
