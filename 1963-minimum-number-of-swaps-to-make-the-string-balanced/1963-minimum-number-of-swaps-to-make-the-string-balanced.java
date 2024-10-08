@@ -1,15 +1,17 @@
 class Solution {
+
     public int minSwaps(String s) {
-        int n = s.length(), lt = 0, rt = 0;
-        char[] cs = s.toCharArray();
-        for (; rt < n; rt++) {
-            cs[lt] = cs[rt];
-            if (lt > 0 && cs[rt] == ']' && cs[lt - 1] == '[')
-                lt--;
-            else
-                lt++;
+        int stackSize = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            // If character is opening bracket, increment the stack size.
+            if (ch == '[') stackSize++;
+            else {
+                // If the character is closing bracket, and we have an opening bracket, decrease
+                // the stack size.
+                if (stackSize > 0) stackSize--;
+            }
         }
-        // System.out.println(s.substring(0, lt));
-        return (int)Math.ceil(lt/4.0);
+        return (stackSize + 1) / 2;
     }
 }
