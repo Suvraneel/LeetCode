@@ -266,6 +266,7 @@
 | [912](https://leetcode.com/problems/sort-an-array/) | [Sort an Array](./0912-sort-an-array) | **[Solution](./0912-sort-an-array/0912-sort-an-array.cpp)**  
 | [916](https://leetcode.com/problems/word-subsets/) | [Word Subsets](./916-word-subsets) | **[Solution](./916-word-subsets/916-word-subsets.cpp)**  
 | [918](https://leetcode.com/problems/maximum-sum-circular-subarray/) | [Maximum Sum Circular Subarray](./0918-maximum-sum-circular-subarray) | **[Solution](./0918-maximum-sum-circular-subarray/0918-maximum-sum-circular-subarray.cpp)**  
+| [921](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Minimum Add to Make Parentheses Valid](./0921-minimum-add-to-make-parentheses-valid) | **[Solution](./0921-minimum-add-to-make-parentheses-valid/0921-minimum-add-to-make-parentheses-valid.cpp)**  
 | [922](https://leetcode.com/problems/sort-array-by-parity-ii/) | [Sort Array by Parity II](./922-sort-array-by-parity-ii) | **[Solution](./922-sort-array-by-parity-ii/922-sort-array-by-parity-ii.cpp)**  
 | [936](https://leetcode.com/problems/stamping-the-sequence/) | [Stamping the Sequence](./936-stamping-the-sequence) | **[Solution](./936-stamping-the-sequence/936-stamping-the-sequence.cpp)**  
 | [941](https://leetcode.com/problems/valid-mountain-array/) | [Valid Mountain Array](./941-valid-mountain-array) | **[Solution](./941-valid-mountain-array/941-valid-mountain-array.cpp)**  
