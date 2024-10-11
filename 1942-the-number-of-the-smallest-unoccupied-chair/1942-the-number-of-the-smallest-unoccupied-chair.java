@@ -1,5 +1,5 @@
 class Solution {
-    private record Node(int arr, int dep, int seat) {
+    private record Node(int dep, int seat) {
     };
 
     public int smallestChair(int[][] times, int targetFriend) {
@@ -14,7 +14,7 @@ class Solution {
                 available.offer(occupied.poll().seat);
             if (times[i][0] == targetArrival)
                 return available.poll();
-            occupied.offer(new Node(times[i][0], times[i][1], available.poll()));
+            occupied.offer(new Node(times[i][1], available.poll()));
         }
         return -1;
     }
