@@ -6,8 +6,8 @@ class Solution {
             cal.put(interval[1] + 1, cal.getOrDefault(interval[1] + 1, 0) - 1);
         }
         int minDisjointGrp = 0, concurrentInterval = 0;
-        for(Map.Entry<Integer, Integer> e: cal.entrySet())
-            minDisjointGrp = Math.max(minDisjointGrp, concurrentInterval += e.getValue());
+        for(Integer e: cal.values())
+            minDisjointGrp = Math.max(minDisjointGrp, concurrentInterval += e);
         // System.out.println(cal);
         return minDisjointGrp;
     }
