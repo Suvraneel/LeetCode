@@ -197,6 +197,7 @@
 | [622](https://leetcode.com/problems/design-circular-queue/) | [Design Circular Queue](./622-design-circular-queue) | **[Solution](./622-design-circular-queue/622-design-circular-queue.cpp)**  
 | [623](https://leetcode.com/problems/add-one-row-to-tree/) | [Add One Row to Tree](./623-add-one-row-to-tree) | **[Solution](./623-add-one-row-to-tree/623-add-one-row-to-tree.cpp)**  
 | [624](https://leetcode.com/problems/maximum-distance-in-arrays/) | [Maximum Distance in Arrays](./0624-maximum-distance-in-arrays) | **[Solution](./0624-maximum-distance-in-arrays/0624-maximum-distance-in-arrays.cpp)**  
+| [632](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | [Smallest Range Covering Elements from K Lists](./0632-smallest-range-covering-elements-from-k-lists) | **[Solution](./0632-smallest-range-covering-elements-from-k-lists/0632-smallest-range-covering-elements-from-k-lists.cpp)**  
 | [633](https://leetcode.com/problems/sum-of-square-numbers/) | [Sum of Square Numbers](./0633-sum-of-square-numbers) | **[Solution](./0633-sum-of-square-numbers/0633-sum-of-square-numbers.cpp)**  
 | [637](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](./637-average-of-levels-in-binary-tree) | **[Solution](./637-average-of-levels-in-binary-tree/637-average-of-levels-in-binary-tree.cpp)**  
 | [641](https://leetcode.com/problems/design-circular-deque/) | [Design Circular Deque](./0641-design-circular-deque) | **[Solution](./0641-design-circular-deque/0641-design-circular-deque.cpp)**  
