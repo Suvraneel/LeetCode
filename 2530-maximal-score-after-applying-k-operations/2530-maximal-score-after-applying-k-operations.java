@@ -7,7 +7,7 @@ class Solution {
         while (k-- > 0) {
             int largest = pq.poll();
             score += largest;
-            pq.offer((int) Math.ceil(largest / 3.0));
+            pq.offer((largest + 2 )/ 3);
         }
         return score;
     }
