@@ -1,6 +1,6 @@
 class Solution {
     public long maxKelements(int[] nums, int k) {
-        Queue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
         for (int i : nums)
             pq.offer(i);
         long score = 0;
