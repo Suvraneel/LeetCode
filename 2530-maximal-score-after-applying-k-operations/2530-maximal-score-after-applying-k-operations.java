@@ -1,13 +1,13 @@
 class Solution {
     public long maxKelements(int[] nums, int k) {
-        Queue<Integer> pq = new PriorityQueue<>((a, b)->b-a);
-        for(int i: nums)
+        Queue<Integer> pq = new PriorityQueue<>((a, b) -> Integer.compare(b, a));
+        for (int i : nums)
             pq.offer(i);
         long score = 0;
-        for(int i=0; i<k; i++){
+        while (k-- > 0) {
             int largest = pq.poll();
             score += largest;
-            pq.offer((int)Math.ceil(largest/3.0));
+            pq.offer((int) Math.ceil(largest / 3.0));
         }
         return score;
     }
