@@ -175,6 +175,7 @@
 | [472](https://leetcode.com/problems/concatenated-words/) | [Concatenated Words](./0472-concatenated-words) | **[Solution](./0472-concatenated-words/0472-concatenated-words.cpp)**  
 | [476](https://leetcode.com/problems/number-complement/) | [Number Complement](./476-number-complement) | **[Solution](./476-number-complement/476-number-complement.cpp)**  
 | [486](https://leetcode.com/problems/predict-the-winner/) | [Predict the Winner](./0486-predict-the-winner) | **[Solution](./0486-predict-the-winner/0486-predict-the-winner.cpp)**  
+| [494](https://leetcode.com/problems/target-sum/) | [Target Sum](./0494-target-sum) | **[Solution](./0494-target-sum/0494-target-sum.cpp)**  
 | [502](https://leetcode.com/problems/ipo/) | [IPO](./0502-ipo) | **[Solution](./0502-ipo/0502-ipo.cpp)**  
 | [520](https://leetcode.com/problems/detect-capital/) | [Detect Capital](./520-detect-capital) | **[Solution](./520-detect-capital/520-detect-capital.cpp)**  
 | [523](https://leetcode.com/problems/continuous-subarray-sum/) | [Continuous Subarray Sum](./0523-continuous-subarray-sum) | **[Solution](./0523-continuous-subarray-sum/0523-continuous-subarray-sum.cpp)**  
