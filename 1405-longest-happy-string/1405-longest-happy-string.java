@@ -21,7 +21,7 @@ class Solution {
                 sb.append(ch);
                 f--;
             }
-            System.out.println(pq);
+            // System.out.println(pq);
             if(pq.isEmpty())
                 break;
             top = pq.poll();
