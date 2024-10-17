@@ -211,6 +211,7 @@
 | [658](https://leetcode.com/problems/find-k-closest-elements/) | [Find K Closest Elements](./658-find-k-closest-elements) | **[Solution](./658-find-k-closest-elements/658-find-k-closest-elements.cpp)**  
 | [659](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Split Array Into Consecutive Subsequences](./659-split-array-into-consecutive-subsequences) | **[Solution](./659-split-array-into-consecutive-subsequences/659-split-array-into-consecutive-subsequences.cpp)**  
 | [664](https://leetcode.com/problems/strange-printer/) | [Strange Printer](./0664-strange-printer) | **[Solution](./0664-strange-printer/0664-strange-printer.cpp)**  
+| [670](https://leetcode.com/problems/maximum-swap/) | [Maximum Swap](./0670-maximum-swap) | **[Solution](./0670-maximum-swap/0670-maximum-swap.cpp)**  
 | [692](https://leetcode.com/problems/top-k-frequent-words/) | [Top K Frequent Words](./0692-top-k-frequent-words) | **[Solution](./0692-top-k-frequent-words/0692-top-k-frequent-words.cpp)**  
 | [701](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Insert Into a Binary Search Tree](./701-insert-into-a-binary-search-tree) | **[Solution](./701-insert-into-a-binary-search-tree/701-insert-into-a-binary-search-tree.cpp)**  
 | [703](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Kth Largest Element in a Stream](./0703-kth-largest-element-in-a-stream) | **[Solution](./0703-kth-largest-element-in-a-stream/0703-kth-largest-element-in-a-stream.cpp)**  
