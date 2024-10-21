@@ -1,13 +1,11 @@
 class Solution {
-    int n;
 
     public int maxUniqueSplit(String s) {
-        this.n = s.length();
         Set<String> seen = new HashSet<>();
-        return solve(s, 0, seen);
+        return solve(s, 0, s.length(), seen);
     }
 
-    private int solve(String s, int idx, Set<String> seen) {
+    private int solve(String s, int idx, int n, Set<String> seen) {
         if (idx == n)
             return 0;
         int maxUniqueSubs = 0;
@@ -15,7 +13,7 @@ class Solution {
             String sub = s.substring(idx, i);
             if (!seen.contains(sub)) {
                 seen.add(sub);
-                maxUniqueSubs = Math.max(1 + solve(s, i, seen), maxUniqueSubs);
+                maxUniqueSubs = Math.max(1 + solve(s, i, n, seen), maxUniqueSubs);
                 seen.remove(sub);
             }
         }
