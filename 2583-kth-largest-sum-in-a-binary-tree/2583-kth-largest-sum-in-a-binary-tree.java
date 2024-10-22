@@ -15,7 +15,7 @@
  */
 class Solution {
     public long kthLargestLevelSum(TreeNode root, int k) {
-        Queue<Long> pq = new PriorityQueue<>((a, b) -> b - a);
+        Queue<Long> pq = new PriorityQueue<>((a, b) -> Long.compare(b, a));
         Queue<TreeNode> q = new LinkedList<>();
         q.offer(root);
         long nodesInLevel = 1, levelSum = 0;
