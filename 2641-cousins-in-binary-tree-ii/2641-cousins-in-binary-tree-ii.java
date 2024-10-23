@@ -16,33 +16,28 @@
 class Solution {
     public TreeNode replaceValueInTree(TreeNode root) {
         Queue<TreeNode> q = new LinkedList<>();
-        ArrayList<Integer> levelSums = new ArrayList<>();
         q.offer(root);
-        int levelCount = 1;
+        int levelCount = 1, levelSum = root.val;
         while (!q.isEmpty()) {
-            int levelSum = 0;
+            int nextLevelSum = 0;
             for (int i = 0; i < levelCount; i++) {
                 TreeNode front = q.poll();
-                levelSum += front.val;
-                if (front.left != null)
+                front.val = levelSum - front.val;
+                int siblingSum = (front.left != null ? front.left.val : 0)
+                        + (front.right != null ? front.right.val : 0);
+                nextLevelSum += siblingSum;
+                if (front.left != null) {
+                    front.left.val = siblingSum;
                     q.offer(front.left);
-                if (front.right != null)
+                }
+                if (front.right != null) {
+                    front.right.val = siblingSum;
                     q.offer(front.right);
+                }
             }
-            levelSums.add(levelSum);
+            levelSum = nextLevelSum;
             levelCount = q.size();
         }
-        // System.out.println(levelSums);
-        modify(root, 0, root.val, levelSums);
         return root;
-    }
-
-    private void modify(TreeNode root, int depth, int siblingsSum, List<Integer> levelSums) {
-        if (root == null)
-            return;
-        root.val = levelSums.get(depth) - siblingsSum;
-        int childrenSum = (root.left != null ? root.left.val : 0) + (root.right != null ? root.right.val : 0);
-        modify(root.left, depth + 1, childrenSum, levelSums);
-        modify(root.right, depth + 1, childrenSum, levelSums);
     }
 }
