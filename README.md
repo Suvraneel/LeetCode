@@ -235,6 +235,7 @@
 | [783](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Minimum Distance Between Bst Nodes](./0783-minimum-distance-between-bst-nodes) | **[Solution](./0783-minimum-distance-between-bst-nodes/0783-minimum-distance-between-bst-nodes.cpp)**  
 | [787](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Cheapest Flights Within K Stops](./0787-cheapest-flights-within-k-stops) | **[Solution](./0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.cpp)**  
 | [790](https://leetcode.com/problems/domino-and-tromino-tiling/) | [Domino and Tromino Tiling](./0790-domino-and-tromino-tiling) | **[Solution](./0790-domino-and-tromino-tiling/0790-domino-and-tromino-tiling.cpp)**  
+| [796](https://leetcode.com/problems/rotate-string/) | [Rotate String](./0796-rotate-string) | **[Solution](./0796-rotate-string/0796-rotate-string.cpp)**  
 | [797](https://leetcode.com/problems/all-paths-from-source-to-target/) | [All Paths from Source to Target](./0797-all-paths-from-source-to-target) | **[Solution](./0797-all-paths-from-source-to-target/0797-all-paths-from-source-to-target.cpp)**  
 | [802](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | [K Th Smallest Prime Fraction](./0802-k-th-smallest-prime-fraction) | **[Solution](./0802-k-th-smallest-prime-fraction/0802-k-th-smallest-prime-fraction.cpp)**  
 | [804](https://leetcode.com/problems/unique-morse-code-words/) | [Unique Morse Code Words](./804-unique-morse-code-words) | **[Solution](./804-unique-morse-code-words/804-unique-morse-code-words.cpp)**  
