@@ -1,29 +1,18 @@
 class Solution {
     public String compressedString(String word) {
+        word += '.'; // EOF
         StringBuilder sb = new StringBuilder();
-        char[] cs = word.toCharArray();
-        char prev = '1';
+        char prev = word.charAt(0);
         int count = 0;
-        for (char c : cs) {
-            if (c == prev)
-                count++;
-            else {
-                while (count > 9) {
-                    sb.append('9').append(prev);
-                    count -= 9;
-                }
-                if (count > 0)
-                    sb.append(count).append(prev);
+        for (int i = 0; i < word.length(); i++) {
+            char c = word.charAt(i);
+            if (count == 9 || c != prev) {
+                sb.append(count).append(prev);
                 prev = c;
                 count = 1;
-            }
+            } else
+                count++;
         }
-        while (count > 9) {
-            sb.append('9').append(prev);
-            count -= 9;
-        }
-        if (count > 0)
-            sb.append(count).append(prev);
         return sb.toString();
     }
 }
