@@ -261,6 +261,7 @@
 | [886](https://leetcode.com/problems/possible-bipartition/) | [Possible Bipartition](./0886-possible-bipartition) | **[Solution](./0886-possible-bipartition/0886-possible-bipartition.cpp)**  
 | [890](https://leetcode.com/problems/find-and-replace-pattern/) | [Find and Replace Pattern](./890-find-and-replace-pattern) | **[Solution](./890-find-and-replace-pattern/890-find-and-replace-pattern.cpp)**  
 | [893](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [All Nodes Distance K in Binary Tree](./0893-all-nodes-distance-k-in-binary-tree) | **[Solution](./0893-all-nodes-distance-k-in-binary-tree/0893-all-nodes-distance-k-in-binary-tree.cpp)**  
+| [895](https://leetcode.com/problems/maximum-frequency-stack/) | [Maximum Frequency Stack](./0895-maximum-frequency-stack) | **[Solution](./0895-maximum-frequency-stack/0895-maximum-frequency-stack.cpp)**  
 | [897](https://leetcode.com/problems/increasing-order-search-tree/) | [Increasing Order Search Tree](./897-increasing-order-search-tree) | **[Solution](./897-increasing-order-search-tree/897-increasing-order-search-tree.cpp)**  
 | [899](https://leetcode.com/problems/orderly-queue/) | [Orderly Queue](./0899-orderly-queue) | **[Solution](./0899-orderly-queue/0899-orderly-queue.cpp)**  
 | [901](https://leetcode.com/problems/online-stock-span/) | [Online Stock Span](./0901-online-stock-span) | **[Solution](./0901-online-stock-span/0901-online-stock-span.cpp)**  
