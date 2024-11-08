@@ -410,6 +410,7 @@
 | [1791](https://leetcode.com/problems/find-center-of-star-graph/) | [Find Center of Star Graph](./1791-find-center-of-star-graph) | **[Solution](./1791-find-center-of-star-graph/1791-find-center-of-star-graph.cpp)**  
 | [1813](https://leetcode.com/problems/sentence-similarity-iii/) | [Sentence Similarity III](./1813-sentence-similarity-iii) | **[Solution](./1813-sentence-similarity-iii/1813-sentence-similarity-iii.cpp)**  
 | [1823](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | [Find the Winner of the Circular Game](./1823-find-the-winner-of-the-circular-game) | **[Solution](./1823-find-the-winner-of-the-circular-game/1823-find-the-winner-of-the-circular-game.cpp)**  
+| [1829](https://leetcode.com/problems/maximum-xor-for-each-query/) | [Maximum Xor for each Query](./1829-maximum-xor-for-each-query) | **[Solution](./1829-maximum-xor-for-each-query/1829-maximum-xor-for-each-query.cpp)**  
 | [1832](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | [Check IF the Sentence IS Pangram](./1832-check-if-the-sentence-is-pangram) | **[Solution](./1832-check-if-the-sentence-is-pangram/1832-check-if-the-sentence-is-pangram.cpp)**  
 | [1833](https://leetcode.com/problems/maximum-ice-cream-bars/) | [Maximum ICE Cream Bars](./1833-maximum-ice-cream-bars) | **[Solution](./1833-maximum-ice-cream-bars/1833-maximum-ice-cream-bars.cpp)**  
 | [1834](https://leetcode.com/problems/single-threaded-cpu/) | [Single Threaded Cpu](./1834-single-threaded-cpu) | **[Solution](./1834-single-threaded-cpu/1834-single-threaded-cpu.cpp)**  
