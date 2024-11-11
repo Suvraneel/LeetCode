@@ -4,15 +4,12 @@ class Solution {
         boolean[] primes = sieveOfEratosthenes(nums);
         // System.out.println(Arrays.toString(primes));
         int currVal = 1;
-        for (int i = 0; i < nums.length;) {
+        for (int i = 0; i < nums.length; currVal++) {
             int diff = nums[i] - currVal;
             if (diff < 0)
                 return false;
             if (primes[diff] || diff == 0) {
                 i++;
-                currVal++;
-            } else
-                currVal++;
             // System.out.println(Arrays.toString(nums));
         }
         return true;
