@@ -2,7 +2,7 @@ class Solution {
     public boolean primeSubOperation(int[] nums) {
         int n = nums.length;
         boolean[] primes = sieveOfEratosthenes(nums);
-        System.out.println(Arrays.toString(primes));
+        // System.out.println(Arrays.toString(primes));
         int currVal = 1;
         for (int i = 0; i < nums.length;) {
             int diff = nums[i] - currVal;
