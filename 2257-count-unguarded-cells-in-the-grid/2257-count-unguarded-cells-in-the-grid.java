@@ -1,8 +1,4 @@
 class Solution {
-    private long getId(int m, int n, int i, int j) {
-        return n * i + j;
-    }
-
     private static int[][] dir = { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
 
     public int countUnguarded(int m, int n, int[][] guards, int[][] walls) {
