@@ -315,6 +315,7 @@
 | [1051](https://leetcode.com/problems/height-checker/) | [Height Checker](./1051-height-checker) | **[Solution](./1051-height-checker/1051-height-checker.cpp)**  
 | [1052](https://leetcode.com/problems/grumpy-bookstore-owner/) | [Grumpy Bookstore Owner](./1052-grumpy-bookstore-owner) | **[Solution](./1052-grumpy-bookstore-owner/1052-grumpy-bookstore-owner.cpp)**  
 | [1071](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [Greatest Common Divisor of Strings](./1071-greatest-common-divisor-of-strings) | **[Solution](./1071-greatest-common-divisor-of-strings/1071-greatest-common-divisor-of-strings.cpp)**  
+| [1072](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/) | [Flip Columns for Maximum Number of Equal Rows](./1072-flip-columns-for-maximum-number-of-equal-rows) | **[Solution](./1072-flip-columns-for-maximum-number-of-equal-rows/1072-flip-columns-for-maximum-number-of-equal-rows.cpp)**  
 | [1094](https://leetcode.com/problems/car-pooling/) | [Car Pooling](./1094-car-pooling) | **[Solution](./1094-car-pooling/1094-car-pooling.cpp)**  
 | [1105](https://leetcode.com/problems/filling-bookcase-shelves/) | [Filling Bookcase Shelves](./1105-filling-bookcase-shelves) | **[Solution](./1105-filling-bookcase-shelves/1105-filling-bookcase-shelves.cpp)**  
 | [1106](https://leetcode.com/problems/parsing-a-boolean-expression/) | [Parsing a Boolean Expression](./1106-parsing-a-boolean-expression) | **[Solution](./1106-parsing-a-boolean-expression/1106-parsing-a-boolean-expression.cpp)**  
