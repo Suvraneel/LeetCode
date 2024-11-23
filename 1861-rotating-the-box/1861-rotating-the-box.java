@@ -11,11 +11,11 @@ class Solution {
             for (int j = 0; j < m; j++)
                 if (box90[i][j] == '#') {
                     int y = i + 1;
-                    while (y < n && box90[y][j] == '.') {
-                        box90[y][j] = '#';
-                        box90[y - 1][j] = '.';
+                    while (y < n && box90[y][j] == '.')
                         y++;
-                    }
+                    box90[y - 1][j] = '#';
+                    if (y != i + 1)
+                        box90[i][j] = '.';
                 }
         }
         return box90;
