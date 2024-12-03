@@ -1,9 +1,17 @@
 class Solution {
     public String addSpaces(String s, int[] spaces) {
-        StringBuilder sb = new StringBuilder(s.substring(0, spaces[0]));
-        for (int i = 1; i < spaces.length; i++)
-            sb.append(" ").append(s.substring(spaces[i - 1], spaces[i]));
-        sb.append(" ").append(s.substring(spaces[spaces.length - 1]));
-        return sb.toString();
+        char[] cs = s.toCharArray();
+        char[] ans = new char[cs.length + spaces.length];
+        int i = 0, j = 0;
+        for (; i < ans.length && j < spaces.length; i++) {
+            if (i - j == spaces[j]) {
+                ans[i] = ' ';
+                j++;
+            } else
+                ans[i] = cs[i - j];
+        }
+        for (; i < ans.length; i++)
+            ans[i] = cs[i - j];
+        return new String(ans);
     }
 }
