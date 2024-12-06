@@ -10,7 +10,7 @@ class Solution {
             sum += i;
             ct++;
         }
-        System.out.println(sum);
+        // System.out.println(sum);
         return sum > maxSum ? ct - 1 : ct;
     }
 }
