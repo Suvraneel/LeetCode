@@ -2,8 +2,8 @@ class Solution {
     public int maxTwoEvents(int[][] events) {
         List<int[]> lineSweep = new ArrayList<>();
         for (int[] e : events) {
-            lineSweep.add(new int[] { e[0], 1, e[2] });
-            lineSweep.add(new int[] { e[1] + 1, -1, e[2] });
+            lineSweep.add(new int[] { e[0], 1, e[2] }); // start of interval
+            lineSweep.add(new int[] { e[1] + 1, -1, e[2] });    // end of interval
         }
         lineSweep.sort((a, b) -> a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
         int maxVal = 0, ans = 0;
