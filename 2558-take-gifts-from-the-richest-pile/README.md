@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/take-gifts-from-the-richest-pile/">2558. Take Gifts From the Richest Pile</a></h2><h3>Easy</h3><hr><div><p>You are given an integer array <code>gifts</code> denoting the number of gifts in various piles. Every second, you do the following:</p>
+<h2><a href="https://leetcode.com/problems/take-gifts-from-the-richest-pile/">2558. Take Gifts From the Richest Pile</a></h2><h3>Easy</h3><hr><p>You are given an integer array <code>gifts</code> denoting the number of gifts in various piles. Every second, you do the following:</p>
 
 <ul>
 	<li>Choose the pile with the maximum number of gifts.</li>
@@ -11,7 +11,8 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> gifts = [25,64,9,4,100], k = 4
+<pre>
+<strong>Input:</strong> gifts = [25,64,9,4,100], k = 4
 <strong>Output:</strong> 29
 <strong>Explanation:</strong> 
 The gifts are taken in the following way:
@@ -24,11 +25,12 @@ The final remaining gifts are [5,8,9,4,3], so the total number of gifts remainin
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> gifts = [1,1,1,1], k = 4
+<pre>
+<strong>Input:</strong> gifts = [1,1,1,1], k = 4
 <strong>Output:</strong> 4
 <strong>Explanation:</strong> 
 In this case, regardless which pile you choose, you have to leave behind 1 gift in each pile. 
-That is, you can't take any pile with you. 
+That is, you can&#39;t take any pile with you. 
 So, the total gifts remaining are 4.
 </pre>
 
@@ -40,4 +42,3 @@ So, the total gifts remaining are 4.
 	<li><code>1 &lt;= gifts[i] &lt;= 10<sup>9</sup></code></li>
 	<li><code>1 &lt;= k &lt;= 10<sup>3</sup></code></li>
 </ul>
-</div>
