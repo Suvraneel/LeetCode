@@ -1,13 +1,13 @@
 class Solution {
     public long findScore(int[] nums) {
-        Queue<int[]> pq = new PriorityQueue<>(
-                (a, b) -> a[0] != b[0] ? a[0] - b[0] : a[1] - b[1]);
+        LinkedList<int[]> ll = new LinkedList<>();
         int n = nums.length;
         long score = 0;
         for (int i = 0; i < n; i++)
-            pq.offer(new int[] { nums[i], i });
-        while (!pq.isEmpty()) {
-            int[] top = pq.poll();
+            ll.add(new int[] { nums[i], i });
+        ll.sort((a, b) -> a[0] != b[0] ? a[0] - b[0] : a[1] - b[1]);
+        while (!ll.isEmpty()) {
+            int[] top = ll.poll();
             if (nums[top[1]] == 0)
                 continue;
             score += top[0];
