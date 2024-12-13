@@ -5,7 +5,7 @@ class Solution {
         long score = 0;
         for (int i = 0; i < n; i++)
             ll.add(new int[] { nums[i], i });
-        ll.sort((a, b) -> a[0] != b[0] ? a[0] - b[0] : a[1] - b[1]);
+        ll.sort((a, b) -> a[0] - b[0]);
         while (!ll.isEmpty()) {
             int[] top = ll.poll();
             if (nums[top[1]] == 0)
