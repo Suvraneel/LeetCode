@@ -7,7 +7,9 @@ class Solution {
             passRatios.offer(new double[] { c[0], c[1] });
         while (extraStudents-- > 0) {
             double[] smallestPR = passRatios.poll();
-            passRatios.offer(new double[] { smallestPR[0] + 1, smallestPR[1] + 1 });
+            smallestPR[0]++;
+            smallestPR[1]++;
+            passRatios.offer(smallestPR);
         }
         double maxAvgRatio = 0d;
         while (!passRatios.isEmpty()) {
