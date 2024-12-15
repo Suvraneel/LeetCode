@@ -14,7 +14,7 @@ class Solution {
         double maxAvgRatio = 0d;
         while (!passRatios.isEmpty()) {
             double[] smallestPR = passRatios.poll();
-            maxAvgRatio += smallestPR[0] / (smallestPR[1] * 1d);
+            maxAvgRatio += smallestPR[0] / smallestPR[1];
         }
         return maxAvgRatio / classes.length;
     }
