@@ -17,7 +17,6 @@ class Solution {
                 if (top[1] > 0)
                     pq.offer(top);
                 top = pending;
-                pending = null;
             }
             if (top[1] > repeatLimit) {
                 top[1] -= repeatLimit;
