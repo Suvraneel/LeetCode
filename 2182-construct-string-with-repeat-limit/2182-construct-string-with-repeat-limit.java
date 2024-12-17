@@ -12,7 +12,7 @@ class Solution {
         while (!pq.isEmpty()) {
             int[] top = pq.poll();
             if (pending != null) {
-                sb.append(String.valueOf((char) (top[0] + 'a')));
+                sb.append((char) (top[0] + 'a'));
                 top[1]--;
                 if (top[1] > 0)
                     pq.offer(top);
