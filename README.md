@@ -231,6 +231,7 @@
 | [743](https://leetcode.com/problems/network-delay-time/) | [Network Delay Time](./0743-network-delay-time) | **[Solution](./0743-network-delay-time/0743-network-delay-time.cpp)**  
 | [763](https://leetcode.com/problems/partition-labels/) | [Partition Labels](./763-partition-labels) | **[Solution](./763-partition-labels/763-partition-labels.cpp)**  
 | [766](https://leetcode.com/problems/toeplitz-matrix/) | [Toeplitz Matrix](./0766-toeplitz-matrix) | **[Solution](./0766-toeplitz-matrix/0766-toeplitz-matrix.cpp)**  
+| [769](https://leetcode.com/problems/max-chunks-to-make-sorted/) | [Max Chunks to Make Sorted](./0769-max-chunks-to-make-sorted) | **[Solution](./0769-max-chunks-to-make-sorted/0769-max-chunks-to-make-sorted.cpp)**  
 | [771](https://leetcode.com/problems/jewels-and-stones/) | [Jewels and Stones](./771-jewels-and-stones) | **[Solution](./771-jewels-and-stones/771-jewels-and-stones.cpp)**  
 | [773](https://leetcode.com/problems/sliding-puzzle/) | [Sliding Puzzle](./0773-sliding-puzzle) | **[Solution](./0773-sliding-puzzle/0773-sliding-puzzle.cpp)**  
 | [783](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Minimum Distance Between Bst Nodes](./0783-minimum-distance-between-bst-nodes) | **[Solution](./0783-minimum-distance-between-bst-nodes/0783-minimum-distance-between-bst-nodes.cpp)**  
