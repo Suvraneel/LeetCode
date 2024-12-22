@@ -1,31 +1,52 @@
 class Solution {
+
     public int[] leftmostBuildingQueries(int[] heights, int[][] queries) {
-        int n = heights.length, idx = 0;
-        List<Integer>[] canMove = new List[n];
-        int[] meet = new int[queries.length];
-        for (int i = 0; i < n; i++) {
-            canMove[i] = new ArrayList<>();
-            canMove[i].add(i);
-            for (int j = i + 1; j < n; j++)
-                if (heights[i] < heights[j])
-                    canMove[i].add(j);
-        }
-        for (int[] q : queries) {
-            int lt = 0, rt = 0;
-            while (true) {
-                if (lt == canMove[q[0]].size() || rt == canMove[q[1]].size()) {
-                    meet[idx++] = -1;
-                    break;
-                }
-                if (canMove[q[0]].get(lt) == canMove[q[1]].get(rt)) {
-                    meet[idx++] = canMove[q[0]].get(lt);
-                    break;
-                } else if (canMove[q[0]].get(lt) < canMove[q[1]].get(rt))
-                    lt++;
-                else
-                    rt++;
+        List<List<List<Integer>>> storeQueries = new ArrayList<>(
+            heights.length
+        );
+        for (int i = 0; i < heights.length; i++) storeQueries.add(
+            new ArrayList<>()
+        );
+        PriorityQueue<List<Integer>> maxIndex = new PriorityQueue<>(
+            (a, b) -> a.get(0) - b.get(0)
+        );
+        int[] result = new int[queries.length];
+        Arrays.fill(result, -1);
+
+        //Store the mappings for all queries in storeQueries.
+        for (int currQuery = 0; currQuery < queries.length; currQuery++) {
+            int a = queries[currQuery][0], b = queries[currQuery][1];
+            if (a < b && heights[a] < heights[b]) {
+                result[currQuery] = b;
+            } else if (a > b && heights[a] > heights[b]) {
+                result[currQuery] = a;
+            } else if (a == b) {
+                result[currQuery] = a;
+            } else {
+                storeQueries
+                    .get(Math.max(a, b))
+                    .add(
+                        Arrays.asList(
+                            Math.max(heights[a], heights[b]),
+                            currQuery
+                        )
+                    );
             }
         }
-        return meet;
+
+        //If the priority queue's minimum pair value is less than the current index of height, it is an answer to the query.
+        for (int index = 0; index < heights.length; index++) {
+            while (
+                !maxIndex.isEmpty() && maxIndex.peek().get(0) < heights[index]
+            ) {
+                result[maxIndex.peek().get(1)] = index;
+                maxIndex.poll();
+            }
+            // Push the with their maximum index as the current index in the priority queue.
+            for (List<Integer> element : storeQueries.get(index)) {
+                maxIndex.offer(element);
+            }
+        }
+        return result;
     }
 }
