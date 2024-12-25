@@ -14,24 +14,21 @@
  * }
  */
 class Solution {
+    List<Integer> ans = new ArrayList<>();
+
     public List<Integer> largestValues(TreeNode root) {
-        if (root == null)
-            return new ArrayList<>();
-        Queue<TreeNode> q = new LinkedList<>();
-        List<Integer> ans = new ArrayList<>();
-        q.offer(root);
-        while (!q.isEmpty()) {
-            int size = q.size(), maxm = Integer.MIN_VALUE;
-            for (int i = 0; i < size; i++) {
-                TreeNode node = q.poll();
-                maxm = Math.max(maxm, node.val);
-                if (node.left != null)
-                    q.offer(node.left);
-                if (node.right != null)
-                    q.offer(node.right);
-            }
-            ans.add(maxm);
-        }
+        dfs(root, 0);
         return ans;
     }
+
+    private void dfs(TreeNode root, int depth){
+        if(root==null)
+            return;
+        if(depth==ans.size())
+            ans.add(root.val);
+        else ans.set(depth, Math.max(ans.get(depth), root.val));
+        dfs(root.left, depth+1);
+        dfs(root.right, depth+1);
+    }
+
 }
