@@ -4,7 +4,6 @@ class Solution {
     public int countGoodStrings(int low, int high, int zero, int one) {
         int goodStrings = 0;
         int memo[] = new int[high + 1];
-        memo[0] = 1;
         Arrays.fill(memo, -1);
         for (int i = low; i <= high; i++)
             goodStrings = (goodStrings + solve(i, zero, one, memo)) % MOD;
