@@ -5,14 +5,13 @@ class Solution {
         int goodStrings = 0;
         int memo[] = new int[high + 1];
         Arrays.fill(memo, -1);
+        memo[0] = 1;
         for (int i = low; i <= high; i++)
             goodStrings = (goodStrings + solve(i, zero, one, memo)) % MOD;
         return goodStrings;
     }
 
     private int solve(int rem, int zero, int one, int[] memo) {
-        if (rem == 0)
-            return 1;
         if (memo[rem] != -1)
             return memo[rem];
         int goodStrings = 0;
