@@ -1,14 +1,17 @@
 class Solution {
     public int maxScore(String s) {
-        char[] cs = s.toCharArray();
-        int z = 0, n = cs.length, maxScore = 0, ltScore = 0;
-        for (char c : cs)
-            if (c == '0')
-                z++;
+        int n = s.length(), nOnes = 0, maxScore = 0, score;
+        byte[] binary = new byte[n];
+        for (int i = 0; i < n; i++) {
+            binary[i] = (byte)(s.charAt(i) - '0');
+            nOnes += binary[i];
+        }
+        score = nOnes;
         for (int i = 0; i < n - 1; i++) {
-            if (cs[i] == '0')
-                ltScore++;
-            maxScore = Math.max(maxScore, 2 * ltScore + n - 1 - i - z);
+            if (binary[i] == 0)
+                score++;
+            else score--;
+            maxScore = Math.max(maxScore, score);
         }
         return maxScore;
     }
