@@ -13,7 +13,7 @@ class Solution {
         }
         char[] cs = s.toCharArray();
         for(int i=0; i<n; i++){
-            prefixSum = ((prefixSum + conversion[i]) % 26 + 26) % 26;
+            prefixSum = (prefixSum + conversion[i]) % 26 + 26;
             cs[i] = (char)((cs[i] - 'a' + prefixSum) % 26 + 'a');
         }
         return new String(cs);
