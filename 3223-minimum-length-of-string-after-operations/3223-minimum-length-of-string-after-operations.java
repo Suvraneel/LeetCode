@@ -6,7 +6,7 @@ class Solution {
             freq[c - 'a']++;
         for (int i: freq)
             if(i>0)
-                minLen += (i & 1) == 1 ? 1 : 2;
+                minLen += 2 - (i & 1);
         return minLen;
     }
 }
