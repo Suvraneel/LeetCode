@@ -4,8 +4,9 @@ class Solution {
         int n = s.length(), minLen = 0;
         for (char c : s.toCharArray())
             freq[c - 'a']++;
-        for (int i = 0; i < 26; i++)
-            minLen += freq[i] == 0 ? 0 : freq[i] % 2 == 1 ? 1 : 2;
+        for (int i: freq)
+            if(i>0)
+                minLen += (i & 1) == 1 ? 1 : 2;
         return minLen;
     }
 }
