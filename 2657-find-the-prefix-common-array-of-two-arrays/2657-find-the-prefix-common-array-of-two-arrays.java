@@ -7,8 +7,6 @@ class Solution {
                 cumulative++;
             if (++visited[B[i]] == 2)
                 cumulative++;
-            // System.out.println(A[i] + "->" + visited[A[i]]
-            //         + "\t" + B[i] + "->" + visited[B[i]]);
             prefixCommon[i] = cumulative;
         }
         return prefixCommon;
