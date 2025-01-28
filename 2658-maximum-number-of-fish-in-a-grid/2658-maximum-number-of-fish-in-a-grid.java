@@ -42,9 +42,9 @@ class Solution {
             return find(x) == find(y);
         }
 
-        void printRoots() {
-            System.out.println(Arrays.toString(root));
-        }
+        // void printRoots() {
+        //     System.out.println(Arrays.toString(root));
+        // }
     }
 
     int getID(int i, int j, int m, int n) {
