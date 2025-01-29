@@ -215,6 +215,7 @@
 | [659](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Split Array Into Consecutive Subsequences](./659-split-array-into-consecutive-subsequences) | **[Solution](./659-split-array-into-consecutive-subsequences/659-split-array-into-consecutive-subsequences.cpp)**  
 | [664](https://leetcode.com/problems/strange-printer/) | [Strange Printer](./0664-strange-printer) | **[Solution](./0664-strange-printer/0664-strange-printer.cpp)**  
 | [670](https://leetcode.com/problems/maximum-swap/) | [Maximum Swap](./0670-maximum-swap) | **[Solution](./0670-maximum-swap/0670-maximum-swap.cpp)**  
+| [684](https://leetcode.com/problems/redundant-connection/) | [Redundant Connection](./0684-redundant-connection) | **[Solution](./0684-redundant-connection/0684-redundant-connection.cpp)**  
 | [689](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [Maximum Sum of 3 Non Overlapping Subarrays](./0689-maximum-sum-of-3-non-overlapping-subarrays) | **[Solution](./0689-maximum-sum-of-3-non-overlapping-subarrays/0689-maximum-sum-of-3-non-overlapping-subarrays.cpp)**  
 | [692](https://leetcode.com/problems/top-k-frequent-words/) | [Top K Frequent Words](./0692-top-k-frequent-words) | **[Solution](./0692-top-k-frequent-words/0692-top-k-frequent-words.cpp)**  
 | [701](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Insert Into a Binary Search Tree](./701-insert-into-a-binary-search-tree) | **[Solution](./701-insert-into-a-binary-search-tree/701-insert-into-a-binary-search-tree.cpp)**  
