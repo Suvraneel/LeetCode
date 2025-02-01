@@ -576,6 +576,7 @@
 | [3097](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/) | [Shortest Subarray With or at Least K II](./3097-shortest-subarray-with-or-at-least-k-ii) | **[Solution](./3097-shortest-subarray-with-or-at-least-k-ii/3097-shortest-subarray-with-or-at-least-k-ii.cpp)**  
 | [3110](https://leetcode.com/problems/score-of-a-string/) | [Score of a String](./3110-score-of-a-string) | **[Solution](./3110-score-of-a-string/3110-score-of-a-string.cpp)**  
 | [3133](https://leetcode.com/problems/minimum-array-end/) | [Minimum Array End](./3133-minimum-array-end) | **[Solution](./3133-minimum-array-end/3133-minimum-array-end.cpp)**  
+| [3151](https://leetcode.com/problems/special-array-i/) | [Special Array I](./3151-special-array-i) | **[Solution](./3151-special-array-i/3151-special-array-i.cpp)**  
 | [3152](https://leetcode.com/problems/special-array-ii/) | [Special Array II](./3152-special-array-ii) | **[Solution](./3152-special-array-ii/3152-special-array-ii.cpp)**  
 | [3163](https://leetcode.com/problems/string-compression-iii/) | [String Compression III](./3163-string-compression-iii) | **[Solution](./3163-string-compression-iii/3163-string-compression-iii.cpp)**  
 | [3203](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/) | [Find Minimum Diameter After Merging Two Trees](./3203-find-minimum-diameter-after-merging-two-trees) | **[Solution](./3203-find-minimum-diameter-after-merging-two-trees/3203-find-minimum-diameter-after-merging-two-trees.cpp)**  
