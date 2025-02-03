@@ -5,15 +5,15 @@ class Solution {
             return n;
         int longestInc = 0, longestDec = 0, incStreak = 1, decStreak = 1;
         for (int i = 1; i < n; i++) {
-            if (nums[i] > nums[i - 1])
+            if (nums[i] > nums[i - 1]) {
                 incStreak++;
-            else
-                incStreak = 1;
-            longestInc = Math.max(longestInc, incStreak);
-            if (nums[i] < nums[i - 1])
-                decStreak++;
-            else
                 decStreak = 1;
+            } else if (nums[i] < nums[i - 1]) {
+                decStreak++;
+                incStreak = 1;
+            } else
+                incStreak = decStreak = 1;
+            longestInc = Math.max(longestInc, incStreak);
             longestDec = Math.max(longestDec, decStreak);
         }
         return Math.max(longestInc, longestDec);
