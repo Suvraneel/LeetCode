@@ -9,7 +9,7 @@ class Solution {
             }
         }
         for (Integer freq : pdtMap.values())
-            count += freq * (freq - 1) * 4; // nP2 * 2P2 * 2P2
+            count += freq * 8; // nP2 * 2P2 * 2P2
         return count;
     }
 }
