@@ -5,8 +5,8 @@ class Solution {
         int[] result = new int[queries.length];
         for (int i = 0; i < queries.length; i++) {
             int x = queries[i][0], y = queries[i][1];
-            int oldColor = ballColorMap.getOrDefault(x, 0);
-            if (oldColor != 0) {
+            if (ballColorMap.containsKey(x))) {
+                int oldColor = ballColorMap.get(x);
                 colorFreqMap.put(oldColor, colorFreqMap.get(oldColor) - 1);
                 if (colorFreqMap.get(oldColor) == 0)
                     colorFreqMap.remove(oldColor);
