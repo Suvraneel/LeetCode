@@ -1,14 +1,25 @@
 class Solution {
     public int punishmentNumber(int n) {
-        List<Integer> validTerms = Stream.of(1, 9, 10, 36, 45, 55, 82, 91, 99, 100, 235, 297, 369, 370, 379, 414, 657,
-                675, 703, 756, 792, 909, 918, 945, 964, 990, 991, 999, 1000).collect(Collectors.toList());
         int punishNum = 0;
-        for (int i : validTerms) {
-            if (i > n)
-                break;
-            else
+        for (int i = 1; i <= n; i++)
+            if (validTerm(i, i * i)) {
+                // System.out.println(i+"✅");
                 punishNum += i * i;
-        }
+            }
         return punishNum;
+    }
+
+    private boolean validTerm(int match, int ltPart) {
+        int rtPart = 0;
+        // System.out.println(match + "===>");
+
+        for (int d = 0; ltPart > 0; d++) {
+            rtPart = (int) Math.pow(10, d) * (ltPart % 10) + rtPart;
+            ltPart /= 10;
+            // System.out.println(ltPart+"+"+rtPart);
+            if (ltPart + rtPart == match || validTerm(match - rtPart, ltPart))
+                return true;
+        }
+        return false;
     }
 }
