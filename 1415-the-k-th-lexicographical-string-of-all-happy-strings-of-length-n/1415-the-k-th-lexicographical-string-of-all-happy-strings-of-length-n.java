@@ -9,7 +9,7 @@ class Solution {
     }
 
     private void dfs(int len, int n, int k, char[] cs) {
-        System.out.println(Arrays.toString(cs));
+        // System.out.println(Arrays.toString(cs));
         if (len == n){
             if (++count >= k && ans == null)
                 ans = new String(cs);
