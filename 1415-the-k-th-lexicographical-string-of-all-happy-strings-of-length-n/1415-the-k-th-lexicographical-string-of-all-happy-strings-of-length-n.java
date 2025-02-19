@@ -10,11 +10,13 @@ class Solution {
 
     private void dfs(int len, int n, int k, char[] cs) {
         // System.out.println(Arrays.toString(cs));
-        if (len == n){
-            if (++count >= k && ans == null)
+        if (len == n) {
+            if (++count == k)
                 ans = new String(cs);
             return;
         }
+        if (count >= k)
+            return;
         for (int i = 0; i < 3; i++) {
             char c = (char) ('a' + i);
             if (len != 0 && cs[len - 1] == c)
