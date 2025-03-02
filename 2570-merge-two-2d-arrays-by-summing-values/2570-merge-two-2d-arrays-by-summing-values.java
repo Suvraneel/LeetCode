@@ -19,10 +19,6 @@ class Solution {
             list.add(nums1[ptr1++]);
         while (ptr2 < n2)
             list.add(nums2[ptr2++]);
-        int n = list.size();
-        int[][] ans = new int[n][2];
-        for (int i = 0; i < n; i++)
-            ans[i] = list.get(i);
-        return ans;
+        return list.toArray(new int[list.size()][]);
     }
 }
