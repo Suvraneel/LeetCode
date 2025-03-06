@@ -1,16 +1,16 @@
 class Solution {
     public int[] findMissingAndRepeatedValues(int[][] grid) {
-        int n = grid.length, a = 0, b = 0, sum = 0;
-        boolean[] vis = new boolean[n * n + 1];
+        long n = grid.length, n2 = n * n, sum = 0, sqSum = 0;
         for (int[] r : grid) {
             for (int c : r) {
-                if (vis[c])
-                    a = c;
-                vis[c] = true;
                 sum += c;
+                sqSum += c * c;
             }
         }
-        b = n * n * (n * n + 1) / 2 - sum + a;
-        return new int[] { a, b };
+        long a_minus_b = n2 * (n2 + 1) / 2 - sum;
+        long a2_minus_b2 = n2 * (n2 + 1) * (2 * n2 + 1) / 6 - sqSum;
+        long a_plus_b = a2_minus_b2 / a_minus_b;
+        long a = (a_minus_b + a_plus_b) / 2, b = a_plus_b - a;
+        return new int[] { (int) b, (int) a };
     }
 }
