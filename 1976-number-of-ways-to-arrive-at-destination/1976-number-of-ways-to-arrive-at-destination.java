@@ -5,7 +5,8 @@ class Solution {
     public int countPaths(int n, int[][] roads) {
         long[] minDelay = new long[n];
         int[] pathCount = new int[n];
-        long INF = Long.MAX_VALUE, MOD = 1_000_000_007;
+        long INF = Long.MAX_VALUE;
+        int MOD = 1_000_000_007;
         Arrays.fill(minDelay, INF);
         List<int[]>[] adj = new List[n];
         for (int i = 0; i < n; i++)
@@ -16,6 +17,8 @@ class Solution {
         }
         Queue<long[]> pq = new PriorityQueue<>((a, b) -> Long.compare(a[1], b[1]));
         int timeElapsed = 0;
+        minDelay[0] = 0;
+        pathCount[0] = 1;
         pq.offer(new long[] { 0, 0 });
         while (!pq.isEmpty()) {
             long[] node = pq.poll();
@@ -25,10 +28,10 @@ class Solution {
                 long potentialDelay = node[1] + nbr[1];
                 if (potentialDelay < minDelay[nbr[0]]) {
                     minDelay[nbr[0]] = potentialDelay;
-                    pathCount[nbr[0]] = 1;
+                    pathCount[nbr[0]] = pathCount[(int) node[0]];
                     pq.offer(new long[] { nbr[0], potentialDelay });
                 } else if (potentialDelay == minDelay[nbr[0]]) {
-                    pathCount[nbr[0]] += pathCount[(int)node[0]];
+                    pathCount[nbr[0]] += pathCount[(int) node[0]];
                     pathCount[nbr[0]] %= MOD;
                 }
             }
