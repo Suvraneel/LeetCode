@@ -7,7 +7,7 @@ class Solution {
         }
         int concurrentMeets = 0, prevDay = calendar.firstKey(), freeDays = calendar.firstKey();
         for (Map.Entry<Integer, Integer> e : calendar.entrySet()) {
-            if (concurrentMeets == 0){
+            if (concurrentMeets == 0) {
                 freeDays += e.getKey() - prevDay;
             }
             concurrentMeets += e.getValue();
