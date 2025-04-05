@@ -456,6 +456,7 @@
 | [1833](https://leetcode.com/problems/maximum-ice-cream-bars/) | [Maximum ICE Cream Bars](./1833-maximum-ice-cream-bars) | **[Solution](./1833-maximum-ice-cream-bars/1833-maximum-ice-cream-bars.cpp)**  
 | [1834](https://leetcode.com/problems/single-threaded-cpu/) | [Single Threaded Cpu](./1834-single-threaded-cpu) | **[Solution](./1834-single-threaded-cpu/1834-single-threaded-cpu.cpp)**  
 | [1861](https://leetcode.com/problems/rotating-the-box/) | [Rotating the Box](./1861-rotating-the-box) | **[Solution](./1861-rotating-the-box/1861-rotating-the-box.cpp)**  
+| [1863](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | [Sum of all Subset Xor Totals](./1863-sum-of-all-subset-xor-totals) | **[Solution](./1863-sum-of-all-subset-xor-totals/1863-sum-of-all-subset-xor-totals.cpp)**  
 | [1894](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/) | [Find the Student That will Replace the Chalk](./1894-find-the-student-that-will-replace-the-chalk) | **[Solution](./1894-find-the-student-that-will-replace-the-chalk/1894-find-the-student-that-will-replace-the-chalk.cpp)**  
 | [1905](https://leetcode.com/problems/count-sub-islands/) | [Count Sub Islands](./1905-count-sub-islands) | **[Solution](./1905-count-sub-islands/1905-count-sub-islands.cpp)**  
 | [1926](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) | [Nearest Exit from Entrance in Maze](./1926-nearest-exit-from-entrance-in-maze) | **[Solution](./1926-nearest-exit-from-entrance-in-maze/1926-nearest-exit-from-entrance-in-maze.cpp)**  
