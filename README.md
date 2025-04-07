@@ -162,6 +162,7 @@
 | [399](https://leetcode.com/problems/evaluate-division/) | [Evaluate Division](./0399-evaluate-division) | **[Solution](./0399-evaluate-division/0399-evaluate-division.cpp)**  
 | [402](https://leetcode.com/problems/remove-k-digits/) | [Remove K Digits](./402-remove-k-digits) | **[Solution](./402-remove-k-digits/402-remove-k-digits.cpp)**  
 | [409](https://leetcode.com/problems/longest-palindrome/) | [Longest Palindrome](./0409-longest-palindrome) | **[Solution](./0409-longest-palindrome/0409-longest-palindrome.cpp)**  
+| [416](https://leetcode.com/problems/partition-equal-subset-sum/) | [Partition Equal Subset Sum](./0416-partition-equal-subset-sum) | **[Solution](./0416-partition-equal-subset-sum/0416-partition-equal-subset-sum.cpp)**  
 | [427](https://leetcode.com/problems/construct-quad-tree/) | [Construct Quad Tree](./0427-construct-quad-tree) | **[Solution](./0427-construct-quad-tree/0427-construct-quad-tree.cpp)**  
 | [429](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [N Ary Tree Level Order Traversal](./429-n-ary-tree-level-order-traversal) | **[Solution](./429-n-ary-tree-level-order-traversal/429-n-ary-tree-level-order-traversal.cpp)**  
 | [432](https://leetcode.com/problems/all-oone-data-structure/) | [All Oone Data Structure](./0432-all-oone-data-structure) | **[Solution](./0432-all-oone-data-structure/0432-all-oone-data-structure.cpp)**  
