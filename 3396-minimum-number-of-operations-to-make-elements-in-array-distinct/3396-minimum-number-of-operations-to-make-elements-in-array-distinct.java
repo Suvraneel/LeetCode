@@ -4,7 +4,7 @@ class Solution {
         int n = nums.length;
         for (int i = n - 1; i >= 0; i--) {
             if (seen[nums[i]] == 1)
-                return (int) Math.ceil((i + 1)/ 3.0);
+                return (int) Math.ceil((i + 1) / 3.0);
             seen[nums[i]]++;
         }
         return 0;
