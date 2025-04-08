@@ -1,12 +1,12 @@
 class Solution {
     public int minimumOperations(int[] nums) {
-        Map<Integer, Integer> prevOcc = new HashMap<>();
-        int n = nums.length, lt = 0;
-        for (int i = 0; i < n; i++) {
-            if (prevOcc.containsKey(nums[i]))
-                lt = Math.max(lt, prevOcc.get(nums[i]) + 1);
-            prevOcc.put(nums[i], i);
+        int[] seen = new int[101]; // constraint says 1 <= nums[i] <= 100
+        int n = nums.length;
+        for (int i = n - 1; i >= 0; i--) {
+            if (seen[nums[i]] == 1)
+                return (int) Math.ceil((i + 1)/ 3.0);
+            seen[nums[i]]++;
         }
-        return (int) Math.ceil(lt / 3.0);
+        return 0;
     }
 }
