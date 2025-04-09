@@ -1,17 +1,15 @@
 class Solution {
     public int minOperations(int[] nums, int k) {
-        Arrays.sort(nums);
-        if (nums[0] < k)
-            return -1;
-        int n = nums.length, maxm = nums[n - 1], ops = 0;
-        for (int i = n - 1; i >= 0; i--) {
-            if (maxm == nums[i])
-                continue;
-            maxm = nums[i];
-            ops++;
-        }
-        if (nums[0] > k)
-            ops++;
+        boolean[] seen = new boolean[101];
+        int ops = 0;
+        seen[k] = true;
+        for (int i : nums)
+            if (i < k)
+                return -1;
+            else if (!seen[i]) {
+                seen[i] = true;
+                ops++;
+            }
         return ops;
     }
 }
