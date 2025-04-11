@@ -13,9 +13,7 @@ class Solution {
         if ((len & 1) == 1)
             return false;
         for (int i = 0; i < len / 2; i++)
-            sum += s.charAt(i);
-        for (int i = len / 2; i < len; i++)
-            sum -= s.charAt(i);
+            sum += s.charAt(i) - s.charAt(len - 1 - i);
         return (sum == 0);
     }
 }
