@@ -405,6 +405,7 @@
 | [1524](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | [Number of Sub Arrays With Odd Sum](./1524-number-of-sub-arrays-with-odd-sum) | **[Solution](./1524-number-of-sub-arrays-with-odd-sum/1524-number-of-sub-arrays-with-odd-sum.cpp)**  
 | [1530](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | [Number of Good Leaf Nodes Pairs](./1530-number-of-good-leaf-nodes-pairs) | **[Solution](./1530-number-of-good-leaf-nodes-pairs/1530-number-of-good-leaf-nodes-pairs.cpp)**  
 | [1531](https://leetcode.com/problems/string-compression-ii/) | [String Compression II](./1531-string-compression-ii) | **[Solution](./1531-string-compression-ii/1531-string-compression-ii.cpp)**  
+| [1534](https://leetcode.com/problems/count-good-triplets/) | [Count Good Triplets](./1534-count-good-triplets) | **[Solution](./1534-count-good-triplets/1534-count-good-triplets.cpp)**  
 | [1544](https://leetcode.com/problems/make-the-string-great/) | [Make the String Great](./1544-make-the-string-great) | **[Solution](./1544-make-the-string-great/1544-make-the-string-great.cpp)**  
 | [1545](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | [Find Kth Bit in Nth Binary String](./1545-find-kth-bit-in-nth-binary-string) | **[Solution](./1545-find-kth-bit-in-nth-binary-string/1545-find-kth-bit-in-nth-binary-string.cpp)**  
 | [1550](https://leetcode.com/problems/three-consecutive-odds/) | [Three Consecutive Odds](./1550-three-consecutive-odds) | **[Solution](./1550-three-consecutive-odds/1550-three-consecutive-odds.cpp)**  
