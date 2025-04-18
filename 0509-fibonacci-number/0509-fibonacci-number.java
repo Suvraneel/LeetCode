@@ -1,14 +1,13 @@
 class Solution {
     public int fib(int n) {
-        int[] memo = new int[n + 1];
-        return solve(n, memo);
-    }
-
-    private int solve(int n, int[] memo) {
         if (n <= 1)
             return n;
-        if (memo[n] != 0)
-            return memo[n];
-        return memo[n] = solve(n - 2, memo) + solve(n - 1, memo);
+        int n1 = 0, n2 = 1;
+        for (int i = 2; i <= n; i++) {
+            int temp = n2;
+            n2 += n1;
+            n1 = temp;
+        }
+        return n2;
     }
 }
