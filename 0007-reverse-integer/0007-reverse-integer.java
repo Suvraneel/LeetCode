@@ -6,7 +6,8 @@ class Solution {
         while (x > 0) {
             if (rev > lastValidNum)
                 return 0;
-            rev = rev * 10 + (x % 10);
+            rev *= 10;
+            rev += x % 10;
             x /= 10;
         }
         return negative ? -rev : rev;
