@@ -124,6 +124,7 @@
 | [273](https://leetcode.com/problems/integer-to-english-words/) | [Integer to English Words](./0273-integer-to-english-words) | **[Solution](./0273-integer-to-english-words/0273-integer-to-english-words.cpp)**  
 | [278](https://leetcode.com/problems/first-bad-version/) | [First Bad Version](./278-first-bad-version) | **[Solution](./278-first-bad-version/278-first-bad-version.cpp)**  
 | [279](https://leetcode.com/problems/perfect-squares/) | [Perfect Squares](./0279-perfect-squares) | **[Solution](./0279-perfect-squares/0279-perfect-squares.cpp)**  
+| [283](https://leetcode.com/problems/move-zeroes/) | [Move Zeroes](./0283-move-zeroes) | **[Solution](./0283-move-zeroes/0283-move-zeroes.cpp)**  
 | [287](https://leetcode.com/problems/find-the-duplicate-number/) | [Find the Duplicate Number](./0287-find-the-duplicate-number) | **[Solution](./0287-find-the-duplicate-number/0287-find-the-duplicate-number.cpp)**  
 | [290](https://leetcode.com/problems/word-pattern/) | [Word Pattern](./290-word-pattern) | **[Solution](./290-word-pattern/290-word-pattern.cpp)**  
 | [295](https://leetcode.com/problems/find-median-from-data-stream/) | [Find Median from Data Stream](./0295-find-median-from-data-stream) | **[Solution](./0295-find-median-from-data-stream/0295-find-median-from-data-stream.cpp)**  
