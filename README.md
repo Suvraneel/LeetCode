@@ -242,6 +242,7 @@
 | [769](https://leetcode.com/problems/max-chunks-to-make-sorted/) | [Max Chunks to Make Sorted](./0769-max-chunks-to-make-sorted) | **[Solution](./0769-max-chunks-to-make-sorted/0769-max-chunks-to-make-sorted.cpp)**  
 | [771](https://leetcode.com/problems/jewels-and-stones/) | [Jewels and Stones](./771-jewels-and-stones) | **[Solution](./771-jewels-and-stones/771-jewels-and-stones.cpp)**  
 | [773](https://leetcode.com/problems/sliding-puzzle/) | [Sliding Puzzle](./0773-sliding-puzzle) | **[Solution](./0773-sliding-puzzle/0773-sliding-puzzle.cpp)**  
+| [781](https://leetcode.com/problems/rabbits-in-forest/) | [Rabbits in Forest](./0781-rabbits-in-forest) | **[Solution](./0781-rabbits-in-forest/0781-rabbits-in-forest.cpp)**  
 | [783](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Minimum Distance Between Bst Nodes](./0783-minimum-distance-between-bst-nodes) | **[Solution](./0783-minimum-distance-between-bst-nodes/0783-minimum-distance-between-bst-nodes.cpp)**  
 | [787](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Cheapest Flights Within K Stops](./0787-cheapest-flights-within-k-stops) | **[Solution](./0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.cpp)**  
 | [790](https://leetcode.com/problems/domino-and-tromino-tiling/) | [Domino and Tromino Tiling](./0790-domino-and-tromino-tiling) | **[Solution](./0790-domino-and-tromino-tiling/0790-domino-and-tromino-tiling.cpp)**  
