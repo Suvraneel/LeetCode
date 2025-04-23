@@ -1,6 +1,6 @@
 class Solution {
     public int countLargestGroup(int n) {
-        int[] freq = new int[40];
+        int[] freq = new int[40]; // largest sum of digits possible is 36 (for 9999) under constraint n <= 10000
         for (int i = 1; i <= n; i++) {
             int key = sumOfDigits(i);
             freq[key]++;
