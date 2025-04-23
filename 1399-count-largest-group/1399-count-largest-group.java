@@ -1,16 +1,16 @@
 class Solution {
     public int countLargestGroup(int n) {
-        Map<Integer, Integer> freq = new HashMap<>();
+        int[] freq = new int[40];
         for (int i = 1; i <= n; i++) {
             int key = sumOfDigits(i);
-            freq.put(key, freq.getOrDefault(key, 0) + 1);
+            freq[key]++;
         }
         int maxSize = 0, count = 0;
-        for (Map.Entry<Integer, Integer> e : freq.entrySet()) {
-            if (e.getValue() > maxSize) {
-                maxSize = e.getValue();
+        for (int i = 1; i < 40; i++) {
+            if (freq[i] > maxSize) {
+                maxSize = freq[i];
                 count = 1;
-            } else if (e.getValue() == maxSize)
+            } else if (freq[i] == maxSize)
                 count++;
         }
         return count;
