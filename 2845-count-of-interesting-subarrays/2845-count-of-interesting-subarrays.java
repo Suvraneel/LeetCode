@@ -7,7 +7,7 @@ class Solution {
         for (int i = 0; i < n; i++) {
             if (nums.get(i) % modulo == k)
                 prefix++;
-            ans += moduloBucket.get((prefix - k + modulo) % modulo);
+            ans += moduloBucket.getOrDefault((prefix - k + modulo) % modulo, 0);
             moduloBucket.put(prefix % modulo, moduloBucket.getOrDefault(prefix % modulo, 0) + 1);
         }
         return ans;
