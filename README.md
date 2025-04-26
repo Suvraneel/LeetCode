@@ -88,6 +88,7 @@
 | [150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Evaluate Reverse Polish Notation](./0150-evaluate-reverse-polish-notation) | **[Solution](./0150-evaluate-reverse-polish-notation/0150-evaluate-reverse-polish-notation.cpp)**  
 | [151](https://leetcode.com/problems/reverse-words-in-a-string/) | [Reverse Words in a String](./0151-reverse-words-in-a-string) | **[Solution](./0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.cpp)**  
 | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Intersection of Two Linked Lists](./160-intersection-of-two-linked-lists) | **[Solution](./160-intersection-of-two-linked-lists/160-intersection-of-two-linked-lists.cpp)**  
+| [169](https://leetcode.com/problems/majority-element/) | [Majority Element](./0169-majority-element) | **[Solution](./0169-majority-element/0169-majority-element.cpp)**  
 | [173](https://leetcode.com/problems/binary-search-tree-iterator/) | [Binary Search Tree Iterator](./173-binary-search-tree-iterator) | **[Solution](./173-binary-search-tree-iterator/173-binary-search-tree-iterator.cpp)**  
 | [175](https://leetcode.com/problems/combine-two-tables/) | [Combine Two Tables](./0175-combine-two-tables) | **[Solution](./0175-combine-two-tables/0175-combine-two-tables.cpp)**  
 | [179](https://leetcode.com/problems/largest-number/) | [Largest Number](./0179-largest-number) | **[Solution](./0179-largest-number/0179-largest-number.cpp)**  
