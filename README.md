@@ -45,6 +45,7 @@
 | [69](https://leetcode.com/problems/sqrtx/) | [Sqrtx](./69-sqrtx) | **[Solution](./69-sqrtx/69-sqrtx.cpp)**  
 | [70](https://leetcode.com/problems/climbing-stairs/) | [Climbing Stairs](./0070-climbing-stairs) | **[Solution](./0070-climbing-stairs/0070-climbing-stairs.cpp)**  
 | [72](https://leetcode.com/problems/edit-distance/) | [Edit Distance](./0072-edit-distance) | **[Solution](./0072-edit-distance/0072-edit-distance.cpp)**  
+| [73](https://leetcode.com/problems/set-matrix-zeroes/) | [Set Matrix Zeroes](./0073-set-matrix-zeroes) | **[Solution](./0073-set-matrix-zeroes/0073-set-matrix-zeroes.cpp)**  
 | [74](https://leetcode.com/problems/search-a-2d-matrix/) | [Search a 2d Matrix](./0074-search-a-2d-matrix) | **[Solution](./0074-search-a-2d-matrix/0074-search-a-2d-matrix.cpp)**  
 | [75](https://leetcode.com/problems/sort-colors/) | [Sort Colors](./75-sort-colors) | **[Solution](./75-sort-colors/75-sort-colors.cpp)**  
 | [76](https://leetcode.com/problems/minimum-window-substring/) | [Minimum Window Substring](./76-minimum-window-substring) | **[Solution](./76-minimum-window-substring/76-minimum-window-substring.cpp)**  
