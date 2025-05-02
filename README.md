@@ -74,6 +74,7 @@
 | [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Best Time to Buy and Sell Stock](./121-best-time-to-buy-and-sell-stock) | **[Solution](./121-best-time-to-buy-and-sell-stock/121-best-time-to-buy-and-sell-stock.cpp)**  
 | [125](https://leetcode.com/problems/valid-palindrome/) | [Valid Palindrome](./125-valid-palindrome) | **[Solution](./125-valid-palindrome/125-valid-palindrome.cpp)**  
 | [126](https://leetcode.com/problems/word-ladder-ii/) | [Word Ladder II](./126-word-ladder-ii) | **[Solution](./126-word-ladder-ii/126-word-ladder-ii.cpp)**  
+| [128](https://leetcode.com/problems/longest-consecutive-sequence/) | [Longest Consecutive Sequence](./0128-longest-consecutive-sequence) | **[Solution](./0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.cpp)**  
 | [131](https://leetcode.com/problems/palindrome-partitioning/) | [Palindrome Partitioning](./131-palindrome-partitioning) | **[Solution](./131-palindrome-partitioning/131-palindrome-partitioning.cpp)**  
 | [134](https://leetcode.com/problems/gas-station/) | [Gas Station](./134-gas-station) | **[Solution](./134-gas-station/134-gas-station.cpp)**  
 | [136](https://leetcode.com/problems/single-number/) | [Single Number](./136-single-number) | **[Solution](./136-single-number/136-single-number.cpp)**  
