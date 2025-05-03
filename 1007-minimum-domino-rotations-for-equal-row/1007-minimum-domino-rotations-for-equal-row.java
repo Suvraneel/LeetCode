@@ -14,7 +14,10 @@ class Solution {
 
     public int minDominoRotations(int[] tops, int[] bottoms) {
         int n = tops.length, a = tops[0], b = bottoms[0];
-        int ansA = checkValid(tops, bottoms, a), ansB = checkValid(tops, bottoms, b);
+        int ansA = checkValid(tops, bottoms, a);
+        if (ansA != -1)
+            return ansA;
+        int ansB = checkValid(tops, bottoms, b);
         return Math.max(ansA, ansB);
     }
 }
