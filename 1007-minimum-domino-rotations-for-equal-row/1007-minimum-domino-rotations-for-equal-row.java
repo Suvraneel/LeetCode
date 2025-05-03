@@ -2,6 +2,7 @@ class Solution {
     public int minDominoRotations(int[] tops, int[] bottoms) {
         int n = tops.length, common = 0, commonFreq = 0;
         int[] freq = new int[7];
+        // find majority element
         for (int i = 0; i < n; i++) {
             if (++freq[tops[i]] > commonFreq) {
                 common = tops[i];
@@ -12,6 +13,7 @@ class Solution {
                 commonFreq = freq[tops[i]];
             }
         }
+        // simulation
         int cTop = 0, cBot = 0;
         for (int i = 0; i < n; i++) {
             if (tops[i] != common && bottoms[i] != common)
