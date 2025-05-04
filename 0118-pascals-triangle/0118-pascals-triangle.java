@@ -1,16 +1,16 @@
 class Solution {
     public List<List<Integer>> generate(int numRows) {
-        if(numRows==1)
-            return new ArrayList<>(List.of(List.of(1)));
-        List<List<Integer>> res = generate(numRows-1);
-        List prevLine = res.get(numRows-2);
-        List line = new ArrayList<>();
-        line.add(1);
-        for(int i=1; i<numRows-1; i++){
-            line.add((int)prevLine.get(i-1)+(int)prevLine.get(i));
+        List<List<Integer>> pascal = new ArrayList<>();
+        pascal.add(new ArrayList(Arrays.asList(1)));
+        for(int i=1; i<numRows; i++){
+            List<Integer> row = new ArrayList<>();
+            List<Integer> prevRow = pascal.get(i-1);
+            row.add(1);
+            for(int j=1; j<prevRow.size(); j++)
+                row.add(prevRow.get(j-1) + prevRow.get(j));
+            row.add(1);
+            pascal.add(row);
         }
-        line.add(1);
-        res.add(line);
-        return res;
+        return pascal;
     }
 }
