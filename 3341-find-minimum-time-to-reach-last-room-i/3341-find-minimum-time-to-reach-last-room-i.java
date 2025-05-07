@@ -8,7 +8,7 @@ class Solution {
     public int minTimeToReach(int[][] moveTime) {
         int m = moveTime.length, n = moveTime[0].length;
         int[][] minReachTime = new int[m][n];
-        for(int[] r: minReachTime)
+        for (int[] r : minReachTime)
             Arrays.fill(r, Integer.MAX_VALUE);
         Queue<int[]> pq = new PriorityQueue<>((a, b) -> a[2] - b[2]);
         pq.offer(new int[] { 0, 0, 0 });
@@ -26,7 +26,7 @@ class Solution {
 
     private void bfs(int x, int y, int m, int n, int timeElapsed,
             int[][] moveTime, Queue<int[]> pq) {
-        for (int[] d: dirs) {
+        for (int[] d : dirs) {
             int X = x + d[0], Y = y + d[1];
             if (isValid(X, Y, m, n))
                 pq.offer(new int[] { X, Y, Math.max(timeElapsed + 1, moveTime[X][Y] + 1) });
