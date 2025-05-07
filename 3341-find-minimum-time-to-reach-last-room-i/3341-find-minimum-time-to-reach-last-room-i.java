@@ -16,6 +16,8 @@ class Solution {
             int[] top = pq.poll();
             // System.out.println(Arrays.toString(top));
             int x = top[0], y = top[1], reachedAt = top[2];
+            if (x == m - 1 && y == n - 1)
+                return reachedAt;
             if (minReachTime[x][y] > reachedAt) {
                 minReachTime[x][y] = reachedAt;
                 bfs(x, y, m, n, reachedAt, moveTime, pq);
