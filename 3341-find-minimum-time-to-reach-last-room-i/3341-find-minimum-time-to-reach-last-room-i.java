@@ -8,6 +8,7 @@ class Solution {
     public int minTimeToReach(int[][] moveTime) {
         int m = moveTime.length, n = moveTime[0].length;
         int[][] minReachTime = new int[m][n];
+        boolean[][] vis = new boolean[m][n];
         for (int[] r : minReachTime)
             Arrays.fill(r, Integer.MAX_VALUE);
         Queue<int[]> pq = new PriorityQueue<>((a, b) -> a[2] - b[2]);
@@ -16,8 +17,9 @@ class Solution {
             int[] top = pq.poll();
             // System.out.println(Arrays.toString(top));
             int x = top[0], y = top[1], reachedAt = top[2];
-            if (x == m - 1 && y == n - 1)
-                return reachedAt;
+            if (vis[x][y])
+                continue;
+            vis[x][y] = true;
             if (minReachTime[x][y] > reachedAt) {
                 minReachTime[x][y] = reachedAt;
                 bfs(x, y, m, n, reachedAt, moveTime, pq);
