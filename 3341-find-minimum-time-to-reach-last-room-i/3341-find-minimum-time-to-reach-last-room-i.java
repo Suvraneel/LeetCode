@@ -20,6 +20,8 @@ class Solution {
             if (vis[x][y])
                 continue;
             vis[x][y] = true;
+            if (x == m - 1 && y == n - 1)
+                return reachedAt;
             if (minReachTime[x][y] > reachedAt) {
                 minReachTime[x][y] = reachedAt;
                 bfs(x, y, m, n, reachedAt, moveTime, pq);
