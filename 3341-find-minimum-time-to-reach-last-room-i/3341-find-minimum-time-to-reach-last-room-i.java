@@ -7,21 +7,23 @@ class Solution {
 
     public int minTimeToReach(int[][] moveTime) {
         int m = moveTime.length, n = moveTime[0].length;
-        boolean[][] vis = new boolean[m][n];
+        int[][] minReachTime = new int[m][n];
+        for (int[] r : minReachTime)
+            Arrays.fill(r, Integer.MAX_VALUE);
         Queue<int[]> pq = new PriorityQueue<>((a, b) -> a[2] - b[2]);
         pq.offer(new int[] { 0, 0, 0 });
         while (!pq.isEmpty()) {
             int[] top = pq.poll();
             // System.out.println(Arrays.toString(top));
             int x = top[0], y = top[1], reachedAt = top[2];
-            if (vis[x][y])
-                continue;
-            vis[x][y] = true;
             if (x == m - 1 && y == n - 1)
                 return reachedAt;
-            bfs(x, y, m, n, reachedAt, moveTime, pq);
+            if (minReachTime[x][y] > reachedAt) {
+                minReachTime[x][y] = reachedAt;
+                bfs(x, y, m, n, reachedAt, moveTime, pq);
+            }
         }
-        return -1;
+        return minReachTime[m - 1][n - 1];
     }
 
     private void bfs(int x, int y, int m, int n, int timeElapsed,
