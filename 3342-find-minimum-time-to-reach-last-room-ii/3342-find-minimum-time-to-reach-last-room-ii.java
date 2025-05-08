@@ -12,7 +12,7 @@ class Solution {
             int[] top = pq.poll();
             // System.out.println(Arrays.toString(top));
             int x = top[0], y = top[1], reachedAt = top[2], alt = (top[3] == 0 ? 1 : 2); // x, y, time, isAlternate
-            if (x == n - 1 && y == m - 1)
+            if (x == n - 1 && y == m - 1) // early return optimisation
                 return reachedAt;
             if (minTime[x][y] > reachedAt) { // better path?
                 minTime[x][y] = reachedAt;
