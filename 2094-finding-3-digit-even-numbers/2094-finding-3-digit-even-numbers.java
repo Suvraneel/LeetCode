@@ -1,24 +1,30 @@
 class Solution {
+     int ans[] = new int[451];
+
     public int[] findEvenNumbers(int[] digits) {
-        TreeSet<Integer> set = new TreeSet<>();
-        int n = digits.length;
-        for (int i = 0; i < n; i++) {
-            if (digits[i] == 0)
+        int count[] = new int[10];
+        int size = 0;
+        for (int d : digits)
+            count[d]++;
+
+        for (int i = 1; i < 10; i++) {
+            if (count[i] == 0)
                 continue;
-            for (int j = 0; j < n; j++) {
-                if (j == i)
+            --count[i];
+            for (int j = 0; j < 10; j++) {
+                if (count[j] == 0)
                     continue;
-                for (int k = 0; k < n; k++) {
-                    if ((digits[k] & 1) == 1 || k == i || k == j)
+                --count[j];
+                for (int k = 0; k < 10; k += 2) {
+                    if (count[k] == 0)
                         continue;
-                    set.add(100 * digits[i] + 10 * digits[j] + digits[k]);
+                    int num = i * 100 + j * 10 + k;
+                    ans[size++] = num;
                 }
+                ++count[j];
             }
+            ++count[i];
         }
-        int[] ans = new int[set.size()];
-        int k = 0;
-        for (int i : set)
-            ans[k++] = i;
-        return ans;
+        return Arrays.copyOf(ans, size);
     }
 }
