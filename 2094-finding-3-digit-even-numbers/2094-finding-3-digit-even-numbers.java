@@ -1,9 +1,7 @@
 class Solution {
-     int ans[] = new int[451];
-
     public int[] findEvenNumbers(int[] digits) {
         int count[] = new int[10];
-        int size = 0;
+        List<Integer> ans = new ArrayList<>();
         for (int d : digits)
             count[d]++;
 
@@ -19,12 +17,12 @@ class Solution {
                     if (count[k] == 0)
                         continue;
                     int num = i * 100 + j * 10 + k;
-                    ans[size++] = num;
+                    ans.add(num);
                 }
                 ++count[j];
             }
             ++count[i];
         }
-        return Arrays.copyOf(ans, size);
+        return ans.stream().mapToInt(Integer::intValue).toArray();
     }
 }
