@@ -1,14 +1,14 @@
 class Solution {
     public boolean isZeroArray(int[] nums, int[][] queries) {
-        int n = nums.length, prefixSum = 0;
-        int[] diffArr = new int[n + 1];
+        int n = nums.length, sweep = 0;
+        int[] transformationArr = new int[n + 1];
         for (int[] q : queries) {
-            diffArr[q[0]]--;
-            diffArr[q[1] + 1]++;
+            transformationArr[q[0]]--;
+            transformationArr[q[1] + 1]++;
         }
         for (int i = 0; i < n; i++) {
-            prefixSum += diffArr[i];
-            if (nums[i] + prefixSum > 0)
+            sweep += transformationArr[i];
+            if (sweep + nums[i] > 0)
                 return false;
         }
         return true;
