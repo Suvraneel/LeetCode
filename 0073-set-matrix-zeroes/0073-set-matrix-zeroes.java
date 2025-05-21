@@ -1,10 +1,4 @@
 class Solution {
-    private static int[][] dirs = { { 0, 1 }, { 1, 0 }, { -1, 0 }, { 0, -1 } };
-
-    private boolean isValid(int x, int y, int m, int n) {
-        return x >= 0 && x < m && y >= 0 && y < n;
-    }
-
     public void setZeroes(int[][] matrix) {
         int m = matrix.length, n = matrix[0].length;
         Set<Integer> Is = new HashSet<>();
