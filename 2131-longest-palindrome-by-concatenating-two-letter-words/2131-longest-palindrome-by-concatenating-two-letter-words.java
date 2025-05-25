@@ -5,7 +5,8 @@ class Solution {
             freq[w.charAt(0) - 'a'][w.charAt(1) - 'a']++;
         int usedWords = 0, unusedPals = 0;
         for (int i = 0; i < 26; i++) {
-            usedWords += freq[i][i] / 2;
+            // System.out.println((char)('a'+i)+Arrays.toString(freq[i]));
+            usedWords += (int) (freq[i][i] / 2) * 2;
             unusedPals += freq[i][i] % 2;
             freq[i][i] = 0;
         }
