@@ -12,9 +12,7 @@ class Solution {
         }
         for (int i = 0; i < 26; i++) {
             for (int j = 0; j < 26; j++) {
-                usedWords += Math.min(freq[i][j], freq[j][i]) * 2;
-                freq[i][j] = 0;
-                freq[j][i] = 0;
+                usedWords += Math.min(freq[i][j], freq[j][i]);
             }
         }
         if (unusedPals > 0)
