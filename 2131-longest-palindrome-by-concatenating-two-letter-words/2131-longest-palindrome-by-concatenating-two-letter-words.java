@@ -6,15 +6,14 @@ class Solution {
         int usedWords = 0, unusedPals = 0;
         for (int i = 0; i < 26; i++) {
             // System.out.println((char)('a'+i)+Arrays.toString(freq[i]));
-            usedWords += (int) (freq[i][i] / 2) * 2;
-            unusedPals += freq[i][i] % 2;
+            int oddPair = freq[i][i] % 2;
+            unusedPals += oddPairs;
+            usedWords += freq[i][i] - oddPair;
             freq[i][i] = 0;
         }
-        for (int i = 0; i < 26; i++) {
-            for (int j = 0; j < 26; j++) {
+        for (int i = 0; i < 26; i++)
+            for (int j = 0; j < 26; j++)
                 usedWords += Math.min(freq[i][j], freq[j][i]);
-            }
-        }
         if (unusedPals > 0)
             usedWords++;
         return usedWords * 2;
