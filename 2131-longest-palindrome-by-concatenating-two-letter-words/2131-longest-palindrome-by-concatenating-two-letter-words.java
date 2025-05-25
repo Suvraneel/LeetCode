@@ -12,7 +12,7 @@ class Solution {
             } else
                 map.put(w, map.getOrDefault(w, 0) + 1);
         }
-        System.out.println(map);
+        // System.out.println(map);
         for (String w : map.keySet()) {
             String rev = w.charAt(1) + "" + w.charAt(0);
             if (w.equals(rev)) {
