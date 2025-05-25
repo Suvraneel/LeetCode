@@ -7,7 +7,7 @@ class Solution {
         for (int i = 0; i < 26; i++) {
             // System.out.println((char)('a'+i)+Arrays.toString(freq[i]));
             int oddPair = freq[i][i] % 2;
-            unusedPals += oddPairs;
+            unusedPals += oddPair;
             usedWords += freq[i][i] - oddPair;
             freq[i][i] = 0;
         }
