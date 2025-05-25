@@ -20,6 +20,7 @@
 | [15](https://leetcode.com/problems/3sum/) | [3sum](./0015-3sum) | **[Solution](./0015-3sum/0015-3sum.cpp)**  
 | [16](https://leetcode.com/problems/3sum-closest/) | [3sum Closest](./16-3sum-closest) | **[Solution](./16-3sum-closest/16-3sum-closest.cpp)**  
 | [17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Letter Combinations of a Phone Number](./0017-letter-combinations-of-a-phone-number) | **[Solution](./0017-letter-combinations-of-a-phone-number/0017-letter-combinations-of-a-phone-number.cpp)**  
+| [18](https://leetcode.com/problems/4sum/) | [4sum](./0018-4sum) | **[Solution](./0018-4sum/0018-4sum.cpp)**  
 | [19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Remove Nth Node from End of List](./19-remove-nth-node-from-end-of-list) | **[Solution](./19-remove-nth-node-from-end-of-list/19-remove-nth-node-from-end-of-list.cpp)**  
 | [21](https://leetcode.com/problems/merge-two-sorted-lists/) | [Merge Two Sorted Lists](./21-merge-two-sorted-lists) | **[Solution](./21-merge-two-sorted-lists/21-merge-two-sorted-lists.cpp)**  
 | [23](https://leetcode.com/problems/merge-k-sorted-lists/) | [Merge K Sorted Lists](./23-merge-k-sorted-lists) | **[Solution](./23-merge-k-sorted-lists/23-merge-k-sorted-lists.cpp)**  
