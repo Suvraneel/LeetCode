@@ -81,6 +81,7 @@
 | [128](https://leetcode.com/problems/longest-consecutive-sequence/) | [Longest Consecutive Sequence](./0128-longest-consecutive-sequence) | **[Solution](./0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.cpp)**  
 | [131](https://leetcode.com/problems/palindrome-partitioning/) | [Palindrome Partitioning](./131-palindrome-partitioning) | **[Solution](./131-palindrome-partitioning/131-palindrome-partitioning.cpp)**  
 | [134](https://leetcode.com/problems/gas-station/) | [Gas Station](./134-gas-station) | **[Solution](./134-gas-station/134-gas-station.cpp)**  
+| [135](https://leetcode.com/problems/candy/) | [Candy](./0135-candy) | **[Solution](./0135-candy/0135-candy.cpp)**  
 | [136](https://leetcode.com/problems/single-number/) | [Single Number](./136-single-number) | **[Solution](./136-single-number/136-single-number.cpp)**  
 | [137](https://leetcode.com/problems/single-number-ii/) | [Single Number II](./0137-single-number-ii) | **[Solution](./0137-single-number-ii/0137-single-number-ii.cpp)**  
 | [139](https://leetcode.com/problems/word-break/) | [Word Break](./0139-word-break) | **[Solution](./0139-word-break/0139-word-break.cpp)**  
