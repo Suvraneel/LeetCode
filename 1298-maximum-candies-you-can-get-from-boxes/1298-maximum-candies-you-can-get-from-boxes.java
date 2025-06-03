@@ -17,7 +17,7 @@ class Solution {
                 if (vis[top]) // looted already
                     continue;
                 candyCt += candies[top];
-                System.out.println(top + "\t" + candies[top] + "\t" + closed);
+                // System.out.println(top + "\t" + candies[top] + "\t" + closed);
                 vis[top] = true; // looted
                 for (int nbr : containedBoxes[top])
                     bfs.add(nbr); // add to inventory
