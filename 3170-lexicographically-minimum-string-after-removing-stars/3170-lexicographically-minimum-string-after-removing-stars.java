@@ -1,6 +1,6 @@
 class Solution {
     public String clearStars(String s) {
-        int n = s.length(), prevSmallest = 0;
+        int n = s.length();
         char[] cs = s.toCharArray();
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] == b[0] ? b[1] - a[1] : a[0] - b[0]);
         for (int i = 0; i < n; i++) {
