@@ -12,7 +12,7 @@ class Solution {
             else
                 minEven = Math.min(minEven, freq[i]);
         }
-        System.out.println(maxOdd + "\t" + minEven);
+        // System.out.println(maxOdd + "\t" + minEven);
         return maxOdd - minEven;
     }
 }
