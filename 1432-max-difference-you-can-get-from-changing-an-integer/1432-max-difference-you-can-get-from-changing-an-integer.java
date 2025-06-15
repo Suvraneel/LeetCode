@@ -16,7 +16,7 @@ class Solution {
         if (cs[0] == '1') {
             for (int i = 0; i < cs.length; i++) {
                 min *= 10;
-                if (l == 'l' && cs[i] != '1') {
+                if (l == 'l' && cs[i] != '1' && cs[i] != '0') {
                     l = cs[i];
                     // min += 0;
                 } else if (cs[i] == l)
