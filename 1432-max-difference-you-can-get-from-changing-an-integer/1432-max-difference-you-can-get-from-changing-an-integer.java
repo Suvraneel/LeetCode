@@ -3,6 +3,7 @@ class Solution {
         char[] cs = String.valueOf(num).toCharArray();
         char k = 'k', l = 'l';
         int max = 0, min = 0;
+        
         for (int i = 0; i < cs.length; i++) {
             max *= 10;
             if (k == 'k' && cs[i] != '9') {
@@ -13,6 +14,7 @@ class Solution {
             else
                 max += cs[i] - '0';
         }
+        
         if (cs[0] == '1') {
             for (int i = 0; i < cs.length; i++) {
                 min *= 10;
