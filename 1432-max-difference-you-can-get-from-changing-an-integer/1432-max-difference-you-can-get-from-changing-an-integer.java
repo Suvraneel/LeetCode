@@ -34,7 +34,7 @@ class Solution {
                     min += cs[i] - '0';
             }
         }
-        // System.out.println(max + "\t" + min);
+        // System.out.println(min + "\t" + max);
         return max - min;
     }
 }
