@@ -1,8 +1,8 @@
 class Solution {
     public int minimumDeletions(String word, int k) {
         int[] freq = new int[26];
-        for (char c : word.toCharArray())
-            freq[c - 'a']++;
+        for (int i = 0; i < word.length(); i++)
+            freq[word.charAt(i) - 'a']++;
         Arrays.sort(freq);
         int st = 0, prefixDel = 0, ans = word.length();
         while (freq[st] == 0)
