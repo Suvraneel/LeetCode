@@ -5,8 +5,8 @@ class Solution {
             sb.append(fill);
         int n = sb.length();
         String[] ans = new String[n / k];
-        for (int i = 0; i < ans.length; i++)
-            ans[i] = sb.substring(i * k, i * k + k);
+        for (int i = 0; i < ans.length;)
+            ans[i] = sb.substring(i * k, ++i * k);
         return ans;
     }
 }
