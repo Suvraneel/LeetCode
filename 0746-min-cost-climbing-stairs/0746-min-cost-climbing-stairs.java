@@ -1,20 +1,9 @@
 class Solution {
-    int INF = Integer.MAX_VALUE;
-
     public int minCostClimbingStairs(int[] cost) {
         int n = cost.length;
-        int[] targetCost = new int[n];
-        Arrays.fill(targetCost, INF);
-        dfs(0, cost, targetCost);
-        // System.out.println(Arrays.toString(targetCost));
-        return Math.min(targetCost[0], targetCost[1]);
-    }
-
-    private int dfs(int i, int[] cost, int[] targetCost) {
-        if (i >= cost.length)
-            return 0;
-        if (targetCost[i] != INF)
-            return targetCost[i];
-        return targetCost[i] = cost[i] + Math.min(dfs(i + 1, cost, targetCost), dfs(i + 2, cost, targetCost));
+        for (int i = n - 3; i >= 0; i--)
+            cost[i] += Math.min(cost[i + 1], cost[i + 2]);
+        System.out.println(Arrays.toString(cost));
+        return Math.min(cost[0], cost[1]);
     }
 }
