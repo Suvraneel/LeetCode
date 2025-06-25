@@ -1,14 +1,15 @@
 class Solution {
-    int[] minCost = new int[366];
+    int[] minCost;
     int INF = 1001;
 
     public int mincostTickets(int[] days, int[] costs) {
+        minCost = new int[days[days.length - 1] + 1];
         Arrays.fill(minCost, INF);
         int[] pass = { 1, 7, 30 };
         Set<Integer> need = new HashSet<>();
         for (int d : days)
             need.add(d);
-        dfs(need, days, costs, 0);
+        dfs(need, days, costs, days[0]);
         return minCost[days[0]];
     }
 
