@@ -144,6 +144,7 @@
 | [310](https://leetcode.com/problems/minimum-height-trees/) | [Minimum Height Trees](./310-minimum-height-trees) | **[Solution](./310-minimum-height-trees/310-minimum-height-trees.cpp)**  
 | [312](https://leetcode.com/problems/burst-balloons/) | [Burst Balloons](./312-burst-balloons) | **[Solution](./312-burst-balloons/312-burst-balloons.cpp)**  
 | [319](https://leetcode.com/problems/bulb-switcher/) | [Bulb Switcher](./0319-bulb-switcher) | **[Solution](./0319-bulb-switcher/0319-bulb-switcher.cpp)**  
+| [322](https://leetcode.com/problems/coin-change/) | [Coin Change](./0322-coin-change) | **[Solution](./0322-coin-change/0322-coin-change.cpp)**  
 | [326](https://leetcode.com/problems/power-of-three/) | [Power of Three](./326-power-of-three) | **[Solution](./326-power-of-three/326-power-of-three.cpp)**  
 | [329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Longest Increasing Path in a Matrix](./0329-longest-increasing-path-in-a-matrix) | **[Solution](./0329-longest-increasing-path-in-a-matrix/0329-longest-increasing-path-in-a-matrix.cpp)**  
 | [330](https://leetcode.com/problems/patching-array/) | [Patching Array](./0330-patching-array) | **[Solution](./0330-patching-array/0330-patching-array.cpp)**  
