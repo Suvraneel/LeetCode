@@ -43,6 +43,7 @@
 | [54](https://leetcode.com/problems/spiral-matrix/) | [Spiral Matrix](./0054-spiral-matrix) | **[Solution](./0054-spiral-matrix/0054-spiral-matrix.cpp)**  
 | [56](https://leetcode.com/problems/merge-intervals/) | [Merge Intervals](./56-merge-intervals) | **[Solution](./56-merge-intervals/56-merge-intervals.cpp)**  
 | [62](https://leetcode.com/problems/unique-paths/) | [Unique Paths](./62-unique-paths) | **[Solution](./62-unique-paths/62-unique-paths.cpp)**  
+| [64](https://leetcode.com/problems/minimum-path-sum/) | [Minimum Path Sum](./0064-minimum-path-sum) | **[Solution](./0064-minimum-path-sum/0064-minimum-path-sum.cpp)**  
 | [67](https://leetcode.com/problems/add-binary/) | [Add Binary](./67-add-binary) | **[Solution](./67-add-binary/67-add-binary.cpp)**  
 | [68](https://leetcode.com/problems/text-justification/) | [Text Justification](./0068-text-justification) | **[Solution](./0068-text-justification/0068-text-justification.cpp)**  
 | [69](https://leetcode.com/problems/sqrtx/) | [Sqrtx](./69-sqrtx) | **[Solution](./69-sqrtx/69-sqrtx.cpp)**  
