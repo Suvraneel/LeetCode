@@ -1,7 +1,6 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
         int INF = 10001;
-        Arrays.sort(coins);
         int[] memo = new int[amount + 1];
         Arrays.fill(memo, INF);
         memo[0] = 0;
