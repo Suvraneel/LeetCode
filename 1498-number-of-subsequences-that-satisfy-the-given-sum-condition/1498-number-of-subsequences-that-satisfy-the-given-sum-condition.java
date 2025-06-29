@@ -12,7 +12,7 @@ class Solution {
             powersOf2[i] = (powersOf2[i - 1] << 1) % MOD;
 
         // binary search
-        while (lt <= rt) {
+        while (lt <= rt)
             if (nums[lt] + nums[rt] <= target)
                 ans = (ans + powersOf2[rt - lt++]) % MOD;
             else
