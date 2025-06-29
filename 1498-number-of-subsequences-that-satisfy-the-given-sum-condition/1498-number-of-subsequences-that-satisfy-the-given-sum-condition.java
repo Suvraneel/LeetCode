@@ -3,36 +3,21 @@ class Solution {
 
     public int numSubseq(int[] nums, int target) {
         Arrays.sort(nums); // order doesnt matter
-        int n = nums.length, end = n - 1, ans = 0, k = 1;
+        int n = nums.length, end = n - 1, ans = 0, lt = 0, rt = n - 1;
 
         // precalculate modded powers of 2
         int[] powersOf2 = new int[n];
         powersOf2[0] = 1;
+        for (int i = 1; i < n; i++)
+            powersOf2[i] = (powersOf2[i - 1] << 1) % MOD;
 
-        for (int i = 0; i < n; i++) {
-            int bs = binarySearch(nums, i, end, target);
-            if (bs < 0)
-                break;
-            // System.out.println(i + "\t" + bs);
-            end = bs; // decrease search space
-            for (; k <= bs; k++)
-                powersOf2[k] = (powersOf2[k - 1] << 1) % MOD;
-            ans = (ans + powersOf2[bs - i]) % MOD;
-        }
-        return ans;
-    }
-
-    // find valid key in bounded search space
-    private int binarySearch(int[] nums, int lt, int rt, int target) {
-        int key = target - nums[lt], bs = -1;
+        // binary search
         while (lt <= rt) {
-            int mid = (lt + rt) / 2;
-            if (nums[mid] <= key) {
-                bs = mid;
-                lt = mid + 1;
-            } else
-                rt = mid - 1;
-        }
-        return bs;
+            if (nums[lt] + nums[rt] <= target)
+                ans = (ans + powersOf2[rt - lt++]) % MOD;
+            else
+                rt--;
+
+        return ans;
     }
 }
