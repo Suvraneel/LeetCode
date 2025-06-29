@@ -3,13 +3,11 @@ class Solution {
 
     public int numSubseq(int[] nums, int target) {
         Arrays.sort(nums); // order doesnt matter
-        int n = nums.length, end = n - 1, ans = 0;
+        int n = nums.length, end = n - 1, ans = 0, k = 1;
 
         // precalculate modded powers of 2
         int[] powersOf2 = new int[n];
         powersOf2[0] = 1;
-        for (int i = 1; i < n; i++)
-            powersOf2[i] = (powersOf2[i - 1] << 1) % MOD;
 
         for (int i = 0; i < n; i++) {
             int bs = binarySearch(nums, i, end, target);
@@ -17,6 +15,8 @@ class Solution {
                 break;
             // System.out.println(i + "\t" + bs);
             end = bs; // decrease search space
+            for (; k <= bs; k++)
+                powersOf2[k] = (powersOf2[k - 1] << 1) % MOD;
             ans = (ans + powersOf2[bs - i]) % MOD;
         }
         return ans;
