@@ -1,7 +1,7 @@
 class Solution {
     public int possibleStringCount(String word) {
-        char prev = '.';
-        int ans = 1; // OG string
+        char prev = word.charAt(0);
+        int ans = 0; // OG string
         for (char c : word.toCharArray())
             if (prev == c)
                 ans++;
