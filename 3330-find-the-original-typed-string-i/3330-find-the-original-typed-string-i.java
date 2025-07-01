@@ -2,8 +2,8 @@ class Solution {
     public int possibleStringCount(String word) {
         char prev = word.charAt(0);
         int count = 0, ans = 0;
-        for(char c: word.toCharArray()){
-            if(prev == c)
+        for (char c : word.toCharArray()) {
+            if (prev == c)
                 count++;
             else {
                 ans += count - 1;
@@ -11,7 +11,6 @@ class Solution {
                 prev = c;
             }
         }
-        ans += count;
-        return ans;
+        return ans += count;
     }
 }
