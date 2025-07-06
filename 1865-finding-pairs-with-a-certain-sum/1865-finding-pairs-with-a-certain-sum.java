@@ -13,8 +13,8 @@ class FindSumPairs {
 
     public void add(int index, int val) {
         nums2Freq.put(nums2[index], nums2Freq.get(nums2[index]) - 1);
-        if (nums2Freq.get(nums2[index]) == 0)
-            nums2Freq.remove(nums2[index]);
+        // if (nums2Freq.get(nums2[index]) == 0)
+        //     nums2Freq.remove(nums2[index]);
         nums2[index] += val;
         nums2Freq.put(nums2[index], nums2Freq.getOrDefault(nums2[index], 0) + 1);
     }
