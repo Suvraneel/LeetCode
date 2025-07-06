@@ -1,5 +1,5 @@
 class FindSumPairs {
-    Map<Integer, Integer> nums1Freq = new HashMap<>();
+    Map<Integer, Integer> nums1Freq = new TreeMap<>();
     Map<Integer, Integer> nums2Freq = new HashMap<>();
     int[] nums2;
 
@@ -21,8 +21,11 @@ class FindSumPairs {
 
     public int count(int tot) {
         int ct = 0;
-        for (Map.Entry<Integer, Integer> e : nums1Freq.entrySet())
+        for (Map.Entry<Integer, Integer> e : nums1Freq.entrySet()) {
+            if (e.getKey() > tot)
+                break;
             ct += nums2Freq.getOrDefault(tot - e.getKey(), 0) * e.getValue();
+        }
         return ct;
     }
 }
