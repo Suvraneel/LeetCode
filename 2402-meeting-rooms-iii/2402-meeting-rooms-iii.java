@@ -4,7 +4,7 @@ class Solution {
         Queue<Integer> free = new PriorityQueue<>(IntStream.range(0, n).boxed().toList());
         Queue<long[]> used = new PriorityQueue<>((a, b) -> a[0] != b[0] ?
                 Long.compare(a[0], b[0]) : Long.compare(a[1], b[1]));   // {meetEndTime, roomNo.}
-        Arrays.sort(meetings, (a, b) -> a[0] != b[0] ? Integer.compare(a[0], b[0]) : Integer.compare(a[1], b[1]));
+        // Arrays.sort(meetings, (a, b) -> a[0] != b[0] ? Integer.compare(a[0], b[0]) : Integer.compare(a[1], b[1]));
         for (int[] m : meetings) {
             while (!used.isEmpty() && used.peek()[0] <= m[0])
                 free.add((int)used.poll()[1]);
