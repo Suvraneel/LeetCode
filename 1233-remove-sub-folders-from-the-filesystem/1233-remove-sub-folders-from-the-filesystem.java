@@ -1,49 +1,47 @@
+class TrieNode {
+    Map<String, TrieNode> dir = new HashMap<>();
+    boolean vis = false;
+    public String toString(){
+        return dir.toString() + "\t" + vis;
+    }
+}
+class Trie {
+    public TrieNode root;
+    Trie(){
+        root = new TrieNode();
+    }
+    public String toString(){
+        return root.toString();
+    }
+}
 class Solution {
-    private class TrieNode {
-        Map<String, TrieNode> children = new HashMap<>();
-        boolean isVisited = false;
-    }
-
-    private class Trie {
-        TrieNode root;
-
-        Trie() {
-            root = new TrieNode();
-        }
-
-        void insert(String folder) {
-            String[] path = folder.split("/");
-            TrieNode curr = root;
-            for (String dir : path) {
-                curr.children.putIfAbsent(dir, new TrieNode());
-                curr = curr.children.get(dir);
-                if(curr.isVisited)  // skip traversing a nested path of already seen dir
-                    return;
-            }
-            curr.children.clear();  // clear subfolders encountered previously
-            curr.isVisited = true;
-        }
-
-        boolean contains(String folder) {
-            String[] path = folder.split("/");
-            TrieNode curr = root;
-            for (String dir : path) {
-                if(!curr.children.containsKey(dir))
-                    return false;
-                curr = curr.children.get(dir);
-            }
-            return curr.isVisited;
-        }
-    }
-
     public List<String> removeSubfolders(String[] folder) {
         Trie trie = new Trie();
-        for (String f : folder)
-            trie.insert(f);
-        List<String> prunedFolderList = new ArrayList<>();
-        for(String f: folder)
-            if(trie.contains(f))
-                prunedFolderList.add(f);
-        return prunedFolderList;
+        for(String s: folder){
+            String[] subdirs = s.split("/");
+            TrieNode tn = trie.root;
+            for(String d: subdirs){
+                tn.dir.putIfAbsent(d, new TrieNode());
+                tn = tn.dir.get(d);
+            }
+            tn.vis = true;
+        }
+        List<String> ans = new ArrayList<>();
+        // System.out.println(trie);
+        for(String s: folder){
+            String[] subdirs = s.split("/");
+            TrieNode tn = trie.root;
+            boolean isSubFolder = false; 
+            for(String d: subdirs){
+                if(tn.vis){
+                    isSubFolder = true;
+                    break;
+                }
+                tn = tn.dir.get(d);
+            }
+            if(!isSubFolder)
+                ans.add(s);
+        }
+        return ans;
     }
 }
