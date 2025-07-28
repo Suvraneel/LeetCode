@@ -1,20 +1,14 @@
 class Solution {
-    int[] nums;
-    int n, maxOr;
-
     public int countMaxOrSubsets(int[] nums) {
-        this.nums = nums;
-        this.n = nums.length;
-        maxOr = 0;
-        for (int i : nums)
-            maxOr |= i;
-        return solve(0, 0);
+        int maxOR = 0;
+        for (int n : nums)
+            maxOR |= n;
+        return count(nums, maxOR, 0, 0);
     }
 
-    private int solve(int idx, int or) {
-        if (idx == n)
-            return maxOr == or ? 1 : 0;
-        // System.out.println(idx + "\t" + or);
-        return solve(idx + 1, or | nums[idx]) + solve(idx + 1, or);
+    private int count(int[] nums, int maxOR, int idx, int curOR) {
+        if (idx == nums.length)
+            return curOR == maxOR ? 1 : 0;
+        return count(nums, maxOR, idx + 1, nums[idx] | curOR) + count(nums, maxOR, idx + 1, curOR);
     }
 }
