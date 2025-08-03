@@ -10,7 +10,7 @@ class Solution {
         }
         prefixSum.put(Integer.MAX_VALUE, total);
 
-        for (int i = 0; i <= k / 2 + 1; i++) {
+        for (int i = 0; i <= k / 2; i++) {
             // Move right i, then left (k - 2*i)
             int right = prefixSum.get(prefixSum.floorKey(startPos + i));
             int leftLimit = (k < 2 * i) ? (startPos - 1) : (startPos - (k - 2 * i) - 1);
@@ -23,7 +23,7 @@ class Solution {
             int right2 = prefixSum.get(prefixSum.floorKey(rightLimit));
             ans = Math.max(ans, right2 - left2);
 
-            System.out.println(i + "\t" + (right - left) + "\t" + (right2 - left2));
+            // System.out.println(i + "\t" + (right - left) + "\t" + (right2 - left2));
         }
 
         return ans;
