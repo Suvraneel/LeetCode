@@ -263,6 +263,7 @@
 | [797](https://leetcode.com/problems/all-paths-from-source-to-target/) | [All Paths from Source to Target](./0797-all-paths-from-source-to-target) | **[Solution](./0797-all-paths-from-source-to-target/0797-all-paths-from-source-to-target.cpp)**  
 | [802](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | [K Th Smallest Prime Fraction](./0802-k-th-smallest-prime-fraction) | **[Solution](./0802-k-th-smallest-prime-fraction/0802-k-th-smallest-prime-fraction.cpp)**  
 | [804](https://leetcode.com/problems/unique-morse-code-words/) | [Unique Morse Code Words](./804-unique-morse-code-words) | **[Solution](./804-unique-morse-code-words/804-unique-morse-code-words.cpp)**  
+| [808](https://leetcode.com/problems/soup-servings/) | [Soup Servings](./0808-soup-servings) | **[Solution](./0808-soup-servings/0808-soup-servings.cpp)**  
 | [814](https://leetcode.com/problems/binary-tree-pruning/) | [Binary Tree Pruning](./814-binary-tree-pruning) | **[Solution](./814-binary-tree-pruning/814-binary-tree-pruning.cpp)**  
 | [826](https://leetcode.com/problems/most-profit-assigning-work/) | [Most Profit Assigning Work](./0826-most-profit-assigning-work) | **[Solution](./0826-most-profit-assigning-work/0826-most-profit-assigning-work.cpp)**  
 | [827](https://leetcode.com/problems/making-a-large-island/) | [Making a Large Island](./0827-making-a-large-island) | **[Solution](./0827-making-a-large-island/0827-making-a-large-island.cpp)**  
