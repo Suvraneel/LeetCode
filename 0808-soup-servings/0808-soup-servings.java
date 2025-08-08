@@ -4,9 +4,8 @@ class Solution {
     public double soupServings(int n) {
         n = (int) Math.ceil(n / 25.0);
         Map<Pair<Integer, Integer>, Double> dp = new HashMap<>();
-        for (int k = 1; k <= n; k++)
-            if (dfs(k, k, dp) > 1 - 1e-5)   // optimized early return as constraint reaches limit precision 10^-5
-                return 1.0;
+        if (n > 200)
+            return 1d;
         return dfs(n, n, dp);
     }
 
