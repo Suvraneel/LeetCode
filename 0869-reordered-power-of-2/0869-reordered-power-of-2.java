@@ -23,7 +23,7 @@ class Solution {
         if (valid)
             return;
         if (len == 0) {
-            System.out.println(curr);
+            // System.out.println(curr);
             valid |= isPowerOf2(curr);
             return;
         }
