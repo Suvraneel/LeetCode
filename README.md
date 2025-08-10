@@ -37,6 +37,7 @@
 | [39](https://leetcode.com/problems/combination-sum/) | [Combination Sum](./0039-combination-sum) | **[Solution](./0039-combination-sum/0039-combination-sum.cpp)**  
 | [40](https://leetcode.com/problems/combination-sum-ii/) | [Combination Sum II](./0040-combination-sum-ii) | **[Solution](./0040-combination-sum-ii/0040-combination-sum-ii.cpp)**  
 | [42](https://leetcode.com/problems/trapping-rain-water/) | [Trapping Rain Water](./42-trapping-rain-water) | **[Solution](./42-trapping-rain-water/42-trapping-rain-water.cpp)**  
+| [47](https://leetcode.com/problems/permutations-ii/) | [Permutations II](./0047-permutations-ii) | **[Solution](./0047-permutations-ii/0047-permutations-ii.cpp)**  
 | [48](https://leetcode.com/problems/rotate-image/) | [Rotate Image](./48-rotate-image) | **[Solution](./48-rotate-image/48-rotate-image.cpp)**  
 | [49](https://leetcode.com/problems/group-anagrams/) | [Group Anagrams](./0049-group-anagrams) | **[Solution](./0049-group-anagrams/0049-group-anagrams.cpp)**  
 | [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](./0053-maximum-subarray) | **[Solution](./0053-maximum-subarray/0053-maximum-subarray.cpp)**  
