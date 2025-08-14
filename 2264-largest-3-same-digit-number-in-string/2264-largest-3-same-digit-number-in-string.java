@@ -1,17 +1,10 @@
 class Solution {
     public String largestGoodInteger(String num) {
-        int[] freq = new int[10];
-        int prev = -1, ans = -1;
-        for (int i = 0; i < num.length(); i++) {
-            int digit = num.charAt(i) - '0';
-            if (digit == prev) {
-                if (++freq[digit] == 3)
-                    ans = Math.max(ans, digit);
-            } else {
-                freq[digit] = 1;
-                prev = digit;
-            }
+        for (int i = 9; i >= 0; i--) {
+            String s = "" + i + i + i;
+            if (num.contains(s))
+                return s;
         }
-        return ans == -1 ? "" : "" + ans + ans + ans;
+        return "";
     }
 }
