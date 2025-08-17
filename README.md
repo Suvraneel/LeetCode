@@ -271,6 +271,7 @@
 | [827](https://leetcode.com/problems/making-a-large-island/) | [Making a Large Island](./0827-making-a-large-island) | **[Solution](./0827-making-a-large-island/0827-making-a-large-island.cpp)**  
 | [834](https://leetcode.com/problems/sum-of-distances-in-tree/) | [Sum of Distances in Tree](./0834-sum-of-distances-in-tree) | **[Solution](./0834-sum-of-distances-in-tree/0834-sum-of-distances-in-tree.cpp)**  
 | [835](https://leetcode.com/problems/image-overlap/) | [Image Overlap](./0835-image-overlap) | **[Solution](./0835-image-overlap/0835-image-overlap.cpp)**  
+| [837](https://leetcode.com/problems/new-21-game/) | [New 21 Game](./0837-new-21-game) | **[Solution](./0837-new-21-game/0837-new-21-game.cpp)**  
 | [838](https://leetcode.com/problems/push-dominoes/) | [Push Dominoes](./838-push-dominoes) | **[Solution](./838-push-dominoes/838-push-dominoes.cpp)**  
 | [840](https://leetcode.com/problems/magic-squares-in-grid/) | [Magic Squares in Grid](./0840-magic-squares-in-grid) | **[Solution](./0840-magic-squares-in-grid/0840-magic-squares-in-grid.cpp)**  
 | [841](https://leetcode.com/problems/keys-and-rooms/) | [Keys and Rooms](./841-keys-and-rooms) | **[Solution](./841-keys-and-rooms/841-keys-and-rooms.cpp)**  
