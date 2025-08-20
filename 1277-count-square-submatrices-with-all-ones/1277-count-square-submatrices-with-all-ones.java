@@ -20,7 +20,7 @@ class Solution {
                 prefix[i + 1][j] += prefix[i][j];
         // print(prefix);
         for (int k = 1; k <= maxDim; k++) {
-            System.out.println("k->" + k);
+            // System.out.println("k->" + k);
             for (int i = k; i <= m; i++) {
                 for (int j = k; j <= n; j++) {
                     // System.out.print(prefix[i][j] - prefix[i - k][j] - prefix[i][j - k] + prefix[i - k][j - k] + "\t");
