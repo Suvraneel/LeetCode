@@ -11,6 +11,6 @@ class Solution {
             }
         }
         ans = Math.max(ans, ultStreak + penUltStreak);
-        return ans == nums.length ? ans - 1 : ans; // edge case: if all 1s, atleast one elem must be deleted
+        return Math.min(ans, nums.length - 1); // edge case: if all 1s, atleast one elem must be deleted
     }
 }
