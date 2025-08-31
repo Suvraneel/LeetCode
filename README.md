@@ -33,6 +33,7 @@
 | [33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Search in Rotated Sorted Array](./0033-search-in-rotated-sorted-array) | **[Solution](./0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.cpp)**  
 | [35](https://leetcode.com/problems/search-insert-position/) | [Search Insert Position](./0035-search-insert-position) | **[Solution](./0035-search-insert-position/0035-search-insert-position.cpp)**  
 | [36](https://leetcode.com/problems/valid-sudoku/) | [Valid Sudoku](./0036-valid-sudoku) | **[Solution](./0036-valid-sudoku/0036-valid-sudoku.cpp)**  
+| [37](https://leetcode.com/problems/sudoku-solver/) | [Sudoku Solver](./0037-sudoku-solver) | **[Solution](./0037-sudoku-solver/0037-sudoku-solver.cpp)**  
 | [38](https://leetcode.com/problems/count-and-say/) | [Count and Say](./0038-count-and-say) | **[Solution](./0038-count-and-say/0038-count-and-say.cpp)**  
 | [39](https://leetcode.com/problems/combination-sum/) | [Combination Sum](./0039-combination-sum) | **[Solution](./0039-combination-sum/0039-combination-sum.cpp)**  
 | [40](https://leetcode.com/problems/combination-sum-ii/) | [Combination Sum II](./0040-combination-sum-ii) | **[Solution](./0040-combination-sum-ii/0040-combination-sum-ii.cpp)**  
