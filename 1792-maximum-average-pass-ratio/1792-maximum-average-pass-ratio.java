@@ -1,21 +1,21 @@
 class Solution {
+    private double calcGain(int[] a) {
+        return 1d * (a[0] + 1) / (a[1] + 1) - 1d * a[0] / a[1];
+    }
+
     public double maxAverageRatio(int[][] classes, int extraStudents) {
-        Queue<double[]> passRatios = new PriorityQueue<>((a, b) -> Double.compare(
-                ((double) (b[0] + 1d) / (b[1] + 1d) - (double) b[0] / b[1]),
-                ((double) (a[0] + 1d) / (a[1] + 1d) - (double) a[0] / a[1])));
+        Queue<int[]> pq = new PriorityQueue<>((a, b) -> Double.compare(calcGain(b), calcGain(a)));
         for (int[] c : classes)
-            passRatios.offer(new double[] { c[0], c[1] });
+            pq.offer(c);
         while (extraStudents-- > 0) {
-            double[] smallestPR = passRatios.poll();
-            smallestPR[0]++;
-            smallestPR[1]++;
-            passRatios.offer(smallestPR);
+            int[] top = pq.poll();
+            pq.offer(new int[] { top[0] + 1, top[1] + 1 });
         }
-        double maxAvgRatio = 0d;
-        while (!passRatios.isEmpty()) {
-            double[] smallestPR = passRatios.poll();
-            maxAvgRatio += smallestPR[0] / (smallestPR[1] * 1d);
+        double avgRatio = 0;
+        while (!pq.isEmpty()) {
+            int[] top = pq.poll();
+            avgRatio += 1d * top[0] / top[1];
         }
-        return maxAvgRatio / classes.length;
+        return avgRatio /= classes.length;
     }
 }
