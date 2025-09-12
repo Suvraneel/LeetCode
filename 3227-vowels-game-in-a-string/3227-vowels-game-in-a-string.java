@@ -1,18 +1,12 @@
 class Solution {
-    private Set<Character> vowels = new HashSet<>(Arrays.asList('a','e','i','o','u'));
-    private int vowelCount(String s){
-        int count = 0;
-        for(char c: s.toCharArray())
-            if(vowels.contains(c))
-                count++;
-        return count;
-    }
     public boolean doesAliceWin(String s) {
-        int vowelCt = vowelCount(s);
-        if(vowelCt % 2 == 1)
-            return true;    // Alice removes all chars & wins
-        if(vowelCt == 0)
-            return false;   // Alice cant make a move & loses to Bob
-        return true;
+        // If num of vowels in s is odd, Alice removes entire s & takes the win
+        // If num of vowels in s is zero, Alice cant make a move & so Bob wins
+        /** If num of vowels in s is even but not zero, Alice will rm odd num of chars (ie, vowelCt - 1),
+        * Bob may lose in round 1 if no consonants left, 
+        * else he will lose in round 2 when Alice rms the remaining vowel
+        */
+        // So, in a nutshell, Alice can only lose when no. of vowels in s is exactly zero.
+        return s.chars().anyMatch(c -> "aeiou".indexOf(c) != -1);
     }
 }
