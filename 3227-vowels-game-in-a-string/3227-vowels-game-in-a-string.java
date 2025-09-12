@@ -7,9 +7,16 @@ class Solution {
         * else he will lose in round 2 when Alice rms the remaining vowel
         */
         // So, in a nutshell, Alice can only lose when no. of vowels in s is exactly zero.
-        for (int i = 0; i < s.length(); i++)
-            if ("aeiou".indexOf(s.charAt(i)) != -1)
-                return true;
+        for (char c : s.toCharArray()) {
+            switch (c) {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    return true;
+            }
+        }
         return false;
     }
 }
