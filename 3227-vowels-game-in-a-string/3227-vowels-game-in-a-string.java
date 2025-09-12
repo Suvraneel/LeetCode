@@ -9,11 +9,7 @@ class Solution {
         // So, in a nutshell, Alice can only lose when no. of vowels in s is exactly zero.
         for (char c : s.toCharArray()) {
             switch (c) {
-                case 'a':
-                case 'e':
-                case 'i':
-                case 'o':
-                case 'u':
+                case 'a', 'e', 'i', 'o', 'u':
                     return true;
             }
         }
