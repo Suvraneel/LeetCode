@@ -1,15 +1,19 @@
 class Solution {
     public String[] spellchecker(String[] wordlist, String[] queries) {
+        Set<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u'));
         Set<String> exactMatch = new HashSet<>();
         Map<String, String> mapCapitalize = new HashMap<>();
         Map<String, String> mapError = new HashMap<>();
-        int m = wordlist.length, n = queries.length, j = 0;
-        for (int i = m - 1; i >= 0; i--) {
-            exactMatch.add(wordlist[i]);
-            mapCapitalize.put(wordlist[i].toLowerCase(), wordlist[i]);
-            mapError.put(wordlist[i].toLowerCase().replaceAll("[aeiou]", "*"), wordlist[i]);
+        for (String w : wordlist) {
+            exactMatch.add(w);
+            String wl = w.toLowerCase();
+            mapCapitalize.putIfAbsent(wl, w);
+            String we = wl.chars().mapToObj(c -> vowels.contains((char) c) ? "*" : String.valueOf((char) c))
+                    .collect(Collectors.joining());
+            mapError.putIfAbsent(we, w);
         }
-        String[] ans = new String[n];
+        String[] ans = new String[queries.length];
+        int j = 0;
         for (String q : queries) {
             if (exactMatch.contains(q)) {
                 ans[j++] = q;
@@ -20,12 +24,13 @@ class Solution {
                 ans[j++] = mapCapitalize.get(ql);
                 continue;
             }
-            String qe = q.toLowerCase().replaceAll("[aeiou]", "*");
+            String qe = ql.chars().mapToObj(c -> vowels.contains((char) c) ? "*" : String.valueOf((char) c))
+                    .collect(Collectors.joining());
             if (mapError.containsKey(qe)) {
                 ans[j++] = mapError.get(qe);
                 continue;
-            } else
-                ans[j++] = "";
+            }
+            ans[j++] = "";
         }
         return ans;
     }
