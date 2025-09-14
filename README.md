@@ -319,6 +319,7 @@
 | [958](https://leetcode.com/problems/sort-array-by-parity-ii/) | [Sort Array by Parity II](./0958-sort-array-by-parity-ii) | **[Solution](./0958-sort-array-by-parity-ii/0958-sort-array-by-parity-ii.cpp)**  
 | [959](https://leetcode.com/problems/regions-cut-by-slashes/) | [Regions Cut by Slashes](./0959-regions-cut-by-slashes) | **[Solution](./0959-regions-cut-by-slashes/0959-regions-cut-by-slashes.cpp)**  
 | [962](https://leetcode.com/problems/maximum-width-ramp/) | [Maximum Width Ramp](./0962-maximum-width-ramp) | **[Solution](./0962-maximum-width-ramp/0962-maximum-width-ramp.cpp)**  
+| [966](https://leetcode.com/problems/vowel-spellchecker/) | [Vowel Spellchecker](./0966-vowel-spellchecker) | **[Solution](./0966-vowel-spellchecker/0966-vowel-spellchecker.cpp)**  
 | [967](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | [Numbers With same Consecutive Differences](./967-numbers-with-same-consecutive-differences) | **[Solution](./967-numbers-with-same-consecutive-differences/967-numbers-with-same-consecutive-differences.cpp)**  
 | [973](https://leetcode.com/problems/k-closest-points-to-origin/) | [K Closest Points to Origin](./973-k-closest-points-to-origin) | **[Solution](./973-k-closest-points-to-origin/973-k-closest-points-to-origin.cpp)**  
 | [974](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | [Subarray Sums Divisible by K](./0974-subarray-sums-divisible-by-k) | **[Solution](./0974-subarray-sums-divisible-by-k/0974-subarray-sums-divisible-by-k.cpp)**  
