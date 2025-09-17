@@ -1,45 +1,46 @@
+class Food implements Comparable<Food> {
+    public int rating;
+    public String name;
+
+    public Food(int rating, String name) {
+        this.rating = rating;
+        this.name = name;
+    }
+
+    @Override
+    public int compareTo(Food other) {
+        if (this.rating == other.rating)
+            return (this.name).compareTo(other.name);
+        return other.rating - this.rating;
+    }
+}
+
 class FoodRatings {
-    int n;
-    String[] foods;
-    String[] cuisines;
-    int[] ratings;
-    Map<String, Integer> foodIdx = new HashMap<>();
-    Map<String, Integer> cuisineTopRated = new HashMap<>();
+    Map<String, Integer> foodRatingMap;
+    Map<String, String> foodCuisineMap;
+    Map<String, TreeSet<Food>> cuisineTopFoodQMap;
 
     public FoodRatings(String[] foods, String[] cuisines, int[] ratings) {
-        this.n = foods.length;
-        this.foods = foods;
-        this.cuisines = cuisines;
-        this.ratings = ratings;
+        foodRatingMap = new HashMap<>();
+        foodCuisineMap = new HashMap<>();
+        cuisineTopFoodQMap = new HashMap<>();
+        int n = foods.length;
         for (int i = 0; i < n; i++) {
-            foodIdx.put(foods[i], i);
-            int prevTopRatedInCuisine = cuisineTopRated.getOrDefault(cuisines[i], -1);
-            if (prevTopRatedInCuisine == -1 || ratings[prevTopRatedInCuisine] < ratings[i]
-                    || (ratings[prevTopRatedInCuisine] == ratings[i]
-                            && foods[prevTopRatedInCuisine].compareTo(foods[i]) > 0))
-                cuisineTopRated.put(cuisines[i], i);
+            foodRatingMap.put(foods[i], ratings[i]);
+            foodCuisineMap.put(foods[i], cuisines[i]);
+            cuisineTopFoodQMap.computeIfAbsent(cuisines[i], k -> new TreeSet<>()).add(new Food(ratings[i], foods[i]));
         }
-        print();
     }
 
     public void changeRating(String food, int newRating) {
-        int idx = foodIdx.get(food);
-        int prevTopRatedInCuisine = cuisineTopRated.get(cuisines[idx]);
-        if (ratings[prevTopRatedInCuisine] < newRating || (ratings[prevTopRatedInCuisine] == newRating
-                && foods[prevTopRatedInCuisine].compareTo(foods[idx]) > 0))
-            cuisineTopRated.put(cuisines[idx], idx);
-        ratings[idx] = newRating;
-        print();
+        String cuisineOfFood = foodCuisineMap.get(food);
+        cuisineTopFoodQMap.get(cuisineOfFood).remove(new Food(foodRatingMap.get(food), food));
+        cuisineTopFoodQMap.get(cuisineOfFood).add(new Food(newRating, food));
+        foodRatingMap.put(food, newRating);
     }
 
     public String highestRated(String cuisine) {
-        return foods[cuisineTopRated.get(cuisine)];
-    }
-
-    private void print(){
-        System.out.println(foodIdx);
-        System.out.println(cuisineTopRated);
-        System.out.println(Arrays.toString(ratings));
+        return cuisineTopFoodQMap.get(cuisine).first().name;
     }
 }
 
