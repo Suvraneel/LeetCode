@@ -99,6 +99,7 @@
 | [151](https://leetcode.com/problems/reverse-words-in-a-string/) | [Reverse Words in a String](./0151-reverse-words-in-a-string) | **[Solution](./0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.cpp)**  
 | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Intersection of Two Linked Lists](./160-intersection-of-two-linked-lists) | **[Solution](./160-intersection-of-two-linked-lists/160-intersection-of-two-linked-lists.cpp)**  
 | [165](https://leetcode.com/problems/compare-version-numbers/) | [Compare Version Numbers](./0165-compare-version-numbers) | **[Solution](./0165-compare-version-numbers/0165-compare-version-numbers.cpp)**  
+| [166](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [Fraction to Recurring Decimal](./0166-fraction-to-recurring-decimal) | **[Solution](./0166-fraction-to-recurring-decimal/0166-fraction-to-recurring-decimal.cpp)**  
 | [169](https://leetcode.com/problems/majority-element/) | [Majority Element](./0169-majority-element) | **[Solution](./0169-majority-element/0169-majority-element.cpp)**  
 | [173](https://leetcode.com/problems/binary-search-tree-iterator/) | [Binary Search Tree Iterator](./173-binary-search-tree-iterator) | **[Solution](./173-binary-search-tree-iterator/173-binary-search-tree-iterator.cpp)**  
 | [175](https://leetcode.com/problems/combine-two-tables/) | [Combine Two Tables](./0175-combine-two-tables) | **[Solution](./0175-combine-two-tables/0175-combine-two-tables.cpp)**  
