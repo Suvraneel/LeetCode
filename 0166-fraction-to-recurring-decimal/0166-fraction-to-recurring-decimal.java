@@ -2,8 +2,8 @@ class Solution {
     public String fractionToDecimal(int numerator, int denominator) {
         StringBuilder quotient = new StringBuilder();
         long dividend = numerator, divisor = denominator;
-        if (dividend < 0 || divisor < 0){
-            if(dividend * divisor < 0)
+        if (dividend < 0 || divisor < 0) {
+            if (dividend * divisor < 0)
                 quotient.append("-");
             dividend = Math.abs(dividend);
             divisor = Math.abs(divisor);
