@@ -15,13 +15,8 @@ class Solution {
             return quotient.toString();
         quotient.append(".");
         while (dividend > 0) {
-            if (dividend >= divisor) {
-                quotient.append(dividend / divisor);
-                dividend = (dividend % divisor) * 10;
-            } else {
-                quotient.append("0");
-                dividend *= 10;
-            }
+            quotient.append(dividend / divisor);
+            dividend = (dividend % divisor) * 10;
             if (repeatingDividend.containsKey(dividend)) {
                 return quotient.substring(0, repeatingDividend.get(dividend)) + "(" +
                         quotient.substring(repeatingDividend.get(dividend), quotient.length()) + ")";
