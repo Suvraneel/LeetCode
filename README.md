@@ -78,6 +78,7 @@
 | [116](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Populating Next Right Pointers in each Node](./116-populating-next-right-pointers-in-each-node) | **[Solution](./116-populating-next-right-pointers-in-each-node/116-populating-next-right-pointers-in-each-node.cpp)**  
 | [118](https://leetcode.com/problems/pascals-triangle/) | [Pascals Triangle](./0118-pascals-triangle) | **[Solution](./0118-pascals-triangle/0118-pascals-triangle.cpp)**  
 | [119](https://leetcode.com/problems/pascals-triangle-ii/) | [Pascals Triangle II](./0119-pascals-triangle-ii) | **[Solution](./0119-pascals-triangle-ii/0119-pascals-triangle-ii.cpp)**  
+| [120](https://leetcode.com/problems/triangle/) | [Triangle](./0120-triangle) | **[Solution](./0120-triangle/0120-triangle.cpp)**  
 | [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Best Time to Buy and Sell Stock](./121-best-time-to-buy-and-sell-stock) | **[Solution](./121-best-time-to-buy-and-sell-stock/121-best-time-to-buy-and-sell-stock.cpp)**  
 | [125](https://leetcode.com/problems/valid-palindrome/) | [Valid Palindrome](./125-valid-palindrome) | **[Solution](./125-valid-palindrome/125-valid-palindrome.cpp)**  
 | [126](https://leetcode.com/problems/word-ladder-ii/) | [Word Ladder II](./126-word-ladder-ii) | **[Solution](./126-word-ladder-ii/126-word-ladder-ii.cpp)**  
