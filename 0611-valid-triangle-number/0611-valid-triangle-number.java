@@ -1,12 +1,15 @@
 class Solution {
     public int triangleNumber(int[] nums) {
         Arrays.sort(nums);
-        int n = nums.length, count = 0;
-        for (int i = 0; i < n - 2; i++) {
+        int i = 0, n = nums.length, count = 0;
+        while (i < n && nums[i] == 0)
+            i++;
+        for (; i < n - 2; i++) {
+            int k = i + 2;
             for (int j = i + 1; j < n - 1; j++) {
-                int lastValidIdx = binarySearch(j, n - 1, nums[i] + nums[j], nums);
-                // System.out.println(i + "\t" + j + "\t" + lastValidIdx);
-                count += lastValidIdx - j;
+                while (k < n && nums[i] + nums[j] > nums[k])
+                    k++;
+                count += k - j - 1;
             }
         }
         return count;
