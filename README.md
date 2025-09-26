@@ -221,6 +221,7 @@
 | [605](https://leetcode.com/problems/can-place-flowers/) | [Can Place Flowers](./605-can-place-flowers) | **[Solution](./605-can-place-flowers/605-can-place-flowers.cpp)**  
 | [606](https://leetcode.com/problems/construct-string-from-binary-tree/) | [Construct String from Binary Tree](./606-construct-string-from-binary-tree) | **[Solution](./606-construct-string-from-binary-tree/606-construct-string-from-binary-tree.cpp)**  
 | [609](https://leetcode.com/problems/find-duplicate-file-in-system/) | [Find Duplicate File in System](./609-find-duplicate-file-in-system) | **[Solution](./609-find-duplicate-file-in-system/609-find-duplicate-file-in-system.cpp)**  
+| [611](https://leetcode.com/problems/valid-triangle-number/) | [Valid Triangle Number](./0611-valid-triangle-number) | **[Solution](./0611-valid-triangle-number/0611-valid-triangle-number.cpp)**  
 | [622](https://leetcode.com/problems/design-circular-queue/) | [Design Circular Queue](./622-design-circular-queue) | **[Solution](./622-design-circular-queue/622-design-circular-queue.cpp)**  
 | [623](https://leetcode.com/problems/add-one-row-to-tree/) | [Add One Row to Tree](./623-add-one-row-to-tree) | **[Solution](./623-add-one-row-to-tree/623-add-one-row-to-tree.cpp)**  
 | [624](https://leetcode.com/problems/maximum-distance-in-arrays/) | [Maximum Distance in Arrays](./0624-maximum-distance-in-arrays) | **[Solution](./0624-maximum-distance-in-arrays/0624-maximum-distance-in-arrays.cpp)**  
