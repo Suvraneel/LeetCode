@@ -2,30 +2,26 @@ class Solution {
     public int[] avoidFlood(int[] rains) {
         int n = rains.length;
         int[] ans = new int[n];
+        TreeSet<Integer> dry = new TreeSet<>();
         Map<Integer, Integer> seen = new HashMap<>();
-        Queue<Integer> blank = new PriorityQueue<>((a, b) -> b - a);
-        for (int i = n - 1; i >= 0; i--) {
+        for (int i = 0; i < n; i++) {
             if (rains[i] > 0) {
                 if (seen.containsKey(rains[i])) {
-                    int lastSeen = seen.get(rains[i]);
-                    List<Integer> reserve = new ArrayList<>();
-                    while (!blank.isEmpty() && blank.peek() > lastSeen) {
-                        // System.out.println(blank + "\t" + lastSeen);
-                        reserve.add(blank.poll());
-                    }
-                    if (blank.isEmpty())
+                    Integer found = dry.ceiling(seen.get(rains[i]));
+                    if (found == null)
                         return new int[0];
-                    else
-                        ans[blank.poll()] = rains[i];
-                    blank.addAll(reserve);
+                    else {
+                        ans[found] = rains[i];
+                        dry.remove(found);
+                    }
                 }
-                seen.put(rains[i], i);
                 ans[i] = -1;
-            } else
-                blank.offer(i);
+                seen.put(rains[i], i);
+            } else {
+                dry.add(i);
+                ans[i] = 1;
+            }
         }
-        while (!blank.isEmpty())
-            ans[blank.poll()] = 1;
         return ans;
     }
 }
