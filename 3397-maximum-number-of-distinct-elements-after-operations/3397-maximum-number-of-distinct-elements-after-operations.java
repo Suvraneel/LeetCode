@@ -5,7 +5,7 @@ class Solution {
         for (int n : nums) {
             if (prev == n + k)
                 continue;
-            prev = Math.min(Math.max(prev + 1, n - k), n + k);
+            prev = Math.max(prev + 1, n - k);
             distinct++;
         }
         return distinct;
