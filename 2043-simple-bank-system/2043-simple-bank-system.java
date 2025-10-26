@@ -8,24 +8,24 @@ class Bank {
     }
 
     public boolean transfer(int account1, int account2, long money) {
-        if (account1-- > n || account2-- > n || balance[account1] < money)
+        if (account1 > n || account2 > n || balance[account1 - 1] < money)
             return false;
-        balance[account1] -= money;
-        balance[account2] += money;
+        balance[account1 - 1] -= money;
+        balance[account2 - 1] += money;
         return true;
     }
 
     public boolean deposit(int account, long money) {
-        if (account-- > n)
+        if (account > n)
             return false;
-        balance[account] += money;
+        balance[account - 1] += money;
         return true;
     }
 
     public boolean withdraw(int account, long money) {
-        if (account-- > n || balance[account] < money)
+        if (account > n || balance[account - 1] < money)
             return false;
-        balance[account] -= money;
+        balance[account - 1] -= money;
         return true;
     }
 }
