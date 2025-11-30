@@ -1,30 +1,19 @@
 class Solution {
     public int minSubarray(int[] nums, int p) {
-        int n = nums.length;
-        int totalSum = 0;
-
-        for (int num : nums) {
-            totalSum = (totalSum + num) % p;
-        }
-
-        int target = totalSum % p;
-        if (target == 0) 
+        Map<Integer, Integer> modBucket = new HashMap<>();
+        modBucket.put(0, -1);
+        int n = nums.length, target = 0, prefixSum = 0, ans = n;
+        for (int i : nums)
+            target = (target + i) % p;
+        if (target == 0)
             return 0;
-
-        HashMap<Integer, Integer> modMap = new HashMap<>();
-        modMap.put(0, -1);
-        int currentSum = 0;
-        int minLen = n;
-
-        for (int i = 0; i < n; ++i) {
-            currentSum = (currentSum + nums[i]) % p;
-
-            int needed = (currentSum - target + p) % p;
-            if (modMap.containsKey(needed)) {
-                minLen = Math.min(minLen, i - modMap.get(needed));
-            }
-            modMap.put(currentSum, i);
+        for (int i = 0; i < n; i++) {
+            prefixSum = (prefixSum + nums[i]) % p;
+            int modP = (prefixSum - target + p) % p;
+            if (modBucket.containsKey(modP))
+                ans = Math.min(ans, i - modBucket.get(modP));
+            modBucket.put(prefixSum, i);
         }
-        return minLen == n ? -1 : minLen;
+        return ans == n ? -1 : ans;
     }
 }
