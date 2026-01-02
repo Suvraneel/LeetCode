@@ -322,6 +322,7 @@
 | [956](https://leetcode.com/problems/number-of-music-playlists/) | [Number of Music Playlists](./0956-number-of-music-playlists) | **[Solution](./0956-number-of-music-playlists/0956-number-of-music-playlists.cpp)**  
 | [958](https://leetcode.com/problems/sort-array-by-parity-ii/) | [Sort Array by Parity II](./0958-sort-array-by-parity-ii) | **[Solution](./0958-sort-array-by-parity-ii/0958-sort-array-by-parity-ii.cpp)**  
 | [959](https://leetcode.com/problems/regions-cut-by-slashes/) | [Regions Cut by Slashes](./0959-regions-cut-by-slashes) | **[Solution](./0959-regions-cut-by-slashes/0959-regions-cut-by-slashes.cpp)**  
+| [961](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | [N Repeated Element in Size 2n Array](./0961-n-repeated-element-in-size-2n-array) | **[Solution](./0961-n-repeated-element-in-size-2n-array/0961-n-repeated-element-in-size-2n-array.cpp)**  
 | [962](https://leetcode.com/problems/maximum-width-ramp/) | [Maximum Width Ramp](./0962-maximum-width-ramp) | **[Solution](./0962-maximum-width-ramp/0962-maximum-width-ramp.cpp)**  
 | [966](https://leetcode.com/problems/vowel-spellchecker/) | [Vowel Spellchecker](./0966-vowel-spellchecker) | **[Solution](./0966-vowel-spellchecker/0966-vowel-spellchecker.cpp)**  
 | [967](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | [Numbers With same Consecutive Differences](./967-numbers-with-same-consecutive-differences) | **[Solution](./967-numbers-with-same-consecutive-differences/967-numbers-with-same-consecutive-differences.cpp)**  
