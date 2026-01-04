@@ -411,6 +411,7 @@
 | [1380](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | [Lucky Numbers in a Matrix](./1380-lucky-numbers-in-a-matrix) | **[Solution](./1380-lucky-numbers-in-a-matrix/1380-lucky-numbers-in-a-matrix.cpp)**  
 | [1381](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | [Design a Stack With Increment Operation](./1381-design-a-stack-with-increment-operation) | **[Solution](./1381-design-a-stack-with-increment-operation/1381-design-a-stack-with-increment-operation.cpp)**  
 | [1382](https://leetcode.com/problems/balance-a-binary-search-tree/) | [Balance a Binary Search Tree](./1382-balance-a-binary-search-tree) | **[Solution](./1382-balance-a-binary-search-tree/1382-balance-a-binary-search-tree.cpp)**  
+| [1390](https://leetcode.com/problems/four-divisors/) | [Four Divisors](./1390-four-divisors) | **[Solution](./1390-four-divisors/1390-four-divisors.cpp)**  
 | [1394](https://leetcode.com/problems/find-lucky-integer-in-an-array/) | [Find Lucky Integer in an Array](./1394-find-lucky-integer-in-an-array) | **[Solution](./1394-find-lucky-integer-in-an-array/1394-find-lucky-integer-in-an-array.cpp)**  
 | [1395](https://leetcode.com/problems/count-number-of-teams/) | [Count Number of Teams](./1395-count-number-of-teams) | **[Solution](./1395-count-number-of-teams/1395-count-number-of-teams.cpp)**  
 | [1396](https://leetcode.com/problems/design-underground-system/) | [Design Underground System](./1396-design-underground-system) | **[Solution](./1396-design-underground-system/1396-design-underground-system.cpp)**  
