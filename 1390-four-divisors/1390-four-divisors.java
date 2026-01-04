@@ -7,19 +7,17 @@ class Solution {
     }
 
     private int validDivSum(int n) {
-        Set<Integer> set = new HashSet<>();
-        for (int i = 1; i * i <= n; i++) {
-            if (n % i == 0) {
-                set.add(i);
-                set.add(n / i);
-            }
+        int sum = 0, count = 0, i = 1;
+        for (; i * i < n; i++) {
+            if (n % i != 0)
+                continue;
+            sum += i + n / i;
+            count += 2;
         }
-        if (set.size() == 4) {
-            int sum = 0;
-            for (int i : set)
-                sum += i;
-            return sum;
+        if (i * i == n) {
+            sum += i;
+            count++;
         }
-        return 0;
+        return count == 4 ? sum : 0;
     }
 }
