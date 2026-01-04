@@ -12,7 +12,8 @@ class Solution {
             if (n % i != 0)
                 continue;
             sum += i + n / i;
-            count += 2;
+            if ((count += 2) > 4)
+                return 0;
         }
         if (i * i == n) {
             sum += i;
