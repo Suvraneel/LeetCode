@@ -257,6 +257,7 @@
 | [739](https://leetcode.com/problems/daily-temperatures/) | [Daily Temperatures](./0739-daily-temperatures) | **[Solution](./0739-daily-temperatures/0739-daily-temperatures.cpp)**  
 | [743](https://leetcode.com/problems/network-delay-time/) | [Network Delay Time](./0743-network-delay-time) | **[Solution](./0743-network-delay-time/0743-network-delay-time.cpp)**  
 | [746](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Min Cost Climbing Stairs](./0746-min-cost-climbing-stairs) | **[Solution](./0746-min-cost-climbing-stairs/0746-min-cost-climbing-stairs.cpp)**  
+| [762](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | [Prime Number of Set Bits in Binary Representation](./0762-prime-number-of-set-bits-in-binary-representation) | **[Solution](./0762-prime-number-of-set-bits-in-binary-representation/0762-prime-number-of-set-bits-in-binary-representation.cpp)**  
 | [763](https://leetcode.com/problems/partition-labels/) | [Partition Labels](./763-partition-labels) | **[Solution](./763-partition-labels/763-partition-labels.cpp)**  
 | [766](https://leetcode.com/problems/toeplitz-matrix/) | [Toeplitz Matrix](./0766-toeplitz-matrix) | **[Solution](./0766-toeplitz-matrix/0766-toeplitz-matrix.cpp)**  
 | [769](https://leetcode.com/problems/max-chunks-to-make-sorted/) | [Max Chunks to Make Sorted](./0769-max-chunks-to-make-sorted) | **[Solution](./0769-max-chunks-to-make-sorted/0769-max-chunks-to-make-sorted.cpp)**  
