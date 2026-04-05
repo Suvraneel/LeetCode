@@ -235,6 +235,7 @@
 | [650](https://leetcode.com/problems/2-keys-keyboard/) | [2 Keys Keyboard](./0650-2-keys-keyboard) | **[Solution](./0650-2-keys-keyboard/0650-2-keys-keyboard.cpp)**  
 | [652](https://leetcode.com/problems/find-duplicate-subtrees/) | [Find Duplicate Subtrees](./0652-find-duplicate-subtrees) | **[Solution](./0652-find-duplicate-subtrees/0652-find-duplicate-subtrees.cpp)**  
 | [653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Two Sum IV Input IS a Bst](./653-two-sum-iv-input-is-a-bst) | **[Solution](./653-two-sum-iv-input-is-a-bst/653-two-sum-iv-input-is-a-bst.cpp)**  
+| [657](https://leetcode.com/problems/robot-return-to-origin/) | [Robot Return to Origin](./0657-robot-return-to-origin) | **[Solution](./0657-robot-return-to-origin/0657-robot-return-to-origin.cpp)**  
 | [658](https://leetcode.com/problems/find-k-closest-elements/) | [Find K Closest Elements](./658-find-k-closest-elements) | **[Solution](./658-find-k-closest-elements/658-find-k-closest-elements.cpp)**  
 | [659](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Split Array Into Consecutive Subsequences](./659-split-array-into-consecutive-subsequences) | **[Solution](./659-split-array-into-consecutive-subsequences/659-split-array-into-consecutive-subsequences.cpp)**  
 | [664](https://leetcode.com/problems/strange-printer/) | [Strange Printer](./0664-strange-printer) | **[Solution](./0664-strange-printer/0664-strange-printer.cpp)**  
@@ -797,15 +798,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0657-robot-return-to-origin](https://github.com/Suvraneel/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
-## Simulation
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0657-robot-return-to-origin](https://github.com/Suvraneel/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
-<!---LeetCode Topics End-->
