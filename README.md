@@ -695,6 +695,7 @@
 | [2749](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/) | [Minimum Operations to Make the Integer Zero](./2749-minimum-operations-to-make-the-integer-zero) | **[Solution](./2749-minimum-operations-to-make-the-integer-zero/2749-minimum-operations-to-make-the-integer-zero.cpp)**  
 | [2751](https://leetcode.com/problems/robot-collisions/) | [Robot Collisions](./2751-robot-collisions) | **[Solution](./2751-robot-collisions/2751-robot-collisions.cpp)**  
 | [2762](https://leetcode.com/problems/continuous-subarrays/) | [Continuous Subarrays](./2762-continuous-subarrays) | **[Solution](./2762-continuous-subarrays/2762-continuous-subarrays.cpp)**  
+| [2770](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) | [Maximum Number of Jumps to Reach the Last Index](./2770-maximum-number-of-jumps-to-reach-the-last-index) | **[Solution](./2770-maximum-number-of-jumps-to-reach-the-last-index/2770-maximum-number-of-jumps-to-reach-the-last-index.cpp)**  
 | [2779](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/) | [Maximum Beauty of an Array After Applying Operation](./2779-maximum-beauty-of-an-array-after-applying-operation) | **[Solution](./2779-maximum-beauty-of-an-array-after-applying-operation/2779-maximum-beauty-of-an-array-after-applying-operation.cpp)**  
 | [2780](https://leetcode.com/problems/minimum-index-of-a-valid-split/) | [Minimum Index of a Valid Split](./2780-minimum-index-of-a-valid-split) | **[Solution](./2780-minimum-index-of-a-valid-split/2780-minimum-index-of-a-valid-split.cpp)**  
 | [2785](https://leetcode.com/problems/sort-vowels-in-a-string/) | [Sort Vowels in a String](./2785-sort-vowels-in-a-string) | **[Solution](./2785-sort-vowels-in-a-string/2785-sort-vowels-in-a-string.cpp)**  
@@ -798,15 +799,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Suvraneel/LeetCode/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Suvraneel/LeetCode/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
-<!---LeetCode Topics End-->
