@@ -1,27 +1,26 @@
 class Solution {
-    int[][] dirs = { { 0, 1 }, { 1, 0 }, { -1, 0 }, { 0, -1 } };
-
     public List<Integer> spiralOrder(int[][] matrix) {
-        int m = matrix.length, n = matrix[0].length, d = 0, x = 0, y = 0;
-        int rStart = 0, rEnd = m - 1, cStart = 0, cEnd = n - 1;
-        List<Integer> res = new ArrayList<>();
-        boolean redirected = false;
-        while (rStart <= rEnd && cStart <= cEnd) {
-            for (int j = cStart; j <= cEnd; j++)
-                res.add(matrix[rStart][j]);
-            rStart++;
-            for (int i = rStart; i <= rEnd; i++)
-                res.add(matrix[i][cEnd]);
-            cEnd--;
-            if (rStart <= rEnd)
-                for (int j = cEnd; j >= cStart; j--)
-                    res.add(matrix[rEnd][j]);
-            rEnd--;
-            if (cStart <= cEnd)
-                for (int i = rEnd; i >= rStart; i--)
-                    res.add(matrix[i][cStart]);
-            cStart++;
+        int m = matrix.length, n = matrix[0].length, i1 = 0, i2 = m - 1, j1 = 0, j2 = n - 1, d = 0, x = 0, y = -1;
+        int[][] dirs = { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
+        List<Integer> ans = new ArrayList<>();
+        for (int k = 0; k < m * n; k++) {
+            int[] move = dirs[d];
+            if (x + move[0] < i1 || x + move[0] > i2 || y + move[1] < j1 || y + move[1] > j2) {
+                switch (d) {
+                    case 0 -> i1++;
+                    case 1 -> j2--;
+                    case 2 -> i2--;
+                    case 3 -> j1++;
+                }
+                d = (d + 1) % 4;
+                k--;
+            } else {
+                x += move[0];
+                y += move[1];
+                // System.out.println(matrix[x][y]);
+                ans.add(matrix[x][y]);
+            }
         }
-        return res;
+        return ans;
     }
 }
