@@ -9,8 +9,9 @@ class Solution {
             for (int j = i + 1; j < n; j++) {
                 if (j > i + 1 && nums[j] == nums[j - 1]) // skip dup
                     continue;
+                long twoSum = 0l + nums[i] + nums[j];
                 for (int k = j + 1, l = n - 1; k < l;) { // 2 ptr
-                    long sum = 0l + nums[i] + nums[j] + nums[k] + nums[l];
+                    long sum = twoSum + nums[k] + nums[l];
                     if (sum == target) {
                         ans.add(Arrays.asList(nums[i], nums[j], nums[k], nums[l]));
                         k++;
