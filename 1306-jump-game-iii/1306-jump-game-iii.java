@@ -1,16 +1,20 @@
 class Solution {
+    int[] arr;
+    boolean[] vis;
+
     public boolean canReach(int[] arr, int start) {
+        this.arr = arr;
         int n = arr.length;
-        boolean[] vis = new boolean[n];
-        return move(arr, vis, start);
+        this.vis = new boolean[n];
+        return move(start);
     }
 
-    private boolean move(int[] arr, boolean[] vis, int i) {
+    private boolean move(int i) {
         if (i < 0 || i >= arr.length || vis[i])
             return false;
         if (arr[i] == 0)
             return true;
         vis[i] = true;
-        return move(arr, vis, i + arr[i]) || move(arr, vis, i - arr[i]);
+        return move(i + arr[i]) || move(i - arr[i]);
     }
 }
