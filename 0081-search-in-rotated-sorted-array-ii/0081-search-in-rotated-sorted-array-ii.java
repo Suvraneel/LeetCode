@@ -10,15 +10,12 @@ class Solution {
                     rt = mid - 1;
                 else
                     lt++;
-            // System.out.println("Left half sorted");
             } else if (nums[mid] <= nums[rt]) {
                 if (nums[mid] < target && target <= nums[rt])
                     lt = mid + 1;
                 else
                     rt--;
-                // System.out.println("Right half sorted");
             }
-            // System.out.println(lt+"\t"+rt);
         }
         return false;
     }
