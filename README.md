@@ -98,6 +98,7 @@
 | [149](https://leetcode.com/problems/max-points-on-a-line/) | [Max Points on a Line](./0149-max-points-on-a-line) | **[Solution](./0149-max-points-on-a-line/0149-max-points-on-a-line.cpp)**  
 | [150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Evaluate Reverse Polish Notation](./0150-evaluate-reverse-polish-notation) | **[Solution](./0150-evaluate-reverse-polish-notation/0150-evaluate-reverse-polish-notation.cpp)**  
 | [151](https://leetcode.com/problems/reverse-words-in-a-string/) | [Reverse Words in a String](./0151-reverse-words-in-a-string) | **[Solution](./0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.cpp)**  
+| [152](https://leetcode.com/problems/maximum-product-subarray/) | [Maximum Product Subarray](./0152-maximum-product-subarray) | **[Solution](./0152-maximum-product-subarray/0152-maximum-product-subarray.cpp)**  
 | [153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Find Minimum in Rotated Sorted Array](./0153-find-minimum-in-rotated-sorted-array) | **[Solution](./0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.cpp)**  
 | [154](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [Find Minimum in Rotated Sorted Array II](./0154-find-minimum-in-rotated-sorted-array-ii) | **[Solution](./0154-find-minimum-in-rotated-sorted-array-ii/0154-find-minimum-in-rotated-sorted-array-ii.cpp)**  
 | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Intersection of Two Linked Lists](./160-intersection-of-two-linked-lists) | **[Solution](./160-intersection-of-two-linked-lists/160-intersection-of-two-linked-lists.cpp)**  
@@ -801,15 +802,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0152-maximum-product-subarray](https://github.com/Suvraneel/LeetCode/tree/main/0152-maximum-product-subarray/) | Medium |
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0152-maximum-product-subarray](https://github.com/Suvraneel/LeetCode/tree/main/0152-maximum-product-subarray/) | Medium |
-<!---LeetCode Topics End-->
