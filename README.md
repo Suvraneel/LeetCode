@@ -104,6 +104,7 @@
 | [153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Find Minimum in Rotated Sorted Array](./0153-find-minimum-in-rotated-sorted-array) | **[Solution](./0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.cpp)**  
 | [154](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [Find Minimum in Rotated Sorted Array II](./0154-find-minimum-in-rotated-sorted-array-ii) | **[Solution](./0154-find-minimum-in-rotated-sorted-array-ii/0154-find-minimum-in-rotated-sorted-array-ii.cpp)**  
 | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Intersection of Two Linked Lists](./160-intersection-of-two-linked-lists) | **[Solution](./160-intersection-of-two-linked-lists/160-intersection-of-two-linked-lists.cpp)**  
+| [162](https://leetcode.com/problems/find-peak-element/) | [Find Peak Element](./0162-find-peak-element) | **[Solution](./0162-find-peak-element/0162-find-peak-element.cpp)**  
 | [165](https://leetcode.com/problems/compare-version-numbers/) | [Compare Version Numbers](./0165-compare-version-numbers) | **[Solution](./0165-compare-version-numbers/0165-compare-version-numbers.cpp)**  
 | [166](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [Fraction to Recurring Decimal](./0166-fraction-to-recurring-decimal) | **[Solution](./0166-fraction-to-recurring-decimal/0166-fraction-to-recurring-decimal.cpp)**  
 | [169](https://leetcode.com/problems/majority-element/) | [Majority Element](./0169-majority-element) | **[Solution](./0169-majority-element/0169-majority-element.cpp)**  
@@ -804,15 +805,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0162-find-peak-element](https://github.com/Suvraneel/LeetCode/tree/main/0162-find-peak-element/) | Medium |
-## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0162-find-peak-element](https://github.com/Suvraneel/LeetCode/tree/main/0162-find-peak-element/) | Medium |
-<!---LeetCode Topics End-->
