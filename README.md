@@ -31,6 +31,7 @@
 | [31](https://leetcode.com/problems/next-permutation/) | [Next Permutation](./0031-next-permutation) | **[Solution](./0031-next-permutation/0031-next-permutation.cpp)**  
 | [32](https://leetcode.com/problems/longest-valid-parentheses/) | [Longest Valid Parentheses](./32-longest-valid-parentheses) | **[Solution](./32-longest-valid-parentheses/32-longest-valid-parentheses.cpp)**  
 | [33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Search in Rotated Sorted Array](./0033-search-in-rotated-sorted-array) | **[Solution](./0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.cpp)**  
+| [34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Find First and Last Position of Element in Sorted Array](./0034-find-first-and-last-position-of-element-in-sorted-array) | **[Solution](./0034-find-first-and-last-position-of-element-in-sorted-array/0034-find-first-and-last-position-of-element-in-sorted-array.cpp)**  
 | [35](https://leetcode.com/problems/search-insert-position/) | [Search Insert Position](./0035-search-insert-position) | **[Solution](./0035-search-insert-position/0035-search-insert-position.cpp)**  
 | [36](https://leetcode.com/problems/valid-sudoku/) | [Valid Sudoku](./0036-valid-sudoku) | **[Solution](./0036-valid-sudoku/0036-valid-sudoku.cpp)**  
 | [37](https://leetcode.com/problems/sudoku-solver/) | [Sudoku Solver](./0037-sudoku-solver) | **[Solution](./0037-sudoku-solver/0037-sudoku-solver.cpp)**  
@@ -802,15 +803,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Suvraneel/LeetCode/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
-## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Suvraneel/LeetCode/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
-<!---LeetCode Topics End-->
