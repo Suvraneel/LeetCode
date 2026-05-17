@@ -398,6 +398,7 @@
 | [1298](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/) | [Maximum Candies You can Get from Boxes](./1298-maximum-candies-you-can-get-from-boxes) | **[Solution](./1298-maximum-candies-you-can-get-from-boxes/1298-maximum-candies-you-can-get-from-boxes.cpp)**  
 | [1304](https://leetcode.com/problems/longest-happy-string/) | [Longest Happy String](./1304-longest-happy-string) | **[Solution](./1304-longest-happy-string/1304-longest-happy-string.cpp)**  
 | [1305](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | [All Elements in Two Binary Search Trees](./1305-all-elements-in-two-binary-search-trees) | **[Solution](./1305-all-elements-in-two-binary-search-trees/1305-all-elements-in-two-binary-search-trees.cpp)**  
+| [1306](https://leetcode.com/problems/jump-game-iii/) | [Jump Game III](./1306-jump-game-iii) | **[Solution](./1306-jump-game-iii/1306-jump-game-iii.cpp)**  
 | [1310](https://leetcode.com/problems/xor-queries-of-a-subarray/) | [Xor Queries of a Subarray](./1310-xor-queries-of-a-subarray) | **[Solution](./1310-xor-queries-of-a-subarray/1310-xor-queries-of-a-subarray.cpp)**  
 | [1312](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | [Minimum Insertion Steps to Make a String Palindrome](./1312-minimum-insertion-steps-to-make-a-string-palindrome) | **[Solution](./1312-minimum-insertion-steps-to-make-a-string-palindrome/1312-minimum-insertion-steps-to-make-a-string-palindrome.cpp)**  
 | [1317](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | [Convert Integer to the Sum of Two no Zero Integers](./1317-convert-integer-to-the-sum-of-two-no-zero-integers) | **[Solution](./1317-convert-integer-to-the-sum-of-two-no-zero-integers/1317-convert-integer-to-the-sum-of-two-no-zero-integers.cpp)**  
@@ -805,19 +806,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1306-jump-game-iii](https://github.com/Suvraneel/LeetCode/tree/main/1306-jump-game-iii/) | Medium |
-## Depth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1306-jump-game-iii](https://github.com/Suvraneel/LeetCode/tree/main/1306-jump-game-iii/) | Medium |
-## Breadth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1306-jump-game-iii](https://github.com/Suvraneel/LeetCode/tree/main/1306-jump-game-iii/) | Medium |
-<!---LeetCode Topics End-->
