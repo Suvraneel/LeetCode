@@ -60,6 +60,7 @@
 | [78](https://leetcode.com/problems/subsets/) | [Subsets](./78-subsets) | **[Solution](./78-subsets/78-subsets.cpp)**  
 | [79](https://leetcode.com/problems/word-search/) | [Word Search](./0079-word-search) | **[Solution](./0079-word-search/0079-word-search.cpp)**  
 | [80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Remove Duplicates from Sorted Array II](./80-remove-duplicates-from-sorted-array-ii) | **[Solution](./80-remove-duplicates-from-sorted-array-ii/80-remove-duplicates-from-sorted-array-ii.cpp)**  
+| [81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Search in Rotated Sorted Array II](./0081-search-in-rotated-sorted-array-ii) | **[Solution](./0081-search-in-rotated-sorted-array-ii/0081-search-in-rotated-sorted-array-ii.cpp)**  
 | [84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Largest Rectangle in Histogram](./84-largest-rectangle-in-histogram) | **[Solution](./84-largest-rectangle-in-histogram/84-largest-rectangle-in-histogram.cpp)**  
 | [88](https://leetcode.com/problems/merge-sorted-array/) | [Merge Sorted Array](./0088-merge-sorted-array) | **[Solution](./0088-merge-sorted-array/0088-merge-sorted-array.cpp)**  
 | [91](https://leetcode.com/problems/decode-ways/) | [Decode Ways](./91-decode-ways) | **[Solution](./91-decode-ways/91-decode-ways.cpp)**  
@@ -803,15 +804,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0081-search-in-rotated-sorted-array-ii](https://github.com/Suvraneel/LeetCode/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
-## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0081-search-in-rotated-sorted-array-ii](https://github.com/Suvraneel/LeetCode/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
-<!---LeetCode Topics End-->
