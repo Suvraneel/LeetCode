@@ -1,6 +1,10 @@
 class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
-        int lt = 1, rt = Arrays.stream(bloomDay).max().orElseThrow(), ans = -1;
+        int lt = Integer.MAX_VALUE, rt = 0, ans = -1;
+        for (int b : bloomDay) {
+            lt = Math.min(lt, b);
+            rt = Math.max(rt, b);
+        }
         while (lt <= rt) {
             int mid = lt + (rt - lt) / 2;
             if (solve(bloomDay, mid, m, k)) {
