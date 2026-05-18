@@ -807,19 +807,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1345-jump-game-iv](https://github.com/Suvraneel/LeetCode/tree/main/1345-jump-game-iv/) | Hard |
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1345-jump-game-iv](https://github.com/Suvraneel/LeetCode/tree/main/1345-jump-game-iv/) | Hard |
-## Breadth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1345-jump-game-iv](https://github.com/Suvraneel/LeetCode/tree/main/1345-jump-game-iv/) | Hard |
-<!---LeetCode Topics End-->
