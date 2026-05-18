@@ -8,6 +8,6 @@ class Solution {
             else
                 rt = mid;
         }
-        return lt;
+        return rt;
     }
 }
