@@ -137,6 +137,7 @@
 | [237](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Delete Node in a Linked List](./237-delete-node-in-a-linked-list) | **[Solution](./237-delete-node-in-a-linked-list/237-delete-node-in-a-linked-list.cpp)**  
 | [238](https://leetcode.com/problems/product-of-array-except-self/) | [Product of Array Except Self](./0238-product-of-array-except-self) | **[Solution](./0238-product-of-array-except-self/0238-product-of-array-except-self.cpp)**  
 | [239](https://leetcode.com/problems/sliding-window-maximum/) | [Sliding Window Maximum](./239-sliding-window-maximum) | **[Solution](./239-sliding-window-maximum/239-sliding-window-maximum.cpp)**  
+| [240](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Search a 2d Matrix II](./0240-search-a-2d-matrix-ii) | **[Solution](./0240-search-a-2d-matrix-ii/0240-search-a-2d-matrix-ii.cpp)**  
 | [241](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [Different Ways to Add Parentheses](./0241-different-ways-to-add-parentheses) | **[Solution](./0241-different-ways-to-add-parentheses/0241-different-ways-to-add-parentheses.cpp)**  
 | [242](https://leetcode.com/problems/valid-anagram/) | [Valid Anagram](./242-valid-anagram) | **[Solution](./242-valid-anagram/242-valid-anagram.cpp)**  
 | [258](https://leetcode.com/problems/add-digits/) | [Add Digits](./258-add-digits) | **[Solution](./258-add-digits/258-add-digits.cpp)**  
@@ -806,23 +807,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0240-search-a-2d-matrix-ii](https://github.com/Suvraneel/LeetCode/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
-## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0240-search-a-2d-matrix-ii](https://github.com/Suvraneel/LeetCode/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
-## Divide and Conquer
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0240-search-a-2d-matrix-ii](https://github.com/Suvraneel/LeetCode/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
-## Matrix
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0240-search-a-2d-matrix-ii](https://github.com/Suvraneel/LeetCode/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
-<!---LeetCode Topics End-->
