@@ -97,6 +97,7 @@
 | [144](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Binary Tree Preorder Traversal](./0144-binary-tree-preorder-traversal) | **[Solution](./0144-binary-tree-preorder-traversal/0144-binary-tree-preorder-traversal.cpp)**  
 | [145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Binary Tree Postorder Traversal](./0145-binary-tree-postorder-traversal) | **[Solution](./0145-binary-tree-postorder-traversal/0145-binary-tree-postorder-traversal.cpp)**  
 | [147](https://leetcode.com/problems/insertion-sort-list/) | [Insertion Sort List](./147-insertion-sort-list) | **[Solution](./147-insertion-sort-list/147-insertion-sort-list.cpp)**  
+| [148](https://leetcode.com/problems/sort-list/) | [Sort List](./0148-sort-list) | **[Solution](./0148-sort-list/0148-sort-list.cpp)**  
 | [149](https://leetcode.com/problems/max-points-on-a-line/) | [Max Points on a Line](./0149-max-points-on-a-line) | **[Solution](./0149-max-points-on-a-line/0149-max-points-on-a-line.cpp)**  
 | [150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Evaluate Reverse Polish Notation](./0150-evaluate-reverse-polish-notation) | **[Solution](./0150-evaluate-reverse-polish-notation/0150-evaluate-reverse-polish-notation.cpp)**  
 | [151](https://leetcode.com/problems/reverse-words-in-a-string/) | [Reverse Words in a String](./0151-reverse-words-in-a-string) | **[Solution](./0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.cpp)**  
@@ -809,27 +810,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0148-sort-list](https://github.com/Suvraneel/LeetCode/tree/main/0148-sort-list/) | Medium |
-## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0148-sort-list](https://github.com/Suvraneel/LeetCode/tree/main/0148-sort-list/) | Medium |
-## Divide and Conquer
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0148-sort-list](https://github.com/Suvraneel/LeetCode/tree/main/0148-sort-list/) | Medium |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0148-sort-list](https://github.com/Suvraneel/LeetCode/tree/main/0148-sort-list/) | Medium |
-## Merge Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0148-sort-list](https://github.com/Suvraneel/LeetCode/tree/main/0148-sort-list/) | Medium |
-<!---LeetCode Topics End-->
