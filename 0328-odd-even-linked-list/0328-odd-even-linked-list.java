@@ -12,14 +12,14 @@ class Solution {
     public ListNode oddEvenList(ListNode head) {
         if (head == null || head.next == null)
             return head;
-        ListNode headOdd = head, head2 = head.next, headEven = head.next;
-        while (headOdd.next != null && headEven.next != null) {
-            headOdd.next = headEven.next;
-            headOdd = headOdd.next;
-            headEven.next = headOdd.next;
-            headEven = headEven.next;
+        ListNode oddPtr = head, headEven = head.next, evenPtr = head.next;
+        while (oddPtr.next != null && evenPtr.next != null) {
+            oddPtr.next = evenPtr.next;
+            oddPtr = oddPtr.next;
+            evenPtr.next = oddPtr.next;
+            evenPtr = evenPtr.next;
         }
-        headOdd.next = head2;
+        oddPtr.next = headEven;
         return head;
     }
 }
