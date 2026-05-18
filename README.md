@@ -116,6 +116,7 @@
 | [198](https://leetcode.com/problems/house-robber/) | [House Robber](./0198-house-robber) | **[Solution](./0198-house-robber/0198-house-robber.cpp)**  
 | [200](https://leetcode.com/problems/number-of-islands/) | [Number of Islands](./200-number-of-islands) | **[Solution](./200-number-of-islands/200-number-of-islands.cpp)**  
 | [203](https://leetcode.com/problems/remove-linked-list-elements/) | [Remove Linked List Elements](./203-remove-linked-list-elements) | **[Solution](./203-remove-linked-list-elements/203-remove-linked-list-elements.cpp)**  
+| [206](https://leetcode.com/problems/reverse-linked-list/) | [Reverse Linked List](./0206-reverse-linked-list) | **[Solution](./0206-reverse-linked-list/0206-reverse-linked-list.cpp)**  
 | [209](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Minimum Size Subarray Sum](./0209-minimum-size-subarray-sum) | **[Solution](./0209-minimum-size-subarray-sum/0209-minimum-size-subarray-sum.cpp)**  
 | [210](https://leetcode.com/problems/course-schedule-ii/) | [Course Schedule II](./210-course-schedule-ii) | **[Solution](./210-course-schedule-ii/210-course-schedule-ii.cpp)**  
 | [212](https://leetcode.com/problems/word-search-ii/) | [Word Search II](./0212-word-search-ii) | **[Solution](./0212-word-search-ii/0212-word-search-ii.cpp)**  
@@ -807,15 +808,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0206-reverse-linked-list](https://github.com/Suvraneel/LeetCode/tree/main/0206-reverse-linked-list/) | Easy |
-## Recursion
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0206-reverse-linked-list](https://github.com/Suvraneel/LeetCode/tree/main/0206-reverse-linked-list/) | Easy |
-<!---LeetCode Topics End-->
