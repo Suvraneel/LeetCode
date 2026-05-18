@@ -37,7 +37,7 @@ class Solution {
 
     private ListNode merge(ListNode lt, ListNode rt) {
         ListNode dummy = new ListNode(0), curr = dummy;
-        while (lt != null & rt != null) {
+        while (lt != null && rt != null) {
             if (lt.val <= rt.val) {
                 curr.next = lt;
                 lt = lt.next;
