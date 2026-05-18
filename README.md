@@ -160,6 +160,7 @@
 | [319](https://leetcode.com/problems/bulb-switcher/) | [Bulb Switcher](./0319-bulb-switcher) | **[Solution](./0319-bulb-switcher/0319-bulb-switcher.cpp)**  
 | [322](https://leetcode.com/problems/coin-change/) | [Coin Change](./0322-coin-change) | **[Solution](./0322-coin-change/0322-coin-change.cpp)**  
 | [326](https://leetcode.com/problems/power-of-three/) | [Power of Three](./326-power-of-three) | **[Solution](./326-power-of-three/326-power-of-three.cpp)**  
+| [328](https://leetcode.com/problems/odd-even-linked-list/) | [Odd Even Linked List](./0328-odd-even-linked-list) | **[Solution](./0328-odd-even-linked-list/0328-odd-even-linked-list.cpp)**  
 | [329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Longest Increasing Path in a Matrix](./0329-longest-increasing-path-in-a-matrix) | **[Solution](./0329-longest-increasing-path-in-a-matrix/0329-longest-increasing-path-in-a-matrix.cpp)**  
 | [330](https://leetcode.com/problems/patching-array/) | [Patching Array](./0330-patching-array) | **[Solution](./0330-patching-array/0330-patching-array.cpp)**  
 | [334](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Increasing Triplet Subsequence](./0334-increasing-triplet-subsequence) | **[Solution](./0334-increasing-triplet-subsequence/0334-increasing-triplet-subsequence.cpp)**  
@@ -808,11 +809,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0328-odd-even-linked-list](https://github.com/Suvraneel/LeetCode/tree/main/0328-odd-even-linked-list/) | Medium |
-<!---LeetCode Topics End-->
