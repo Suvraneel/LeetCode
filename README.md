@@ -25,6 +25,7 @@
 | [21](https://leetcode.com/problems/merge-two-sorted-lists/) | [Merge Two Sorted Lists](./21-merge-two-sorted-lists) | **[Solution](./21-merge-two-sorted-lists/21-merge-two-sorted-lists.cpp)**  
 | [23](https://leetcode.com/problems/merge-k-sorted-lists/) | [Merge K Sorted Lists](./23-merge-k-sorted-lists) | **[Solution](./23-merge-k-sorted-lists/23-merge-k-sorted-lists.cpp)**  
 | [24](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Swap Nodes in Pairs](./24-swap-nodes-in-pairs) | **[Solution](./24-swap-nodes-in-pairs/24-swap-nodes-in-pairs.cpp)**  
+| [25](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Reverse Nodes in K Group](./0025-reverse-nodes-in-k-group) | **[Solution](./0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp)**  
 | [26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Remove Duplicates from Sorted Array](./26-remove-duplicates-from-sorted-array) | **[Solution](./26-remove-duplicates-from-sorted-array/26-remove-duplicates-from-sorted-array.cpp)**  
 | [28](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Find the Index of the First Occurrence in a String](./0028-find-the-index-of-the-first-occurrence-in-a-string) | **[Solution](./0028-find-the-index-of-the-first-occurrence-in-a-string/0028-find-the-index-of-the-first-occurrence-in-a-string.cpp)**  
 | [30](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Substring With Concatenation of all Words](./30-substring-with-concatenation-of-all-words) | **[Solution](./30-substring-with-concatenation-of-all-words/30-substring-with-concatenation-of-all-words.cpp)**  
@@ -810,15 +811,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0025-reverse-nodes-in-k-group](https://github.com/Suvraneel/LeetCode/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
-## Recursion
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0025-reverse-nodes-in-k-group](https://github.com/Suvraneel/LeetCode/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
-<!---LeetCode Topics End-->
