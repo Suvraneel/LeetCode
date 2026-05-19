@@ -92,6 +92,7 @@
 | [135](https://leetcode.com/problems/candy/) | [Candy](./0135-candy) | **[Solution](./0135-candy/0135-candy.cpp)**  
 | [136](https://leetcode.com/problems/single-number/) | [Single Number](./136-single-number) | **[Solution](./136-single-number/136-single-number.cpp)**  
 | [137](https://leetcode.com/problems/single-number-ii/) | [Single Number II](./0137-single-number-ii) | **[Solution](./0137-single-number-ii/0137-single-number-ii.cpp)**  
+| [138](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Copy List With Random Pointer](./0138-copy-list-with-random-pointer) | **[Solution](./0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp)**  
 | [139](https://leetcode.com/problems/word-break/) | [Word Break](./0139-word-break) | **[Solution](./0139-word-break/0139-word-break.cpp)**  
 | [141](https://leetcode.com/problems/linked-list-cycle/) | [Linked List Cycle](./141-linked-list-cycle) | **[Solution](./141-linked-list-cycle/141-linked-list-cycle.cpp)**  
 | [142](https://leetcode.com/problems/linked-list-cycle-ii/) | [Linked List Cycle II](./142-linked-list-cycle-ii) | **[Solution](./142-linked-list-cycle-ii/142-linked-list-cycle-ii.cpp)**  
@@ -812,15 +813,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0138-copy-list-with-random-pointer](https://github.com/Suvraneel/LeetCode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0138-copy-list-with-random-pointer](https://github.com/Suvraneel/LeetCode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
-<!---LeetCode Topics End-->
