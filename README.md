@@ -46,6 +46,7 @@
 | [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](./0053-maximum-subarray) | **[Solution](./0053-maximum-subarray/0053-maximum-subarray.cpp)**  
 | [54](https://leetcode.com/problems/spiral-matrix/) | [Spiral Matrix](./0054-spiral-matrix) | **[Solution](./0054-spiral-matrix/0054-spiral-matrix.cpp)**  
 | [56](https://leetcode.com/problems/merge-intervals/) | [Merge Intervals](./56-merge-intervals) | **[Solution](./56-merge-intervals/56-merge-intervals.cpp)**  
+| [61](https://leetcode.com/problems/rotate-list/) | [Rotate List](./0061-rotate-list) | **[Solution](./0061-rotate-list/0061-rotate-list.cpp)**  
 | [62](https://leetcode.com/problems/unique-paths/) | [Unique Paths](./62-unique-paths) | **[Solution](./62-unique-paths/62-unique-paths.cpp)**  
 | [64](https://leetcode.com/problems/minimum-path-sum/) | [Minimum Path Sum](./0064-minimum-path-sum) | **[Solution](./0064-minimum-path-sum/0064-minimum-path-sum.cpp)**  
 | [67](https://leetcode.com/problems/add-binary/) | [Add Binary](./67-add-binary) | **[Solution](./67-add-binary/67-add-binary.cpp)**  
@@ -811,15 +812,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0061-rotate-list](https://github.com/Suvraneel/LeetCode/tree/main/0061-rotate-list/) | Medium |
-## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0061-rotate-list](https://github.com/Suvraneel/LeetCode/tree/main/0061-rotate-list/) | Medium |
-<!---LeetCode Topics End-->
