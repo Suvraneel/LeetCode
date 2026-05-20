@@ -9,12 +9,12 @@ class Solution {
     }
 
     void solve(List<Integer> curr, int[] cand, int idx, int sum, int target) {
+        if (sum > target)
+            return;
         if (sum == target) {
             ans.add(new ArrayList<>(curr));
             return;
         }
-        if (sum > target)
-            return;
         for (int i = idx; i < cand.length; i++) {
             if (i > idx && cand[i] == cand[i - 1])
                 continue;
