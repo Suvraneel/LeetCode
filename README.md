@@ -23,6 +23,7 @@
 | [18](https://leetcode.com/problems/4sum/) | [4sum](./0018-4sum) | **[Solution](./0018-4sum/0018-4sum.cpp)**  
 | [19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Remove Nth Node from End of List](./19-remove-nth-node-from-end-of-list) | **[Solution](./19-remove-nth-node-from-end-of-list/19-remove-nth-node-from-end-of-list.cpp)**  
 | [21](https://leetcode.com/problems/merge-two-sorted-lists/) | [Merge Two Sorted Lists](./21-merge-two-sorted-lists) | **[Solution](./21-merge-two-sorted-lists/21-merge-two-sorted-lists.cpp)**  
+| [22](https://leetcode.com/problems/generate-parentheses/) | [Generate Parentheses](./0022-generate-parentheses) | **[Solution](./0022-generate-parentheses/0022-generate-parentheses.cpp)**  
 | [23](https://leetcode.com/problems/merge-k-sorted-lists/) | [Merge K Sorted Lists](./23-merge-k-sorted-lists) | **[Solution](./23-merge-k-sorted-lists/23-merge-k-sorted-lists.cpp)**  
 | [24](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Swap Nodes in Pairs](./24-swap-nodes-in-pairs) | **[Solution](./24-swap-nodes-in-pairs/24-swap-nodes-in-pairs.cpp)**  
 | [25](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Reverse Nodes in K Group](./0025-reverse-nodes-in-k-group) | **[Solution](./0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp)**  
@@ -814,19 +815,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0022-generate-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0022-generate-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
-## Backtracking
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0022-generate-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
-<!---LeetCode Topics End-->
