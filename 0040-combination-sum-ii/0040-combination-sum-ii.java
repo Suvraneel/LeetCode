@@ -4,14 +4,14 @@ class Solution {
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
-        solve(new ArrayList<>(), candidates, 0, 0, target);
+        solve(new ArrayList<>(), candidates, 0, target);
         return ans;
     }
 
-    void solve(List<Integer> curr, int[] cand, int idx, int sum, int target) {
-        if (sum > target)
+    void solve(List<Integer> curr, int[] cand, int idx, int target) {
+        if (target < 0)
             return;
-        if (sum == target) {
+        if (target == 0) {
             ans.add(new ArrayList<>(curr));
             return;
         }
@@ -19,7 +19,7 @@ class Solution {
             if (i > idx && cand[i] == cand[i - 1])
                 continue;
             curr.add(cand[i]);
-            solve(curr, cand, i + 1, sum + cand[i], target);
+            solve(curr, cand, i + 1, target - cand[i]);
             curr.remove(curr.size() - 1);
         }
     }
