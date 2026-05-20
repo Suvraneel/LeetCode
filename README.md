@@ -128,6 +128,7 @@
 | [210](https://leetcode.com/problems/course-schedule-ii/) | [Course Schedule II](./210-course-schedule-ii) | **[Solution](./210-course-schedule-ii/210-course-schedule-ii.cpp)**  
 | [212](https://leetcode.com/problems/word-search-ii/) | [Word Search II](./0212-word-search-ii) | **[Solution](./0212-word-search-ii/0212-word-search-ii.cpp)**  
 | [214](https://leetcode.com/problems/shortest-palindrome/) | [Shortest Palindrome](./0214-shortest-palindrome) | **[Solution](./0214-shortest-palindrome/0214-shortest-palindrome.cpp)**  
+| [216](https://leetcode.com/problems/combination-sum-iii/) | [Combination Sum III](./0216-combination-sum-iii) | **[Solution](./0216-combination-sum-iii/0216-combination-sum-iii.cpp)**  
 | [218](https://leetcode.com/problems/the-skyline-problem/) | [The Skyline Problem](./218-the-skyline-problem) | **[Solution](./218-the-skyline-problem/218-the-skyline-problem.cpp)**  
 | [219](https://leetcode.com/problems/contains-duplicate-ii/) | [Contains Duplicate II](./219-contains-duplicate-ii) | **[Solution](./219-contains-duplicate-ii/219-contains-duplicate-ii.cpp)**  
 | [221](https://leetcode.com/problems/maximal-square/) | [Maximal Square](./221-maximal-square) | **[Solution](./221-maximal-square/221-maximal-square.cpp)**  
@@ -816,15 +817,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0216-combination-sum-iii](https://github.com/Suvraneel/LeetCode/tree/main/0216-combination-sum-iii/) | Medium |
-## Backtracking
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0216-combination-sum-iii](https://github.com/Suvraneel/LeetCode/tree/main/0216-combination-sum-iii/) | Medium |
-<!---LeetCode Topics End-->
