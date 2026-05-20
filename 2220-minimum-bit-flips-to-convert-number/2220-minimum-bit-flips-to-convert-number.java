@@ -1,12 +1,12 @@
 class Solution {
     public int minBitFlips(int start, int goal) {
-        int ans = 0;
-        while (start > 0 || goal > 0) {
-            if (start % 2 != goal % 2)
-                ans++;
-            start = start >> 1;
-            goal = goal >> 1;
+        // identify bits needing flip
+        int xor = start ^ goal;
+        int parity = 0; // count parity
+        while (xor > 0) {
+            xor &= (xor - 1);
+            parity++;
         }
-        return ans;
+        return parity;
     }
 }
