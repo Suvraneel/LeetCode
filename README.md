@@ -43,6 +43,7 @@
 | [47](https://leetcode.com/problems/permutations-ii/) | [Permutations II](./0047-permutations-ii) | **[Solution](./0047-permutations-ii/0047-permutations-ii.cpp)**  
 | [48](https://leetcode.com/problems/rotate-image/) | [Rotate Image](./48-rotate-image) | **[Solution](./48-rotate-image/48-rotate-image.cpp)**  
 | [49](https://leetcode.com/problems/group-anagrams/) | [Group Anagrams](./0049-group-anagrams) | **[Solution](./0049-group-anagrams/0049-group-anagrams.cpp)**  
+| [50](https://leetcode.com/problems/powx-n/) | [Powx N](./0050-powx-n) | **[Solution](./0050-powx-n/0050-powx-n.cpp)**  
 | [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](./0053-maximum-subarray) | **[Solution](./0053-maximum-subarray/0053-maximum-subarray.cpp)**  
 | [54](https://leetcode.com/problems/spiral-matrix/) | [Spiral Matrix](./0054-spiral-matrix) | **[Solution](./0054-spiral-matrix/0054-spiral-matrix.cpp)**  
 | [56](https://leetcode.com/problems/merge-intervals/) | [Merge Intervals](./56-merge-intervals) | **[Solution](./56-merge-intervals/56-merge-intervals.cpp)**  
@@ -813,15 +814,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0050-powx-n](https://github.com/Suvraneel/LeetCode/tree/main/0050-powx-n/) | Medium |
-## Recursion
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0050-powx-n](https://github.com/Suvraneel/LeetCode/tree/main/0050-powx-n/) | Medium |
-<!---LeetCode Topics End-->
