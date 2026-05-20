@@ -9,13 +9,13 @@ class Solution {
     }
 
     void solve(List<Integer> curr, int[] cand, int idx, int target) {
-        if (target < 0)
-            return;
         if (target == 0) {
             ans.add(new ArrayList<>(curr));
             return;
         }
         for (int i = idx; i < cand.length; i++) {
+            if (target < 0)
+                break;
             if (i > idx && cand[i] == cand[i - 1])
                 continue;
             curr.add(cand[i]);
