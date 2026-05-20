@@ -815,19 +815,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0022-generate-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0022-generate-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
-## Backtracking
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0022-generate-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
-<!---LeetCode Topics End-->
