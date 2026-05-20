@@ -5,31 +5,30 @@ class Solution {
     public boolean exist(char[][] board, String word) {
         this.m = board.length;
         this.n = board[0].length;
-        boolean[][] vis = new boolean[m][n];
         boolean ans = false;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (board[i][j] != word.charAt(0))
                     continue;
-                vis[i][j] = true;
-                ans |= solve(board, word, 1, i, j, vis);
-                vis[i][j] = false;
+                board[i][j] = '#';
+                ans |= solve(board, word, 1, i, j);
+                board[i][j] = word.charAt(0);
             }
         }
         return ans;
     }
 
-    boolean solve(char[][] board, String word, int idx, int x, int y, boolean[][] vis) {
+    boolean solve(char[][] board, String word, int idx, int x, int y) {
         if (idx == word.length())
             return true;
         boolean ans = false;
         for (int[] d : dirs) {
             int X = x + d[0], Y = y + d[1];
-            if (X < 0 || X >= m || Y < 0 || Y >= n || vis[X][Y] || word.charAt(idx) != board[X][Y])
+            if (X < 0 || X >= m || Y < 0 || Y >= n || word.charAt(idx) != board[X][Y])
                 continue;
-            vis[X][Y] = true;
-            ans |= solve(board, word, idx + 1, X, Y, vis);
-            vis[X][Y] = false;
+            board[X][Y] = '#';
+            ans |= solve(board, word, idx + 1, X, Y);
+            board[X][Y] = word.charAt(idx);
         }
         return ans;
     }
