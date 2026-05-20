@@ -14,10 +14,10 @@ class Solution {
             return;
         }
         for (int i = idx; i < cand.length; i++) {
-            if (i > idx && cand[i] == cand[i - 1])
-                continue;
             if (target < cand[i])
                 break;
+            if (i > idx && cand[i] == cand[i - 1])
+                continue;
             curr.add(cand[i]);
             solve(curr, cand, i + 1, target - cand[i]);
             curr.remove(curr.size() - 1);
