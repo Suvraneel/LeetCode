@@ -1,21 +1,16 @@
 class Solution {
-    char[][] ans = new char[9][9];
-
     public void solveSudoku(char[][] board) {
         solve(board, 0, 0);
     }
 
     boolean solve(char[][] board, int i, int j) {
-        if (i == 9)
+        if (i == 9) // crossed last row, EOF
             return true;
-
-        if (j == 9)
+        if (j == 9) // cross last col, CRLF
             return solve(board, i + 1, 0);
-
-        if (board[i][j] != '.')
+        if (board[i][j] != '.') // skip fixed digits (non-wild card)
             return solve(board, i, j + 1);
-
-        for (char d = '1'; d <= '9'; d++) {
+        for (char d = '1'; d <= '9'; d++) { // try each char
             if (isSafe(board, i, j, d)) {
                 board[i][j] = d;
                 if (solve(board, i, j + 1))
