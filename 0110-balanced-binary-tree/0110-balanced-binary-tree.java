@@ -14,19 +14,21 @@
  * }
  */
 class Solution {
-    boolean unbalanced = false;
-
     public boolean isBalanced(TreeNode root) {
-        solve(root);
-        return !unbalanced;
+        return solve(root) != -1;
     }
 
     int solve(TreeNode node) {
         if (node == null)
             return 0;
-        int lt = solve(node.left), rt = solve(node.right);
+        int lt = solve(node.left);
+        if (lt == -1)
+            return -1;
+        int rt = solve(node.right);
+        if (rt == -1)
+            return -1;
         if (Math.abs(lt - rt) > 1)
-            unbalanced = true;
+            return -1;
         return Math.max(lt, rt) + 1;
     }
 }
