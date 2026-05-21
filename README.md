@@ -80,6 +80,7 @@
 | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Maximum Depth of Binary Tree](./104-maximum-depth-of-binary-tree) | **[Solution](./104-maximum-depth-of-binary-tree/104-maximum-depth-of-binary-tree.cpp)**  
 | [108](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Convert Sorted Array to Binary Search Tree](./108-convert-sorted-array-to-binary-search-tree) | **[Solution](./108-convert-sorted-array-to-binary-search-tree/108-convert-sorted-array-to-binary-search-tree.cpp)**  
 | [109](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Convert Sorted List to Binary Search Tree](./0109-convert-sorted-list-to-binary-search-tree) | **[Solution](./0109-convert-sorted-list-to-binary-search-tree/0109-convert-sorted-list-to-binary-search-tree.cpp)**  
+| [110](https://leetcode.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](./0110-balanced-binary-tree) | **[Solution](./0110-balanced-binary-tree/0110-balanced-binary-tree.cpp)**  
 | [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Minimum Depth of Binary Tree](./0111-minimum-depth-of-binary-tree) | **[Solution](./0111-minimum-depth-of-binary-tree/0111-minimum-depth-of-binary-tree.cpp)**  
 | [112](https://leetcode.com/problems/path-sum/) | [Path Sum](./112-path-sum) | **[Solution](./112-path-sum/112-path-sum.cpp)**  
 | [113](https://leetcode.com/problems/path-sum-ii/) | [Path Sum II](./113-path-sum-ii) | **[Solution](./113-path-sum-ii/113-path-sum-ii.cpp)**  
@@ -818,19 +819,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0110-balanced-binary-tree](https://github.com/Suvraneel/LeetCode/tree/main/0110-balanced-binary-tree/) | Easy |
-## Depth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0110-balanced-binary-tree](https://github.com/Suvraneel/LeetCode/tree/main/0110-balanced-binary-tree/) | Easy |
-## Binary Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0110-balanced-binary-tree](https://github.com/Suvraneel/LeetCode/tree/main/0110-balanced-binary-tree/) | Easy |
-<!---LeetCode Topics End-->
