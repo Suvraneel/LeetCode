@@ -228,6 +228,7 @@
 | [535](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [Encode and Decode Tinyurl](./535-encode-and-decode-tinyurl) | **[Solution](./535-encode-and-decode-tinyurl/535-encode-and-decode-tinyurl.cpp)**  
 | [539](https://leetcode.com/problems/minimum-time-difference/) | [Minimum Time Difference](./0539-minimum-time-difference) | **[Solution](./0539-minimum-time-difference/0539-minimum-time-difference.cpp)**  
 | [540](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Single Element in a Sorted Array](./0540-single-element-in-a-sorted-array) | **[Solution](./0540-single-element-in-a-sorted-array/0540-single-element-in-a-sorted-array.cpp)**  
+| [543](https://leetcode.com/problems/diameter-of-binary-tree/) | [Diameter of Binary Tree](./0543-diameter-of-binary-tree) | **[Solution](./0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.cpp)**  
 | [547](https://leetcode.com/problems/number-of-provinces/) | [Number of Provinces](./0547-number-of-provinces) | **[Solution](./0547-number-of-provinces/0547-number-of-provinces.cpp)**  
 | [557](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Reverse Words in a String III](./557-reverse-words-in-a-string-iii) | **[Solution](./557-reverse-words-in-a-string-iii/557-reverse-words-in-a-string-iii.cpp)**  
 | [560](https://leetcode.com/problems/subarray-sum-equals-k/) | [Subarray Sum Equals K](./560-subarray-sum-equals-k) | **[Solution](./560-subarray-sum-equals-k/560-subarray-sum-equals-k.cpp)**  
@@ -819,19 +820,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0543-diameter-of-binary-tree](https://github.com/Suvraneel/LeetCode/tree/main/0543-diameter-of-binary-tree/) | Easy |
-## Depth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0543-diameter-of-binary-tree](https://github.com/Suvraneel/LeetCode/tree/main/0543-diameter-of-binary-tree/) | Easy |
-## Binary Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0543-diameter-of-binary-tree](https://github.com/Suvraneel/LeetCode/tree/main/0543-diameter-of-binary-tree/) | Easy |
-<!---LeetCode Topics End-->
