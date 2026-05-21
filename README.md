@@ -75,6 +75,7 @@
 | [98](https://leetcode.com/problems/validate-binary-search-tree/) | [Validate Binary Search Tree](./98-validate-binary-search-tree) | **[Solution](./98-validate-binary-search-tree/98-validate-binary-search-tree.cpp)**  
 | [99](https://leetcode.com/problems/recover-binary-search-tree/) | [Recover Binary Search Tree](./99-recover-binary-search-tree) | **[Solution](./99-recover-binary-search-tree/99-recover-binary-search-tree.cpp)**  
 | [100](https://leetcode.com/problems/same-tree/) | [Same Tree](./0100-same-tree) | **[Solution](./0100-same-tree/0100-same-tree.cpp)**  
+| [102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Binary Tree Level Order Traversal](./0102-binary-tree-level-order-traversal) | **[Solution](./0102-binary-tree-level-order-traversal/0102-binary-tree-level-order-traversal.cpp)**  
 | [103](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Binary Tree Zigzag Level Order Traversal](./0103-binary-tree-zigzag-level-order-traversal) | **[Solution](./0103-binary-tree-zigzag-level-order-traversal/0103-binary-tree-zigzag-level-order-traversal.cpp)**  
 | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Maximum Depth of Binary Tree](./104-maximum-depth-of-binary-tree) | **[Solution](./104-maximum-depth-of-binary-tree/104-maximum-depth-of-binary-tree.cpp)**  
 | [108](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Convert Sorted Array to Binary Search Tree](./108-convert-sorted-array-to-binary-search-tree) | **[Solution](./108-convert-sorted-array-to-binary-search-tree/108-convert-sorted-array-to-binary-search-tree.cpp)**  
@@ -817,19 +818,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0102-binary-tree-level-order-traversal](https://github.com/Suvraneel/LeetCode/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
-## Breadth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0102-binary-tree-level-order-traversal](https://github.com/Suvraneel/LeetCode/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
-## Binary Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0102-binary-tree-level-order-traversal](https://github.com/Suvraneel/LeetCode/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
-<!---LeetCode Topics End-->
