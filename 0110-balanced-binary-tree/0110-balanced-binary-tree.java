@@ -24,9 +24,9 @@ class Solution {
     int solve(TreeNode node) {
         if (node == null)
             return 0;
-        int lt = 1 + solve(node.left), rt = 1 + solve(node.right);
+        int lt = solve(node.left), rt = solve(node.right);
         if (Math.abs(lt - rt) > 1)
             unbalanced = true;
-        return Math.max(lt, rt);
+        return Math.max(lt, rt) + 1;
     }
 }
