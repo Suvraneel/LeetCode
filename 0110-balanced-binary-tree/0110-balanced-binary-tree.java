@@ -23,7 +23,7 @@ class Solution {
 
     int solve(TreeNode node) {
         if (node == null)
-            return 1;
+            return 0;
         int lt = 1 + solve(node.left), rt = 1 + solve(node.right);
         if (Math.abs(lt - rt) > 1)
             unbalanced = true;
