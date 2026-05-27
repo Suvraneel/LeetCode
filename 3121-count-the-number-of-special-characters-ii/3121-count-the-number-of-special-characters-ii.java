@@ -3,9 +3,9 @@ class Solution {
         boolean[] lower = new boolean[26];
         boolean[] upper = new boolean[26];
         for (char c : word.toCharArray()) {
-            if (c < 'a')
+            if (c < 'a')    // uppercase
                 upper[c - 'A'] = true;
-            else {
+            else {  // lowercase makes unspecial if occuring after uppercase
                 lower[c - 'a'] = !upper[c - 'a'];
             }
         }
