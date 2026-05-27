@@ -9,3 +9,15 @@
 
 | Leetcode Problem | Problem Statement | C++ Solution |
 |---:|:-----|:----:|
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/Suvraneel/LeetCode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/Suvraneel/LeetCode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
+<!---LeetCode Topics End-->
