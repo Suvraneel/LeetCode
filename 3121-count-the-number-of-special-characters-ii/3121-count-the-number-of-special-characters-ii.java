@@ -3,7 +3,7 @@ class Solution {
         boolean[] lower = new boolean[26];
         boolean[] upper = new boolean[26];
         for (char c : word.toCharArray()) {
-            if (Character.isUpperCase(c))
+            if (c < 'a')
                 upper[c - 'A'] = true;
             else {
                 if (upper[c - 'a'])
