@@ -2,7 +2,9 @@ class Solution {
     public int numberOfSpecialChars(String word) {
         boolean[] lower = new boolean[26];
         boolean[] upper = new boolean[26];
-        for (char c : word.toCharArray()) {
+        int n = word.length();
+        for (int i = 0; i < n; i++) {
+            char c = word.charAt(i);
             if (c < 'a')
                 upper[c - 'A'] = true;
             else {
