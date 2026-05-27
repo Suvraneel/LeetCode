@@ -759,6 +759,7 @@
 | [3105](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | [Longest Strictly Increasing or Strictly Decreasing Subarray](./3105-longest-strictly-increasing-or-strictly-decreasing-subarray) | **[Solution](./3105-longest-strictly-increasing-or-strictly-decreasing-subarray/3105-longest-strictly-increasing-or-strictly-decreasing-subarray.cpp)**  
 | [3108](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/) | [Minimum Cost Walk in Weighted Graph](./3108-minimum-cost-walk-in-weighted-graph) | **[Solution](./3108-minimum-cost-walk-in-weighted-graph/3108-minimum-cost-walk-in-weighted-graph.cpp)**  
 | [3110](https://leetcode.com/problems/score-of-a-string/) | [Score of a String](./3110-score-of-a-string) | **[Solution](./3110-score-of-a-string/3110-score-of-a-string.cpp)**  
+| [3121](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | [Count the Number of Special Characters II](./3121-count-the-number-of-special-characters-ii) | **[Solution](./3121-count-the-number-of-special-characters-ii/3121-count-the-number-of-special-characters-ii.cpp)**  
 | [3133](https://leetcode.com/problems/minimum-array-end/) | [Minimum Array End](./3133-minimum-array-end) | **[Solution](./3133-minimum-array-end/3133-minimum-array-end.cpp)**  
 | [3151](https://leetcode.com/problems/special-array-i/) | [Special Array I](./3151-special-array-i) | **[Solution](./3151-special-array-i/3151-special-array-i.cpp)**  
 | [3152](https://leetcode.com/problems/special-array-ii/) | [Special Array II](./3152-special-array-ii) | **[Solution](./3152-special-array-ii/3152-special-array-ii.cpp)**  
@@ -820,15 +821,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3121-count-the-number-of-special-characters-ii](https://github.com/Suvraneel/LeetCode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3121-count-the-number-of-special-characters-ii](https://github.com/Suvraneel/LeetCode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
-<!---LeetCode Topics End-->
