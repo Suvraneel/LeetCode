@@ -754,6 +754,7 @@
 | [3043](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) | [Find the Length of the Longest Common Prefix](./3043-find-the-length-of-the-longest-common-prefix) | **[Solution](./3043-find-the-length-of-the-longest-common-prefix/3043-find-the-length-of-the-longest-common-prefix.cpp)**  
 | [3066](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/) | [Minimum Operations to Exceed Threshold Value II](./3066-minimum-operations-to-exceed-threshold-value-ii) | **[Solution](./3066-minimum-operations-to-exceed-threshold-value-ii/3066-minimum-operations-to-exceed-threshold-value-ii.cpp)**  
 | [3085](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/) | [Minimum Deletions to Make String K Special](./3085-minimum-deletions-to-make-string-k-special) | **[Solution](./3085-minimum-deletions-to-make-string-k-special/3085-minimum-deletions-to-make-string-k-special.cpp)**  
+| [3093](https://leetcode.com/problems/longest-common-suffix-queries/) | [Longest Common Suffix Queries](./3093-longest-common-suffix-queries) | **[Solution](./3093-longest-common-suffix-queries/3093-longest-common-suffix-queries.cpp)**  
 | [3097](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/) | [Shortest Subarray With or at Least K II](./3097-shortest-subarray-with-or-at-least-k-ii) | **[Solution](./3097-shortest-subarray-with-or-at-least-k-ii/3097-shortest-subarray-with-or-at-least-k-ii.cpp)**  
 | [3100](https://leetcode.com/problems/water-bottles-ii/) | [Water Bottles II](./3100-water-bottles-ii) | **[Solution](./3100-water-bottles-ii/3100-water-bottles-ii.cpp)**  
 | [3105](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | [Longest Strictly Increasing or Strictly Decreasing Subarray](./3105-longest-strictly-increasing-or-strictly-decreasing-subarray) | **[Solution](./3105-longest-strictly-increasing-or-strictly-decreasing-subarray/3105-longest-strictly-increasing-or-strictly-decreasing-subarray.cpp)**  
@@ -821,19 +822,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3093-longest-common-suffix-queries](https://github.com/Suvraneel/LeetCode/tree/main/3093-longest-common-suffix-queries/) | Hard |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3093-longest-common-suffix-queries](https://github.com/Suvraneel/LeetCode/tree/main/3093-longest-common-suffix-queries/) | Hard |
-## Trie
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3093-longest-common-suffix-queries](https://github.com/Suvraneel/LeetCode/tree/main/3093-longest-common-suffix-queries/) | Hard |
-<!---LeetCode Topics End-->
