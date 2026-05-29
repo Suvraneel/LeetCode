@@ -781,6 +781,7 @@
 | [3254](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/) | [Find the Power of K Size Subarrays I](./3254-find-the-power-of-k-size-subarrays-i) | **[Solution](./3254-find-the-power-of-k-size-subarrays-i/3254-find-the-power-of-k-size-subarrays-i.cpp)**  
 | [3264](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/) | [Final Array State After K Multiplication Operations I](./3264-final-array-state-after-k-multiplication-operations-i) | **[Solution](./3264-final-array-state-after-k-multiplication-operations-i/3264-final-array-state-after-k-multiplication-operations-i.cpp)**  
 | [3289](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | [The Two Sneaky Numbers of Digitville](./3289-the-two-sneaky-numbers-of-digitville) | **[Solution](./3289-the-two-sneaky-numbers-of-digitville/3289-the-two-sneaky-numbers-of-digitville.cpp)**  
+| [3300](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | [Minimum Element After Replacement With Digit Sum](./3300-minimum-element-after-replacement-with-digit-sum) | **[Solution](./3300-minimum-element-after-replacement-with-digit-sum/3300-minimum-element-after-replacement-with-digit-sum.cpp)**  
 | [3304](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | [Find the K Th Character in String Game I](./3304-find-the-k-th-character-in-string-game-i) | **[Solution](./3304-find-the-k-th-character-in-string-game-i/3304-find-the-k-th-character-in-string-game-i.cpp)**  
 | [3306](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/) | [Count of Substrings Containing Every Vowel and K Consonants II](./3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii) | **[Solution](./3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii/3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii.cpp)**  
 | [3330](https://leetcode.com/problems/find-the-original-typed-string-i/) | [Find the Original Typed String I](./3330-find-the-original-typed-string-i) | **[Solution](./3330-find-the-original-typed-string-i/3330-find-the-original-typed-string-i.cpp)**  
@@ -822,15 +823,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Suvraneel/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Suvraneel/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
-<!---LeetCode Topics End-->
