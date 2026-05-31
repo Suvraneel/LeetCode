@@ -579,6 +579,7 @@
 | [2115](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/) | [Find all Possible Recipes from Given Supplies](./2115-find-all-possible-recipes-from-given-supplies) | **[Solution](./2115-find-all-possible-recipes-from-given-supplies/2115-find-all-possible-recipes-from-given-supplies.cpp)**  
 | [2116](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | [Check IF a Parentheses String can Be Valid](./2116-check-if-a-parentheses-string-can-be-valid) | **[Solution](./2116-check-if-a-parentheses-string-can-be-valid/2116-check-if-a-parentheses-string-can-be-valid.cpp)**  
 | [2125](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) | [Number of Laser Beams in a Bank](./2125-number-of-laser-beams-in-a-bank) | **[Solution](./2125-number-of-laser-beams-in-a-bank/2125-number-of-laser-beams-in-a-bank.cpp)**  
+| [2126](https://leetcode.com/problems/destroying-asteroids/) | [Destroying Asteroids](./2126-destroying-asteroids) | **[Solution](./2126-destroying-asteroids/2126-destroying-asteroids.cpp)**  
 | [2131](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/) | [Longest Palindrome by Concatenating Two Letter Words](./2131-longest-palindrome-by-concatenating-two-letter-words) | **[Solution](./2131-longest-palindrome-by-concatenating-two-letter-words/2131-longest-palindrome-by-concatenating-two-letter-words.cpp)**  
 | [2134](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/) | [Minimum Swaps to Group all 1s Together II](./2134-minimum-swaps-to-group-all-1s-together-ii) | **[Solution](./2134-minimum-swaps-to-group-all-1s-together-ii/2134-minimum-swaps-to-group-all-1s-together-ii.cpp)**  
 | [2136](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/) | [Earliest Possible Day of Full Bloom](./2136-earliest-possible-day-of-full-bloom) | **[Solution](./2136-earliest-possible-day-of-full-bloom/2136-earliest-possible-day-of-full-bloom.cpp)**  
@@ -823,19 +824,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2126-destroying-asteroids](https://github.com/Suvraneel/LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2126-destroying-asteroids](https://github.com/Suvraneel/LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2126-destroying-asteroids](https://github.com/Suvraneel/LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
-<!---LeetCode Topics End-->
