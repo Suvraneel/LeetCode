@@ -585,6 +585,7 @@
 | [2136](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/) | [Earliest Possible Day of Full Bloom](./2136-earliest-possible-day-of-full-bloom) | **[Solution](./2136-earliest-possible-day-of-full-bloom/2136-earliest-possible-day-of-full-bloom.cpp)**  
 | [2138](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | [Divide a String Into Groups of Size K](./2138-divide-a-string-into-groups-of-size-k) | **[Solution](./2138-divide-a-string-into-groups-of-size-k/2138-divide-a-string-into-groups-of-size-k.cpp)**  
 | [2140](https://leetcode.com/problems/solving-questions-with-brainpower/) | [Solving Questions With Brainpower](./2140-solving-questions-with-brainpower) | **[Solution](./2140-solving-questions-with-brainpower/2140-solving-questions-with-brainpower.cpp)**  
+| [2144](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | [Minimum Cost of Buying Candies With Discount](./2144-minimum-cost-of-buying-candies-with-discount) | **[Solution](./2144-minimum-cost-of-buying-candies-with-discount/2144-minimum-cost-of-buying-candies-with-discount.cpp)**  
 | [2145](https://leetcode.com/problems/count-the-hidden-sequences/) | [Count the Hidden Sequences](./2145-count-the-hidden-sequences) | **[Solution](./2145-count-the-hidden-sequences/2145-count-the-hidden-sequences.cpp)**  
 | [2149](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | [Rearrange Array Elements by Sign](./2149-rearrange-array-elements-by-sign) | **[Solution](./2149-rearrange-array-elements-by-sign/2149-rearrange-array-elements-by-sign.cpp)**  
 | [2161](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | [Partition Array According to Given Pivot](./2161-partition-array-according-to-given-pivot) | **[Solution](./2161-partition-array-according-to-given-pivot/2161-partition-array-according-to-given-pivot.cpp)**  
@@ -824,19 +825,3 @@
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Suvraneel/LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Suvraneel/LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Suvraneel/LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
-<!---LeetCode Topics End-->
