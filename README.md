@@ -137,6 +137,7 @@
 | [222](https://leetcode.com/problems/count-complete-tree-nodes/) | [Count Complete Tree Nodes](./0222-count-complete-tree-nodes) | **[Solution](./0222-count-complete-tree-nodes/0222-count-complete-tree-nodes.cpp)**  
 | [223](https://leetcode.com/problems/rectangle-area/) | [Rectangle Area](./0223-rectangle-area) | **[Solution](./0223-rectangle-area/0223-rectangle-area.cpp)**  
 | [224](https://leetcode.com/problems/basic-calculator/) | [Basic Calculator](./0224-basic-calculator) | **[Solution](./0224-basic-calculator/0224-basic-calculator.cpp)**  
+| [225](https://leetcode.com/problems/implement-stack-using-queues/) | [Implement Stack Using Queues](./0225-implement-stack-using-queues) | **[Solution](./0225-implement-stack-using-queues/0225-implement-stack-using-queues.cpp)**  
 | [226](https://leetcode.com/problems/invert-binary-tree/) | [Invert Binary Tree](./0226-invert-binary-tree) | **[Solution](./0226-invert-binary-tree/0226-invert-binary-tree.cpp)**  
 | [227](https://leetcode.com/problems/basic-calculator-ii/) | [Basic Calculator II](./227-basic-calculator-ii) | **[Solution](./227-basic-calculator-ii/227-basic-calculator-ii.cpp)**  
 | [229](https://leetcode.com/problems/majority-element-ii/) | [Majority Element II](./0229-majority-element-ii) | **[Solution](./0229-majority-element-ii/0229-majority-element-ii.cpp)**  
@@ -827,19 +828,3 @@
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
 | [3633](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | [Earliest Finish Time for Land and Water Rides I](./3633-earliest-finish-time-for-land-and-water-rides-i) | **[Solution](./3633-earliest-finish-time-for-land-and-water-rides-i/3633-earliest-finish-time-for-land-and-water-rides-i.cpp)**  
 | [3635](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | [Earliest Finish Time for Land and Water Rides II](./3635-earliest-finish-time-for-land-and-water-rides-ii) | **[Solution](./3635-earliest-finish-time-for-land-and-water-rides-ii/3635-earliest-finish-time-for-land-and-water-rides-ii.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0225-implement-stack-using-queues](https://github.com/Suvraneel/LeetCode/tree/main/0225-implement-stack-using-queues/) | Easy |
-## Design
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0225-implement-stack-using-queues](https://github.com/Suvraneel/LeetCode/tree/main/0225-implement-stack-using-queues/) | Easy |
-## Queue
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0225-implement-stack-using-queues](https://github.com/Suvraneel/LeetCode/tree/main/0225-implement-stack-using-queues/) | Easy |
-<!---LeetCode Topics End-->
