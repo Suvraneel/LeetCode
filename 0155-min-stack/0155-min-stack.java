@@ -1,14 +1,12 @@
-import java.util.*;
-
 class MinStack {
-    Stack<Map.Entry<Integer, Integer>> stk = new Stack<>();
+    Stack<Pair<Integer, Integer>> stk = new Stack<>();
 
     public MinStack() {
 
     }
 
     public void push(int val) {
-        stk.push(new AbstractMap.SimpleEntry<>(val, Math.min(getMin(), val)));
+        stk.push(new Pair<>(val, Math.min(getMin(), val)));
     }
 
     public void pop() {
