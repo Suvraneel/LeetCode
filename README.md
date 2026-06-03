@@ -113,6 +113,7 @@
 | [152](https://leetcode.com/problems/maximum-product-subarray/) | [Maximum Product Subarray](./0152-maximum-product-subarray) | **[Solution](./0152-maximum-product-subarray/0152-maximum-product-subarray.cpp)**  
 | [153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Find Minimum in Rotated Sorted Array](./0153-find-minimum-in-rotated-sorted-array) | **[Solution](./0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.cpp)**  
 | [154](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [Find Minimum in Rotated Sorted Array II](./0154-find-minimum-in-rotated-sorted-array-ii) | **[Solution](./0154-find-minimum-in-rotated-sorted-array-ii/0154-find-minimum-in-rotated-sorted-array-ii.cpp)**  
+| [155](https://leetcode.com/problems/min-stack/) | [Min Stack](./0155-min-stack) | **[Solution](./0155-min-stack/0155-min-stack.cpp)**  
 | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Intersection of Two Linked Lists](./160-intersection-of-two-linked-lists) | **[Solution](./160-intersection-of-two-linked-lists/160-intersection-of-two-linked-lists.cpp)**  
 | [162](https://leetcode.com/problems/find-peak-element/) | [Find Peak Element](./0162-find-peak-element) | **[Solution](./0162-find-peak-element/0162-find-peak-element.cpp)**  
 | [165](https://leetcode.com/problems/compare-version-numbers/) | [Compare Version Numbers](./0165-compare-version-numbers) | **[Solution](./0165-compare-version-numbers/0165-compare-version-numbers.cpp)**  
@@ -830,15 +831,3 @@
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
 | [3633](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | [Earliest Finish Time for Land and Water Rides I](./3633-earliest-finish-time-for-land-and-water-rides-i) | **[Solution](./3633-earliest-finish-time-for-land-and-water-rides-i/3633-earliest-finish-time-for-land-and-water-rides-i.cpp)**  
 | [3635](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | [Earliest Finish Time for Land and Water Rides II](./3635-earliest-finish-time-for-land-and-water-rides-ii) | **[Solution](./3635-earliest-finish-time-for-land-and-water-rides-ii/3635-earliest-finish-time-for-land-and-water-rides-ii.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0155-min-stack](https://github.com/Suvraneel/LeetCode/tree/main/0155-min-stack/) | Medium |
-## Design
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0155-min-stack](https://github.com/Suvraneel/LeetCode/tree/main/0155-min-stack/) | Medium |
-<!---LeetCode Topics End-->
