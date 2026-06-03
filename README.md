@@ -22,6 +22,7 @@
 | [17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Letter Combinations of a Phone Number](./0017-letter-combinations-of-a-phone-number) | **[Solution](./0017-letter-combinations-of-a-phone-number/0017-letter-combinations-of-a-phone-number.cpp)**  
 | [18](https://leetcode.com/problems/4sum/) | [4sum](./0018-4sum) | **[Solution](./0018-4sum/0018-4sum.cpp)**  
 | [19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Remove Nth Node from End of List](./19-remove-nth-node-from-end-of-list) | **[Solution](./19-remove-nth-node-from-end-of-list/19-remove-nth-node-from-end-of-list.cpp)**  
+| [20](https://leetcode.com/problems/valid-parentheses/) | [Valid Parentheses](./0020-valid-parentheses) | **[Solution](./0020-valid-parentheses/0020-valid-parentheses.cpp)**  
 | [21](https://leetcode.com/problems/merge-two-sorted-lists/) | [Merge Two Sorted Lists](./21-merge-two-sorted-lists) | **[Solution](./21-merge-two-sorted-lists/21-merge-two-sorted-lists.cpp)**  
 | [22](https://leetcode.com/problems/generate-parentheses/) | [Generate Parentheses](./0022-generate-parentheses) | **[Solution](./0022-generate-parentheses/0022-generate-parentheses.cpp)**  
 | [23](https://leetcode.com/problems/merge-k-sorted-lists/) | [Merge K Sorted Lists](./23-merge-k-sorted-lists) | **[Solution](./23-merge-k-sorted-lists/23-merge-k-sorted-lists.cpp)**  
@@ -829,15 +830,3 @@
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
 | [3633](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | [Earliest Finish Time for Land and Water Rides I](./3633-earliest-finish-time-for-land-and-water-rides-i) | **[Solution](./3633-earliest-finish-time-for-land-and-water-rides-i/3633-earliest-finish-time-for-land-and-water-rides-i.cpp)**  
 | [3635](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | [Earliest Finish Time for Land and Water Rides II](./3635-earliest-finish-time-for-land-and-water-rides-ii) | **[Solution](./3635-earliest-finish-time-for-land-and-water-rides-ii/3635-earliest-finish-time-for-land-and-water-rides-ii.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0020-valid-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0020-valid-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
-<!---LeetCode Topics End-->
