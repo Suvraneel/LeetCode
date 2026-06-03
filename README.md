@@ -143,6 +143,7 @@
 | [229](https://leetcode.com/problems/majority-element-ii/) | [Majority Element II](./0229-majority-element-ii) | **[Solution](./0229-majority-element-ii/0229-majority-element-ii.cpp)**  
 | [230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Kth Smallest Element in a Bst](./230-kth-smallest-element-in-a-bst) | **[Solution](./230-kth-smallest-element-in-a-bst/230-kth-smallest-element-in-a-bst.cpp)**  
 | [231](https://leetcode.com/problems/power-of-two/) | [Power of Two](./0231-power-of-two) | **[Solution](./0231-power-of-two/0231-power-of-two.cpp)**  
+| [232](https://leetcode.com/problems/implement-queue-using-stacks/) | [Implement Queue Using Stacks](./0232-implement-queue-using-stacks) | **[Solution](./0232-implement-queue-using-stacks/0232-implement-queue-using-stacks.cpp)**  
 | [234](https://leetcode.com/problems/palindrome-linked-list/) | [Palindrome Linked List](./234-palindrome-linked-list) | **[Solution](./234-palindrome-linked-list/234-palindrome-linked-list.cpp)**  
 | [235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Lowest Common Ancestor of a Binary Search Tree](./235-lowest-common-ancestor-of-a-binary-search-tree) | **[Solution](./235-lowest-common-ancestor-of-a-binary-search-tree/235-lowest-common-ancestor-of-a-binary-search-tree.cpp)**  
 | [236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Lowest Common Ancestor of a Binary Tree](./236-lowest-common-ancestor-of-a-binary-tree) | **[Solution](./236-lowest-common-ancestor-of-a-binary-tree/236-lowest-common-ancestor-of-a-binary-tree.cpp)**  
@@ -828,19 +829,3 @@
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
 | [3633](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | [Earliest Finish Time for Land and Water Rides I](./3633-earliest-finish-time-for-land-and-water-rides-i) | **[Solution](./3633-earliest-finish-time-for-land-and-water-rides-i/3633-earliest-finish-time-for-land-and-water-rides-i.cpp)**  
 | [3635](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | [Earliest Finish Time for Land and Water Rides II](./3635-earliest-finish-time-for-land-and-water-rides-ii) | **[Solution](./3635-earliest-finish-time-for-land-and-water-rides-ii/3635-earliest-finish-time-for-land-and-water-rides-ii.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0232-implement-queue-using-stacks](https://github.com/Suvraneel/LeetCode/tree/main/0232-implement-queue-using-stacks/) | Easy |
-## Design
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0232-implement-queue-using-stacks](https://github.com/Suvraneel/LeetCode/tree/main/0232-implement-queue-using-stacks/) | Easy |
-## Queue
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0232-implement-queue-using-stacks](https://github.com/Suvraneel/LeetCode/tree/main/0232-implement-queue-using-stacks/) | Easy |
-<!---LeetCode Topics End-->
