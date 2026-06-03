@@ -1,31 +1,26 @@
 class CustomStack {
     int[] stk;
-    int top;
-    int capacity;
+    int size = 0;
 
     public CustomStack(int maxSize) {
-        stk = new int[maxSize];
-        top = -1;
-        capacity = maxSize;
-        Arrays.fill(stk, -1);
+        this.stk = new int[maxSize];
     }
 
     public void push(int x) {
-        if (top < capacity - 1)
-            stk[++top] = x;
+        if (size == stk.length)
+            return;
+        stk[size++] = x;
     }
 
     public int pop() {
-        if (top == -1)
+        if (size == 0)
             return -1;
-        int elem = stk[top];
-        stk[top--] = -1;
-        return elem;
+        return stk[--size];
     }
 
     public void increment(int k, int val) {
-        int range = Math.min(k, top + 1);
-        for (int i = 0; i < range; i++)
+        k = Math.min(size, k);
+        for (int i = 0; i < k; i++)
             stk[i] += val;
     }
 }
