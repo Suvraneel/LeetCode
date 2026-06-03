@@ -1,29 +1,26 @@
 class MinStack {
-    Stack<Integer> stk = new Stack<>();
-    TreeMap<Integer, Integer> m = new TreeMap<>();
+    Stack<Pair<Integer, Integer>> stk = new Stack<>();
 
     public MinStack() {
 
     }
 
     public void push(int val) {
-        stk.push(val);
-        m.put(val, m.getOrDefault(val, 0) + 1);
+        stk.push(new Pair<>(val, Math.min(getMin(), val)));
     }
 
     public void pop() {
-        int val = stk.pop();
-        m.put(val, m.get(val) - 1);
-        if (m.get(val) == 0)
-            m.remove(val);
+        stk.pop();
     }
 
     public int top() {
-        return stk.peek();
+        return stk.peek().getKey();
     }
 
     public int getMin() {
-        return m.firstKey();
+        if (stk.isEmpty()) // for usage in push method
+            return Integer.MAX_VALUE;
+        return stk.peek().getValue();
     }
 }
 
