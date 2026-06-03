@@ -1,7 +1,9 @@
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stk = new Stack<>();
-        for (char c : s.toCharArray()) {
+        int n = s.length();
+        for (int i = 0; i < n; i++) {
+            char c = s.charAt(i);
             switch (c) {
                 case ')' -> {
                     if (!stk.isEmpty() && stk.peek() == '(')
