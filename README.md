@@ -698,6 +698,7 @@
 | [2563](https://leetcode.com/problems/count-the-number-of-fair-pairs/) | [Count the Number of Fair Pairs](./2563-count-the-number-of-fair-pairs) | **[Solution](./2563-count-the-number-of-fair-pairs/2563-count-the-number-of-fair-pairs.cpp)**  
 | [2566](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/) | [Maximum Difference by Remapping a Digit](./2566-maximum-difference-by-remapping-a-digit) | **[Solution](./2566-maximum-difference-by-remapping-a-digit/2566-maximum-difference-by-remapping-a-digit.cpp)**  
 | [2570](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | [Merge Two 2d Arrays by Summing Values](./2570-merge-two-2d-arrays-by-summing-values) | **[Solution](./2570-merge-two-2d-arrays-by-summing-values/2570-merge-two-2d-arrays-by-summing-values.cpp)**  
+| [2574](https://leetcode.com/problems/left-and-right-sum-differences/) | [Left and Right Sum Differences](./2574-left-and-right-sum-differences) | **[Solution](./2574-left-and-right-sum-differences/2574-left-and-right-sum-differences.cpp)**  
 | [2577](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/) | [Minimum Time to Visit a Cell in a Grid](./2577-minimum-time-to-visit-a-cell-in-a-grid) | **[Solution](./2577-minimum-time-to-visit-a-cell-in-a-grid/2577-minimum-time-to-visit-a-cell-in-a-grid.cpp)**  
 | [2579](https://leetcode.com/problems/count-total-number-of-colored-cells/) | [Count Total Number of Colored Cells](./2579-count-total-number-of-colored-cells) | **[Solution](./2579-count-total-number-of-colored-cells/2579-count-total-number-of-colored-cells.cpp)**  
 | [2582](https://leetcode.com/problems/pass-the-pillow/) | [Pass the Pillow](./2582-pass-the-pillow) | **[Solution](./2582-pass-the-pillow/2582-pass-the-pillow.cpp)**  
@@ -832,15 +833,3 @@
 | [3633](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | [Earliest Finish Time for Land and Water Rides I](./3633-earliest-finish-time-for-land-and-water-rides-i) | **[Solution](./3633-earliest-finish-time-for-land-and-water-rides-i/3633-earliest-finish-time-for-land-and-water-rides-i.cpp)**  
 | [3635](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | [Earliest Finish Time for Land and Water Rides II](./3635-earliest-finish-time-for-land-and-water-rides-ii) | **[Solution](./3635-earliest-finish-time-for-land-and-water-rides-ii/3635-earliest-finish-time-for-land-and-water-rides-ii.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2574-left-and-right-sum-differences](https://github.com/Suvraneel/LeetCode/tree/main/2574-left-and-right-sum-differences/) | Easy |
-## Prefix Sum
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2574-left-and-right-sum-differences](https://github.com/Suvraneel/LeetCode/tree/main/2574-left-and-right-sum-differences/) | Easy |
-<!---LeetCode Topics End-->
