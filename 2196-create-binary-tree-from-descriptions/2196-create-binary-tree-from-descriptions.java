@@ -15,23 +15,23 @@
  */
 class Solution {
     public TreeNode createBinaryTree(int[][] descriptions) {
-        Map<Integer, TreeNode> m = new HashMap<>();
-        Set<Integer> parents = new HashSet<>(), children = new HashSet<>();
-        for(int[] desc: descriptions){
-            parents.add(desc[0]);
-            children.add(desc[1]);
-            TreeNode curr = m.getOrDefault(desc[0], new TreeNode(desc[0]));
-            if(desc[2] == 1){
-                curr.left = m.getOrDefault(desc[1], new TreeNode(desc[1]));
-                m.put(desc[1], curr.left);
+        Map<Integer, TreeNode> tree = new HashMap<>();
+        Map<Integer, Integer> parent = new HashMap<>();
+        int i = 0;
+        for (int[] desc : descriptions) {
+            tree.putIfAbsent(desc[0], new TreeNode(desc[0], null, null));
+            TreeNode child = tree.getOrDefault(desc[1], new TreeNode(desc[1]));
+            tree.put(desc[1], child);
+            if (desc[2] == 1) {
+                tree.get(desc[0]).left = child;
             } else {
-                curr.right = m.getOrDefault(desc[1], new TreeNode(desc[1]));
-                m.put(desc[1], curr.right);
+                tree.get(desc[0]).right = child;
             }
-            m.put(desc[0], curr);
+            parent.put(desc[1], desc[0]);
         }
-        parents.removeAll(children);
-        // System.out.println(m);
-        return m.get(parents.iterator().next());
+        int curr = tree.entrySet().iterator().next().getKey();
+        while (parent.containsKey(curr))
+            curr = parent.get(curr);
+        return tree.get(curr);
     }
 }
