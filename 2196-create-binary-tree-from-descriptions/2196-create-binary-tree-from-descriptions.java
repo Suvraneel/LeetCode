@@ -16,8 +16,9 @@
 class Solution {
     public TreeNode createBinaryTree(int[][] descriptions) {
         Map<Integer, TreeNode> tree = new HashMap<>();
-        Map<Integer, Integer> parent = new HashMap<>();
+        Set<Integer> children = new HashSet<>();
         int i = 0;
+        // build graph/tree
         for (int[] desc : descriptions) {
             tree.putIfAbsent(desc[0], new TreeNode(desc[0], null, null));
             TreeNode child = tree.getOrDefault(desc[1], new TreeNode(desc[1]));
@@ -27,11 +28,12 @@ class Solution {
             } else {
                 tree.get(desc[0]).right = child;
             }
-            parent.put(desc[1], desc[0]);
+            children.add(desc[1]);
         }
-        int curr = tree.entrySet().iterator().next().getKey();
-        while (parent.containsKey(curr))
-            curr = parent.get(curr);
-        return tree.get(curr);
+        // identify root node
+        for (int key : tree.keySet())
+            if (!children.contains(key))
+                return tree.get(key);
+        return null;
     }
 }
