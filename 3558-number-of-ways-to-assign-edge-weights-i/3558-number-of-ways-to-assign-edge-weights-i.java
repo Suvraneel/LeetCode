@@ -1,10 +1,13 @@
 class Solution {
     public int assignEdgeWeights(int[][] edges) {
         // Construct graph (adjacency list)
-        Map<Integer, List<Integer>> adj = new HashMap<>();
+        int n = edges.length;
+        List<Integer>[] adj = new List[n + 2];
+        for (int i = 0; i < n + 2; i++)
+            adj[i] = new ArrayList<>();
         for (int[] e : edges) {
-            adj.computeIfAbsent(e[0], k -> new ArrayList<>()).add(e[1]);
-            adj.computeIfAbsent(e[1], k -> new ArrayList<>()).add(e[0]);
+            adj[e[0]].add(e[1]);
+            adj[e[1]].add(e[0]);
         }
         // Find max depth via dfs
         int maxDepth = dfs(1, adj, 0);
@@ -14,11 +17,9 @@ class Solution {
         return fastExponentiation(2, maxDepth - 1);
     }
 
-    int dfs(int node, Map<Integer, List<Integer>> adj, int parent) {
+    int dfs(int node, List<Integer>[] adj, int parent) {
         int maxDepth = 0;
-        if (!adj.containsKey(node))
-            return 0;
-        for (int child : adj.get(node)) {
+        for (int child : adj[node]) {
             if (child == parent)
                 continue;
             maxDepth = Math.max(maxDepth, dfs(child, adj, node) + 1);
