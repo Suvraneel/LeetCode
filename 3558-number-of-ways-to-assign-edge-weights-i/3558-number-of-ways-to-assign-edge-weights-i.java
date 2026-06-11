@@ -26,7 +26,7 @@ class Solution {
         return maxDepth;
     }
 
-    int MOD = 1_000_000_007;
+    static final int MOD = 1_000_000_007;
 
     int fastExponentiation(int x, int y) { // calc x^n % 10e7
         long ans = 1;
