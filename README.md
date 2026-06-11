@@ -828,6 +828,7 @@
 | [3516](https://leetcode.com/problems/find-closest-person/) | [Find Closest Person](./3516-find-closest-person) | **[Solution](./3516-find-closest-person/3516-find-closest-person.cpp)**  
 | [3541](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | [Find most Frequent Vowel and Consonant](./3541-find-most-frequent-vowel-and-consonant) | **[Solution](./3541-find-most-frequent-vowel-and-consonant/3541-find-most-frequent-vowel-and-consonant.cpp)**  
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
+| [3558](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/) | [Number of Ways to Assign Edge Weights I](./3558-number-of-ways-to-assign-edge-weights-i) | **[Solution](./3558-number-of-ways-to-assign-edge-weights-i/3558-number-of-ways-to-assign-edge-weights-i.cpp)**  
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
 | [3633](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | [Earliest Finish Time for Land and Water Rides I](./3633-earliest-finish-time-for-land-and-water-rides-i) | **[Solution](./3633-earliest-finish-time-for-land-and-water-rides-i/3633-earliest-finish-time-for-land-and-water-rides-i.cpp)**  
@@ -835,19 +836,3 @@
 | [3689](https://leetcode.com/problems/maximum-total-subarray-value-i/) | [Maximum Total Subarray Value I](./3689-maximum-total-subarray-value-i) | **[Solution](./3689-maximum-total-subarray-value-i/3689-maximum-total-subarray-value-i.cpp)**  
 | [3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | [Maximum Total Subarray Value II](./3691-maximum-total-subarray-value-ii) | **[Solution](./3691-maximum-total-subarray-value-ii/3691-maximum-total-subarray-value-ii.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Suvraneel/LeetCode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
-## Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Suvraneel/LeetCode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
-## Depth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Suvraneel/LeetCode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
-<!---LeetCode Topics End-->
