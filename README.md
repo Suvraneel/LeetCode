@@ -836,19 +836,3 @@
 | [3689](https://leetcode.com/problems/maximum-total-subarray-value-i/) | [Maximum Total Subarray Value I](./3689-maximum-total-subarray-value-i) | **[Solution](./3689-maximum-total-subarray-value-i/3689-maximum-total-subarray-value-i.cpp)**  
 | [3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | [Maximum Total Subarray Value II](./3691-maximum-total-subarray-value-ii) | **[Solution](./3691-maximum-total-subarray-value-ii/3691-maximum-total-subarray-value-ii.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Suvraneel/LeetCode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
-## Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Suvraneel/LeetCode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
-## Depth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Suvraneel/LeetCode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
-<!---LeetCode Topics End-->
