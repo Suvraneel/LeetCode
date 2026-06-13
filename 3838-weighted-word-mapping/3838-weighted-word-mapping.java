@@ -5,7 +5,7 @@ class Solution {
             int sum = 0, n = s.length();
             for (int i = 0; i < n; i++)
                 sum += weights[s.charAt(i) - 'a'];
-            sb.append((char) ('z' - (int) (sum % 26)));
+            sb.append((char) ('z' - (sum % 26)));
         }
         return sb.toString();
     }
