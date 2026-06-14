@@ -25,12 +25,12 @@ class Solution {
         return ans;
     }
 
-    void print(ListNode head) {
-        while (head != null) {
-            System.out.print(head.val + "->");
-            head = head.next;
-        }
-    }
+    // void print(ListNode head) {
+    //     while (head != null) {
+    //         System.out.print(head.val + "->");
+    //         head = head.next;
+    //     }
+    // }
 
     ListNode findMiddle(ListNode head) {
         ListNode fast = head, slow = head;
