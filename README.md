@@ -584,6 +584,7 @@
 | [2116](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | [Check IF a Parentheses String can Be Valid](./2116-check-if-a-parentheses-string-can-be-valid) | **[Solution](./2116-check-if-a-parentheses-string-can-be-valid/2116-check-if-a-parentheses-string-can-be-valid.cpp)**  
 | [2125](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) | [Number of Laser Beams in a Bank](./2125-number-of-laser-beams-in-a-bank) | **[Solution](./2125-number-of-laser-beams-in-a-bank/2125-number-of-laser-beams-in-a-bank.cpp)**  
 | [2126](https://leetcode.com/problems/destroying-asteroids/) | [Destroying Asteroids](./2126-destroying-asteroids) | **[Solution](./2126-destroying-asteroids/2126-destroying-asteroids.cpp)**  
+| [2130](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | [Maximum Twin Sum of a Linked List](./2130-maximum-twin-sum-of-a-linked-list) | **[Solution](./2130-maximum-twin-sum-of-a-linked-list/2130-maximum-twin-sum-of-a-linked-list.cpp)**  
 | [2131](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/) | [Longest Palindrome by Concatenating Two Letter Words](./2131-longest-palindrome-by-concatenating-two-letter-words) | **[Solution](./2131-longest-palindrome-by-concatenating-two-letter-words/2131-longest-palindrome-by-concatenating-two-letter-words.cpp)**  
 | [2134](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/) | [Minimum Swaps to Group all 1s Together II](./2134-minimum-swaps-to-group-all-1s-together-ii) | **[Solution](./2134-minimum-swaps-to-group-all-1s-together-ii/2134-minimum-swaps-to-group-all-1s-together-ii.cpp)**  
 | [2136](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/) | [Earliest Possible Day of Full Bloom](./2136-earliest-possible-day-of-full-bloom) | **[Solution](./2136-earliest-possible-day-of-full-bloom/2136-earliest-possible-day-of-full-bloom.cpp)**  
@@ -837,19 +838,3 @@
 | [3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | [Maximum Total Subarray Value II](./3691-maximum-total-subarray-value-ii) | **[Solution](./3691-maximum-total-subarray-value-ii/3691-maximum-total-subarray-value-ii.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Suvraneel/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
-## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Suvraneel/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Suvraneel/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
-<!---LeetCode Topics End-->
