@@ -833,21 +833,10 @@
 | [3583](https://leetcode.com/problems/count-special-triplets/) | [Count Special Triplets](./3583-count-special-triplets) | **[Solution](./3583-count-special-triplets/3583-count-special-triplets.cpp)**  
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
 | [3612](https://leetcode.com/problems/process-string-with-special-operations-i/) | [Process String With Special Operations I](./3612-process-string-with-special-operations-i) | **[Solution](./3612-process-string-with-special-operations-i/3612-process-string-with-special-operations-i.cpp)**  
+| [3614](https://leetcode.com/problems/process-string-with-special-operations-ii/) | [Process String With Special Operations II](./3614-process-string-with-special-operations-ii) | **[Solution](./3614-process-string-with-special-operations-ii/3614-process-string-with-special-operations-ii.cpp)**  
 | [3633](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | [Earliest Finish Time for Land and Water Rides I](./3633-earliest-finish-time-for-land-and-water-rides-i) | **[Solution](./3633-earliest-finish-time-for-land-and-water-rides-i/3633-earliest-finish-time-for-land-and-water-rides-i.cpp)**  
 | [3635](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | [Earliest Finish Time for Land and Water Rides II](./3635-earliest-finish-time-for-land-and-water-rides-ii) | **[Solution](./3635-earliest-finish-time-for-land-and-water-rides-ii/3635-earliest-finish-time-for-land-and-water-rides-ii.cpp)**  
 | [3689](https://leetcode.com/problems/maximum-total-subarray-value-i/) | [Maximum Total Subarray Value I](./3689-maximum-total-subarray-value-i) | **[Solution](./3689-maximum-total-subarray-value-i/3689-maximum-total-subarray-value-i.cpp)**  
 | [3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | [Maximum Total Subarray Value II](./3691-maximum-total-subarray-value-ii) | **[Solution](./3691-maximum-total-subarray-value-ii/3691-maximum-total-subarray-value-ii.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3614-process-string-with-special-operations-ii](https://github.com/Suvraneel/LeetCode/tree/main/3614-process-string-with-special-operations-ii/) | Hard |
-## Simulation
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3614-process-string-with-special-operations-ii](https://github.com/Suvraneel/LeetCode/tree/main/3614-process-string-with-special-operations-ii/) | Hard |
-<!---LeetCode Topics End-->
