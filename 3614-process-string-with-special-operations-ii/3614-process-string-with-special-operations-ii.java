@@ -22,9 +22,9 @@ class Solution {
             switch (c) {
                 case '*' -> len++;
                 case '#' -> {
+                    if (k + 1 > (len + 1) / 2)
+                        k -= len / 2;
                     len = (len + 1) / 2;
-                    if (k + 1 > len)
-                        k -= len;
                 }
                 case '%' -> k = len - k - 1;
                 default -> {
