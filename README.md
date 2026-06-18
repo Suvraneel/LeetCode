@@ -427,6 +427,7 @@
 | [1334](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | [Find the City With the Smallest Number of Neighbors at a Threshold Distance](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) | **[Solution](./1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.cpp)**  
 | [1335](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/) | [Minimum Difficulty of a Job Schedule](./1335-minimum-difficulty-of-a-job-schedule) | **[Solution](./1335-minimum-difficulty-of-a-job-schedule/1335-minimum-difficulty-of-a-job-schedule.cpp)**  
 | [1338](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [Reduce Array Size to the Half](./1338-reduce-array-size-to-the-half) | **[Solution](./1338-reduce-array-size-to-the-half/1338-reduce-array-size-to-the-half.cpp)**  
+| [1344](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | [Angle Between Hands of a Clock](./1344-angle-between-hands-of-a-clock) | **[Solution](./1344-angle-between-hands-of-a-clock/1344-angle-between-hands-of-a-clock.cpp)**  
 | [1345](https://leetcode.com/problems/jump-game-iv/) | [Jump Game IV](./1345-jump-game-iv) | **[Solution](./1345-jump-game-iv/1345-jump-game-iv.cpp)**  
 | [1346](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Check IF N and ITS Double Exist](./1346-check-if-n-and-its-double-exist) | **[Solution](./1346-check-if-n-and-its-double-exist/1346-check-if-n-and-its-double-exist.cpp)**  
 | [1352](https://leetcode.com/problems/product-of-the-last-k-numbers/) | [Product of the Last K Numbers](./1352-product-of-the-last-k-numbers) | **[Solution](./1352-product-of-the-last-k-numbers/1352-product-of-the-last-k-numbers.cpp)**  
@@ -840,11 +841,3 @@
 | [3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | [Maximum Total Subarray Value II](./3691-maximum-total-subarray-value-ii) | **[Solution](./3691-maximum-total-subarray-value-ii/3691-maximum-total-subarray-value-ii.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1344-angle-between-hands-of-a-clock](https://github.com/Suvraneel/LeetCode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
-<!---LeetCode Topics End-->
