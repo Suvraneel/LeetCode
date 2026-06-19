@@ -514,6 +514,7 @@
 | [1718](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/) | [Construct the Lexicographically Largest Valid Sequence](./1718-construct-the-lexicographically-largest-valid-sequence) | **[Solution](./1718-construct-the-lexicographically-largest-valid-sequence/1718-construct-the-lexicographically-largest-valid-sequence.cpp)**  
 | [1723](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/) | [Maximum Number of Achievable Transfer Requests](./1723-maximum-number-of-achievable-transfer-requests) | **[Solution](./1723-maximum-number-of-achievable-transfer-requests/1723-maximum-number-of-achievable-transfer-requests.cpp)**  
 | [1726](https://leetcode.com/problems/tuple-with-same-product/) | [Tuple With same Product](./1726-tuple-with-same-product) | **[Solution](./1726-tuple-with-same-product/1726-tuple-with-same-product.cpp)**  
+| [1732](https://leetcode.com/problems/find-the-highest-altitude/) | [Find the Highest Altitude](./1732-find-the-highest-altitude) | **[Solution](./1732-find-the-highest-altitude/1732-find-the-highest-altitude.cpp)**  
 | [1733](https://leetcode.com/problems/minimum-number-of-people-to-teach/) | [Minimum Number of People to Teach](./1733-minimum-number-of-people-to-teach) | **[Solution](./1733-minimum-number-of-people-to-teach/1733-minimum-number-of-people-to-teach.cpp)**  
 | [1749](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/) | [Maximum Absolute Sum of any Subarray](./1749-maximum-absolute-sum-of-any-subarray) | **[Solution](./1749-maximum-absolute-sum-of-any-subarray/1749-maximum-absolute-sum-of-any-subarray.cpp)**  
 | [1752](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | [Check IF Array IS Sorted and Rotated](./1752-check-if-array-is-sorted-and-rotated) | **[Solution](./1752-check-if-array-is-sorted-and-rotated/1752-check-if-array-is-sorted-and-rotated.cpp)**  
@@ -841,15 +842,3 @@
 | [3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | [Maximum Total Subarray Value II](./3691-maximum-total-subarray-value-ii) | **[Solution](./3691-maximum-total-subarray-value-ii/3691-maximum-total-subarray-value-ii.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1732-find-the-highest-altitude](https://github.com/Suvraneel/LeetCode/tree/main/1732-find-the-highest-altitude/) | Easy |
-## Prefix Sum
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1732-find-the-highest-altitude](https://github.com/Suvraneel/LeetCode/tree/main/1732-find-the-highest-altitude/) | Easy |
-<!---LeetCode Topics End-->
