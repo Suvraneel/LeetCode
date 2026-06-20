@@ -535,6 +535,7 @@
 | [1833](https://leetcode.com/problems/maximum-ice-cream-bars/) | [Maximum ICE Cream Bars](./1833-maximum-ice-cream-bars) | **[Solution](./1833-maximum-ice-cream-bars/1833-maximum-ice-cream-bars.cpp)**  
 | [1834](https://leetcode.com/problems/single-threaded-cpu/) | [Single Threaded Cpu](./1834-single-threaded-cpu) | **[Solution](./1834-single-threaded-cpu/1834-single-threaded-cpu.cpp)**  
 | [1838](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | [Frequency of the most Frequent Element](./1838-frequency-of-the-most-frequent-element) | **[Solution](./1838-frequency-of-the-most-frequent-element/1838-frequency-of-the-most-frequent-element.cpp)**  
+| [1840](https://leetcode.com/problems/maximum-building-height/) | [Maximum Building Height](./1840-maximum-building-height) | **[Solution](./1840-maximum-building-height/1840-maximum-building-height.cpp)**  
 | [1861](https://leetcode.com/problems/rotating-the-box/) | [Rotating the Box](./1861-rotating-the-box) | **[Solution](./1861-rotating-the-box/1861-rotating-the-box.cpp)**  
 | [1863](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | [Sum of all Subset Xor Totals](./1863-sum-of-all-subset-xor-totals) | **[Solution](./1863-sum-of-all-subset-xor-totals/1863-sum-of-all-subset-xor-totals.cpp)**  
 | [1865](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/) | [Finding Pairs With a Certain Sum](./1865-finding-pairs-with-a-certain-sum) | **[Solution](./1865-finding-pairs-with-a-certain-sum/1865-finding-pairs-with-a-certain-sum.cpp)**  
@@ -842,19 +843,3 @@
 | [3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | [Maximum Total Subarray Value II](./3691-maximum-total-subarray-value-ii) | **[Solution](./3691-maximum-total-subarray-value-ii/3691-maximum-total-subarray-value-ii.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1840-maximum-building-height](https://github.com/Suvraneel/LeetCode/tree/main/1840-maximum-building-height/) | Hard |
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1840-maximum-building-height](https://github.com/Suvraneel/LeetCode/tree/main/1840-maximum-building-height/) | Hard |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1840-maximum-building-height](https://github.com/Suvraneel/LeetCode/tree/main/1840-maximum-building-height/) | Hard |
-<!---LeetCode Topics End-->
