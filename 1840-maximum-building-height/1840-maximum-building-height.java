@@ -1,43 +1,39 @@
 class Solution {
-
     public int maxBuilding(int n, int[][] restrictions) {
-        // Convert the constraints to a list for manipulation
-        List<int[]> r = new ArrayList<>();
-        for (int[] res : restrictions) {
-            r.add(new int[] { res[0], res[1] });
+        int r = restrictions.length, maxm = 0, dist;
+        if (r == 0)
+            return n - 1;
+        Arrays.sort(restrictions, (a, b) -> a[0] - b[0]);
+        int[] sentinelLt = { 1, 0 };
+        int[] sentinelRt = restrictions[r - 1][0] == n // if upper bound for last building is given
+                ? restrictions[r - 1] // then, use it
+                : new int[] { n, n - 1 }; // else, initialize to sentinel node (rightmost)
+        int[] prev = sentinelLt; // initialize to sentinel node (leftmost)
+        for (int i = 0; i < r; i++) {
+            dist = restrictions[i][0] - prev[0];
+            restrictions[i][1] = Math.min(restrictions[i][1], prev[1] + dist);
+            prev = restrictions[i];
         }
-
-        // Add restriction (1, 0)
-        r.add(new int[] { 1, 0 });
-        // Sort by position
-        r.sort((a, b) -> Integer.compare(a[0], b[0]));
-        // Add restriction (n, n-1)
-        if (r.get(r.size() - 1)[0] != n) {
-            r.add(new int[] { n, n - 1 });
+        dist = sentinelRt[0] - restrictions[r - 1][0];
+        sentinelRt[1] = Math.min(sentinelRt[1], prev[1] + dist);
+        prev = sentinelRt;
+        for (int i = r - 1; i >= 0; i--) {
+            dist = prev[0] - restrictions[i][0];
+            restrictions[i][1] = Math.min(restrictions[i][1], prev[1] + dist);
+            prev = restrictions[i];
         }
-
-        int m = r.size();
-
-        // Pass restrictions from left to right
-        for (int i = 1; i < m; ++i) {
-            int dist = r.get(i)[0] - r.get(i - 1)[0];
-            r.get(i)[1] = Math.min(r.get(i)[1], r.get(i - 1)[1] + dist);
+        prev = sentinelLt;
+        for (int i = 0; i < r; i++) {
+            dist = restrictions[i][0] - prev[0];
+            maxm = Math.max(maxm, (prev[1] + restrictions[i][1] + dist) / 2);
+            prev = restrictions[i];
         }
-
-        // Pass restrictions from right to left
-        for (int i = m - 2; i >= 0; --i) {
-            int dist = r.get(i + 1)[0] - r.get(i)[0];
-            r.get(i)[1] = Math.min(r.get(i)[1], r.get(i + 1)[1] + dist);
+        if (restrictions[r - 1][0] != n) {
+            dist = n - restrictions[r - 1][0];
+            maxm = Math.max(maxm, (sentinelRt[1] + restrictions[r - 1][1] + dist) / 2);
         }
-
-        int ans = 0;
-        for (int i = 0; i < m - 1; ++i) {
-            // Calculate the maximum height of the buildings between r[i][0] and r[i][1]
-            int dist = r.get(i + 1)[0] - r.get(i)[0];
-            int best = (dist + r.get(i)[1] + r.get(i + 1)[1]) / 2;
-            ans = Math.max(ans, best);
-        }
-
-        return ans;
+        // for (int[] res : restrictions)
+        //     System.out.print(Arrays.toString(res) + "->");
+        return maxm;
     }
 }
