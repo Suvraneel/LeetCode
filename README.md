@@ -843,23 +843,3 @@
 | [3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | [Maximum Total Subarray Value II](./3691-maximum-total-subarray-value-ii) | **[Solution](./3691-maximum-total-subarray-value-ii/3691-maximum-total-subarray-value-ii.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1833-maximum-ice-cream-bars](https://github.com/Suvraneel/LeetCode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1833-maximum-ice-cream-bars](https://github.com/Suvraneel/LeetCode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1833-maximum-ice-cream-bars](https://github.com/Suvraneel/LeetCode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
-## Counting Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1833-maximum-ice-cream-bars](https://github.com/Suvraneel/LeetCode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
-<!---LeetCode Topics End-->
