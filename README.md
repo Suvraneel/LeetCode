@@ -397,6 +397,7 @@
 | [1140](https://leetcode.com/problems/stone-game-ii/) | [Stone Game II](./1140-stone-game-ii) | **[Solution](./1140-stone-game-ii/1140-stone-game-ii.cpp)**  
 | [1155](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | [Number of Dice Rolls With Target Sum](./1155-number-of-dice-rolls-with-target-sum) | **[Solution](./1155-number-of-dice-rolls-with-target-sum/1155-number-of-dice-rolls-with-target-sum.cpp)**  
 | [1162](https://leetcode.com/problems/as-far-from-land-as-possible/) | [As Far from Land As Possible](./1162-as-far-from-land-as-possible) | **[Solution](./1162-as-far-from-land-as-possible/1162-as-far-from-land-as-possible.cpp)**  
+| [1189](https://leetcode.com/problems/maximum-number-of-balloons/) | [Maximum Number of Balloons](./1189-maximum-number-of-balloons) | **[Solution](./1189-maximum-number-of-balloons/1189-maximum-number-of-balloons.cpp)**  
 | [1190](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | [Reverse Substrings Between each Pair of Parentheses](./1190-reverse-substrings-between-each-pair-of-parentheses) | **[Solution](./1190-reverse-substrings-between-each-pair-of-parentheses/1190-reverse-substrings-between-each-pair-of-parentheses.cpp)**  
 | [1200](https://leetcode.com/problems/minimum-absolute-difference/) | [Minimum Absolute Difference](./1200-minimum-absolute-difference) | **[Solution](./1200-minimum-absolute-difference/1200-minimum-absolute-difference.cpp)**  
 | [1202](https://leetcode.com/problems/smallest-string-with-swaps/) | [Smallest String With Swaps](./1202-smallest-string-with-swaps) | **[Solution](./1202-smallest-string-with-swaps/1202-smallest-string-with-swaps.cpp)**  
@@ -843,19 +844,3 @@
 | [3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | [Maximum Total Subarray Value II](./3691-maximum-total-subarray-value-ii) | **[Solution](./3691-maximum-total-subarray-value-ii/3691-maximum-total-subarray-value-ii.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1189-maximum-number-of-balloons](https://github.com/Suvraneel/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1189-maximum-number-of-balloons](https://github.com/Suvraneel/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
-## Counting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1189-maximum-number-of-balloons](https://github.com/Suvraneel/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
-<!---LeetCode Topics End-->
