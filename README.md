@@ -842,17 +842,6 @@
 | [3635](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | [Earliest Finish Time for Land and Water Rides II](./3635-earliest-finish-time-for-land-and-water-rides-ii) | **[Solution](./3635-earliest-finish-time-for-land-and-water-rides-ii/3635-earliest-finish-time-for-land-and-water-rides-ii.cpp)**  
 | [3689](https://leetcode.com/problems/maximum-total-subarray-value-i/) | [Maximum Total Subarray Value I](./3689-maximum-total-subarray-value-i) | **[Solution](./3689-maximum-total-subarray-value-i/3689-maximum-total-subarray-value-i.cpp)**  
 | [3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | [Maximum Total Subarray Value II](./3691-maximum-total-subarray-value-ii) | **[Solution](./3691-maximum-total-subarray-value-ii/3691-maximum-total-subarray-value-ii.cpp)**  
+| [3699](https://leetcode.com/problems/number-of-zigzag-arrays-i/) | [Number of Zigzag Arrays I](./3699-number-of-zigzag-arrays-i) | **[Solution](./3699-number-of-zigzag-arrays-i/3699-number-of-zigzag-arrays-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3699-number-of-zigzag-arrays-i](https://github.com/Suvraneel/LeetCode/tree/main/3699-number-of-zigzag-arrays-i/) | Hard |
-## Prefix Sum
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3699-number-of-zigzag-arrays-i](https://github.com/Suvraneel/LeetCode/tree/main/3699-number-of-zigzag-arrays-i/) | Hard |
-<!---LeetCode Topics End-->
