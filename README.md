@@ -843,37 +843,6 @@
 | [3689](https://leetcode.com/problems/maximum-total-subarray-value-i/) | [Maximum Total Subarray Value I](./3689-maximum-total-subarray-value-i) | **[Solution](./3689-maximum-total-subarray-value-i/3689-maximum-total-subarray-value-i.cpp)**  
 | [3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | [Maximum Total Subarray Value II](./3691-maximum-total-subarray-value-ii) | **[Solution](./3691-maximum-total-subarray-value-ii/3691-maximum-total-subarray-value-ii.cpp)**  
 | [3699](https://leetcode.com/problems/number-of-zigzag-arrays-i/) | [Number of Zigzag Arrays I](./3699-number-of-zigzag-arrays-i) | **[Solution](./3699-number-of-zigzag-arrays-i/3699-number-of-zigzag-arrays-i.cpp)**  
+| [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays With Majority Element I](./3737-count-subarrays-with-majority-element-i) | **[Solution](./3737-count-subarrays-with-majority-element-i/3737-count-subarrays-with-majority-element-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3737-count-subarrays-with-majority-element-i](https://github.com/Suvraneel/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3737-count-subarrays-with-majority-element-i](https://github.com/Suvraneel/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
-## Divide and Conquer
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3737-count-subarrays-with-majority-element-i](https://github.com/Suvraneel/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
-## Segment Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3737-count-subarrays-with-majority-element-i](https://github.com/Suvraneel/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
-## Merge Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3737-count-subarrays-with-majority-element-i](https://github.com/Suvraneel/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
-## Counting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3737-count-subarrays-with-majority-element-i](https://github.com/Suvraneel/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
-## Prefix Sum
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3737-count-subarrays-with-majority-element-i](https://github.com/Suvraneel/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
-<!---LeetCode Topics End-->
