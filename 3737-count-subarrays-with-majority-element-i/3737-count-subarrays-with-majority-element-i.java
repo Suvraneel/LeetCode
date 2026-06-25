@@ -38,6 +38,7 @@ class Solution {
         int n = nums.length, ans = 0;
         SegmentTree tree = new SegmentTree(n);
         tree.build(0, 0, n - 1);
+        int[] prefixSum = new int[n];
         for (int i = 0; i < n; i++)
             for (int j = i; j < n; j++) {
                 // System.out.println("[" + i + "," + j + "]->"
