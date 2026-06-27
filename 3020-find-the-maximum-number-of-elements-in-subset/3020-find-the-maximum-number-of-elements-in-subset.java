@@ -4,13 +4,13 @@ class Solution {
         for (int i : nums)
             freq.put(i, freq.getOrDefault(i, 0) + 1);
         Map<Integer, Integer> series = new HashMap<>();
-        int maxm = 0;
-        if (freq.containsKey(1))
-            series.put(1, (freq.get(1) + 1) / 2);
+        int maxm = 0, oneCt = freq.getOrDefault(1, 0);
+        if (oneCt > 0)
+            freq.remove(1);
         for (Map.Entry<Integer, Integer> e : freq.entrySet())
             maxm = Math.max(maxm, solve(e.getKey(), e.getValue(), freq, series, 1));
         // System.out.println(series);
-        return maxm * 2 - 1;
+        return Math.max(maxm * 2 - 1, (oneCt & 1) == 1 ? oneCt : oneCt - 1);
     }
 
     int solve(int key, int val, Map<Integer, Integer> freq, Map<Integer, Integer> series, int depth) {
