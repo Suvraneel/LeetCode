@@ -9,3 +9,19 @@
 
 | Leetcode Problem | Problem Statement | C++ Solution |
 |---:|:-----|:----:|
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Suvraneel/LeetCode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Suvraneel/LeetCode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Suvraneel/LeetCode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
+<!---LeetCode Topics End-->
