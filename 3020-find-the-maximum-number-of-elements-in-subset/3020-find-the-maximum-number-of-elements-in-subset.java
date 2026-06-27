@@ -9,7 +9,7 @@ class Solution {
             series.put(1, (freq.get(1) + 1) / 2);
         for (Map.Entry<Integer, Integer> e : freq.entrySet())
             maxm = Math.max(maxm, solve(e.getKey(), e.getValue(), freq, series, 1));
-        System.out.println(series);
+        // System.out.println(series);
         return maxm * 2 - 1;
     }
 
