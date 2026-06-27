@@ -5,12 +5,14 @@ class Solution {
             freq.put(i, freq.getOrDefault(i, 0) + 1);
         Map<Integer, Integer> series = new HashMap<>();
         int maxm = 0, oneCt = freq.getOrDefault(1, 0);
-        if (oneCt > 0)
+        if (oneCt > 0) {
+            maxm = (oneCt & 1) == 1 ? oneCt : oneCt - 1;
             freq.remove(1);
+        }
         for (Map.Entry<Integer, Integer> e : freq.entrySet())
             maxm = Math.max(maxm, solve(e.getKey(), e.getValue(), freq, series, 1));
         // System.out.println(series);
-        return Math.max(maxm * 2 - 1, (oneCt & 1) == 1 ? oneCt : oneCt - 1);
+        return maxm;
     }
 
     int solve(int key, int val, Map<Integer, Integer> freq, Map<Integer, Integer> series, int depth) {
@@ -20,7 +22,7 @@ class Solution {
             return 0;
         int sq = key * key;
         if (val >= 2 && freq.containsKey(sq)) {
-            depth = solve(sq, freq.get(sq), freq, series, depth) + 1;
+            depth = solve(sq, freq.get(sq), freq, series, depth) + 2;
             series.put(key, depth);
             return depth;
         }
