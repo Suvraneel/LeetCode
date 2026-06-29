@@ -537,6 +537,7 @@
 | [1834](https://leetcode.com/problems/single-threaded-cpu/) | [Single Threaded Cpu](./1834-single-threaded-cpu) | **[Solution](./1834-single-threaded-cpu/1834-single-threaded-cpu.cpp)**  
 | [1838](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | [Frequency of the most Frequent Element](./1838-frequency-of-the-most-frequent-element) | **[Solution](./1838-frequency-of-the-most-frequent-element/1838-frequency-of-the-most-frequent-element.cpp)**  
 | [1840](https://leetcode.com/problems/maximum-building-height/) | [Maximum Building Height](./1840-maximum-building-height) | **[Solution](./1840-maximum-building-height/1840-maximum-building-height.cpp)**  
+| [1846](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | [Maximum Element After Decreasing and Rearranging](./1846-maximum-element-after-decreasing-and-rearranging) | **[Solution](./1846-maximum-element-after-decreasing-and-rearranging/1846-maximum-element-after-decreasing-and-rearranging.cpp)**  
 | [1861](https://leetcode.com/problems/rotating-the-box/) | [Rotating the Box](./1861-rotating-the-box) | **[Solution](./1861-rotating-the-box/1861-rotating-the-box.cpp)**  
 | [1863](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | [Sum of all Subset Xor Totals](./1863-sum-of-all-subset-xor-totals) | **[Solution](./1863-sum-of-all-subset-xor-totals/1863-sum-of-all-subset-xor-totals.cpp)**  
 | [1865](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/) | [Finding Pairs With a Certain Sum](./1865-finding-pairs-with-a-certain-sum) | **[Solution](./1865-finding-pairs-with-a-certain-sum/1865-finding-pairs-with-a-certain-sum.cpp)**  
@@ -847,19 +848,3 @@
 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays With Majority Element I](./3737-count-subarrays-with-majority-element-i) | **[Solution](./3737-count-subarrays-with-majority-element-i/3737-count-subarrays-with-majority-element-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Suvraneel/LeetCode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Suvraneel/LeetCode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Suvraneel/LeetCode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
-<!---LeetCode Topics End-->
