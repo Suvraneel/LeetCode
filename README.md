@@ -554,6 +554,7 @@
 | [1957](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | [Delete Characters to Make Fancy String](./1957-delete-characters-to-make-fancy-string) | **[Solution](./1957-delete-characters-to-make-fancy-string/1957-delete-characters-to-make-fancy-string.cpp)**  
 | [1962](https://leetcode.com/problems/remove-stones-to-minimize-the-total/) | [Remove Stones to Minimize the Total](./1962-remove-stones-to-minimize-the-total) | **[Solution](./1962-remove-stones-to-minimize-the-total/1962-remove-stones-to-minimize-the-total.cpp)**  
 | [1963](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/) | [Minimum Number of Swaps to Make the String Balanced](./1963-minimum-number-of-swaps-to-make-the-string-balanced) | **[Solution](./1963-minimum-number-of-swaps-to-make-the-string-balanced/1963-minimum-number-of-swaps-to-make-the-string-balanced.cpp)**  
+| [1967](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | [Number of Strings That Appear As Substrings in Word](./1967-number-of-strings-that-appear-as-substrings-in-word) | **[Solution](./1967-number-of-strings-that-appear-as-substrings-in-word/1967-number-of-strings-that-appear-as-substrings-in-word.cpp)**  
 | [1971](https://leetcode.com/problems/find-if-path-exists-in-graph/) | [Find IF Path Exists in Graph](./1971-find-if-path-exists-in-graph) | **[Solution](./1971-find-if-path-exists-in-graph/1971-find-if-path-exists-in-graph.cpp)**  
 | [1975](https://leetcode.com/problems/maximum-matrix-sum/) | [Maximum Matrix Sum](./1975-maximum-matrix-sum) | **[Solution](./1975-maximum-matrix-sum/1975-maximum-matrix-sum.cpp)**  
 | [1976](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) | [Number of Ways to Arrive at Destination](./1976-number-of-ways-to-arrive-at-destination) | **[Solution](./1976-number-of-ways-to-arrive-at-destination/1976-number-of-ways-to-arrive-at-destination.cpp)**  
@@ -848,15 +849,3 @@
 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays With Majority Element I](./3737-count-subarrays-with-majority-element-i) | **[Solution](./3737-count-subarrays-with-majority-element-i/3737-count-subarrays-with-majority-element-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Suvraneel/LeetCode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Suvraneel/LeetCode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
-<!---LeetCode Topics End-->
