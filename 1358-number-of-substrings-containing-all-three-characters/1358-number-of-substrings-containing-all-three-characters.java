@@ -14,6 +14,6 @@ class Solution {
     }
 
     boolean valid(int[] freq) {
-        return Math.min(Math.min(freq[0], freq[1]), freq[2]) > 0;
+        return freq[0] > 0 && freq[1] > 0 && freq[2] > 0;
     }
 }
