@@ -1,15 +1,19 @@
 class Solution {
     public int numberOfSubstrings(String s) {
-        int n = s.length(), nextA = n, nextB = n, nextC = n, ans = 0;
-        for (int i = n - 1; i >= 0; i--) {
-            ans += n - Math.max(nextA, Math.max(nextB, nextC));
-            switch (s.charAt(i)) {
-                case 'a' -> nextA = i;
-                case 'b' -> nextB = i;
-                case 'c' -> nextC = i;
+        int n = s.length(), lt = 0, rt = 0, ans = 0;
+        int[] freq = new int[3];
+        while (rt < n) {
+            freq[s.charAt(rt) - 'a']++;
+            while (valid(freq)) {
+                ans += n - rt;
+                freq[s.charAt(lt++) - 'a']--;
             }
+            rt++;
         }
-        ans += n - Math.max(nextA, Math.max(nextB, nextC));
         return ans;
+    }
+
+    boolean valid(int[] freq) {
+        return Math.min(Math.min(freq[0], freq[1]), freq[2]) > 0;
     }
 }
