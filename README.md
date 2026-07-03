@@ -842,6 +842,7 @@
 | [3606](https://leetcode.com/problems/coupon-code-validator/) | [Coupon Code Validator](./3606-coupon-code-validator) | **[Solution](./3606-coupon-code-validator/3606-coupon-code-validator.cpp)**  
 | [3612](https://leetcode.com/problems/process-string-with-special-operations-i/) | [Process String With Special Operations I](./3612-process-string-with-special-operations-i) | **[Solution](./3612-process-string-with-special-operations-i/3612-process-string-with-special-operations-i.cpp)**  
 | [3614](https://leetcode.com/problems/process-string-with-special-operations-ii/) | [Process String With Special Operations II](./3614-process-string-with-special-operations-ii) | **[Solution](./3614-process-string-with-special-operations-ii/3614-process-string-with-special-operations-ii.cpp)**  
+| [3620](https://leetcode.com/problems/network-recovery-pathways/) | [Network Recovery Pathways](./3620-network-recovery-pathways) | **[Solution](./3620-network-recovery-pathways/3620-network-recovery-pathways.cpp)**  
 | [3633](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | [Earliest Finish Time for Land and Water Rides I](./3633-earliest-finish-time-for-land-and-water-rides-i) | **[Solution](./3633-earliest-finish-time-for-land-and-water-rides-i/3633-earliest-finish-time-for-land-and-water-rides-i.cpp)**  
 | [3635](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | [Earliest Finish Time for Land and Water Rides II](./3635-earliest-finish-time-for-land-and-water-rides-ii) | **[Solution](./3635-earliest-finish-time-for-land-and-water-rides-ii/3635-earliest-finish-time-for-land-and-water-rides-ii.cpp)**  
 | [3689](https://leetcode.com/problems/maximum-total-subarray-value-i/) | [Maximum Total Subarray Value I](./3689-maximum-total-subarray-value-i) | **[Solution](./3689-maximum-total-subarray-value-i/3689-maximum-total-subarray-value-i.cpp)**  
@@ -850,35 +851,3 @@
 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays With Majority Element I](./3737-count-subarrays-with-majority-element-i) | **[Solution](./3737-count-subarrays-with-majority-element-i/3737-count-subarrays-with-majority-element-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3620-network-recovery-pathways](https://github.com/Suvraneel/LeetCode/tree/main/3620-network-recovery-pathways/) | Hard |
-## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3620-network-recovery-pathways](https://github.com/Suvraneel/LeetCode/tree/main/3620-network-recovery-pathways/) | Hard |
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3620-network-recovery-pathways](https://github.com/Suvraneel/LeetCode/tree/main/3620-network-recovery-pathways/) | Hard |
-## Graph Theory
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3620-network-recovery-pathways](https://github.com/Suvraneel/LeetCode/tree/main/3620-network-recovery-pathways/) | Hard |
-## Topological Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3620-network-recovery-pathways](https://github.com/Suvraneel/LeetCode/tree/main/3620-network-recovery-pathways/) | Hard |
-## Heap (Priority Queue)
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3620-network-recovery-pathways](https://github.com/Suvraneel/LeetCode/tree/main/3620-network-recovery-pathways/) | Hard |
-## Shortest Path
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3620-network-recovery-pathways](https://github.com/Suvraneel/LeetCode/tree/main/3620-network-recovery-pathways/) | Hard |
-<!---LeetCode Topics End-->
