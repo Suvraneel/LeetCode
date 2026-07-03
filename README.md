@@ -795,6 +795,7 @@
 | [3243](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/) | [Shortest Distance After Road Addition Queries I](./3243-shortest-distance-after-road-addition-queries-i) | **[Solution](./3243-shortest-distance-after-road-addition-queries-i/3243-shortest-distance-after-road-addition-queries-i.cpp)**  
 | [3254](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/) | [Find the Power of K Size Subarrays I](./3254-find-the-power-of-k-size-subarrays-i) | **[Solution](./3254-find-the-power-of-k-size-subarrays-i/3254-find-the-power-of-k-size-subarrays-i.cpp)**  
 | [3264](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/) | [Final Array State After K Multiplication Operations I](./3264-final-array-state-after-k-multiplication-operations-i) | **[Solution](./3264-final-array-state-after-k-multiplication-operations-i/3264-final-array-state-after-k-multiplication-operations-i.cpp)**  
+| [3286](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | [Find a Safe Walk Through a Grid](./3286-find-a-safe-walk-through-a-grid) | **[Solution](./3286-find-a-safe-walk-through-a-grid/3286-find-a-safe-walk-through-a-grid.cpp)**  
 | [3289](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | [The Two Sneaky Numbers of Digitville](./3289-the-two-sneaky-numbers-of-digitville) | **[Solution](./3289-the-two-sneaky-numbers-of-digitville/3289-the-two-sneaky-numbers-of-digitville.cpp)**  
 | [3300](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | [Minimum Element After Replacement With Digit Sum](./3300-minimum-element-after-replacement-with-digit-sum) | **[Solution](./3300-minimum-element-after-replacement-with-digit-sum/3300-minimum-element-after-replacement-with-digit-sum.cpp)**  
 | [3304](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | [Find the K Th Character in String Game I](./3304-find-the-k-th-character-in-string-game-i) | **[Solution](./3304-find-the-k-th-character-in-string-game-i/3304-find-the-k-th-character-in-string-game-i.cpp)**  
@@ -849,31 +850,3 @@
 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays With Majority Element I](./3737-count-subarrays-with-majority-element-i) | **[Solution](./3737-count-subarrays-with-majority-element-i/3737-count-subarrays-with-majority-element-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3286-find-a-safe-walk-through-a-grid](https://github.com/Suvraneel/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
-## Breadth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3286-find-a-safe-walk-through-a-grid](https://github.com/Suvraneel/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
-## Graph Theory
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3286-find-a-safe-walk-through-a-grid](https://github.com/Suvraneel/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
-## Heap (Priority Queue)
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3286-find-a-safe-walk-through-a-grid](https://github.com/Suvraneel/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
-## Matrix
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3286-find-a-safe-walk-through-a-grid](https://github.com/Suvraneel/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
-## Shortest Path
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3286-find-a-safe-walk-through-a-grid](https://github.com/Suvraneel/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
-<!---LeetCode Topics End-->
