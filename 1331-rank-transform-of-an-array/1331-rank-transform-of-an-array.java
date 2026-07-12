@@ -6,9 +6,8 @@ class Solution {
         Arrays.sort(clone);
         int idx = 0;
         Map<Integer, Integer> m = new HashMap<>();
-        m.put(clone[0], ++idx);
-        for (int i = 1; i < clone.length; i++)
-            if (clone[i] != clone[i - 1])
+        for (int i = 0; i < clone.length; i++)
+            if (!m.containsKey(clone[i]))
                 m.put(clone[i], ++idx);
             else
                 m.put(clone[i], idx);
