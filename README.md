@@ -835,6 +835,7 @@
 | [3508](https://leetcode.com/problems/implement-router/) | [Implement Router](./3508-implement-router) | **[Solution](./3508-implement-router/3508-implement-router.cpp)**  
 | [3512](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | [Minimum Operations to Make Array Sum Divisible by K](./3512-minimum-operations-to-make-array-sum-divisible-by-k) | **[Solution](./3512-minimum-operations-to-make-array-sum-divisible-by-k/3512-minimum-operations-to-make-array-sum-divisible-by-k.cpp)**  
 | [3516](https://leetcode.com/problems/find-closest-person/) | [Find Closest Person](./3516-find-closest-person) | **[Solution](./3516-find-closest-person/3516-find-closest-person.cpp)**  
+| [3536](https://leetcode.com/problems/maximum-product-of-two-digits/) | [Maximum Product of Two Digits](./3536-maximum-product-of-two-digits) | **[Solution](./3536-maximum-product-of-two-digits/3536-maximum-product-of-two-digits.cpp)**  
 | [3541](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | [Find most Frequent Vowel and Consonant](./3541-find-most-frequent-vowel-and-consonant) | **[Solution](./3541-find-most-frequent-vowel-and-consonant/3541-find-most-frequent-vowel-and-consonant.cpp)**  
 | [3542](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | [Minimum Operations to Convert all Elements to Zero](./3542-minimum-operations-to-convert-all-elements-to-zero) | **[Solution](./3542-minimum-operations-to-convert-all-elements-to-zero/3542-minimum-operations-to-convert-all-elements-to-zero.cpp)**  
 | [3558](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/) | [Number of Ways to Assign Edge Weights I](./3558-number-of-ways-to-assign-edge-weights-i) | **[Solution](./3558-number-of-ways-to-assign-edge-weights-i/3558-number-of-ways-to-assign-edge-weights-i.cpp)**  
@@ -851,15 +852,3 @@
 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays With Majority Element I](./3737-count-subarrays-with-majority-element-i) | **[Solution](./3737-count-subarrays-with-majority-element-i/3737-count-subarrays-with-majority-element-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3536-maximum-product-of-two-digits](https://github.com/Suvraneel/LeetCode/tree/main/3536-maximum-product-of-two-digits/) | Easy |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3536-maximum-product-of-two-digits](https://github.com/Suvraneel/LeetCode/tree/main/3536-maximum-product-of-two-digits/) | Easy |
-<!---LeetCode Topics End-->
