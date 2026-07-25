@@ -4,7 +4,7 @@ class Solution {
         while (n > 0) {
             int d = n % 10;
             n /= 10;
-            if (a <= d) {
+            if (a < d) {
                 b = a;
                 a = d;
             } else if (b < d)
