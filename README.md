@@ -249,6 +249,7 @@
 | [622](https://leetcode.com/problems/design-circular-queue/) | [Design Circular Queue](./622-design-circular-queue) | **[Solution](./622-design-circular-queue/622-design-circular-queue.cpp)**  
 | [623](https://leetcode.com/problems/add-one-row-to-tree/) | [Add One Row to Tree](./623-add-one-row-to-tree) | **[Solution](./623-add-one-row-to-tree/623-add-one-row-to-tree.cpp)**  
 | [624](https://leetcode.com/problems/maximum-distance-in-arrays/) | [Maximum Distance in Arrays](./0624-maximum-distance-in-arrays) | **[Solution](./0624-maximum-distance-in-arrays/0624-maximum-distance-in-arrays.cpp)**  
+| [628](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [Maximum Product of Three Numbers](./0628-maximum-product-of-three-numbers) | **[Solution](./0628-maximum-product-of-three-numbers/0628-maximum-product-of-three-numbers.cpp)**  
 | [632](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | [Smallest Range Covering Elements from K Lists](./0632-smallest-range-covering-elements-from-k-lists) | **[Solution](./0632-smallest-range-covering-elements-from-k-lists/0632-smallest-range-covering-elements-from-k-lists.cpp)**  
 | [633](https://leetcode.com/problems/sum-of-square-numbers/) | [Sum of Square Numbers](./0633-sum-of-square-numbers) | **[Solution](./0633-sum-of-square-numbers/0633-sum-of-square-numbers.cpp)**  
 | [637](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](./637-average-of-levels-in-binary-tree) | **[Solution](./637-average-of-levels-in-binary-tree/637-average-of-levels-in-binary-tree.cpp)**  
@@ -852,19 +853,3 @@
 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays With Majority Element I](./3737-count-subarrays-with-majority-element-i) | **[Solution](./3737-count-subarrays-with-majority-element-i/3737-count-subarrays-with-majority-element-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0628-maximum-product-of-three-numbers](https://github.com/Suvraneel/LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0628-maximum-product-of-three-numbers](https://github.com/Suvraneel/LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0628-maximum-product-of-three-numbers](https://github.com/Suvraneel/LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
-<!---LeetCode Topics End-->
