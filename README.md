@@ -852,3 +852,19 @@
 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays With Majority Element I](./3737-count-subarrays-with-majority-element-i) | **[Solution](./3737-count-subarrays-with-majority-element-i/3737-count-subarrays-with-majority-element-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/Suvraneel/LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/Suvraneel/LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/Suvraneel/LeetCode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
+<!---LeetCode Topics End-->
