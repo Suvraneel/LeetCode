@@ -463,6 +463,7 @@
 | [1460](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | [Make Two Arrays Equal by Reversing Subarrays](./1460-make-two-arrays-equal-by-reversing-subarrays) | **[Solution](./1460-make-two-arrays-equal-by-reversing-subarrays/1460-make-two-arrays-equal-by-reversing-subarrays.cpp)**  
 | [1462](https://leetcode.com/problems/course-schedule-iv/) | [Course Schedule IV](./1462-course-schedule-iv) | **[Solution](./1462-course-schedule-iv/1462-course-schedule-iv.cpp)**  
 | [1463](https://leetcode.com/problems/cherry-pickup-ii/) | [Cherry Pickup II](./1463-cherry-pickup-ii) | **[Solution](./1463-cherry-pickup-ii/1463-cherry-pickup-ii.cpp)**  
+| [1464](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | [Maximum Product of Two Elements in an Array](./1464-maximum-product-of-two-elements-in-an-array) | **[Solution](./1464-maximum-product-of-two-elements-in-an-array/1464-maximum-product-of-two-elements-in-an-array.cpp)**  
 | [1475](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [Final Prices With a Special Discount in a Shop](./1475-final-prices-with-a-special-discount-in-a-shop) | **[Solution](./1475-final-prices-with-a-special-discount-in-a-shop/1475-final-prices-with-a-special-discount-in-a-shop.cpp)**  
 | [1482](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | [Minimum Number of Days to Make M Bouquets](./1482-minimum-number-of-days-to-make-m-bouquets) | **[Solution](./1482-minimum-number-of-days-to-make-m-bouquets/1482-minimum-number-of-days-to-make-m-bouquets.cpp)**  
 | [1488](https://leetcode.com/problems/avoid-flood-in-the-city/) | [Avoid Flood in the City](./1488-avoid-flood-in-the-city) | **[Solution](./1488-avoid-flood-in-the-city/1488-avoid-flood-in-the-city.cpp)**  
@@ -853,19 +854,3 @@
 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays With Majority Element I](./3737-count-subarrays-with-majority-element-i) | **[Solution](./3737-count-subarrays-with-majority-element-i/3737-count-subarrays-with-majority-element-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Suvraneel/LeetCode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Suvraneel/LeetCode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
-## Heap (Priority Queue)
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Suvraneel/LeetCode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
-<!---LeetCode Topics End-->
