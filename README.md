@@ -763,6 +763,7 @@
 | [3000](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/) | [Maximum Area of Longest Diagonal Rectangle](./3000-maximum-area-of-longest-diagonal-rectangle) | **[Solution](./3000-maximum-area-of-longest-diagonal-rectangle/3000-maximum-area-of-longest-diagonal-rectangle.cpp)**  
 | [3005](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | [Count Elements With Maximum Frequency](./3005-count-elements-with-maximum-frequency) | **[Solution](./3005-count-elements-with-maximum-frequency/3005-count-elements-with-maximum-frequency.cpp)**  
 | [3011](https://leetcode.com/problems/find-if-array-can-be-sorted/) | [Find IF Array can Be Sorted](./3011-find-if-array-can-be-sorted) | **[Solution](./3011-find-if-array-can-be-sorted/3011-find-if-array-can-be-sorted.cpp)**  
+| [3014](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | [Minimum Number of Pushes to Type Word I](./3014-minimum-number-of-pushes-to-type-word-i) | **[Solution](./3014-minimum-number-of-pushes-to-type-word-i/3014-minimum-number-of-pushes-to-type-word-i.cpp)**  
 | [3016](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | [Minimum Number of Pushes to Type Word II](./3016-minimum-number-of-pushes-to-type-word-ii) | **[Solution](./3016-minimum-number-of-pushes-to-type-word-ii/3016-minimum-number-of-pushes-to-type-word-ii.cpp)**  
 | [3020](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | [Find the Maximum Number of Elements in Subset](./3020-find-the-maximum-number-of-elements-in-subset) | **[Solution](./3020-find-the-maximum-number-of-elements-in-subset/3020-find-the-maximum-number-of-elements-in-subset.cpp)**  
 | [3024](https://leetcode.com/problems/type-of-triangle/) | [Type of Triangle](./3024-type-of-triangle) | **[Solution](./3024-type-of-triangle/3024-type-of-triangle.cpp)**  
@@ -854,19 +855,3 @@
 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays With Majority Element I](./3737-count-subarrays-with-majority-element-i) | **[Solution](./3737-count-subarrays-with-majority-element-i/3737-count-subarrays-with-majority-element-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Suvraneel/LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Suvraneel/LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Suvraneel/LeetCode/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
-<!---LeetCode Topics End-->
