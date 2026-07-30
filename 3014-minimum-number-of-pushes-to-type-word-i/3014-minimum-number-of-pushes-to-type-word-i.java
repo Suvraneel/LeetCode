@@ -1,18 +1,8 @@
 class Solution {
     public int minimumPushes(String word) {
-        int[] freq = new int[26];
-        for (char c : word.toCharArray())
-            freq[c - 'a']++;
-        Arrays.sort(freq);
-        int posn = 1, key = 2, ans = 0;
-        for (int i = 25; i >= 0 && freq[i] > 0; i--) {
-            ans += posn;
-            key++;
-            if (key == 10) {
-                key = 2;
-                posn++;
-            }
-        }
-        return ans;
+        // Since it's given that letters are distinct -> occurs once, any mapping order works.
+        int n = word.length(); // distinct mappings to make
+        int m = (n - 1) / 8 + 1; // collision indices (max letters in a key)
+        return (8 * m * (m - 1) / 2) + (n - 8 * (m - 1)) * m;
     }
 }
