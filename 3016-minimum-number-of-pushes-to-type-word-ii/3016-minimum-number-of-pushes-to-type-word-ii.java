@@ -1,14 +1,18 @@
 class Solution {
     public int minimumPushes(String word) {
-        int[] count = new int[26];
-        char[] S = word.toCharArray();
-        int ans = 0, currAlloc = 1, allocLeft = 8;
-        for(char c: S)
-            count[c-'a']++;
-        count = IntStream.of(count).boxed().sorted((a,b)->b-a).mapToInt(Integer::intValue).toArray();
-        for(int i=0; i<26; i++)
-            ans += count[i] * Math.floor(i/8 + 1);
-        // System.out.println(Arrays.toString(count));
+        int[] freq = new int[26];
+        for (char c : word.toCharArray())
+            freq[c - 'a']++;
+        Arrays.sort(freq);
+        int posn = 1, key = 2, ans = 0;
+        for (int i = 25; i >= 0 && freq[i] > 0; i--) {
+            ans += posn * freq[i];
+            key++;
+            if (key == 10) {
+                key = 2;
+                posn++;
+            }
+        }
         return ans;
     }
 }
