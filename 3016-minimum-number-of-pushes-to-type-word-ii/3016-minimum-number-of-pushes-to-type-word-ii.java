@@ -5,8 +5,14 @@ class Solution {
             freq[c - 'a']++;
         Arrays.sort(freq);
         int posn = 1, key = 2, ans = 0;
-        for (int i = 25; i >= 0; i--)
-            ans += (Math.floor((25 - i) / 8 + 1)) * freq[i];
+        for (int i = 25; i >= 0; i--) {
+            ans += posn * freq[i];
+            key++;
+            if (key == 10) {
+                key = 2;
+                posn++;
+            }
+        }
         return ans;
     }
 }
