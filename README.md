@@ -569,6 +569,7 @@
 | [2017](https://leetcode.com/problems/grid-game/) | [Grid Game](./2017-grid-game) | **[Solution](./2017-grid-game/2017-grid-game.cpp)**  
 | [2022](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | [Convert 1d Array Into 2d Array](./2022-convert-1d-array-into-2d-array) | **[Solution](./2022-convert-1d-array-into-2d-array/2022-convert-1d-array-into-2d-array.cpp)**  
 | [2028](https://leetcode.com/problems/find-missing-observations/) | [Find Missing Observations](./2028-find-missing-observations) | **[Solution](./2028-find-missing-observations/2028-find-missing-observations.cpp)**  
+| [2029](https://leetcode.com/problems/stone-game-ix/) | [Stone Game IX](./2029-stone-game-ix) | **[Solution](./2029-stone-game-ix/2029-stone-game-ix.cpp)**  
 | [2033](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) | [Minimum Operations to Make a Uni Value Grid](./2033-minimum-operations-to-make-a-uni-value-grid) | **[Solution](./2033-minimum-operations-to-make-a-uni-value-grid/2033-minimum-operations-to-make-a-uni-value-grid.cpp)**  
 | [2037](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/) | [Minimum Number of Moves to Seat Everyone](./2037-minimum-number-of-moves-to-seat-everyone) | **[Solution](./2037-minimum-number-of-moves-to-seat-everyone/2037-minimum-number-of-moves-to-seat-everyone.cpp)**  
 | [2043](https://leetcode.com/problems/simple-bank-system/) | [Simple Bank System](./2043-simple-bank-system) | **[Solution](./2043-simple-bank-system/2043-simple-bank-system.cpp)**  
@@ -855,39 +856,3 @@
 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays With Majority Element I](./3737-count-subarrays-with-majority-element-i) | **[Solution](./3737-count-subarrays-with-majority-element-i/3737-count-subarrays-with-majority-element-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2029-stone-game-ix](https://github.com/Suvraneel/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2029-stone-game-ix](https://github.com/Suvraneel/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2029-stone-game-ix](https://github.com/Suvraneel/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
-## Minimax
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2029-stone-game-ix](https://github.com/Suvraneel/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
-## Counting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2029-stone-game-ix](https://github.com/Suvraneel/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
-## Game Theory
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2029-stone-game-ix](https://github.com/Suvraneel/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
-## Nim Game
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2029-stone-game-ix](https://github.com/Suvraneel/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
-## Zero-Sum Game
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2029-stone-game-ix](https://github.com/Suvraneel/LeetCode/tree/main/2029-stone-game-ix/) | Medium |
-<!---LeetCode Topics End-->
