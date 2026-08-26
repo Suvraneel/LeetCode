@@ -748,6 +748,7 @@
 | [2874](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/) | [Maximum Value of an Ordered Triplet II](./2874-maximum-value-of-an-ordered-triplet-ii) | **[Solution](./2874-maximum-value-of-an-ordered-triplet-ii/2874-maximum-value-of-an-ordered-triplet-ii.cpp)**  
 | [2894](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | [Divisible and Non Divisible Sums Difference](./2894-divisible-and-non-divisible-sums-difference) | **[Solution](./2894-divisible-and-non-divisible-sums-difference/2894-divisible-and-non-divisible-sums-difference.cpp)**  
 | [2900](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/) | [Longest Unequal Adjacent Groups Subsequence I](./2900-longest-unequal-adjacent-groups-subsequence-i) | **[Solution](./2900-longest-unequal-adjacent-groups-subsequence-i/2900-longest-unequal-adjacent-groups-subsequence-i.cpp)**  
+| [2904](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [Shortest and Lexicographically Smallest Beautiful String](./2904-shortest-and-lexicographically-smallest-beautiful-string) | **[Solution](./2904-shortest-and-lexicographically-smallest-beautiful-string/2904-shortest-and-lexicographically-smallest-beautiful-string.cpp)**  
 | [2914](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | [Minimum Number of Changes to Make Binary String Beautiful](./2914-minimum-number-of-changes-to-make-binary-string-beautiful) | **[Solution](./2914-minimum-number-of-changes-to-make-binary-string-beautiful/2914-minimum-number-of-changes-to-make-binary-string-beautiful.cpp)**  
 | [2918](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/) | [Minimum Equal Sum of Two Arrays After Replacing Zeros](./2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros) | **[Solution](./2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros/2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros.cpp)**  
 | [2924](https://leetcode.com/problems/find-champion-ii/) | [Find Champion II](./2924-find-champion-ii) | **[Solution](./2924-find-champion-ii/2924-find-champion-ii.cpp)**  
@@ -857,15 +858,3 @@
 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays With Majority Element I](./3737-count-subarrays-with-majority-element-i) | **[Solution](./3737-count-subarrays-with-majority-element-i/3737-count-subarrays-with-majority-element-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Suvraneel/LeetCode/tree/main/2904-shortest-and-lexicographically-smallest-beautiful-string/) | Medium |
-## Sliding Window
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Suvraneel/LeetCode/tree/main/2904-shortest-and-lexicographically-smallest-beautiful-string/) | Medium |
-<!---LeetCode Topics End-->
