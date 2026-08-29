@@ -5,7 +5,7 @@ class Solution {
         for (int j = 0; j < nums.length; j++) {
             int n = nums[j];
             for (int i = 0; i < 25; i++) {
-                if (n % 2 == 1)
+                if ((n & 1) == 1)
                     sb.append((char) ('a' + i));
                 n >>= 1;
             }
