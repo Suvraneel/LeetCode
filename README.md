@@ -860,19 +860,3 @@
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
 | [4034](https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/) | [Minimum Bishop Moves to Reach Target](./4034-minimum-bishop-moves-to-reach-target) | **[Solution](./4034-minimum-bishop-moves-to-reach-target/4034-minimum-bishop-moves-to-reach-target.cpp)**  
 | [4036](https://leetcode.com/problems/lexicographically-largest-string-after-pair-transformations/) | [Lexicographically Largest String After Pair Transformations](./4036-lexicographically-largest-string-after-pair-transformations) | **[Solution](./4036-lexicographically-largest-string-after-pair-transformations/4036-lexicographically-largest-string-after-pair-transformations.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Suvraneel/LeetCode/tree/main/2948-make-lexicographically-smallest-array-by-swapping-elements/) | Medium |
-## Union-Find
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Suvraneel/LeetCode/tree/main/2948-make-lexicographically-smallest-array-by-swapping-elements/) | Medium |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Suvraneel/LeetCode/tree/main/2948-make-lexicographically-smallest-array-by-swapping-elements/) | Medium |
-<!---LeetCode Topics End-->
