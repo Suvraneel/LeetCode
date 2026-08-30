@@ -581,6 +581,7 @@
 | [2058](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | [Find the Minimum and Maximum Number of Nodes Between Critical Points](./2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) | **[Solution](./2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points.cpp)**  
 | [2064](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/) | [Minimized Maximum of Products Distributed to any Store](./2064-minimized-maximum-of-products-distributed-to-any-store) | **[Solution](./2064-minimized-maximum-of-products-distributed-to-any-store/2064-minimized-maximum-of-products-distributed-to-any-store.cpp)**  
 | [2070](https://leetcode.com/problems/most-beautiful-item-for-each-query/) | [Most Beautiful Item for each Query](./2070-most-beautiful-item-for-each-query) | **[Solution](./2070-most-beautiful-item-for-each-query/2070-most-beautiful-item-for-each-query.cpp)**  
+| [2091](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | [Removing Minimum and Maximum from Array](./2091-removing-minimum-and-maximum-from-array) | **[Solution](./2091-removing-minimum-and-maximum-from-array/2091-removing-minimum-and-maximum-from-array.cpp)**  
 | [2094](https://leetcode.com/problems/finding-3-digit-even-numbers/) | [Finding 3 Digit Even Numbers](./2094-finding-3-digit-even-numbers) | **[Solution](./2094-finding-3-digit-even-numbers/2094-finding-3-digit-even-numbers.cpp)**  
 | [2095](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | [Delete the Middle Node of a Linked List](./2095-delete-the-middle-node-of-a-linked-list) | **[Solution](./2095-delete-the-middle-node-of-a-linked-list/2095-delete-the-middle-node-of-a-linked-list.cpp)**  
 | [2096](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) | [Step by Step Directions from a Binary Tree Node to Another](./2096-step-by-step-directions-from-a-binary-tree-node-to-another) | **[Solution](./2096-step-by-step-directions-from-a-binary-tree-node-to-another/2096-step-by-step-directions-from-a-binary-tree-node-to-another.cpp)**  
@@ -860,15 +861,3 @@
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
 | [4034](https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/) | [Minimum Bishop Moves to Reach Target](./4034-minimum-bishop-moves-to-reach-target) | **[Solution](./4034-minimum-bishop-moves-to-reach-target/4034-minimum-bishop-moves-to-reach-target.cpp)**  
 | [4036](https://leetcode.com/problems/lexicographically-largest-string-after-pair-transformations/) | [Lexicographically Largest String After Pair Transformations](./4036-lexicographically-largest-string-after-pair-transformations) | **[Solution](./4036-lexicographically-largest-string-after-pair-transformations/4036-lexicographically-largest-string-after-pair-transformations.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2091-removing-minimum-and-maximum-from-array](https://github.com/Suvraneel/LeetCode/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2091-removing-minimum-and-maximum-from-array](https://github.com/Suvraneel/LeetCode/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
-<!---LeetCode Topics End-->
