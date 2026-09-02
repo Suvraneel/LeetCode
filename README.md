@@ -859,17 +859,6 @@
 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays With Majority Element I](./3737-count-subarrays-with-majority-element-i) | **[Solution](./3737-count-subarrays-with-majority-element-i/3737-count-subarrays-with-majority-element-i.cpp)**  
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](./3751-total-waviness-of-numbers-in-range-i) | **[Solution](./3751-total-waviness-of-numbers-in-range-i/3751-total-waviness-of-numbers-in-range-i.cpp)**  
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](./3838-weighted-word-mapping) | **[Solution](./3838-weighted-word-mapping/3838-weighted-word-mapping.cpp)**  
+| [3875](https://leetcode.com/problems/construct-uniform-parity-array-i/) | [Construct Uniform Parity Array I](./3875-construct-uniform-parity-array-i) | **[Solution](./3875-construct-uniform-parity-array-i/3875-construct-uniform-parity-array-i.cpp)**  
 | [4034](https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/) | [Minimum Bishop Moves to Reach Target](./4034-minimum-bishop-moves-to-reach-target) | **[Solution](./4034-minimum-bishop-moves-to-reach-target/4034-minimum-bishop-moves-to-reach-target.cpp)**  
 | [4036](https://leetcode.com/problems/lexicographically-largest-string-after-pair-transformations/) | [Lexicographically Largest String After Pair Transformations](./4036-lexicographically-largest-string-after-pair-transformations) | **[Solution](./4036-lexicographically-largest-string-after-pair-transformations/4036-lexicographically-largest-string-after-pair-transformations.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3875-construct-uniform-parity-array-i](https://github.com/Suvraneel/LeetCode/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3875-construct-uniform-parity-array-i](https://github.com/Suvraneel/LeetCode/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
-<!---LeetCode Topics End-->
