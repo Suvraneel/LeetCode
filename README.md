@@ -863,3 +863,15 @@
 | [3876](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | [Construct Uniform Parity Array II](./3876-construct-uniform-parity-array-ii) | **[Solution](./3876-construct-uniform-parity-array-ii/3876-construct-uniform-parity-array-ii.cpp)**  
 | [4034](https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/) | [Minimum Bishop Moves to Reach Target](./4034-minimum-bishop-moves-to-reach-target) | **[Solution](./4034-minimum-bishop-moves-to-reach-target/4034-minimum-bishop-moves-to-reach-target.cpp)**  
 | [4036](https://leetcode.com/problems/lexicographically-largest-string-after-pair-transformations/) | [Lexicographically Largest String After Pair Transformations](./4036-lexicographically-largest-string-after-pair-transformations) | **[Solution](./4036-lexicographically-largest-string-after-pair-transformations/4036-lexicographically-largest-string-after-pair-transformations.cpp)**  
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3904-smallest-stable-index-ii](https://github.com/Suvraneel/LeetCode/tree/main/3904-smallest-stable-index-ii/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3904-smallest-stable-index-ii](https://github.com/Suvraneel/LeetCode/tree/main/3904-smallest-stable-index-ii/) | Medium |
+<!---LeetCode Topics End-->
