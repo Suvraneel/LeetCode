@@ -864,3 +864,15 @@
 | [3904](https://leetcode.com/problems/smallest-stable-index-ii/) | [Smallest Stable Index II](./3904-smallest-stable-index-ii) | **[Solution](./3904-smallest-stable-index-ii/3904-smallest-stable-index-ii.cpp)**  
 | [4034](https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/) | [Minimum Bishop Moves to Reach Target](./4034-minimum-bishop-moves-to-reach-target) | **[Solution](./4034-minimum-bishop-moves-to-reach-target/4034-minimum-bishop-moves-to-reach-target.cpp)**  
 | [4036](https://leetcode.com/problems/lexicographically-largest-string-after-pair-transformations/) | [Lexicographically Largest String After Pair Transformations](./4036-lexicographically-largest-string-after-pair-transformations) | **[Solution](./4036-lexicographically-largest-string-after-pair-transformations/4036-lexicographically-largest-string-after-pair-transformations.cpp)**  
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3904-smallest-stable-index-ii](https://github.com/Suvraneel/LeetCode/tree/main/3904-smallest-stable-index-ii/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3904-smallest-stable-index-ii](https://github.com/Suvraneel/LeetCode/tree/main/3904-smallest-stable-index-ii/) | Medium |
+<!---LeetCode Topics End-->
