@@ -627,6 +627,7 @@
 | [2259](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | [Remove Digit from Number to Maximize Result](./2259-remove-digit-from-number-to-maximize-result) | **[Solution](./2259-remove-digit-from-number-to-maximize-result/2259-remove-digit-from-number-to-maximize-result.cpp)**  
 | [2260](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/) | [Minimum Consecutive Cards to Pick up](./2260-minimum-consecutive-cards-to-pick-up) | **[Solution](./2260-minimum-consecutive-cards-to-pick-up/2260-minimum-consecutive-cards-to-pick-up.cpp)**  
 | [2264](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | [Largest 3 same Digit Number in String](./2264-largest-3-same-digit-number-in-string) | **[Solution](./2264-largest-3-same-digit-number-in-string/2264-largest-3-same-digit-number-in-string.cpp)**  
+| [2265](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | [Count Nodes Equal to Average of Subtree](./2265-count-nodes-equal-to-average-of-subtree) | **[Solution](./2265-count-nodes-equal-to-average-of-subtree/2265-count-nodes-equal-to-average-of-subtree.cpp)**  
 | [2270](https://leetcode.com/problems/number-of-ways-to-split-array/) | [Number of Ways to Split Array](./2270-number-of-ways-to-split-array) | **[Solution](./2270-number-of-ways-to-split-array/2270-number-of-ways-to-split-array.cpp)**  
 | [2273](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/) | [Find Resultant Array After Removing Anagrams](./2273-find-resultant-array-after-removing-anagrams) | **[Solution](./2273-find-resultant-array-after-removing-anagrams/2273-find-resultant-array-after-removing-anagrams.cpp)**  
 | [2275](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | [Largest Combination With Bitwise and Greater than Zero](./2275-largest-combination-with-bitwise-and-greater-than-zero) | **[Solution](./2275-largest-combination-with-bitwise-and-greater-than-zero/2275-largest-combination-with-bitwise-and-greater-than-zero.cpp)**  
@@ -865,19 +866,3 @@
 | [3904](https://leetcode.com/problems/smallest-stable-index-ii/) | [Smallest Stable Index II](./3904-smallest-stable-index-ii) | **[Solution](./3904-smallest-stable-index-ii/3904-smallest-stable-index-ii.cpp)**  
 | [4034](https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/) | [Minimum Bishop Moves to Reach Target](./4034-minimum-bishop-moves-to-reach-target) | **[Solution](./4034-minimum-bishop-moves-to-reach-target/4034-minimum-bishop-moves-to-reach-target.cpp)**  
 | [4036](https://leetcode.com/problems/lexicographically-largest-string-after-pair-transformations/) | [Lexicographically Largest String After Pair Transformations](./4036-lexicographically-largest-string-after-pair-transformations) | **[Solution](./4036-lexicographically-largest-string-after-pair-transformations/4036-lexicographically-largest-string-after-pair-transformations.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Suvraneel/LeetCode/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
-## Depth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Suvraneel/LeetCode/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
-## Binary Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Suvraneel/LeetCode/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
-<!---LeetCode Topics End-->
