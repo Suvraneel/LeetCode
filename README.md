@@ -836,6 +836,7 @@
 | [3445](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/) | [Maximum Difference Between Even and Odd Frequency II](./3445-maximum-difference-between-even-and-odd-frequency-ii) | **[Solution](./3445-maximum-difference-between-even-and-odd-frequency-ii/3445-maximum-difference-between-even-and-odd-frequency-ii.cpp)**  
 | [3461](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | [Check IF Digits Are Equal in String After Operations I](./3461-check-if-digits-are-equal-in-string-after-operations-i) | **[Solution](./3461-check-if-digits-are-equal-in-string-after-operations-i/3461-check-if-digits-are-equal-in-string-after-operations-i.cpp)**  
 | [3477](https://leetcode.com/problems/fruits-into-baskets-ii/) | [Fruits Into Baskets II](./3477-fruits-into-baskets-ii) | **[Solution](./3477-fruits-into-baskets-ii/3477-fruits-into-baskets-ii.cpp)**  
+| [3483](https://leetcode.com/problems/unique-3-digit-even-numbers/) | [Unique 3 Digit Even Numbers](./3483-unique-3-digit-even-numbers) | **[Solution](./3483-unique-3-digit-even-numbers/3483-unique-3-digit-even-numbers.cpp)**  
 | [3484](https://leetcode.com/problems/design-spreadsheet/) | [Design Spreadsheet](./3484-design-spreadsheet) | **[Solution](./3484-design-spreadsheet/3484-design-spreadsheet.cpp)**  
 | [3487](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | [Maximum Unique Subarray Sum After Deletion](./3487-maximum-unique-subarray-sum-after-deletion) | **[Solution](./3487-maximum-unique-subarray-sum-after-deletion/3487-maximum-unique-subarray-sum-after-deletion.cpp)**  
 | [3494](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/) | [Find the Minimum Amount of Time to Brew Potions](./3494-find-the-minimum-amount-of-time-to-brew-potions) | **[Solution](./3494-find-the-minimum-amount-of-time-to-brew-potions/3494-find-the-minimum-amount-of-time-to-brew-potions.cpp)**  
@@ -866,23 +867,3 @@
 | [3904](https://leetcode.com/problems/smallest-stable-index-ii/) | [Smallest Stable Index II](./3904-smallest-stable-index-ii) | **[Solution](./3904-smallest-stable-index-ii/3904-smallest-stable-index-ii.cpp)**  
 | [4034](https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/) | [Minimum Bishop Moves to Reach Target](./4034-minimum-bishop-moves-to-reach-target) | **[Solution](./4034-minimum-bishop-moves-to-reach-target/4034-minimum-bishop-moves-to-reach-target.cpp)**  
 | [4036](https://leetcode.com/problems/lexicographically-largest-string-after-pair-transformations/) | [Lexicographically Largest String After Pair Transformations](./4036-lexicographically-largest-string-after-pair-transformations) | **[Solution](./4036-lexicographically-largest-string-after-pair-transformations/4036-lexicographically-largest-string-after-pair-transformations.cpp)**  
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3483-unique-3-digit-even-numbers](https://github.com/Suvraneel/LeetCode/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3483-unique-3-digit-even-numbers](https://github.com/Suvraneel/LeetCode/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
-## Recursion
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3483-unique-3-digit-even-numbers](https://github.com/Suvraneel/LeetCode/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
-## Enumeration
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3483-unique-3-digit-even-numbers](https://github.com/Suvraneel/LeetCode/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
-<!---LeetCode Topics End-->
