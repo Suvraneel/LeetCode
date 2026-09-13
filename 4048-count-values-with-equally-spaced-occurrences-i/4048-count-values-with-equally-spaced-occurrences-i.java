@@ -5,12 +5,12 @@ class Solution {
         int[] spacing = new int[101];
         boolean[] impossible = new boolean[101];
         for (int i = 0; i < nums.length; i++) {
-            if (freq[nums[i]] >= 3)
+            if (++freq[nums[i]] == 2)
+                spacing[nums[i]] = i - last[nums[i]];
+            else if (freq[nums[i]] > 2 && spacing[nums[i]] != i - last[nums[i]])
                 impossible[nums[i]] = true;
-            if (freq[nums[i]] >= 2 && spacing[nums[i]] != i - last[nums[i]])
+            else if (freq[nums[i]] > 3)
                 impossible[nums[i]] = true;
-            freq[nums[i]]++;
-            spacing[nums[i]] = i - last[nums[i]];
             last[nums[i]] = i;
         }
         int ans = 0;
