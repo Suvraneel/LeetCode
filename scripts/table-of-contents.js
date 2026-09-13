@@ -1,11 +1,13 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { execFileSync } from "node:child_process";
 
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const repositoryRoot = path.resolve(scriptDirectory, "..");
 const generatedProblemsDirectory = path.join(repositoryRoot, "problems");
 const generatedHomePage = path.join(repositoryRoot, "index.html");
+const metadataPath = path.join(scriptDirectory, "problem-metadata.json");
 const siteUrl = (process.env.SITE_URL ?? "https://suvraneel.github.io/LeetCode").replace(/\/$/, "");
 
 const languageNames = {
@@ -72,6 +74,41 @@ const problemStatementFromReadme = (directory) => {
 const notesFromDirectory = (directory) => {
   const notesPath = path.join(repositoryRoot, directory, "NOTES.md");
   return fs.existsSync(notesPath) ? fs.readFileSync(notesPath, "utf8").replace(/\u200B/g, "").trim() : "";
+};
+
+const loadMetadata = () => {
+  if (!fs.existsSync(metadataPath)) return {};
+  return JSON.parse(fs.readFileSync(metadataPath, "utf8"));
+};
+
+const addTimestamps = (problems) => {
+  const metadata = loadMetadata();
+  const missingPaths = new Map();
+  for (const problem of problems) {
+    if (!metadata[problem.pageKey]) {
+      for (const solution of problem.solutions) missingPaths.set(path.join(solution.directory, solution.fileName), problem.pageKey);
+    }
+  }
+
+  if (missingPaths.size) {
+    const output = execFileSync("git", ["log", "--reverse", "--format=__DATE__%cI", "--name-only", "--", ...missingPaths.keys()], { cwd: repositoryRoot, encoding: "utf8" });
+    let date = null;
+    for (const line of output.split("\n")) {
+      if (line.startsWith("__DATE__")) date = line.slice(8);
+      else if (date && missingPaths.has(line) && !metadata[missingPaths.get(line)]) metadata[missingPaths.get(line)] = { firstCommittedAt: date };
+    }
+  }
+
+  let changed = missingPaths.size > 0;
+  for (const problem of problems) {
+    if (!metadata[problem.pageKey]) {
+      metadata[problem.pageKey] = { firstCommittedAt: null };
+      changed = true;
+    }
+    problem.firstCommittedAt = metadata[problem.pageKey].firstCommittedAt;
+  }
+  if (changed) fs.writeFileSync(metadataPath, `${JSON.stringify(metadata, null, 2)}\n`);
+  return problems;
 };
 
 const solutionLabel = (fileName, directory, extension) => {
@@ -237,12 +274,12 @@ ${rows}
 const homePage = (problems) => {
   const counts = Object.fromEntries(["Easy", "Medium", "Hard"].map((difficulty) => [difficulty, problems.filter((p) => p.difficulty === difficulty).length]));
   const languages = [...new Set(problems.flatMap((p) => p.solutions.map((s) => languageNames[s.extension])))].sort();
-  const data = problems.map((p) => ({ n:p.number, t:p.title, d:p.difficulty, l:[...new Set(p.solutions.map((s) => languageNames[s.extension]))], notes:Boolean(notesFromDirectory(p.directory)), u:`${siteUrl}/problems/${p.pageKey}/#problem-statement` }));
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Suvraneel's LeetCode Archive</title><style>:root{--bg:#fff;--surface:#f6f8fa;--text:#24292f;--muted:#57606a;--line:#d0d7de;--link:#0969da}[data-theme=dark]{--bg:#0d1117;--surface:#161b22;--text:#e6edf3;--muted:#8b949e;--line:#30363d;--link:#58a6ff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,sans-serif}main{max-width:1180px;margin:auto;padding:3rem 1rem 5rem}header{display:flex;justify-content:space-between;align-items:start;border-bottom:1px solid var(--line);padding-bottom:2rem}h1{font-size:clamp(2rem,6vw,4rem);letter-spacing:-.06em;margin:0}p{color:var(--muted)}button,input,select{font:inherit;border:1px solid var(--line);border-radius:7px;background:var(--bg);color:var(--text);padding:.6rem .75rem}button{cursor:pointer}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin:2rem 0}.stat{background:var(--surface);padding:1rem}.stat b{font-size:1.65rem;display:block}.controls{display:grid;grid-template-columns:2fr 1fr 1fr;gap:.75rem;margin:1rem 0}.result{color:var(--muted);font-size:.9rem}.problem{display:grid;grid-template-columns:70px 1fr auto;gap:1rem;align-items:center;padding:1rem 0;border-bottom:1px solid var(--line)}.number{font:600 14px ui-monospace,monospace;color:var(--muted)}.title{color:var(--link);font-weight:650;text-decoration:none}.badges{display:flex;gap:.35rem;flex-wrap:wrap}.badge{border:1px solid var(--line);border-radius:99px;padding:.1rem .45rem;font-size:.78rem;color:var(--muted)}@media(max-width:650px){main{padding-top:1.5rem}.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr}.problem{grid-template-columns:50px 1fr}.badges{grid-column:2}header{display:block}#theme{margin-top:1rem}}</style></head><body><main><header><div><p>PERSONAL ARCHIVE</p><h1>LeetCode<br>Solutions.</h1><p>${problems.length} problems, indexed from the repository.</p></div><button id="theme">Theme</button></header><section class="stats"><div class="stat"><b>${problems.length}</b>Solved</div><div class="stat"><b>${counts.Easy}</b>Easy</div><div class="stat"><b>${counts.Medium}</b>Medium</div><div class="stat"><b>${counts.Hard}</b>Hard</div></section><section><div class="controls"><input id="query" type="search" placeholder="Search title or problem number"><select id="difficulty"><option value="">All difficulties</option><option>Easy</option><option>Medium</option><option>Hard</option></select><select id="language"><option value="">All languages</option>${languages.map(l=>`<option>${l}</option>`).join("")}</select></div><p id="result" class="result"></p><div id="list"></div></section></main><script>const data=${JSON.stringify(data).replace(/</g,"\\u003c")},root=document.documentElement,theme=document.querySelector('#theme'),setTheme=t=>{root.dataset.theme=t;localStorage.setItem('theme',t)};setTheme(localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));theme.onclick=()=>setTheme(root.dataset.theme==='dark'?'light':'dark');const q=document.querySelector('#query'),d=document.querySelector('#difficulty'),l=document.querySelector('#language'),list=document.querySelector('#list'),result=document.querySelector('#result');function render(){const term=q.value.toLowerCase(),items=data.filter(p=>(p.t+' '+p.n).toLowerCase().includes(term)&&(!d.value||p.d===d.value)&&(!l.value||p.l.includes(l.value)));result.textContent=items.length+' matching problems';list.innerHTML=items.map(p=>'<article class="problem"><span class="number">#'+p.n+'</span><a class="title" href="'+p.u+'">'+p.t+'</a><span class="badges"><span class="badge">'+p.d+'</span>'+p.l.map(x=>'<span class="badge">'+x+'</span>').join('')+(p.notes?'<span class="badge">Notes</span>':'')+'</span></article>').join('')}[q,d,l].forEach(el=>el.oninput=render);render()</script></body></html>`;
+  const data = problems.map((p) => { const page=`${siteUrl}/problems/${p.pageKey}/`; const solutions=[]; const seen=new Set(); p.solutions.forEach((s,index)=>{const language=languageNames[s.extension];if(!seen.has(language)){seen.add(language);solutions.push({language,url:`${page}#solution-${index+1}`})}}); return {n:p.number,t:p.title,d:p.difficulty,l:solutions.map(s=>s.language),s:solutions,notes:Boolean(notesFromDirectory(p.directory)),added:p.firstCommittedAt,u:`${page}#problem-statement`,notesUrl:`${page}#notes`}; });
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Suvraneel's LeetCode Archive</title><style>:root{--bg:#fff;--surface:#f6f8fa;--text:#24292f;--muted:#57606a;--line:#d0d7de;--link:#0969da;--easy:#1a7f37;--medium:#9a6700;--hard:#cf222e}[data-theme=dark]{--bg:#0d1117;--surface:#161b22;--text:#e6edf3;--muted:#8b949e;--line:#30363d;--link:#58a6ff;--easy:#3fb950;--medium:#d29922;--hard:#f85149}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,sans-serif}main{max-width:1180px;margin:auto;padding:1.25rem 1rem 4rem}header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:1rem}h1{display:inline;font-size:clamp(1.45rem,3vw,2rem);letter-spacing:-.045em;margin-left:.7rem}p{color:var(--muted)}button,input,select{font:inherit;border:1px solid var(--line);border-radius:7px;background:var(--bg);color:var(--text);padding:.6rem .75rem}button{cursor:pointer}.stats{display:flex;gap:.5rem;flex-wrap:wrap;margin:.9rem 0}.stat{padding:.35rem .65rem}.stat b{margin-right:.3rem}.easy{color:var(--easy)!important}.medium{color:var(--medium)!important}.hard{color:var(--hard)!important}.controls{display:grid;grid-template-columns:2fr 1fr 1fr 1fr auto;gap:.5rem;margin:.75rem 0}.active{background:var(--surface);border-color:var(--link)}.result{color:var(--muted);font-size:.9rem}.problem{display:grid;grid-template-columns:70px 1fr auto;gap:1rem;align-items:center;padding:1rem 0;border-bottom:1px solid var(--line)}.number{font:600 14px ui-monospace,monospace;color:var(--muted)}.title{color:var(--link);font-weight:650;text-decoration:none}.badges{display:flex;gap:.35rem;flex-wrap:wrap}.badge{border:1px solid var(--line);border-radius:99px;padding:.1rem .45rem;font-size:.78rem;color:var(--muted);text-decoration:none}.badge:hover{border-color:var(--link);color:var(--link)}@media(max-width:650px){main{padding-top:1rem}.controls{grid-template-columns:1fr}.problem{grid-template-columns:50px 1fr}.badges{grid-column:2}header{align-items:flex-start;flex-wrap:wrap}h1{font-size:1.45rem}}</style></head><body><main><header><div><a href="https://leetcode.com/Suvraneel/"><img src="https://img.shields.io/badge/-LeetCode-da8200?style=for-the-badge&logo=LeetCode&logoColor=ffa116&labelColor=black" alt="Suvraneel's LeetCode profile"></a><h1>LeetCode Solutions</h1></div><button id="theme">Theme</button></header><section class="stats"><button class="stat active" data-difficulty=""><b>${problems.length}</b>Solved</button><button class="stat easy" data-difficulty="Easy"><b>${counts.Easy}</b>Easy</button><button class="stat medium" data-difficulty="Medium"><b>${counts.Medium}</b>Medium</button><button class="stat hard" data-difficulty="Hard"><b>${counts.Hard}</b>Hard</button></section><section><div class="controls"><input id="query" type="search" placeholder="Search title or problem number"><select id="difficulty"><option value="">All difficulties</option><option>Easy</option><option>Medium</option><option>Hard</option></select><select id="language"><option value="">All languages</option>${languages.map(l=>`<option>${l}</option>`).join("")}</select><select id="sort"><option value="asc">Number: low to high</option><option value="desc">Number: high to low</option><option value="title">Title: A–Z</option></select><button id="notes" type="button">Has notes</button></div><p id="result" class="result"></p><div id="list"></div></section></main><script>const data=${JSON.stringify(data).replace(/</g,"\\u003c")},root=document.documentElement,theme=document.querySelector('#theme'),setTheme=t=>{root.dataset.theme=t;localStorage.setItem('theme',t)};setTheme(localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));theme.onclick=()=>setTheme(root.dataset.theme==='dark'?'light':'dark');const q=document.querySelector('#query'),d=document.querySelector('#difficulty'),l=document.querySelector('#language'),sort=document.querySelector('#sort'),notes=document.querySelector('#notes'),list=document.querySelector('#list'),result=document.querySelector('#result');function render(){const term=q.value.toLowerCase(),items=data.filter(p=>(p.t+' '+p.n).toLowerCase().includes(term)&&(!d.value||p.d===d.value)&&(!l.value||p.l.includes(l.value))&&(!notes.classList.contains('active')||p.notes));items.sort((a,b)=>sort.value==='title'?a.t.localeCompare(b.t):sort.value==='desc'?b.n-a.n:a.n-b.n);result.textContent=items.length+' matching problems';list.innerHTML=items.map(p=>'<article class="problem"><span class="number">#'+p.n+'</span><a class="title" href="'+p.u+'">'+p.t+'</a><span class="badges"><span class="badge '+p.d.toLowerCase()+'">'+p.d+'</span>'+p.s.map(x=>'<a class="badge" href="'+x.url+'">'+x.language+'</a>').join('')+(p.notes?'<a class="badge" href="'+p.notesUrl+'">Notes</a>':'')+'</span></article>').join('')}[q,d,l,sort].forEach(el=>el.oninput=render);notes.onclick=()=>{notes.classList.toggle('active');render()};document.querySelectorAll('.stat').forEach(button=>button.onclick=()=>{d.value=button.dataset.difficulty;document.querySelectorAll('.stat').forEach(item=>item.classList.toggle('active',item===button));render()});render()</script></body></html>`;
 };
 
 const build = () => {
-  const problems = getProblems();
+  const problems = addTimestamps(getProblems());
   fs.rmSync(generatedProblemsDirectory, { recursive: true, force: true });
   fs.mkdirSync(generatedProblemsDirectory, { recursive: true });
 
