@@ -15,6 +15,14 @@ const languageNames = {
   ts: "TypeScript",
 };
 
+const highlightLanguages = {
+  cpp: "cpp",
+  java: "java",
+  js: "javascript",
+  py: "python",
+  ts: "typescript",
+};
+
 const sourceExtensions = new Set(Object.keys(languageNames));
 
 const escapeHtml = (value) =>
@@ -25,15 +33,24 @@ const escapeHtml = (value) =>
     .replace(/\"/g, "&quot;")
     .replace(/'/g, "&#39;");
 
-const titleFromSlug = (slug) =>
-  slug
-    .split("-")
-    .map((word) =>
-      /^\d+$/.test(word) || word.length <= 3
-        ? word.toUpperCase()
-        : word[0].toUpperCase() + word.slice(1),
-    )
+const titleFromSlug = (slug) => {
+  const words = slug.split("-");
+  const smallWords = new Set([
+    "a", "an", "and", "as", "at", "by", "for", "from", "in", "into", "of", "on", "or", "the", "to", "with",
+  ]);
+  const acronyms = new Set(["api", "ascii", "bst", "cpu", "dfs", "dp", "gcd", "ii", "iii", "iv", "json", "lru", "nary", "sql", "tcp", "trie", "uf", "utf", "uuid", "xml"]);
+
+  return words
+    .map((word, index) => {
+      const normalized = word.toLowerCase();
+      if (/^\d+$/.test(word)) return word;
+      if (normalized === "atoi") return "atoi";
+      if (acronyms.has(normalized)) return normalized.toUpperCase();
+      if (index !== 0 && index !== words.length - 1 && smallWords.has(normalized)) return normalized;
+      return normalized[0].toUpperCase() + normalized.slice(1);
+    })
     .join(" ");
+};
 
 const difficultyFromReadme = (directory) => {
   const readmePath = path.join(repositoryRoot, directory, "README.md");
@@ -41,6 +58,14 @@ const difficultyFromReadme = (directory) => {
 
   const readme = fs.readFileSync(readmePath, "utf8");
   return readme.match(/<h[23]>\s*(Easy|Medium|Hard)\s*<\/h[23]>/i)?.[1] ?? "—";
+};
+
+const problemStatementFromReadme = (directory) => {
+  const readmePath = path.join(repositoryRoot, directory, "README.md");
+  if (!fs.existsSync(readmePath)) {
+    return "<p>The local problem statement is unavailable. Please use the LeetCode link above.</p>";
+  }
+  return fs.readFileSync(readmePath, "utf8");
 };
 
 const solutionLabel = (fileName, directory, extension) => {
@@ -130,6 +155,7 @@ const getProblems = () => {
 };
 
 const problemPage = (problem) => {
+  const statement = problemStatementFromReadme(problem.directory);
   const solutionNavigation = problem.solutions
     .map(
       (solution, index) =>
@@ -140,7 +166,7 @@ const problemPage = (problem) => {
   const solutionSections = problem.solutions
     .map((solution, index) => {
       const source = fs.readFileSync(path.join(repositoryRoot, solution.directory, solution.fileName), "utf8");
-      return `<section id="solution-${index + 1}"><h2>${escapeHtml(solution.label)}</h2><p><a href="../../${encodeURIComponent(solution.directory)}/${encodeURIComponent(solution.fileName)}">View source file</a></p><pre><code>${escapeHtml(source)}</code></pre></section>`;
+      return `<section id="solution-${index + 1}"><h2>${escapeHtml(solution.label)}</h2><p><a href="../../${encodeURIComponent(solution.directory)}/${encodeURIComponent(solution.fileName)}">View source file</a></p><pre><code class="language-${highlightLanguages[solution.extension]}">${escapeHtml(source)}</code></pre></section>`;
     })
     .join("\n");
 
@@ -150,22 +176,29 @@ const problemPage = (problem) => {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(`${problem.number}. ${problem.title}`)} · LeetCode Solutions</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github.min.css">
   <style>
     body { max-width: 980px; margin: 0 auto; padding: 2rem 1rem 4rem; color: #24292f; font: 16px/1.55 system-ui, sans-serif; }
     a { color: #0969da; } header { border-bottom: 1px solid #d0d7de; margin-bottom: 2rem; padding-bottom: 1rem; }
     .meta, nav { display: flex; flex-wrap: wrap; gap: .65rem; align-items: center; } .badge { background: #ddf4ff; border-radius: 999px; padding: .15rem .65rem; }
     nav a { border: 1px solid #d0d7de; border-radius: 6px; padding: .3rem .6rem; text-decoration: none; }
-    section { margin-top: 2.5rem; } pre { background: #f6f8fa; border-radius: 6px; overflow: auto; padding: 1rem; } code { font: 13px/1.45 ui-monospace, SFMono-Regular, Menlo, monospace; }
+    section { margin-top: 2.5rem; } #problem-statement { border-bottom: 1px solid #d0d7de; padding-bottom: 2rem; } #problem-statement img { max-width: 100%; height: auto; } pre { border: 1px solid #d0d7de; border-radius: 6px; overflow: auto; padding: 1rem; } code { font: 13px/1.45 ui-monospace, SFMono-Regular, Menlo, monospace; }
   </style>
 </head>
 <body>
   <header>
     <p><a href="../../">← All problems</a></p>
     <h1>${escapeHtml(`${problem.number}. ${problem.title}`)}</h1>
-    <div class="meta"><span class="badge">${escapeHtml(problem.difficulty)}</span><a href="https://leetcode.com/problems/${encodeURIComponent(problem.slug)}/">Open on LeetCode</a><a href="../../${encodeURIComponent(problem.directory)}/">Problem statement</a></div>
+    <div class="meta"><span class="badge">${escapeHtml(problem.difficulty)}</span><a href="https://leetcode.com/problems/${encodeURIComponent(problem.slug)}/">Open on LeetCode</a><a href="#problem-statement">Problem statement</a></div>
   </header>
+  <section id="problem-statement">
+    <h2>Problem Statement</h2>
+    ${statement}
+  </section>
   <nav aria-label="Solutions">${solutionNavigation}</nav>
   ${solutionSections || "<p>No supported solution files were found for this problem.</p>"}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 </body>
 </html>`;
 };
@@ -181,7 +214,7 @@ const buildReadme = (problems) => {
             )
             .join("<br>")
         : "—";
-      return `| [${problem.number}](https://leetcode.com/problems/${problem.slug}/) | [${problem.title}](${siteUrl}/problems/${problem.pageKey}/) | ${problem.difficulty} | ${links} |`;
+      return `| [${problem.number}](https://leetcode.com/problems/${problem.slug}/) | [${problem.title}](${siteUrl}/problems/${problem.pageKey}/#problem-statement) | ${problem.difficulty} | ${links} |`;
     })
     .join("\n");
 
@@ -191,7 +224,7 @@ const buildReadme = (problems) => {
 
 Each solution link opens a readable page with every submitted implementation and variant.
 
-| # | Problem | Difficulty | Solutions |
+| # | Problem Statement | Difficulty | Solutions |
 |---:|:---|:---|:---|
 ${rows}
 `;
