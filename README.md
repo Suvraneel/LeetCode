@@ -300,6 +300,7 @@ Each solution link opens a readable page with every submitted implementation and
 | [827](https://leetcode.com/problems/making-a-large-island/) | [Making a Large Island](https://suvraneel.github.io/LeetCode/problems/827/#problem-statement) | Hard | [Java](https://suvraneel.github.io/LeetCode/problems/827/#solution-1) |
 | [834](https://leetcode.com/problems/sum-of-distances-in-tree/) | [Sum of Distances in Tree](https://suvraneel.github.io/LeetCode/problems/834/#problem-statement) | Hard | [C++](https://suvraneel.github.io/LeetCode/problems/834/#solution-1) |
 | [835](https://leetcode.com/problems/image-overlap/) | [Image Overlap](https://suvraneel.github.io/LeetCode/problems/835/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/835/#solution-1) |
+| [836](https://leetcode.com/problems/rectangle-overlap/) | [Rectangle Overlap](https://suvraneel.github.io/LeetCode/problems/836/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/836/#solution-1) |
 | [837](https://leetcode.com/problems/new-21-game/) | [New 21 Game](https://suvraneel.github.io/LeetCode/problems/837/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/837/#solution-1) |
 | [838](https://leetcode.com/problems/push-dominoes/) | [Push Dominoes](https://suvraneel.github.io/LeetCode/problems/838/#problem-statement) | Medium | [C++](https://suvraneel.github.io/LeetCode/problems/838/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/838/#solution-2) |
 | [840](https://leetcode.com/problems/magic-squares-in-grid/) | [Magic Squares in Grid](https://suvraneel.github.io/LeetCode/problems/840/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/840/#solution-1) |
@@ -866,15 +867,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4036](https://leetcode.com/problems/lexicographically-largest-string-after-pair-transformations/) | [Lexicographically Largest String After Pair Transformations](https://suvraneel.github.io/LeetCode/problems/4036/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4036/#solution-1) |
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0836-rectangle-overlap](https://github.com/Suvraneel/LeetCode/tree/main/0836-rectangle-overlap/) | Easy |
-## Geometry
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0836-rectangle-overlap](https://github.com/Suvraneel/LeetCode/tree/main/0836-rectangle-overlap/) | Easy |
-<!---LeetCode Topics End-->
