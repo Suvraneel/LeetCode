@@ -6,11 +6,11 @@ class Solution {
         Set<Integer> impossible = new HashSet<>();
         for (int i = 0; i < nums.length; i++) {
             int F = freq.getOrDefault(nums[i], 0);
+            if (F >= 2 && spacing.get(nums[i]) != i - last.get(nums[i]))
+                impossible.add(nums[i]);
             freq.put(nums[i], ++F);
             if (F == 2)
                 spacing.put(nums[i], i - last.get(nums[i]));
-            else if (F > 2 && spacing.get(nums[i]) != i - last.get(nums[i]))
-                impossible.add(nums[i]);
             last.put(nums[i], i);
         }
         int ans = 0;
