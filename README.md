@@ -866,3 +866,15 @@ Each solution link opens a readable page with every submitted implementation and
 | [4036](https://leetcode.com/problems/lexicographically-largest-string-after-pair-transformations/) | [Lexicographically Largest String After Pair Transformations](https://suvraneel.github.io/LeetCode/problems/4036/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4036/#solution-1) |
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0836-rectangle-overlap](https://github.com/Suvraneel/LeetCode/tree/main/0836-rectangle-overlap/) | Easy |
+## Geometry
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0836-rectangle-overlap](https://github.com/Suvraneel/LeetCode/tree/main/0836-rectangle-overlap/) | Easy |
+<!---LeetCode Topics End-->
