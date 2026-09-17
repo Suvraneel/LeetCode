@@ -463,6 +463,7 @@ Each solution link opens a readable page with every submitted implementation and
 | [1463](https://leetcode.com/problems/cherry-pickup-ii/) | [Cherry Pickup II](https://suvraneel.github.io/LeetCode/problems/1463/#problem-statement) | Hard | [C++](https://suvraneel.github.io/LeetCode/problems/1463/#solution-1) |
 | [1464](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | [Maximum Product of Two Elements in an Array](https://suvraneel.github.io/LeetCode/problems/1464/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/1464/#solution-1) |
 | [1475](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [Final Prices with a Special Discount in a Shop](https://suvraneel.github.io/LeetCode/problems/1475/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/1475/#solution-1) |
+| [1477](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) | [Find Two Non Overlapping Sub Arrays Each with Target Sum](https://suvraneel.github.io/LeetCode/problems/1477/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1477/#solution-1) |
 | [1482](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | [Minimum Number of Days to Make M Bouquets](https://suvraneel.github.io/LeetCode/problems/1482/#problem-statement) | Medium | [C++](https://suvraneel.github.io/LeetCode/problems/1482/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/1482/#solution-2) |
 | [1488](https://leetcode.com/problems/avoid-flood-in-the-city/) | [Avoid Flood in the City](https://suvraneel.github.io/LeetCode/problems/1488/#problem-statement) | Medium | [Java — brute force](https://suvraneel.github.io/LeetCode/problems/1488/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/1488/#solution-2) |
 | [1493](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | [Longest Subarray of 1s After Deleting One Element](https://suvraneel.github.io/LeetCode/problems/1493/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1493/#solution-1) |
@@ -868,27 +869,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
 | [4050](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | [Minimum Days to Score Exactly N Points](https://suvraneel.github.io/LeetCode/problems/4050/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4050/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Suvraneel/LeetCode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Suvraneel/LeetCode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
-## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Suvraneel/LeetCode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Suvraneel/LeetCode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
-## Sliding Window
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Suvraneel/LeetCode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
-<!---LeetCode Topics End-->
