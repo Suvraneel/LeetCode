@@ -445,6 +445,7 @@ Each solution link opens a readable page with every submitted implementation and
 | [1396](https://leetcode.com/problems/design-underground-system/) | [Design Underground System](https://suvraneel.github.io/LeetCode/problems/1396/#problem-statement) | Medium | — |
 | [1399](https://leetcode.com/problems/count-largest-group/) | [Count Largest Group](https://suvraneel.github.io/LeetCode/problems/1399/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/1399/#solution-1) |
 | [1400](https://leetcode.com/problems/construct-k-palindrome-strings/) | [Construct K Palindrome Strings](https://suvraneel.github.io/LeetCode/problems/1400/#problem-statement) | Medium | [Java — parity counter](https://suvraneel.github.io/LeetCode/problems/1400/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/1400/#solution-2) |
+| [1401](https://leetcode.com/problems/circle-and-rectangle-overlapping/) | [Circle and Rectangle Overlapping](https://suvraneel.github.io/LeetCode/problems/1401/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1401/#solution-1) |
 | [1404](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | [Number of Steps to Reduce a Number in Binary Representation to One](https://suvraneel.github.io/LeetCode/problems/1404/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1404/#solution-1) |
 | [1405](https://leetcode.com/problems/longest-happy-string/) | [Longest Happy String](https://suvraneel.github.io/LeetCode/problems/1405/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1405/#solution-1) |
 | [1408](https://leetcode.com/problems/string-matching-in-an-array/) | [String Matching in an Array](https://suvraneel.github.io/LeetCode/problems/1408/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/1408/#solution-1) |
@@ -869,15 +870,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
 | [4050](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | [Minimum Days to Score Exactly N Points](https://suvraneel.github.io/LeetCode/problems/4050/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4050/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1401-circle-and-rectangle-overlapping](https://github.com/Suvraneel/LeetCode/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
-## Geometry
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1401-circle-and-rectangle-overlapping](https://github.com/Suvraneel/LeetCode/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
-<!---LeetCode Topics End-->
