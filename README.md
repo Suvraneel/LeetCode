@@ -840,6 +840,7 @@ Each solution link opens a readable page with every submitted implementation and
 | [3484](https://leetcode.com/problems/design-spreadsheet/) | [Design Spreadsheet](https://suvraneel.github.io/LeetCode/problems/3484/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/3484/#solution-1) |
 | [3487](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | [Maximum Unique Subarray Sum After Deletion](https://suvraneel.github.io/LeetCode/problems/3487/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/3487/#solution-1) |
 | [3494](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/) | [Find the Minimum Amount of Time to Brew Potions](https://suvraneel.github.io/LeetCode/problems/3494/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/3494/#solution-1) |
+| [3498](https://leetcode.com/problems/reverse-degree-of-a-string/) | [Reverse Degree of a String](https://suvraneel.github.io/LeetCode/problems/3498/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/3498/#solution-1) |
 | [3508](https://leetcode.com/problems/implement-router/) | [Implement Router](https://suvraneel.github.io/LeetCode/problems/3508/#problem-statement) | Medium | [Java — myDesign TLE](https://suvraneel.github.io/LeetCode/problems/3508/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/3508/#solution-2) |
 | [3512](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | [Minimum Operations to Make Array Sum Divisible by K](https://suvraneel.github.io/LeetCode/problems/3512/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/3512/#solution-1) |
 | [3516](https://leetcode.com/problems/find-closest-person/) | [Find Closest Person](https://suvraneel.github.io/LeetCode/problems/3516/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/3516/#solution-1) |
@@ -870,15 +871,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
 | [4050](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | [Minimum Days to Score Exactly N Points](https://suvraneel.github.io/LeetCode/problems/4050/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4050/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3498-reverse-degree-of-a-string](https://github.com/Suvraneel/LeetCode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
-## Simulation
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3498-reverse-degree-of-a-string](https://github.com/Suvraneel/LeetCode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
-<!---LeetCode Topics End-->
