@@ -503,6 +503,7 @@ Each solution link opens a readable page with every submitted implementation and
 | [1652](https://leetcode.com/problems/defuse-the-bomb/) | [Defuse the Bomb](https://suvraneel.github.io/LeetCode/problems/1652/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/1652/#solution-1) |
 | [1653](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | [Minimum Deletions to Make String Balanced](https://suvraneel.github.io/LeetCode/problems/1653/#problem-statement) | Medium | [Java — dp](https://suvraneel.github.io/LeetCode/problems/1653/#solution-1)<br>[Java — prefix_suffix](https://suvraneel.github.io/LeetCode/problems/1653/#solution-2)<br>[Java](https://suvraneel.github.io/LeetCode/problems/1653/#solution-3) |
 | [1657](https://leetcode.com/problems/determine-if-two-strings-are-close/) | [Determine If Two Strings Are Close](https://suvraneel.github.io/LeetCode/problems/1657/#problem-statement) | Medium | [C++](https://suvraneel.github.io/LeetCode/problems/1657/#solution-1) |
+| [1658](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | [Minimum Operations to Reduce X to Zero](https://suvraneel.github.io/LeetCode/problems/1658/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1658/#solution-1) |
 | [1662](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | [Check If Two String Arrays Are Equivalent](https://suvraneel.github.io/LeetCode/problems/1662/#problem-statement) | Easy | [C++](https://suvraneel.github.io/LeetCode/problems/1662/#solution-1) |
 | [1671](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/) | [Minimum Number of Removals to Make Mountain Array](https://suvraneel.github.io/LeetCode/problems/1671/#problem-statement) | Hard | [Java](https://suvraneel.github.io/LeetCode/problems/1671/#solution-1) |
 | [1672](https://leetcode.com/problems/richest-customer-wealth/) | [Richest Customer Wealth](https://suvraneel.github.io/LeetCode/problems/1672/#problem-statement) | Easy | [C++](https://suvraneel.github.io/LeetCode/problems/1672/#solution-1) |
@@ -871,27 +872,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
 | [4050](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | [Minimum Days to Score Exactly N Points](https://suvraneel.github.io/LeetCode/problems/4050/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4050/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Suvraneel/LeetCode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Suvraneel/LeetCode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
-## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Suvraneel/LeetCode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
-## Sliding Window
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Suvraneel/LeetCode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
-## Prefix Sum
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Suvraneel/LeetCode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
-<!---LeetCode Topics End-->
