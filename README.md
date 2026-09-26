@@ -532,6 +532,7 @@ Each solution link opens a readable page with every submitted implementation and
 | [1791](https://leetcode.com/problems/find-center-of-star-graph/) | [Find Center of Star Graph](https://suvraneel.github.io/LeetCode/problems/1791/#problem-statement) | Easy | [Java — O(n)](https://suvraneel.github.io/LeetCode/problems/1791/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/1791/#solution-2) |
 | [1792](https://leetcode.com/problems/maximum-average-pass-ratio/) | [Maximum Average Pass Ratio](https://suvraneel.github.io/LeetCode/problems/1792/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1792/#solution-1) |
 | [1800](https://leetcode.com/problems/maximum-ascending-subarray-sum/) | [Maximum Ascending Subarray Sum](https://suvraneel.github.io/LeetCode/problems/1800/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/1800/#solution-1) |
+| [1807](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/) | [Evaluate the Bracket Pairs of a String](https://suvraneel.github.io/LeetCode/problems/1807/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1807/#solution-1) |
 | [1813](https://leetcode.com/problems/sentence-similarity-iii/) | [Sentence Similarity III](https://suvraneel.github.io/LeetCode/problems/1813/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1813/#solution-1) |
 | [1823](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | [Find the Winner of the Circular Game](https://suvraneel.github.io/LeetCode/problems/1823/#problem-statement) | Medium | [Java — simulate](https://suvraneel.github.io/LeetCode/problems/1823/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/1823/#solution-2) |
 | [1829](https://leetcode.com/problems/maximum-xor-for-each-query/) | [Maximum Xor for Each Query](https://suvraneel.github.io/LeetCode/problems/1829/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1829/#solution-1) |
@@ -872,19 +873,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
 | [4050](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | [Minimum Days to Score Exactly N Points](https://suvraneel.github.io/LeetCode/problems/4050/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4050/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Suvraneel/LeetCode/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Suvraneel/LeetCode/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Suvraneel/LeetCode/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
-<!---LeetCode Topics End-->
