@@ -14,7 +14,7 @@ class Solution {
                 ans.append(kv.getOrDefault(sb.toString(), "?"));
                 sb.setLength(0);
             } else
-                sb.append(String.valueOf(c));
+                sb.append(c);
         }
         ans.append(sb.toString());
         return ans.toString();
