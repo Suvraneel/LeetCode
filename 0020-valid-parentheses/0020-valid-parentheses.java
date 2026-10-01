@@ -6,21 +6,15 @@ class Solution {
             char c = s.charAt(i);
             switch (c) {
                 case ')' -> {
-                    if (!stk.isEmpty() && stk.peek() == '(')
-                        stk.pop();
-                    else
+                    if (stk.isEmpty() || stk.pop() != '(')
                         return false;
                 }
                 case '}' -> {
-                    if (!stk.isEmpty() && stk.peek() == '{')
-                        stk.pop();
-                    else
+                    if (stk.isEmpty() || stk.pop() != '{')
                         return false;
                 }
                 case ']' -> {
-                    if (!stk.isEmpty() && stk.peek() == '[')
-                        stk.pop();
-                    else
+                    if (stk.isEmpty() || stk.pop() != '[')
                         return false;
                 }
                 default -> stk.push(c);
