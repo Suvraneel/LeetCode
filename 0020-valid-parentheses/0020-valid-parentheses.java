@@ -2,7 +2,7 @@ class Solution {
     public boolean isValid(String s) {
         Stack<Character> stk = new Stack<>();
         int n = s.length();
-        if ((n & 1) == 1)
+        if (n % 2 == 1)
             return false;
         for (int i = 0; i < n; i++) {
             char c = s.charAt(i);
