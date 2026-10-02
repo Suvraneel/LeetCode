@@ -2,21 +2,22 @@ class Solution {
     List<String> ans = new ArrayList<>();
 
     public List<String> generateParenthesis(int n) {
-        solve(new StringBuilder(), 0, 0, n);
+        StringBuilder sb = new StringBuilder();
+        solve(sb, 0, 0, n);
         return ans;
     }
 
-    void solve(StringBuilder sb, int lt, int rt, int n) {
+    void solve(StringBuilder sb, int open, int close, int n) {
         if (sb.length() == 2 * n)
             ans.add(sb.toString());
-        if (lt < n) {
+        if (open < n) {
             sb.append("(");
-            solve(sb, lt + 1, rt, n);
+            solve(sb, open + 1, close, n);
             sb.setLength(sb.length() - 1);
         }
-        if (rt < lt) {
+        if (close < open) {
             sb.append(")");
-            solve(sb, lt, rt + 1, n);
+            solve(sb, open, close + 1, n);
             sb.setLength(sb.length() - 1);
         }
     }
