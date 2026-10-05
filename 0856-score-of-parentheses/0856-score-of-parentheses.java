@@ -14,7 +14,7 @@ class Solution {
                     int sum = 0;
                     while (stk.peek() != -1)
                         sum += stk.pop();
-                    stk.pop(); // rm ( and put 2 * sum
+                    stk.pop();
                     stk.push(2 * sum);
                 }
             }
