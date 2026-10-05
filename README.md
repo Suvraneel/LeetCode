@@ -307,6 +307,7 @@ Each solution link opens a readable page with every submitted implementation and
 | [841](https://leetcode.com/problems/keys-and-rooms/) | [Keys and Rooms](https://suvraneel.github.io/LeetCode/problems/841/#problem-statement) | Medium | [C++ — alternative 1](https://suvraneel.github.io/LeetCode/problems/841/#solution-1)<br>[C++ — alternative 2](https://suvraneel.github.io/LeetCode/problems/841/#solution-2) |
 | [846](https://leetcode.com/problems/hand-of-straights/) | [Hand of Straights](https://suvraneel.github.io/LeetCode/problems/846/#problem-statement) | Medium | [Java — map](https://suvraneel.github.io/LeetCode/problems/846/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/846/#solution-2) |
 | [851](https://leetcode.com/problems/loud-and-rich/) | [Loud and Rich](https://suvraneel.github.io/LeetCode/problems/851/#problem-statement) | Medium | [Java — topological_sort](https://suvraneel.github.io/LeetCode/problems/851/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/851/#solution-2) |
+| [856](https://leetcode.com/problems/score-of-parentheses/) | [Score of Parentheses](https://suvraneel.github.io/LeetCode/problems/856/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/856/#solution-1) |
 | [858](https://leetcode.com/problems/mirror-reflection/) | [Mirror Reflection](https://suvraneel.github.io/LeetCode/problems/858/#problem-statement) | Medium | [C++](https://suvraneel.github.io/LeetCode/problems/858/#solution-1) |
 | [860](https://leetcode.com/problems/lemonade-change/) | [Lemonade Change](https://suvraneel.github.io/LeetCode/problems/860/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/860/#solution-1) |
 | [862](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [Shortest Subarray with Sum at Least K](https://suvraneel.github.io/LeetCode/problems/862/#problem-statement) | Hard | [Java](https://suvraneel.github.io/LeetCode/problems/862/#solution-1) |
@@ -873,19 +874,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
 | [4050](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | [Minimum Days to Score Exactly N Points](https://suvraneel.github.io/LeetCode/problems/4050/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4050/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0856-score-of-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/0856-score-of-parentheses/) | Medium |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0856-score-of-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/0856-score-of-parentheses/) | Medium |
-## Bracket Sequences
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0856-score-of-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/0856-score-of-parentheses/) | Medium |
-<!---LeetCode Topics End-->
