@@ -335,7 +335,7 @@ Each solution link opens a readable page with every submitted implementation and
 | [912](https://leetcode.com/problems/sort-an-array/) | [Sort an Array](https://suvraneel.github.io/LeetCode/problems/912/#problem-statement) | Medium | [C++](https://suvraneel.github.io/LeetCode/problems/912/#solution-1) |
 | [916](https://leetcode.com/problems/word-subsets/) | [Word Subsets](https://suvraneel.github.io/LeetCode/problems/916/#problem-statement) | Medium | [C++](https://suvraneel.github.io/LeetCode/problems/916/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/916/#solution-2) |
 | [918](https://leetcode.com/problems/maximum-sum-circular-subarray/) | [Maximum Sum Circular Subarray](https://suvraneel.github.io/LeetCode/problems/918/#problem-statement) | Medium | — |
-| [921](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Minimum Add to Make Parentheses Valid](https://suvraneel.github.io/LeetCode/problems/921/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/921/#solution-1) |
+| [921](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Minimum Add to Make Parentheses Valid](https://suvraneel.github.io/LeetCode/problems/921/#problem-statement) | Medium | [Java — stack](https://suvraneel.github.io/LeetCode/problems/921/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/921/#solution-2) |
 | [922](https://leetcode.com/problems/sort-array-by-parity-ii/) | [Sort Array by Parity II](https://suvraneel.github.io/LeetCode/problems/922/#problem-statement) | Easy | [C++](https://suvraneel.github.io/LeetCode/problems/922/#solution-1) |
 | [931](https://leetcode.com/problems/minimum-falling-path-sum/) | [Minimum Falling Path Sum](https://suvraneel.github.io/LeetCode/problems/931/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/931/#solution-1) |
 | [936](https://leetcode.com/problems/stamping-the-sequence/) | [Stamping the Sequence](https://suvraneel.github.io/LeetCode/problems/936/#problem-statement) | Hard | [Java](https://suvraneel.github.io/LeetCode/problems/936/#solution-1) |
@@ -874,23 +874,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
 | [4050](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | [Minimum Days to Score Exactly N Points](https://suvraneel.github.io/LeetCode/problems/4050/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4050/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Suvraneel/LeetCode/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Suvraneel/LeetCode/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Suvraneel/LeetCode/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
-## Bracket Sequences
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Suvraneel/LeetCode/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
-<!---LeetCode Topics End-->
