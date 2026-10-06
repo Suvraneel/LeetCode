@@ -1,13 +1,17 @@
 class Solution {
     public int minAddToMakeValid(String s) {
-        int n = s.length(), lt = 0, rt = 0, ct = 0;
-        char[] cs = s.toCharArray();
-        for(; rt<n; rt++){
-            cs[lt] = cs[rt];
-            if(lt>0 && cs[rt]==')' && cs[lt-1]=='(')
-                lt--;
-            else lt++;
+        Stack<Character> stk = new Stack<>();
+        int n = s.length(), count = 0;
+        for(int i=0; i<n; i++){
+            char c = s.charAt(i);
+            if(c=='(')
+                stk.push('(');
+            else {
+                if(!stk.isEmpty())
+                    stk.pop();
+                else count++;   // to make valid s, n(closing) brace upto now must be >= n(opening)
+            }
         }
-        return lt;
+        return count += stk.size(); // remaining opening braces must have counterparts at the end.
     }
 }
