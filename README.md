@@ -373,6 +373,7 @@ Each solution link opens a readable page with every submitted implementation and
 | [1011](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [Capacity to Ship Packages Within D Days](https://suvraneel.github.io/LeetCode/problems/1011/#problem-statement) | Medium | — |
 | [1014](https://leetcode.com/problems/best-sightseeing-pair/) | [Best Sightseeing Pair](https://suvraneel.github.io/LeetCode/problems/1014/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1014/#solution-1) |
 | [1015](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | [Smallest Integer Divisible by K](https://suvraneel.github.io/LeetCode/problems/1015/#problem-statement) | Medium | [C++](https://suvraneel.github.io/LeetCode/problems/1015/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/1015/#solution-2) |
+| [1021](https://leetcode.com/problems/remove-outermost-parentheses/) | [Remove Outermost Parentheses](https://suvraneel.github.io/LeetCode/problems/1021/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/1021/#solution-1) |
 | [1022](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | [Sum of Root to Leaf Binary Numbers](https://suvraneel.github.io/LeetCode/problems/1022/#problem-statement) | Easy | [C++](https://suvraneel.github.io/LeetCode/problems/1022/#solution-1) |
 | [1026](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | [Maximum Difference Between Node and Ancestor](https://suvraneel.github.io/LeetCode/problems/1026/#problem-statement) | Medium | [C++](https://suvraneel.github.io/LeetCode/problems/1026/#solution-1) |
 | [1028](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/) | [Recover a Tree from Preorder Traversal](https://suvraneel.github.io/LeetCode/problems/1028/#problem-statement) | Hard | [Java](https://suvraneel.github.io/LeetCode/problems/1028/#solution-1) |
@@ -874,19 +875,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
 | [4050](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | [Minimum Days to Score Exactly N Points](https://suvraneel.github.io/LeetCode/problems/4050/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4050/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1021-remove-outermost-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1021-remove-outermost-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
-## Bracket Sequences
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1021-remove-outermost-parentheses](https://github.com/Suvraneel/LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
-<!---LeetCode Topics End-->
