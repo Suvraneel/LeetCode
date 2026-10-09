@@ -484,6 +484,7 @@ Each solution link opens a readable page with every submitted implementation and
 | [1530](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | [Number of Good Leaf Nodes Pairs](https://suvraneel.github.io/LeetCode/problems/1530/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1530/#solution-1) |
 | [1531](https://leetcode.com/problems/string-compression-ii/) | [String Compression II](https://suvraneel.github.io/LeetCode/problems/1531/#problem-statement) | Hard | [C++](https://suvraneel.github.io/LeetCode/problems/1531/#solution-1) |
 | [1534](https://leetcode.com/problems/count-good-triplets/) | [Count Good Triplets](https://suvraneel.github.io/LeetCode/problems/1534/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/1534/#solution-1) |
+| [1541](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/) | [Minimum Insertions to Balance a Parentheses String](https://suvraneel.github.io/LeetCode/problems/1541/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1541/#solution-1) |
 | [1544](https://leetcode.com/problems/make-the-string-great/) | [Make the String Great](https://suvraneel.github.io/LeetCode/problems/1544/#problem-statement) | Easy | [C++](https://suvraneel.github.io/LeetCode/problems/1544/#solution-1) |
 | [1545](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | [Find Kth Bit in Nth Binary String](https://suvraneel.github.io/LeetCode/problems/1545/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/1545/#solution-1) |
 | [1550](https://leetcode.com/problems/three-consecutive-odds/) | [Three Consecutive Odds](https://suvraneel.github.io/LeetCode/problems/1550/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/1550/#solution-1) |
@@ -875,23 +876,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
 | [4050](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | [Minimum Days to Score Exactly N Points](https://suvraneel.github.io/LeetCode/problems/4050/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4050/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Suvraneel/LeetCode/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Suvraneel/LeetCode/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Suvraneel/LeetCode/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
-## Bracket Sequences
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Suvraneel/LeetCode/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
-<!---LeetCode Topics End-->
