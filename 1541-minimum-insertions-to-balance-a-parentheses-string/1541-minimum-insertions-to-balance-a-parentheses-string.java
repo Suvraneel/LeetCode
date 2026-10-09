@@ -4,14 +4,14 @@ class Solution {
         for (int i = 0; i < n; i++) {
             char c = s.charAt(i);
             if (c == '(') {
-                if ((open & 1) == 1) { // odd open invalid, so insert a closed first{
+                if ((open & 1) == 1) { // odd n(open) invalid, so insert a closed at i first
                     count++;
                     open--;
                 }
-                open += 2;
+                open += 2; // 1 open needs 2 closes
             } else {
                 open--;
-                if (open < 0) { // cant be negative, so add an opening bracket which contributes to 2 closes.
+                if (open < 0) { // n(open) cant be negative, so add 1 open somewhere before i
                     open += 2;
                     count++;
                 }
