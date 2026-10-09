@@ -876,23 +876,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
 | [4050](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | [Minimum Days to Score Exactly N Points](https://suvraneel.github.io/LeetCode/problems/4050/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4050/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Suvraneel/LeetCode/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Suvraneel/LeetCode/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Suvraneel/LeetCode/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
-## Bracket Sequences
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Suvraneel/LeetCode/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
-<!---LeetCode Topics End-->
