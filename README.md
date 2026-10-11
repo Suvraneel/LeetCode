@@ -741,6 +741,7 @@ Each solution link opens a readable page with every submitted implementation and
 | [2751](https://leetcode.com/problems/robot-collisions/) | [Robot Collisions](https://suvraneel.github.io/LeetCode/problems/2751/#problem-statement) | Hard | [Java](https://suvraneel.github.io/LeetCode/problems/2751/#solution-1) |
 | [2762](https://leetcode.com/problems/continuous-subarrays/) | [Continuous Subarrays](https://suvraneel.github.io/LeetCode/problems/2762/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/2762/#solution-1) |
 | [2770](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) | [Maximum Number of Jumps to Reach the Last Index](https://suvraneel.github.io/LeetCode/problems/2770/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/2770/#solution-1) |
+| [2778](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | [Sum of Squares of Special Elements](https://suvraneel.github.io/LeetCode/problems/2778/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/2778/#solution-1) |
 | [2779](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/) | [Maximum Beauty of an Array After Applying Operation](https://suvraneel.github.io/LeetCode/problems/2779/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/2779/#solution-1) |
 | [2780](https://leetcode.com/problems/minimum-index-of-a-valid-split/) | [Minimum Index of a Valid Split](https://suvraneel.github.io/LeetCode/problems/2780/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/2780/#solution-1) |
 | [2785](https://leetcode.com/problems/sort-vowels-in-a-string/) | [Sort Vowels in a String](https://suvraneel.github.io/LeetCode/problems/2785/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/2785/#solution-1) |
@@ -876,15 +877,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
 | [4050](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | [Minimum Days to Score Exactly N Points](https://suvraneel.github.io/LeetCode/problems/4050/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4050/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2778-sum-of-squares-of-special-elements](https://github.com/Suvraneel/LeetCode/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
-## Enumeration
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2778-sum-of-squares-of-special-elements](https://github.com/Suvraneel/LeetCode/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
-<!---LeetCode Topics End-->
