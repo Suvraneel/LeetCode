@@ -13,7 +13,7 @@ class Solution {
 
     int convert(String mm_dd) {
         String[] mmdd = mm_dd.split("-");
-        int mm = Integer.parseInt(mmdd[0]), dd = Integer.parseInt(mmdd[1]);
+        int mm = Integer.valueOf(mmdd[0]), dd = Integer.valueOf(mmdd[1]);
         return MM_days[mm - 1] + dd;
     }
 }
