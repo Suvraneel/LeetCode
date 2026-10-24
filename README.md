@@ -664,6 +664,7 @@ Each solution link opens a readable page with every submitted implementation and
 | [2401](https://leetcode.com/problems/longest-nice-subarray/) | [Longest Nice Subarray](https://suvraneel.github.io/LeetCode/problems/2401/#problem-statement) | Medium | [Java — optimized sliding window](https://suvraneel.github.io/LeetCode/problems/2401/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/2401/#solution-2) |
 | [2402](https://leetcode.com/problems/meeting-rooms-iii/) | [Meeting Rooms III](https://suvraneel.github.io/LeetCode/problems/2402/#problem-statement) | Hard | [Java](https://suvraneel.github.io/LeetCode/problems/2402/#solution-1) |
 | [2406](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/) | [Divide Intervals into Minimum Number of Groups](https://suvraneel.github.io/LeetCode/problems/2406/#problem-statement) | Medium | [Java — line sweep ordered](https://suvraneel.github.io/LeetCode/problems/2406/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/2406/#solution-2) |
+| [2409](https://leetcode.com/problems/count-days-spent-together/) | [Count Days Spent Together](https://suvraneel.github.io/LeetCode/problems/2409/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/2409/#solution-1) |
 | [2410](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/) | [Maximum Matching of Players with Trainers](https://suvraneel.github.io/LeetCode/problems/2410/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/2410/#solution-1) |
 | [2415](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | [Reverse Odd Levels of Binary Tree](https://suvraneel.github.io/LeetCode/problems/2415/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/2415/#solution-1) |
 | [2416](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/) | [Sum of Prefix Scores of Strings](https://suvraneel.github.io/LeetCode/problems/2416/#problem-statement) | Hard | [Java](https://suvraneel.github.io/LeetCode/problems/2416/#solution-1) |
@@ -877,15 +878,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
 | [4050](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | [Minimum Days to Score Exactly N Points](https://suvraneel.github.io/LeetCode/problems/4050/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4050/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2409-count-days-spent-together](https://github.com/Suvraneel/LeetCode/tree/main/2409-count-days-spent-together/) | Easy |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2409-count-days-spent-together](https://github.com/Suvraneel/LeetCode/tree/main/2409-count-days-spent-together/) | Easy |
-<!---LeetCode Topics End-->
