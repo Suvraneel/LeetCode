@@ -867,6 +867,7 @@ Each solution link opens a readable page with every submitted implementation and
 | [3689](https://leetcode.com/problems/maximum-total-subarray-value-i/) | [Maximum Total Subarray Value I](https://suvraneel.github.io/LeetCode/problems/3689/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/3689/#solution-1) |
 | [3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | [Maximum Total Subarray Value II](https://suvraneel.github.io/LeetCode/problems/3691/#problem-statement) | Hard | [Java](https://suvraneel.github.io/LeetCode/problems/3691/#solution-1) |
 | [3699](https://leetcode.com/problems/number-of-zigzag-arrays-i/) | [Number of Zigzag Arrays I](https://suvraneel.github.io/LeetCode/problems/3699/#problem-statement) | Hard | [Java](https://suvraneel.github.io/LeetCode/problems/3699/#solution-1) |
+| [3736](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | [Minimum Moves to Equal Array Elements III](https://suvraneel.github.io/LeetCode/problems/3736/#problem-statement) | Easy | [Java — sorting](https://suvraneel.github.io/LeetCode/problems/3736/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/3736/#solution-2) |
 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | [Count Subarrays with Majority Element I](https://suvraneel.github.io/LeetCode/problems/3737/#problem-statement) | Medium | [Java — prefix sum](https://suvraneel.github.io/LeetCode/problems/3737/#solution-1)<br>[Java — segment tree naive](https://suvraneel.github.io/LeetCode/problems/3737/#solution-2)<br>[Java — segment tree — alternative 1](https://suvraneel.github.io/LeetCode/problems/3737/#solution-3)<br>[Java](https://suvraneel.github.io/LeetCode/problems/3737/#solution-4)<br>[Java — segment tree — alternative 2](https://suvraneel.github.io/LeetCode/problems/3737/#solution-5) |
 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [Total Waviness of Numbers in Range I](https://suvraneel.github.io/LeetCode/problems/3751/#problem-statement) | Medium | [Java — naive](https://suvraneel.github.io/LeetCode/problems/3751/#solution-1)<br>[Java](https://suvraneel.github.io/LeetCode/problems/3751/#solution-2) |
 | [3838](https://leetcode.com/problems/weighted-word-mapping/) | [Weighted Word Mapping](https://suvraneel.github.io/LeetCode/problems/3838/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/3838/#solution-1) |
@@ -879,15 +880,3 @@ Each solution link opens a readable page with every submitted implementation and
 | [4048](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | [Count Values with Equally Spaced Occurrences I](https://suvraneel.github.io/LeetCode/problems/4048/#problem-statement) | Easy | [Java](https://suvraneel.github.io/LeetCode/problems/4048/#solution-1) |
 | [4049](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/) | [Count Values with Equally Spaced Occurrences II](https://suvraneel.github.io/LeetCode/problems/4049/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4049/#solution-1) |
 | [4050](https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/) | [Minimum Days to Score Exactly N Points](https://suvraneel.github.io/LeetCode/problems/4050/#problem-statement) | Medium | [Java](https://suvraneel.github.io/LeetCode/problems/4050/#solution-1) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Suvraneel/LeetCode/tree/main/3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Suvraneel/LeetCode/tree/main/3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
-<!---LeetCode Topics End-->
